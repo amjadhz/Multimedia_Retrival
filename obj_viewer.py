@@ -12,19 +12,19 @@ print(vertices.shape[0])
 print(triangles.shape[0])
 
 vis_option = "flatshade"
-edges_drawn = True
+edgesDrawn = True
 
 wireframe = o3d.geometry.LineSet.create_from_triangle_mesh(mesh) 
 if vis_option == "smoothshade":
     mesh.compute_vertex_normals()
-    if edges_drawn: o3d.visualization.draw([mesh, wireframe], width=1280, height=720, show_skybox=False) 
+    if edgesDrawn: o3d.visualization.draw([mesh, wireframe], width=1280, height=720, show_skybox=False) 
     else: o3d.visualization.draw([mesh], width=1280, height=720, show_skybox=False)
 elif vis_option == "flatshade":
     mesh.compute_triangle_normals()
-    if edges_drawn: o3d.visualization.draw([mesh, wireframe], width=1280, height=720, show_skybox=False) 
+    if edgesDrawn: o3d.visualization.draw([mesh, wireframe], width=1280, height=720, show_skybox=False) 
     else: o3d.visualization.draw([mesh], width=1280, height=720, show_skybox=False)
 elif vis_option == "wireframe":
     o3d.visualization.draw([wireframe], width=1280, height=720, show_skybox=False)
 elif vis_option == "unshaded":
-    if edges_drawn: o3d.visualization.draw([mesh, wireframe], width=1280, height=720, show_skybox=False) 
+    if edgesDrawn: o3d.visualization.draw([mesh, wireframe], width=1280, height=720, show_skybox=False) 
     else: o3d.visualization.draw([mesh], width=1280, height=720, show_skybox=False)
