@@ -1,0 +1,15 @@
+== Insect — Smallest (resampled) ==
+ n_vertices  n_faces                                              path
+       3168     5021 step2_results\resampled\Insect\D00615_refined.obj
+       3083     5158 step2_results\resampled\Insect\D00180_refined.obj
+       3085     5160 step2_results\resampled\Insect\D00102_refined.obj
+       3359     5432 step2_results\resampled\Insect\D00672_refined.obj
+       2879     5497 step2_results\resampled\Insect\D00786_refined.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                                 path
+      13680    27200 step2_results\resampled\Insect\D00973_simplified.obj
+       9184    17819           step2_results\resampled\Insect\m6_kept.obj
+       6502    12872       step2_results\resampled\Insect\D00082_kept.obj
+       5798    11584       step2_results\resampled\Insect\m11_refined.obj
+       5798    11584       step2_results\resampled\Insect\m15_refined.obj

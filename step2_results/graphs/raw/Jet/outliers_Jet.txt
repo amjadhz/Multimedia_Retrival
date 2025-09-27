@@ -1,0 +1,15 @@
+== Jet — Smallest (raw) ==
+ n_vertices  n_faces               path
+         39       56 data\Jet\m1300.obj
+         79      125 data\Jet\m1231.obj
+         74      144 data\Jet\m1301.obj
+        213      208 data\Jet\m1176.obj
+        204      244 data\Jet\m1295.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces               path
+       9380    17255 data\Jet\m1256.obj
+       8795    16953 data\Jet\m1257.obj
+       6906    12409 data\Jet\m1260.obj
+       6270    11557 data\Jet\m1284.obj
+       6739    11190 data\Jet\m1201.obj

@@ -1,0 +1,15 @@
+== Cup — Smallest (normalized) ==
+ n_vertices  n_faces                                                 path
+       2752     5499 step2_results\normalized\Cup\D00270_refined_norm.obj
+       2781     5499 step2_results\normalized\Cup\D00206_refined_norm.obj
+       2791     5499   step2_results\normalized\Cup\m497_refined_norm.obj
+       2806     5499   step2_results\normalized\Cup\m501_refined_norm.obj
+       2751     5500   step2_results\normalized\Cup\m496_refined_norm.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                                    path
+      13668    27200 step2_results\normalized\Cup\D00843_simplified_norm.obj
+      13602    27200 step2_results\normalized\Cup\D00355_simplified_norm.obj
+      13602    27200 step2_results\normalized\Cup\D00587_simplified_norm.obj
+       6786    13568       step2_results\normalized\Cup\D00638_kept_norm.obj
+       5840    11520      step2_results\normalized\Cup\m498_refined_norm.obj

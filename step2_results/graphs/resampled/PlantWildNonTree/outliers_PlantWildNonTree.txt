@@ -1,0 +1,15 @@
+== PlantWildNonTree — Smallest (resampled) ==
+ n_vertices  n_faces                                                         path
+       2452     3552    step2_results\resampled\PlantWildNonTree\m981_refined.obj
+       7920     5280 step2_results\resampled\PlantWildNonTree\m966_simplified.obj
+       5166     5498    step2_results\resampled\PlantWildNonTree\m971_refined.obj
+       3018     5499    step2_results\resampled\PlantWildNonTree\m983_refined.obj
+       3177     5499    step2_results\resampled\PlantWildNonTree\m974_refined.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                                      path
+       8937    15965    step2_results\resampled\PlantWildNonTree\m980_kept.obj
+       6656    11843    step2_results\resampled\PlantWildNonTree\m986_kept.obj
+       5922    11752 step2_results\resampled\PlantWildNonTree\m977_refined.obj
+       9018    11712    step2_results\resampled\PlantWildNonTree\m968_kept.obj
+       4832     9600 step2_results\resampled\PlantWildNonTree\m982_refined.obj

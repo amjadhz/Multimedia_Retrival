@@ -1,0 +1,15 @@
+== Monoplane — Smallest (raw) ==
+ n_vertices  n_faces                      path
+        238      374 data\Monoplane\D00098.obj
+        338      540 data\Monoplane\D00043.obj
+        393      668 data\Monoplane\D00402.obj
+        524      868 data\Monoplane\D00262.obj
+        586      940 data\Monoplane\D00995.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                      path
+       7418    14796 data\Monoplane\D00617.obj
+       5849    10072 data\Monoplane\D00688.obj
+       2512     4872 data\Monoplane\D00840.obj
+       2337     4151 data\Monoplane\D00798.obj
+       2149     4146 data\Monoplane\D00169.obj

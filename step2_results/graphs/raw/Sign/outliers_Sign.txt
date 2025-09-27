@@ -1,0 +1,15 @@
+== Sign — Smallest (raw) ==
+ n_vertices  n_faces                path
+         40       52 data\Sign\m1675.obj
+         44       76 data\Sign\m1684.obj
+         50       78 data\Sign\m1674.obj
+         80       86 data\Sign\m1673.obj
+        119      113 data\Sign\m1671.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                path
+       6540    13032 data\Sign\m1681.obj
+       4492     8804 data\Sign\m1682.obj
+       4031     8034 data\Sign\m1676.obj
+       3000     5896 data\Sign\m1683.obj
+        760     1344 data\Sign\m1685.obj

@@ -1,0 +1,15 @@
+== AquaticAnimal — Smallest (resampled) ==
+ n_vertices  n_faces                                                  path
+       2785     5370 step2_results\resampled\AquaticAnimal\m81_refined.obj
+       2747     5375 step2_results\resampled\AquaticAnimal\m74_refined.obj
+       2814     5436 step2_results\resampled\AquaticAnimal\m64_refined.obj
+       2766     5499 step2_results\resampled\AquaticAnimal\m59_refined.obj
+       2792     5499 step2_results\resampled\AquaticAnimal\m65_refined.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                                     path
+       5814    10893       step2_results\resampled\AquaticAnimal\m56_kept.obj
+       4819     9440    step2_results\resampled\AquaticAnimal\m72_refined.obj
+       4788     9000 step2_results\resampled\AquaticAnimal\m57_simplified.obj
+       4787     9000 step2_results\resampled\AquaticAnimal\m55_simplified.obj
+       4568     9000 step2_results\resampled\AquaticAnimal\m77_simplified.obj

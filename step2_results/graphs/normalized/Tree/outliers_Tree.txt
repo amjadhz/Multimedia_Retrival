@@ -1,0 +1,15 @@
+== Tree — Smallest (normalized) ==
+ n_vertices  n_faces                                                     path
+       5410     4629        step2_results\normalized\Tree\m1050_kept_norm.obj
+      11385     4803 step2_results\normalized\Tree\D00612_simplified_norm.obj
+       5130     5492     step2_results\normalized\Tree\m1098_refined_norm.obj
+       2939     5499     step2_results\normalized\Tree\m1063_refined_norm.obj
+       2994     5499     step2_results\normalized\Tree\m1096_refined_norm.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                                     path
+       5482    10928        step2_results\normalized\Tree\m1090_kept_norm.obj
+       5290    10496     step2_results\normalized\Tree\m1062_refined_norm.obj
+       5122    10208     step2_results\normalized\Tree\m1092_refined_norm.obj
+      22032     9000 step2_results\normalized\Tree\D00834_simplified_norm.obj
+      20222     9000 step2_results\normalized\Tree\D00533_simplified_norm.obj

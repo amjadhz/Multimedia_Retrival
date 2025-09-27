@@ -1,0 +1,15 @@
+== MultiSeat — Smallest (normalized) ==
+ n_vertices  n_faces                                                     path
+       2749     5495 step2_results\normalized\MultiSeat\m831_refined_norm.obj
+       2835     5496 step2_results\normalized\MultiSeat\m775_refined_norm.obj
+       2723     5499 step2_results\normalized\MultiSeat\m776_refined_norm.obj
+       2792     5499 step2_results\normalized\MultiSeat\m783_refined_norm.obj
+       2988     5499 step2_results\normalized\MultiSeat\m781_refined_norm.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                                          path
+      14454    27196   step2_results\normalized\MultiSeat\m843_simplified_norm.obj
+      13653    27174 step2_results\normalized\MultiSeat\D00637_simplified_norm.obj
+       5981    11856    step2_results\normalized\MultiSeat\D00053_refined_norm.obj
+       5772    11264      step2_results\normalized\MultiSeat\m836_refined_norm.obj
+       5634    10758      step2_results\normalized\MultiSeat\m782_refined_norm.obj

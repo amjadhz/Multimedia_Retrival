@@ -1,0 +1,15 @@
+== HumanHead — Smallest (normalized) ==
+ n_vertices  n_faces                                                       path
+       2350     3477   step2_results\normalized\HumanHead\m347_refined_norm.obj
+       3159     5069 step2_results\normalized\HumanHead\D00061_refined_norm.obj
+       2788     5494 step2_results\normalized\HumanHead\D00434_refined_norm.obj
+       3016     5495   step2_results\normalized\HumanHead\m344_refined_norm.obj
+       2756     5499   step2_results\normalized\HumanHead\m366_refined_norm.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                                          path
+      13702    27200 step2_results\normalized\HumanHead\D00578_simplified_norm.obj
+      13602    27200   step2_results\normalized\HumanHead\m353_simplified_norm.obj
+       9843    19464         step2_results\normalized\HumanHead\m369_kept_norm.obj
+       9148    18008         step2_results\normalized\HumanHead\m348_kept_norm.obj
+       6211    12349       step2_results\normalized\HumanHead\D00488_kept_norm.obj

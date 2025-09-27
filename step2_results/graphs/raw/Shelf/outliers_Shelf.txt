@@ -1,0 +1,15 @@
+== Shelf — Smallest (raw) ==
+ n_vertices  n_faces                path
+         48       28 data\Shelf\m858.obj
+         46       37 data\Shelf\m855.obj
+         60       80 data\Shelf\m845.obj
+         56       84 data\Shelf\m860.obj
+         64       96 data\Shelf\m856.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                  path
+       5444    10680 data\Shelf\D00631.obj
+       4107     8126 data\Shelf\D00725.obj
+       3682     6900 data\Shelf\D00057.obj
+       3330     6247 data\Shelf\D00781.obj
+       4684     4980 data\Shelf\D00691.obj

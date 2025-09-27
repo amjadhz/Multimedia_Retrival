@@ -1,0 +1,15 @@
+== AircraftBuoyant — Smallest (resampled) ==
+ n_vertices  n_faces                                                      path
+       3427     4561 step2_results\resampled\AircraftBuoyant\m1339_refined.obj
+       2807     5499 step2_results\resampled\AircraftBuoyant\m1346_refined.obj
+       2883     5499 step2_results\resampled\AircraftBuoyant\m1344_refined.obj
+       2751     5500 step2_results\resampled\AircraftBuoyant\m1347_refined.obj
+       2756     5500 step2_results\resampled\AircraftBuoyant\m1343_refined.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                                         path
+       8761    16960       step2_results\resampled\AircraftBuoyant\m1338_kept.obj
+       5475    10240    step2_results\resampled\AircraftBuoyant\m1349_refined.obj
+       4794     9208    step2_results\resampled\AircraftBuoyant\m1342_refined.obj
+       5095     9000 step2_results\resampled\AircraftBuoyant\m1351_simplified.obj
+       2970     5500    step2_results\resampled\AircraftBuoyant\m1345_refined.obj

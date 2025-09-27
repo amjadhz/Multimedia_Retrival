@@ -1,0 +1,15 @@
+== Tool — Smallest (normalized) ==
+ n_vertices  n_faces                                                 path
+       1643     2774 step2_results\normalized\Tool\m1102_refined_norm.obj
+       2815     5426 step2_results\normalized\Tool\m1106_refined_norm.obj
+       2756     5499 step2_results\normalized\Tool\m1110_refined_norm.obj
+       2782     5499  step2_results\normalized\Tool\m591_refined_norm.obj
+       2900     5499 step2_results\normalized\Tool\m1108_refined_norm.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                                 path
+       6198    12392   step2_results\normalized\Tool\D01069_kept_norm.obj
+       6104    12204   step2_results\normalized\Tool\D01127_kept_norm.obj
+       5869    11564 step2_results\normalized\Tool\m1109_refined_norm.obj
+       5672    11328 step2_results\normalized\Tool\m1104_refined_norm.obj
+       5508    11012   step2_results\normalized\Tool\D01156_kept_norm.obj

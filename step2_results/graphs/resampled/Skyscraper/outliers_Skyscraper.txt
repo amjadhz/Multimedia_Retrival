@@ -1,0 +1,15 @@
+== Skyscraper — Smallest (resampled) ==
+ n_vertices  n_faces                                                     path
+       2898     5499    step2_results\resampled\Skyscraper\D00641_refined.obj
+       2903     5499    step2_results\resampled\Skyscraper\D00130_refined.obj
+       3550     5500    step2_results\resampled\Skyscraper\D00059_refined.obj
+       3638     5500    step2_results\resampled\Skyscraper\D00998_refined.obj
+       5200     6800 step2_results\resampled\Skyscraper\D00664_simplified.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                                     path
+      14097    27200 step2_results\resampled\Skyscraper\D00105_simplified.obj
+      14058    27196 step2_results\resampled\Skyscraper\D00125_simplified.obj
+       6983    13754       step2_results\resampled\Skyscraper\D00822_kept.obj
+       5516    10976       step2_results\resampled\Skyscraper\D00589_kept.obj
+       6372    10967       step2_results\resampled\Skyscraper\D00300_kept.obj

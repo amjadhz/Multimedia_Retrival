@@ -1,0 +1,15 @@
+== Knife — Smallest (raw) ==
+ n_vertices  n_faces                  path
+         87      166 data\Knife\D01175.obj
+        113      218 data\Knife\D01119.obj
+        130      254 data\Knife\D01054.obj
+        131      255 data\Knife\D01189.obj
+        132      262 data\Knife\D01120.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                  path
+       5076    10136   data\Knife\m723.obj
+        985     1965 data\Knife\D01132.obj
+        976     1941 data\Knife\D01107.obj
+        886     1772 data\Knife\D01015.obj
+        808     1598 data\Knife\D01174.obj

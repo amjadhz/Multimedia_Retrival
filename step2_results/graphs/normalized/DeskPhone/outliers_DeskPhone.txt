@@ -1,0 +1,15 @@
+== DeskPhone — Smallest (normalized) ==
+ n_vertices  n_faces                                                       path
+       2918     5499 step2_results\normalized\DeskPhone\D00680_refined_norm.obj
+       2774     5500 step2_results\normalized\DeskPhone\D00829_refined_norm.obj
+       2782     5500 step2_results\normalized\DeskPhone\D00556_refined_norm.obj
+       2784     5500 step2_results\normalized\DeskPhone\D00220_refined_norm.obj
+       2792     5500 step2_results\normalized\DeskPhone\D00486_refined_norm.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                                          path
+       6471     9000 step2_results\normalized\DeskPhone\D00958_simplified_norm.obj
+       5830     9000 step2_results\normalized\DeskPhone\D00706_simplified_norm.obj
+       4766     9000 step2_results\normalized\DeskPhone\D00118_simplified_norm.obj
+       4753     9000 step2_results\normalized\DeskPhone\D00511_simplified_norm.obj
+       4623     9000 step2_results\normalized\DeskPhone\D00576_simplified_norm.obj

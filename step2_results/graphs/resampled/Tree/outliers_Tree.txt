@@ -1,0 +1,15 @@
+== Tree — Smallest (resampled) ==
+ n_vertices  n_faces                                               path
+       5410     4629        step2_results\resampled\Tree\m1050_kept.obj
+      11385     4803 step2_results\resampled\Tree\D00612_simplified.obj
+       5136     5492     step2_results\resampled\Tree\m1098_refined.obj
+       2939     5499     step2_results\resampled\Tree\m1063_refined.obj
+       2994     5499     step2_results\resampled\Tree\m1096_refined.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                               path
+       5482    10928        step2_results\resampled\Tree\m1090_kept.obj
+       5290    10496     step2_results\resampled\Tree\m1062_refined.obj
+       5122    10208     step2_results\resampled\Tree\m1092_refined.obj
+      27921     9000 step2_results\resampled\Tree\D00223_simplified.obj
+      24804     9000 step2_results\resampled\Tree\D00439_simplified.obj

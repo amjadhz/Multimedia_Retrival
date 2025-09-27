@@ -1,0 +1,15 @@
+== Fish — Smallest (normalized) ==
+ n_vertices  n_faces                                                  path
+       2999     5495 step2_results\normalized\Fish\D00682_refined_norm.obj
+       3038     5499 step2_results\normalized\Fish\D00165_refined_norm.obj
+       3051     5499 step2_results\normalized\Fish\D00142_refined_norm.obj
+       3053     5499 step2_results\normalized\Fish\D00030_refined_norm.obj
+       3070     5499 step2_results\normalized\Fish\D00022_refined_norm.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                                  path
+       5044     8094    step2_results\normalized\Fish\D00748_kept_norm.obj
+       3129     5500 step2_results\normalized\Fish\D00535_refined_norm.obj
+       3108     5500 step2_results\normalized\Fish\D00763_refined_norm.obj
+       3105     5500 step2_results\normalized\Fish\D00950_refined_norm.obj
+       3102     5500 step2_results\normalized\Fish\D00450_refined_norm.obj

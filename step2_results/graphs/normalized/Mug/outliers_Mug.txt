@@ -1,0 +1,15 @@
+== Mug — Smallest (normalized) ==
+ n_vertices  n_faces                                                 path
+       2756     5499   step2_results\normalized\Mug\m503_refined_norm.obj
+       2762     5499   step2_results\normalized\Mug\m507_refined_norm.obj
+       2814     5499 step2_results\normalized\Mug\D00372_refined_norm.obj
+       2750     5500 step2_results\normalized\Mug\D00172_refined_norm.obj
+       2750     5500 step2_results\normalized\Mug\D00684_refined_norm.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                                    path
+      13600    27200 step2_results\normalized\Mug\D00341_simplified_norm.obj
+       9271    18513       step2_results\normalized\Mug\D00728_kept_norm.obj
+       8692    17304         step2_results\normalized\Mug\m506_kept_norm.obj
+       6672    13344       step2_results\normalized\Mug\D00913_kept_norm.obj
+       5874    11720         step2_results\normalized\Mug\m509_kept_norm.obj

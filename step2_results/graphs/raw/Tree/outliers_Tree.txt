@@ -1,0 +1,15 @@
+== Tree — Smallest (raw) ==
+ n_vertices  n_faces                path
+         35       31 data\Tree\m1097.obj
+         82      140 data\Tree\m1082.obj
+        155      260 data\Tree\m1079.obj
+        170      264 data\Tree\m1089.obj
+        337      638 data\Tree\m1092.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                 path
+      58763    54619 data\Tree\D00223.obj
+      49630    51077 data\Tree\D00221.obj
+      52078    46682 data\Tree\D00834.obj
+      32363    46364 data\Tree\D00911.obj
+      27500    41792 data\Tree\D00393.obj

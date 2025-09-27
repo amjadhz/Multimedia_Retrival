@@ -1,0 +1,15 @@
+== Jet — Smallest (resampled) ==
+ n_vertices  n_faces                                          path
+       2639     4937 step2_results\resampled\Jet\m1300_refined.obj
+       3910     5240 step2_results\resampled\Jet\m1167_refined.obj
+       2810     5250 step2_results\resampled\Jet\m1178_refined.obj
+       2752     5253 step2_results\resampled\Jet\m1197_refined.obj
+       3166     5266 step2_results\resampled\Jet\m1163_refined.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                          path
+       9380    17255    step2_results\resampled\Jet\m1256_kept.obj
+       8795    16953    step2_results\resampled\Jet\m1257_kept.obj
+       4581    13312 step2_results\resampled\Jet\m1176_refined.obj
+       6906    12409    step2_results\resampled\Jet\m1260_kept.obj
+       6270    11557    step2_results\resampled\Jet\m1284_kept.obj

@@ -1,0 +1,15 @@
+== MilitaryVehicle — Smallest (raw) ==
+ n_vertices  n_faces                            path
+        719     1342 data\MilitaryVehicle\D00799.obj
+        855     1480 data\MilitaryVehicle\D00051.obj
+       2625     4475 data\MilitaryVehicle\D00611.obj
+       3204     5588 data\MilitaryVehicle\D00100.obj
+       4449     7133 data\MilitaryVehicle\D00778.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                            path
+      38226    74054 data\MilitaryVehicle\D00529.obj
+      34333    69048 data\MilitaryVehicle\D00801.obj
+      27708    48646 data\MilitaryVehicle\D00017.obj
+      25354    42294 data\MilitaryVehicle\D00577.obj
+      17962    33632 data\MilitaryVehicle\D00458.obj

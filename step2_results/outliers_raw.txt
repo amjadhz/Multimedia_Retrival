@@ -1,0 +1,19 @@
+== Smallest (raw) ==
+  cls  n_vertices  n_faces                 path
+ Door          16       16 data\Door\D01121.obj
+ Door          16       16  data\Door\m1708.obj
+ Door          18       17 data\Door\D01194.obj
+House          25       22  data\House\m462.obj
+ Tool          24       25  data\Tool\m1102.obj
+
+== Largest (raw) ==
+       cls  n_vertices  n_faces                      path
+   Biplane       65698   129810    data\Biplane\m1120.obj
+     Chess       60557   120466      data\Chess\m1595.obj
+Helicopter       58357   116645 data\Helicopter\m1308.obj
+       Car       60220   113420        data\Car\m1544.obj
+   Bicycle       56754   111446   data\Bicycle\D00462.obj
+
+== Average (raw) ==
+ cls  n_vertices  n_faces                path
+Door        1724     3468 data\Door\m1712.obj

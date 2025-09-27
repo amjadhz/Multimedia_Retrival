@@ -1,0 +1,15 @@
+== WheelChair — Smallest (normalized) ==
+ n_vertices  n_faces                                                        path
+       3127     5471 step2_results\normalized\WheelChair\D00453_refined_norm.obj
+       2904     5499 step2_results\normalized\WheelChair\D00526_refined_norm.obj
+       2929     5499 step2_results\normalized\WheelChair\D00203_refined_norm.obj
+       3020     5499 step2_results\normalized\WheelChair\D00183_refined_norm.obj
+       3119     5499 step2_results\normalized\WheelChair\D00604_refined_norm.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                                           path
+      13654    27200 step2_results\normalized\WheelChair\D00687_simplified_norm.obj
+      13654    27200 step2_results\normalized\WheelChair\D00821_simplified_norm.obj
+      13638    27200 step2_results\normalized\WheelChair\D00365_simplified_norm.obj
+      13661    27196 step2_results\normalized\WheelChair\D00070_simplified_norm.obj
+       8834    17196       step2_results\normalized\WheelChair\D00846_kept_norm.obj

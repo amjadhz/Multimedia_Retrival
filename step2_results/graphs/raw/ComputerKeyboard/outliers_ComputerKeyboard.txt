@@ -1,0 +1,15 @@
+== ComputerKeyboard — Smallest (raw) ==
+ n_vertices  n_faces                             path
+        348      681 data\ComputerKeyboard\D00569.obj
+        701     1114 data\ComputerKeyboard\D00127.obj
+        796     1332 data\ComputerKeyboard\D00673.obj
+        805     1363 data\ComputerKeyboard\D00116.obj
+       1043     1698 data\ComputerKeyboard\D00278.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                             path
+       8454    16594 data\ComputerKeyboard\D00597.obj
+       7131    13914 data\ComputerKeyboard\D00420.obj
+       8341    13582 data\ComputerKeyboard\D00382.obj
+       6954    13443 data\ComputerKeyboard\D00805.obj
+       7956    12774 data\ComputerKeyboard\D00676.obj

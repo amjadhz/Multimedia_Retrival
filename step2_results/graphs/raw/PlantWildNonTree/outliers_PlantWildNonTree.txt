@@ -1,0 +1,15 @@
+== PlantWildNonTree — Smallest (raw) ==
+ n_vertices  n_faces                            path
+         70       74  data\PlantWildNonTree\m983.obj
+        342      186 data\PlantWildNonTree\m1052.obj
+        329      317  data\PlantWildNonTree\m974.obj
+        241      450  data\PlantWildNonTree\m975.obj
+        332      600  data\PlantWildNonTree\m982.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                           path
+      50833    87141 data\PlantWildNonTree\m985.obj
+      13868    22889 data\PlantWildNonTree\m965.obj
+      15489    21880 data\PlantWildNonTree\m973.obj
+      15136    19104 data\PlantWildNonTree\m962.obj
+      13950    18739 data\PlantWildNonTree\m964.obj

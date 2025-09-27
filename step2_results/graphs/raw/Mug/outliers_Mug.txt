@@ -1,0 +1,15 @@
+== Mug — Smallest (raw) ==
+ n_vertices  n_faces                path
+        560     1112 data\Mug\D00321.obj
+        738     1468 data\Mug\D00923.obj
+        785     1505 data\Mug\D00372.obj
+        799     1550   data\Mug\m503.obj
+        896     1696 data\Mug\D00908.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                path
+      37360    74720 data\Mug\D00202.obj
+      19522    38316 data\Mug\D00227.obj
+      15266    30524 data\Mug\D00747.obj
+       9271    18513 data\Mug\D00728.obj
+       8692    17304   data\Mug\m506.obj

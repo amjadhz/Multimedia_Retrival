@@ -1,0 +1,15 @@
+== Glasses — Smallest (resampled) ==
+ n_vertices  n_faces                                               path
+       2772     5499 step2_results\resampled\Glasses\D00813_refined.obj
+       3087     5499 step2_results\resampled\Glasses\D00656_refined.obj
+       2752     5500 step2_results\resampled\Glasses\D00937_refined.obj
+       2756     5500 step2_results\resampled\Glasses\D00730_refined.obj
+       2767     5500 step2_results\resampled\Glasses\D00475_refined.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                               path
+       9290    18499    step2_results\resampled\Glasses\D00660_kept.obj
+       6519    12656    step2_results\resampled\Glasses\D00201_kept.obj
+       5652    11300    step2_results\resampled\Glasses\D00050_kept.obj
+       5652    11300    step2_results\resampled\Glasses\D00507_kept.obj
+       5790    11072 step2_results\resampled\Glasses\D00432_refined.obj

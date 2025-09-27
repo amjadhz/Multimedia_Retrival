@@ -1,0 +1,15 @@
+== NonWheelChair — Smallest (normalized) ==
+ n_vertices  n_faces                                                           path
+       2981     5440 step2_results\normalized\NonWheelChair\D00185_refined_norm.obj
+       2879     5441   step2_results\normalized\NonWheelChair\m820_refined_norm.obj
+       2784     5499   step2_results\normalized\NonWheelChair\m818_refined_norm.obj
+       2812     5499 step2_results\normalized\NonWheelChair\D00914_refined_norm.obj
+       2817     5499   step2_results\normalized\NonWheelChair\m800_refined_norm.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                                            path
+      13654    27200 step2_results\normalized\NonWheelChair\m801_simplified_norm.obj
+       5900    11776    step2_results\normalized\NonWheelChair\m807_refined_norm.obj
+       5854    11680  step2_results\normalized\NonWheelChair\D00240_refined_norm.obj
+       5790    11520    step2_results\normalized\NonWheelChair\m809_refined_norm.obj
+       5528    11008    step2_results\normalized\NonWheelChair\m817_refined_norm.obj

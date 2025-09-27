@@ -1,0 +1,15 @@
+== City — Smallest (raw) ==
+ n_vertices  n_faces                 path
+       1049     1270  data\City\m1664.obj
+       1049     1271 data\City\D01010.obj
+       1273     1291 data\City\D01092.obj
+       1636     1640 data\City\D01056.obj
+       1333     2003  data\City\m1661.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                 path
+      26064    34189 data\City\D01101.obj
+       9894    16671 data\City\D01066.obj
+      16857    16029 data\City\D01195.obj
+       9201    15870 data\City\D01079.obj
+       9201    15870  data\City\m1662.obj

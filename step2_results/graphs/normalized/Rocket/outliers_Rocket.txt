@@ -1,0 +1,15 @@
+== Rocket — Smallest (normalized) ==
+ n_vertices  n_faces                                                    path
+       2855     5497 step2_results\normalized\Rocket\D00437_refined_norm.obj
+       2795     5499 step2_results\normalized\Rocket\D00343_refined_norm.obj
+       2752     5500 step2_results\normalized\Rocket\D00697_refined_norm.obj
+       2752     5500 step2_results\normalized\Rocket\D00942_refined_norm.obj
+       2756     5500 step2_results\normalized\Rocket\D00428_refined_norm.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                                       path
+      13897    27200 step2_results\normalized\Rocket\D00975_simplified_norm.obj
+       6491    12970       step2_results\normalized\Rocket\D00719_kept_norm.obj
+       5864    11616    step2_results\normalized\Rocket\D00346_refined_norm.obj
+       5002     9984    step2_results\normalized\Rocket\D00015_refined_norm.obj
+       5099     8999 step2_results\normalized\Rocket\D00564_simplified_norm.obj

@@ -1,0 +1,15 @@
+== Tool — Smallest (raw) ==
+ n_vertices  n_faces                path
+         24       25 data\Tool\m1102.obj
+        135      262 data\Tool\m1101.obj
+        177      321 data\Tool\m1103.obj
+        232      452 data\Tool\m1100.obj
+        302      600 data\Tool\m1099.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                 path
+       6198    12392 data\Tool\D01069.obj
+       6104    12204 data\Tool\D01127.obj
+       5508    11012 data\Tool\D01156.obj
+       5202    10400 data\Tool\D01154.obj
+       5201    10398 data\Tool\D01044.obj

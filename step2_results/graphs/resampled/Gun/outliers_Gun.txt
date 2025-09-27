@@ -1,0 +1,15 @@
+== Gun — Smallest (resampled) ==
+ n_vertices  n_faces                                         path
+       2893     5481 step2_results\resampled\Gun\m679_refined.obj
+       2794     5499 step2_results\resampled\Gun\m676_refined.obj
+       2798     5499 step2_results\resampled\Gun\m680_refined.obj
+       2818     5499 step2_results\resampled\Gun\m665_refined.obj
+       2881     5499 step2_results\resampled\Gun\m651_refined.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                            path
+      13756    27196 step2_results\resampled\Gun\m674_simplified.obj
+       5644    11264  step2_results\resampled\Gun\D00153_refined.obj
+       5641    11248    step2_results\resampled\Gun\m655_refined.obj
+       5434    10688    step2_results\resampled\Gun\m661_refined.obj
+       5308    10332     step2_results\resampled\Gun\D00137_kept.obj

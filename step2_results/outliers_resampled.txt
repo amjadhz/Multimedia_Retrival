@@ -1,0 +1,19 @@
+== Smallest (resampled) ==
+             cls  n_vertices  n_faces                                                      path
+            Tool        1687     2774            step2_results\resampled\Tool\m1102_refined.obj
+        DeskLamp        1988     3182         step2_results\resampled\DeskLamp\m611_refined.obj
+       HumanHead        2408     3477        step2_results\resampled\HumanHead\m347_refined.obj
+PlantWildNonTree        2452     3552 step2_results\resampled\PlantWildNonTree\m981_refined.obj
+      RoundTable        2254     3637       step2_results\resampled\RoundTable\m926_refined.obj
+
+== Largest (resampled) ==
+             cls  n_vertices  n_faces                                                           path
+         Biplane       18223    35996          step2_results\resampled\Biplane\D00616_simplified.obj
+ MilitaryVehicle       17978    35996  step2_results\resampled\MilitaryVehicle\D00801_simplified.obj
+ComputerKeyboard       15370    27200 step2_results\resampled\ComputerKeyboard\D00382_simplified.obj
+           Truck       15214    27200            step2_results\resampled\Truck\D00112_simplified.obj
+        Starship       15189    27200          step2_results\resampled\Starship\m1355_simplified.obj
+
+== Average (resampled) ==
+cls  n_vertices  n_faces                                           path
+Car        3239     5500 step2_results\resampled\Car\D00541_refined.obj

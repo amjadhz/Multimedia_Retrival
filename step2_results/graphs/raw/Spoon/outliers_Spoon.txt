@@ -1,0 +1,15 @@
+== Spoon — Smallest (raw) ==
+ n_vertices  n_faces                  path
+         72      121 data\Spoon\D00474.obj
+        109      176 data\Spoon\D00422.obj
+        144      284 data\Spoon\D00497.obj
+        144      284 data\Spoon\D00593.obj
+        173      310 data\Spoon\D00674.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                  path
+       2132     4191 data\Spoon\D00562.obj
+       1848     3431 data\Spoon\D00661.obj
+        910     1816 data\Spoon\D00927.obj
+        756     1507 data\Spoon\D00196.obj
+        748     1489 data\Spoon\D00014.obj

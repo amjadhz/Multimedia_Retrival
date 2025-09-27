@@ -1,0 +1,15 @@
+== NonWheelChair — Smallest (raw) ==
+ n_vertices  n_faces                        path
+         81       98 data\NonWheelChair\m793.obj
+         76      116 data\NonWheelChair\m818.obj
+         88      132 data\NonWheelChair\m827.obj
+        120      180 data\NonWheelChair\m809.obj
+        104      184 data\NonWheelChair\m807.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                          path
+      16724    33404 data\NonWheelChair\D00419.obj
+      12172    24248   data\NonWheelChair\m796.obj
+      10328    20328 data\NonWheelChair\D00443.obj
+      10120    20200 data\NonWheelChair\D00357.obj
+      10098    20160 data\NonWheelChair\D00101.obj

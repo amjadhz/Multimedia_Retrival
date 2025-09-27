@@ -1,0 +1,15 @@
+== Fish — Smallest (raw) ==
+ n_vertices  n_faces                 path
+       3048     5286 data\Fish\D00142.obj
+       3206     5535 data\Fish\D00351.obj
+       3374     5704 data\Fish\D00636.obj
+       3427     5798 data\Fish\D00950.obj
+       3760     6300 data\Fish\D00030.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                 path
+       5046     8094 data\Fish\D00748.obj
+       4380     7312 data\Fish\D00850.obj
+       4264     7126 data\Fish\D00165.obj
+       4230     6962 data\Fish\D00012.obj
+       4062     6834 data\Fish\D00293.obj

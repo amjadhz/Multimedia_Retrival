@@ -1,0 +1,15 @@
+== BuildingNonResidential — Smallest (normalized) ==
+ n_vertices  n_faces                                                                  path
+       2986     5097 step2_results\normalized\BuildingNonResidential\m404_refined_norm.obj
+       2909     5382 step2_results\normalized\BuildingNonResidential\m407_refined_norm.obj
+       3033     5481 step2_results\normalized\BuildingNonResidential\m389_refined_norm.obj
+       2812     5499 step2_results\normalized\BuildingNonResidential\m387_refined_norm.obj
+       2834     5499 step2_results\normalized\BuildingNonResidential\m383_refined_norm.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                                                     path
+      14394    27200 step2_results\normalized\BuildingNonResidential\m420_simplified_norm.obj
+      13810    27200 step2_results\normalized\BuildingNonResidential\m416_simplified_norm.obj
+      14155    27172 step2_results\normalized\BuildingNonResidential\m406_simplified_norm.obj
+      14820    27149 step2_results\normalized\BuildingNonResidential\m399_simplified_norm.obj
+       6891    13248       step2_results\normalized\BuildingNonResidential\m401_kept_norm.obj

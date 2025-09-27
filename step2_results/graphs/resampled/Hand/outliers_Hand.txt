@@ -1,0 +1,15 @@
+== Hand — Smallest (resampled) ==
+ n_vertices  n_faces                                            path
+       2668     5026 step2_results\resampled\Hand\D01022_refined.obj
+       2668     5026   step2_results\resampled\Hand\m330_refined.obj
+       2752     5500 step2_results\resampled\Hand\D01118_refined.obj
+       2752     5500 step2_results\resampled\Hand\D01170_refined.obj
+       2752     5500 step2_results\resampled\Hand\D01193_refined.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                               path
+      13602    27200 step2_results\resampled\Hand\D01093_simplified.obj
+      13602    27200 step2_results\resampled\Hand\D01197_simplified.obj
+      13602    27200 step2_results\resampled\Hand\D01200_simplified.obj
+      13603    27196 step2_results\resampled\Hand\D01006_simplified.obj
+      13603    27196   step2_results\resampled\Hand\m335_simplified.obj

@@ -1,0 +1,15 @@
+== Motorcycle — Smallest (resampled) ==
+ n_vertices  n_faces                                                  path
+       2928     5499 step2_results\resampled\Motorcycle\D00224_refined.obj
+       3071     5499 step2_results\resampled\Motorcycle\D00396_refined.obj
+       2826     5500  step2_results\resampled\Motorcycle\m1481_refined.obj
+       3046     5500 step2_results\resampled\Motorcycle\D00269_refined.obj
+       3240     5500 step2_results\resampled\Motorcycle\D00945_refined.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                                     path
+      14551    27196 step2_results\resampled\Motorcycle\D00395_simplified.obj
+       9168    18382       step2_results\resampled\Motorcycle\D00768_kept.obj
+       9543    18052       step2_results\resampled\Motorcycle\D00021_kept.obj
+       9543    18048        step2_results\resampled\Motorcycle\m1480_kept.obj
+       6529    12510       step2_results\resampled\Motorcycle\D00288_kept.obj

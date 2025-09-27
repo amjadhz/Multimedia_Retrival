@@ -1,0 +1,15 @@
+== SubmachineGun — Smallest (raw) ==
+ n_vertices  n_faces                          path
+        170      277 data\SubmachineGun\D00893.obj
+        182      284 data\SubmachineGun\D00960.obj
+        451      785 data\SubmachineGun\D00970.obj
+        577     1014 data\SubmachineGun\D00060.obj
+        760     1320 data\SubmachineGun\D00256.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                          path
+      24710    48853 data\SubmachineGun\D00459.obj
+      19423    38341 data\SubmachineGun\D00068.obj
+      17875    31536 data\SubmachineGun\D00371.obj
+      11687    23054 data\SubmachineGun\D00119.obj
+       6530    13248 data\SubmachineGun\D00064.obj

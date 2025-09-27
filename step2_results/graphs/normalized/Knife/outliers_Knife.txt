@@ -1,0 +1,15 @@
+== Knife — Smallest (normalized) ==
+ n_vertices  n_faces                                                   path
+       2984     5390 step2_results\normalized\Knife\D01051_refined_norm.obj
+       2756     5499 step2_results\normalized\Knife\D01174_refined_norm.obj
+       2758     5499 step2_results\normalized\Knife\D01168_refined_norm.obj
+       2760     5499 step2_results\normalized\Knife\D01057_refined_norm.obj
+       2769     5499   step2_results\normalized\Knife\m726_refined_norm.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                                   path
+       5316    10624 step2_results\normalized\Knife\D01175_refined_norm.obj
+       5275    10528 step2_results\normalized\Knife\D01077_refined_norm.obj
+       5591    10304 step2_results\normalized\Knife\D01187_refined_norm.obj
+       5076    10136      step2_results\normalized\Knife\m723_kept_norm.obj
+       4537     9040 step2_results\normalized\Knife\D01150_refined_norm.obj

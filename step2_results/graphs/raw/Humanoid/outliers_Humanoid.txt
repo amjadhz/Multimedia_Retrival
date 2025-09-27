@@ -1,0 +1,15 @@
+== Humanoid — Smallest (raw) ==
+ n_vertices  n_faces                   path
+        116      185 data\Humanoid\m177.obj
+        120      208 data\Humanoid\m163.obj
+        148      224 data\Humanoid\m202.obj
+        124      235 data\Humanoid\m191.obj
+        178      254 data\Humanoid\m219.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                   path
+      22608    44044 data\Humanoid\m195.obj
+      18097    35690 data\Humanoid\m229.obj
+      17338    34666 data\Humanoid\m149.obj
+      17338    34584 data\Humanoid\m222.obj
+      16776    33324 data\Humanoid\m156.obj

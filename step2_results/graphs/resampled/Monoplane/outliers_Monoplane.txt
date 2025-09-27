@@ -1,0 +1,15 @@
+== Monoplane — Smallest (resampled) ==
+ n_vertices  n_faces                                                 path
+       2775     5499 step2_results\resampled\Monoplane\D00840_refined.obj
+       2870     5499 step2_results\resampled\Monoplane\D00167_refined.obj
+       2935     5499 step2_results\resampled\Monoplane\D00098_refined.obj
+       2938     5499 step2_results\resampled\Monoplane\D00995_refined.obj
+       2953     5499 step2_results\resampled\Monoplane\D00011_refined.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                                    path
+      13620    27200 step2_results\resampled\Monoplane\D00617_simplified.obj
+       5738    10816    step2_results\resampled\Monoplane\D00304_refined.obj
+       5580    10688    step2_results\resampled\Monoplane\D00402_refined.obj
+       5849    10072       step2_results\resampled\Monoplane\D00688_kept.obj
+       4556     8640    step2_results\resampled\Monoplane\D00043_refined.obj

@@ -1,0 +1,15 @@
+== Jet — Smallest (normalized) ==
+ n_vertices  n_faces                                                path
+       2630     4937 step2_results\normalized\Jet\m1300_refined_norm.obj
+       3817     5240 step2_results\normalized\Jet\m1167_refined_norm.obj
+       2806     5250 step2_results\normalized\Jet\m1178_refined_norm.obj
+       2750     5253 step2_results\normalized\Jet\m1197_refined_norm.obj
+       3150     5266 step2_results\normalized\Jet\m1163_refined_norm.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                             path
+       9379    17255 step2_results\normalized\Jet\m1256_kept_norm.obj
+       8794    16953 step2_results\normalized\Jet\m1257_kept_norm.obj
+       6905    12409 step2_results\normalized\Jet\m1260_kept_norm.obj
+       6270    11557 step2_results\normalized\Jet\m1284_kept_norm.obj
+       6739    11190 step2_results\normalized\Jet\m1201_kept_norm.obj

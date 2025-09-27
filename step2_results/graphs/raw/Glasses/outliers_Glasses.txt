@@ -1,0 +1,15 @@
+== Glasses — Smallest (raw) ==
+ n_vertices  n_faces                    path
+        140      276 data\Glasses\D00937.obj
+        220      367 data\Glasses\D00656.obj
+        408      692 data\Glasses\D00432.obj
+        696     1364 data\Glasses\D00813.obj
+       1524     3000 data\Glasses\D00225.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                    path
+      16468    32776 data\Glasses\D00575.obj
+      15152    30220 data\Glasses\D00816.obj
+      12793    25448 data\Glasses\D00640.obj
+       9290    18499 data\Glasses\D00660.obj
+       6519    12656 data\Glasses\D00201.obj

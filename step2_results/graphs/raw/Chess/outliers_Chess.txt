@@ -1,0 +1,15 @@
+== Chess — Smallest (raw) ==
+ n_vertices  n_faces                  path
+         89      168 data\Chess\D01053.obj
+         89      168  data\Chess\m1605.obj
+        154      304 data\Chess\D01186.obj
+        154      304  data\Chess\m1609.obj
+        214      419 data\Chess\D01049.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                  path
+      60557   120466  data\Chess\m1595.obj
+      25650    50904  data\Chess\m1593.obj
+      16803    32980  data\Chess\m1596.obj
+       7339    14466  data\Chess\m1591.obj
+       6727    13450 data\Chess\D01081.obj

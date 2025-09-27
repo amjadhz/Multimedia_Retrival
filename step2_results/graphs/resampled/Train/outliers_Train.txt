@@ -1,0 +1,15 @@
+== Train — Smallest (resampled) ==
+ n_vertices  n_faces                                             path
+       3084     5273 step2_results\resampled\Train\D01014_refined.obj
+       3094     5380 step2_results\resampled\Train\D01147_refined.obj
+       2811     5499 step2_results\resampled\Train\D01094_refined.obj
+       3166     5499 step2_results\resampled\Train\D01035_refined.obj
+       2766     5500  step2_results\resampled\Train\m1584_refined.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                                path
+      13651    27200  step2_results\resampled\Train\m1582_simplified.obj
+      14309    27196 step2_results\resampled\Train\D01059_simplified.obj
+       8721    14383       step2_results\resampled\Train\D01134_kept.obj
+       8615    13265       step2_results\resampled\Train\D01149_kept.obj
+       5913    11345       step2_results\resampled\Train\D01061_kept.obj

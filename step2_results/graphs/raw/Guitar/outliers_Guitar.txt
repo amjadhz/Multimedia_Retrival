@@ -1,0 +1,15 @@
+== Guitar — Smallest (raw) ==
+ n_vertices  n_faces                   path
+        270      448 data\Guitar\D00097.obj
+        799     1269 data\Guitar\D00414.obj
+       1033     1915 data\Guitar\D00645.obj
+       1062     1995 data\Guitar\D00222.obj
+       1481     2555 data\Guitar\D00374.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                   path
+      32762    64993 data\Guitar\D00335.obj
+      29451    57673 data\Guitar\D00849.obj
+      27250    50370 data\Guitar\D00041.obj
+      24669    47392 data\Guitar\D00494.obj
+      10265    20086 data\Guitar\D00549.obj

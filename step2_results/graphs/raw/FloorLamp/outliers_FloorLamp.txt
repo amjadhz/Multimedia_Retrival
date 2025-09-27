@@ -1,0 +1,15 @@
+== FloorLamp — Smallest (raw) ==
+ n_vertices  n_faces                      path
+         46       76   data\FloorLamp\m624.obj
+         54       88   data\FloorLamp\m622.obj
+         63      120   data\FloorLamp\m623.obj
+        361      696   data\FloorLamp\m619.obj
+        440      804 data\FloorLamp\D00981.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                      path
+      23655    46274 data\FloorLamp\D00580.obj
+      17582    34872 data\FloorLamp\D00924.obj
+      15152    30052 data\FloorLamp\D00875.obj
+      14464    28920 data\FloorLamp\D00876.obj
+      11136    21972 data\FloorLamp\D00563.obj

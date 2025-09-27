@@ -1,0 +1,15 @@
+== Car — Smallest (resampled) ==
+ n_vertices  n_faces                                          path
+       3838     5448 step2_results\resampled\Car\m1508_refined.obj
+       3222     5487 step2_results\resampled\Car\m1553_refined.obj
+       2852     5488 step2_results\resampled\Car\m1517_refined.obj
+       2917     5491 step2_results\resampled\Car\m1542_refined.obj
+       2780     5499 step2_results\resampled\Car\m1519_refined.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                             path
+      13854    27200 step2_results\resampled\Car\m1487_simplified.obj
+      13803    27200 step2_results\resampled\Car\m1527_simplified.obj
+      13774    27200 step2_results\resampled\Car\m1533_simplified.obj
+      13754    27200 step2_results\resampled\Car\m1557_simplified.obj
+      13642    27200 step2_results\resampled\Car\m1540_simplified.obj

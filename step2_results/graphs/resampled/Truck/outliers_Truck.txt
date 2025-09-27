@@ -1,0 +1,15 @@
+== Truck — Smallest (resampled) ==
+ n_vertices  n_faces                                             path
+       2740     5423 step2_results\resampled\Truck\D00424_refined.obj
+       2877     5447  step2_results\resampled\Truck\m1576_refined.obj
+       2818     5499  step2_results\resampled\Truck\m1574_refined.obj
+       2887     5499 step2_results\resampled\Truck\D00947_refined.obj
+       2838     5500 step2_results\resampled\Truck\D00002_refined.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                                path
+      15214    27200 step2_results\resampled\Truck\D00112_simplified.obj
+      14610    27200 step2_results\resampled\Truck\D00158_simplified.obj
+       9613    18340        step2_results\resampled\Truck\m1572_kept.obj
+       8955    15946       step2_results\resampled\Truck\D00303_kept.obj
+       6939    12710       step2_results\resampled\Truck\D00010_kept.obj

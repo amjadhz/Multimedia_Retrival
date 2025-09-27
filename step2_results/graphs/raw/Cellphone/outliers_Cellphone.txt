@@ -1,0 +1,15 @@
+== Cellphone — Smallest (raw) ==
+ n_vertices  n_faces                      path
+        348      644 data\Cellphone\D00312.obj
+        742     1421 data\Cellphone\D00440.obj
+        925     1734 data\Cellphone\D00369.obj
+       1230     2380 data\Cellphone\D00192.obj
+       1271     2480 data\Cellphone\D00032.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                      path
+      34506    68307 data\Cellphone\D00152.obj
+      27252    53351 data\Cellphone\D00362.obj
+      20105    36957 data\Cellphone\D00079.obj
+      16185    32246 data\Cellphone\D00542.obj
+      14101    26956 data\Cellphone\D00018.obj

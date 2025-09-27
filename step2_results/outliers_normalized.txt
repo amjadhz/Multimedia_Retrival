@@ -1,0 +1,19 @@
+== Smallest (normalized) ==
+             cls  n_vertices  n_faces                                                            path
+            Tool        1643     2774            step2_results\normalized\Tool\m1102_refined_norm.obj
+        DeskLamp        1930     3182         step2_results\normalized\DeskLamp\m611_refined_norm.obj
+       HumanHead        2350     3477        step2_results\normalized\HumanHead\m347_refined_norm.obj
+PlantWildNonTree        2378     3552 step2_results\normalized\PlantWildNonTree\m981_refined_norm.obj
+      RoundTable        2230     3637       step2_results\normalized\RoundTable\m926_refined_norm.obj
+
+== Largest (normalized) ==
+             cls  n_vertices  n_faces                                                                 path
+         Biplane       18203    35994          step2_results\normalized\Biplane\D00616_simplified_norm.obj
+ MilitaryVehicle       17850    35988  step2_results\normalized\MilitaryVehicle\D00801_simplified_norm.obj
+ComputerKeyboard       15370    27200 step2_results\normalized\ComputerKeyboard\D00382_simplified_norm.obj
+        Starship       15154    27200          step2_results\normalized\Starship\m1355_simplified_norm.obj
+       Cellphone       14875    27200        step2_results\normalized\Cellphone\D00554_simplified_norm.obj
+
+== Average (normalized) ==
+     cls  n_vertices  n_faces                                                    path
+Humanoid        3224     5500 step2_results\normalized\Humanoid\m132_refined_norm.obj

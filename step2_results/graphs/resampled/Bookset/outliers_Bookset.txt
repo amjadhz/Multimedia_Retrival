@@ -1,0 +1,15 @@
+== Bookset — Smallest (resampled) ==
+ n_vertices  n_faces                                               path
+       2784     5471 step2_results\resampled\Bookset\D01110_refined.obj
+       2791     5472 step2_results\resampled\Bookset\D01122_refined.obj
+       2869     5495 step2_results\resampled\Bookset\D01108_refined.obj
+       2896     5495 step2_results\resampled\Bookset\D01190_refined.obj
+       2769     5499 step2_results\resampled\Bookset\D01030_refined.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                               path
+       4680     8808 step2_results\resampled\Bookset\D01078_refined.obj
+       4680     8808 step2_results\resampled\Bookset\D01109_refined.obj
+       4217     5500 step2_results\resampled\Bookset\D01065_refined.obj
+       4054     5500 step2_results\resampled\Bookset\D01013_refined.obj
+       3504     5500 step2_results\resampled\Bookset\D01042_refined.obj

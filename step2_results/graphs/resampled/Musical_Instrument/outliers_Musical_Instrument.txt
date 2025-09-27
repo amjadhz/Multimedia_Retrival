@@ -1,0 +1,15 @@
+== Musical_Instrument — Smallest (resampled) ==
+ n_vertices  n_faces                                                        path
+       2805     5453 step2_results\resampled\Musical_Instrument\m632_refined.obj
+       2849     5499 step2_results\resampled\Musical_Instrument\m646_refined.obj
+       2851     5499 step2_results\resampled\Musical_Instrument\m638_refined.obj
+       3088     5499 step2_results\resampled\Musical_Instrument\m647_refined.obj
+       4012     5499 step2_results\resampled\Musical_Instrument\m645_refined.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                                           path
+      13780    27200 step2_results\resampled\Musical_Instrument\m629_simplified.obj
+      14511    27196 step2_results\resampled\Musical_Instrument\m627_simplified.obj
+       8636    16926       step2_results\resampled\Musical_Instrument\m637_kept.obj
+       5215    10064    step2_results\resampled\Musical_Instrument\m633_refined.obj
+       4968     9520    step2_results\resampled\Musical_Instrument\m643_refined.obj

@@ -1,0 +1,15 @@
+== TruckNonContainer — Smallest (raw) ==
+ n_vertices  n_faces                              path
+       2578     4348 data\TruckNonContainer\D00737.obj
+       2288     4415 data\TruckNonContainer\D00252.obj
+       2448     4633 data\TruckNonContainer\D00148.obj
+       3622     7154 data\TruckNonContainer\D00143.obj
+       4409     7843 data\TruckNonContainer\D00215.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                              path
+      11914    21540 data\TruckNonContainer\D00353.obj
+       7636    14733 data\TruckNonContainer\D00055.obj
+       8850    14607 data\TruckNonContainer\D00943.obj
+       7248    13671 data\TruckNonContainer\D00553.obj
+       7080    12883 data\TruckNonContainer\D00608.obj

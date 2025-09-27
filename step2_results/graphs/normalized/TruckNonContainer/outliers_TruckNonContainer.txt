@@ -1,0 +1,15 @@
+== TruckNonContainer — Smallest (normalized) ==
+ n_vertices  n_faces                                                               path
+       2758     5256 step2_results\normalized\TruckNonContainer\D00143_refined_norm.obj
+       3186     5487 step2_results\normalized\TruckNonContainer\D00737_refined_norm.obj
+       2812     5499 step2_results\normalized\TruckNonContainer\D00879_refined_norm.obj
+       2836     5499 step2_results\normalized\TruckNonContainer\D00252_refined_norm.obj
+       2855     5499 step2_results\normalized\TruckNonContainer\D00148_refined_norm.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                                                  path
+      14621    27200 step2_results\normalized\TruckNonContainer\D00608_simplified_norm.obj
+      14110    27200 step2_results\normalized\TruckNonContainer\D00055_simplified_norm.obj
+      14046    27197 step2_results\normalized\TruckNonContainer\D00553_simplified_norm.obj
+       8850    14607       step2_results\normalized\TruckNonContainer\D00943_kept_norm.obj
+       6898    12657       step2_results\normalized\TruckNonContainer\D00266_kept_norm.obj

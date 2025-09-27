@@ -1,0 +1,15 @@
+== BuildingNonResidential — Smallest (raw) ==
+ n_vertices  n_faces                                 path
+         40       43 data\BuildingNonResidential\m390.obj
+         33       53 data\BuildingNonResidential\m392.obj
+        112      176 data\BuildingNonResidential\m475.obj
+        118      234 data\BuildingNonResidential\m471.obj
+        246      274 data\BuildingNonResidential\m391.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                 path
+      20958    41638 data\BuildingNonResidential\m405.obj
+      21085    40314 data\BuildingNonResidential\m402.obj
+      14362    28347 data\BuildingNonResidential\m470.obj
+       7223    13545 data\BuildingNonResidential\m406.obj
+       7466    13448 data\BuildingNonResidential\m399.obj

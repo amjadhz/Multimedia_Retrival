@@ -1,0 +1,15 @@
+== Bus — Smallest (normalized) ==
+ n_vertices  n_faces                                                    path
+       2845     5497    step2_results\normalized\Bus\D00832_refined_norm.obj
+       2854     5499    step2_results\normalized\Bus\D00516_refined_norm.obj
+       6071     8486       step2_results\normalized\Bus\D00483_kept_norm.obj
+       5205     8783       step2_results\normalized\Bus\D00857_kept_norm.obj
+       4772     8997 step2_results\normalized\Bus\D00182_simplified_norm.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                                    path
+      14194    27196 step2_results\normalized\Bus\D00815_simplified_norm.obj
+      14926    27187 step2_results\normalized\Bus\D00448_simplified_norm.obj
+      14497    27185 step2_results\normalized\Bus\D00823_simplified_norm.obj
+      14523    27075 step2_results\normalized\Bus\D00114_simplified_norm.obj
+       9502    17613       step2_results\normalized\Bus\D00775_kept_norm.obj

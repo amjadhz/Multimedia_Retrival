@@ -1,0 +1,15 @@
+== Monitor — Smallest (raw) ==
+ n_vertices  n_faces                    path
+        163      294 data\Monitor\D00659.obj
+        230      444 data\Monitor\D00469.obj
+        464      879 data\Monitor\D00548.obj
+        461      903 data\Monitor\D00920.obj
+       1097     2102 data\Monitor\D00919.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                    path
+      21122    39695 data\Monitor\D00863.obj
+      18962    37916 data\Monitor\D00387.obj
+      16462    32829 data\Monitor\D00978.obj
+      17106    32717 data\Monitor\D01000.obj
+      14887    29295 data\Monitor\D00364.obj

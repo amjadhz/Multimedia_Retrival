@@ -1,0 +1,15 @@
+== Hand — Smallest (raw) ==
+ n_vertices  n_faces                 path
+        114      204 data\Hand\D01024.obj
+        114      204   data\Hand\m334.obj
+        386      768 data\Hand\D01193.obj
+        386      768   data\Hand\m327.obj
+        421      837 data\Hand\D01074.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                 path
+      43386    86361 data\Hand\D01172.obj
+      43386    86361   data\Hand\m323.obj
+      25001    49998 data\Hand\D01153.obj
+      25001    49998   data\Hand\m324.obj
+       8524    17044 data\Hand\D01020.obj

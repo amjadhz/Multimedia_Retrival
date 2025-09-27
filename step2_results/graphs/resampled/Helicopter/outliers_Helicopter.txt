@@ -1,0 +1,15 @@
+== Helicopter — Smallest (resampled) ==
+ n_vertices  n_faces                                                  path
+       2767     5381 step2_results\resampled\Helicopter\D00470_refined.obj
+       2767     5384  step2_results\resampled\Helicopter\m1332_refined.obj
+       2928     5412  step2_results\resampled\Helicopter\m1302_refined.obj
+       2872     5470  step2_results\resampled\Helicopter\m1314_refined.obj
+       2958     5495  step2_results\resampled\Helicopter\m1321_refined.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                                    path
+      14329    27200 step2_results\resampled\Helicopter\m1320_simplified.obj
+      13621    27200 step2_results\resampled\Helicopter\m1305_simplified.obj
+      14072    27196 step2_results\resampled\Helicopter\m1327_simplified.obj
+       8547    16924       step2_results\resampled\Helicopter\m1306_kept.obj
+       8944    16642      step2_results\resampled\Helicopter\D00500_kept.obj

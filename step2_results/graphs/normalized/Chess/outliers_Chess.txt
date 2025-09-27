@@ -1,0 +1,15 @@
+== Chess — Smallest (normalized) ==
+ n_vertices  n_faces                                                   path
+       2770     5499 step2_results\normalized\Chess\D01099_refined_norm.obj
+       2770     5499  step2_results\normalized\Chess\m1606_refined_norm.obj
+       2752     5500 step2_results\normalized\Chess\D01017_refined_norm.obj
+       2752     5500 step2_results\normalized\Chess\D01019_refined_norm.obj
+       2752     5500 step2_results\normalized\Chess\D01043_refined_norm.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                                     path
+      13692    27194 step2_results\normalized\Chess\m1591_simplified_norm.obj
+       6727    13450      step2_results\normalized\Chess\D01081_kept_norm.obj
+       6727    13450       step2_results\normalized\Chess\m1601_kept_norm.obj
+       6014    12018       step2_results\normalized\Chess\m1610_kept_norm.obj
+       5890    11776   step2_results\normalized\Chess\D01021_refined_norm.obj

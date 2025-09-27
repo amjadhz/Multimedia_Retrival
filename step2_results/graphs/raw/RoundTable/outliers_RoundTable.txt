@@ -1,0 +1,15 @@
+== RoundTable — Smallest (raw) ==
+ n_vertices  n_faces                       path
+         54       88   data\RoundTable\m922.obj
+         54       88   data\RoundTable\m931.obj
+         55      100   data\RoundTable\m933.obj
+         72      140   data\RoundTable\m937.obj
+        136      236 data\RoundTable\D00344.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                       path
+      13002    25984 data\RoundTable\D00492.obj
+      12412    24720 data\RoundTable\D00094.obj
+      10821    20594   data\RoundTable\m932.obj
+       6647    13237 data\RoundTable\D00702.obj
+       2136     4252 data\RoundTable\D00649.obj

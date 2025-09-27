@@ -1,0 +1,15 @@
+== AquaticAnimal — Smallest (raw) ==
+ n_vertices  n_faces                       path
+         44       83 data\AquaticAnimal\m59.obj
+        158      226 data\AquaticAnimal\m79.obj
+        162      312 data\AquaticAnimal\m74.obj
+        216      337 data\AquaticAnimal\m61.obj
+        247      440 data\AquaticAnimal\m64.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                       path
+      19505    37013 data\AquaticAnimal\m55.obj
+      18878    36247 data\AquaticAnimal\m57.obj
+      18409    34810 data\AquaticAnimal\m53.obj
+      18143    33829 data\AquaticAnimal\m54.obj
+      14000    27996 data\AquaticAnimal\m67.obj

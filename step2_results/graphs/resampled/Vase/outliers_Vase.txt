@@ -1,0 +1,15 @@
+== Vase — Smallest (resampled) ==
+ n_vertices  n_faces                                          path
+       2765     5499 step2_results\resampled\Vase\m539_refined.obj
+       2768     5499 step2_results\resampled\Vase\m533_refined.obj
+       2778     5499 step2_results\resampled\Vase\m543_refined.obj
+       2815     5499 step2_results\resampled\Vase\m535_refined.obj
+       2919     5499 step2_results\resampled\Vase\m529_refined.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                          path
+       7872    12446 step2_results\resampled\Vase\m541_refined.obj
+       5184    10368 step2_results\resampled\Vase\m531_refined.obj
+       4834     9664 step2_results\resampled\Vase\m540_refined.obj
+       4786     9440 step2_results\resampled\Vase\m538_refined.obj
+       4610     9152 step2_results\resampled\Vase\m542_refined.obj

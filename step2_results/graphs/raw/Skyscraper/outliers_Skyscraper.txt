@@ -1,0 +1,15 @@
+== Skyscraper — Smallest (raw) ==
+ n_vertices  n_faces                       path
+        365      668 data\Skyscraper\D00872.obj
+        680     1135 data\Skyscraper\D00130.obj
+       2335     4363 data\Skyscraper\D00641.obj
+       3865     5928 data\Skyscraper\D00998.obj
+       4274     6932 data\Skyscraper\D00059.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                       path
+      49527    55151 data\Skyscraper\D00259.obj
+      48226    54476 data\Skyscraper\D00006.obj
+      73440    53411 data\Skyscraper\D00058.obj
+      51626    51676 data\Skyscraper\D00520.obj
+      37310    50332 data\Skyscraper\D00870.obj

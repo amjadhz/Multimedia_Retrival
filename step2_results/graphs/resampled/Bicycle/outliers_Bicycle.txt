@@ -1,0 +1,15 @@
+== Bicycle — Smallest (resampled) ==
+ n_vertices  n_faces                                               path
+       2920     5499 step2_results\resampled\Bicycle\D00750_refined.obj
+       3041     5499 step2_results\resampled\Bicycle\D00016_refined.obj
+       3107     5499  step2_results\resampled\Bicycle\m1473_refined.obj
+       2728     5500 step2_results\resampled\Bicycle\D00567_refined.obj
+       2728     5500  step2_results\resampled\Bicycle\m1476_refined.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                                  path
+       6951    12939       step2_results\resampled\Bicycle\D00514_kept.obj
+       6045    11948        step2_results\resampled\Bicycle\m1475_kept.obj
+       6045    11946       step2_results\resampled\Bicycle\D00974_kept.obj
+       5354    10548       step2_results\resampled\Bicycle\D00904_kept.obj
+       5170     9000 step2_results\resampled\Bicycle\D00931_simplified.obj

@@ -1,0 +1,15 @@
+== DeskLamp — Smallest (raw) ==
+ n_vertices  n_faces                     path
+         69      113 data\DeskLamp\D00378.obj
+         87      116   data\DeskLamp\m611.obj
+         87      142   data\DeskLamp\m606.obj
+        136      200   data\DeskLamp\m613.obj
+        166      316   data\DeskLamp\m603.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                     path
+      22837    45584 data\DeskLamp\D00547.obj
+      21616    38066 data\DeskLamp\D00744.obj
+      14108    28170 data\DeskLamp\D00797.obj
+      14091    28138   data\DeskLamp\m616.obj
+       9502    18519 data\DeskLamp\D00330.obj

@@ -1,0 +1,15 @@
+== Door — Smallest (raw) ==
+ n_vertices  n_faces                 path
+         16       16 data\Door\D01121.obj
+         16       16  data\Door\m1708.obj
+         18       17 data\Door\D01194.obj
+         31       29 data\Door\D01139.obj
+         48       72 data\Door\D01143.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                 path
+       6040    11440 data\Door\D01005.obj
+       6040    11440  data\Door\m1713.obj
+       3724     7332  data\Door\m1727.obj
+       3198     6371  data\Door\m1725.obj
+       2447     4409 data\Door\D01141.obj

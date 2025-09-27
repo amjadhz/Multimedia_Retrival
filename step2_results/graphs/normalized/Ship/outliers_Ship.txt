@@ -1,0 +1,15 @@
+== Ship — Smallest (normalized) ==
+ n_vertices  n_faces                                                  path
+       2155     3830  step2_results\normalized\Ship\m1450_refined_norm.obj
+       3195     5379 step2_results\normalized\Ship\D00467_refined_norm.obj
+       2741     5385  step2_results\normalized\Ship\m1470_refined_norm.obj
+       3333     5401  step2_results\normalized\Ship\m1429_refined_norm.obj
+       2885     5495  step2_results\normalized\Ship\m1464_refined_norm.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                                     path
+      14024    27196 step2_results\normalized\Ship\D00543_simplified_norm.obj
+      13707    27196  step2_results\normalized\Ship\m1453_simplified_norm.obj
+       9703    18883        step2_results\normalized\Ship\m1466_kept_norm.obj
+       9227    18210       step2_results\normalized\Ship\D00907_kept_norm.obj
+       6858    12552        step2_results\normalized\Ship\m1442_kept_norm.obj

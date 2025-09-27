@@ -1,0 +1,15 @@
+== Bed — Smallest (normalized) ==
+ n_vertices  n_faces                                                 path
+       2782     5499 step2_results\normalized\Bed\D00031_refined_norm.obj
+       2783     5499 step2_results\normalized\Bed\D00650_refined_norm.obj
+       2784     5499 step2_results\normalized\Bed\D00213_refined_norm.obj
+       2837     5499 step2_results\normalized\Bed\D00217_refined_norm.obj
+       2895     5499   step2_results\normalized\Bed\m950_refined_norm.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                                    path
+      13954    27200 step2_results\normalized\Bed\D00538_simplified_norm.obj
+      13841    27200   step2_results\normalized\Bed\m945_simplified_norm.obj
+      13744    27200 step2_results\normalized\Bed\D00184_simplified_norm.obj
+      13644    27200 step2_results\normalized\Bed\D00322_simplified_norm.obj
+       6349    12248       step2_results\normalized\Bed\D00552_kept_norm.obj

@@ -1,0 +1,15 @@
+== Vase — Smallest (raw) ==
+ n_vertices  n_faces               path
+         32       60 data\Vase\m533.obj
+        176      320 data\Vase\m535.obj
+        176      348 data\Vase\m527.obj
+        312      360 data\Vase\m541.obj
+        240      452 data\Vase\m532.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces               path
+       4578     9152 data\Vase\m536.obj
+       3128     6132 data\Vase\m528.obj
+       2526     5004 data\Vase\m539.obj
+       1737     3108 data\Vase\m529.obj
+       1296     2592 data\Vase\m531.obj

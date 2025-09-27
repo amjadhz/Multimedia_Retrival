@@ -1,0 +1,15 @@
+== FloorLamp — Smallest (normalized) ==
+ n_vertices  n_faces                                                       path
+       2795     5491 step2_results\normalized\FloorLamp\D00408_refined_norm.obj
+       2758     5499   step2_results\normalized\FloorLamp\m623_refined_norm.obj
+       2767     5499   step2_results\normalized\FloorLamp\m621_refined_norm.obj
+       2774     5499 step2_results\normalized\FloorLamp\D00388_refined_norm.obj
+       2774     5499 step2_results\normalized\FloorLamp\D00495_refined_norm.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                                          path
+      13636    27200 step2_results\normalized\FloorLamp\D00186_simplified_norm.obj
+      13619    27200 step2_results\normalized\FloorLamp\D00955_simplified_norm.obj
+       9578    18962       step2_results\normalized\FloorLamp\D00400_kept_norm.obj
+       5617    11136      step2_results\normalized\FloorLamp\m619_refined_norm.obj
+       5584    11058         step2_results\normalized\FloorLamp\m620_kept_norm.obj

@@ -1,0 +1,15 @@
+== HumanHead — Smallest (raw) ==
+ n_vertices  n_faces                    path
+        186      360 data\HumanHead\m362.obj
+        193      378 data\HumanHead\m357.obj
+        216      426 data\HumanHead\m354.obj
+        263      461 data\HumanHead\m364.obj
+        270      536 data\HumanHead\m360.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                    path
+      26749    51801 data\HumanHead\m349.obj
+      17666    35328 data\HumanHead\m365.obj
+      17358    34712 data\HumanHead\m355.obj
+       9843    19464 data\HumanHead\m369.obj
+       9148    18008 data\HumanHead\m348.obj

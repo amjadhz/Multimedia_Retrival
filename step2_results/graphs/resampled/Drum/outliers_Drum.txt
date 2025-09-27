@@ -1,0 +1,15 @@
+== Drum — Smallest (resampled) ==
+ n_vertices  n_faces                                            path
+       2762     5499 step2_results\resampled\Drum\D00551_refined.obj
+       2817     5499 step2_results\resampled\Drum\D00557_refined.obj
+       2822     5499 step2_results\resampled\Drum\D00308_refined.obj
+       2752     5500 step2_results\resampled\Drum\D00115_refined.obj
+       2752     5500 step2_results\resampled\Drum\D00189_refined.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                               path
+      14944    27200 step2_results\resampled\Drum\D00163_simplified.obj
+      14394    27196 step2_results\resampled\Drum\D00951_simplified.obj
+       5634    11264    step2_results\resampled\Drum\D00709_refined.obj
+       5653    11181       step2_results\resampled\Drum\D00980_kept.obj
+       5506    10641       step2_results\resampled\Drum\D00026_kept.obj

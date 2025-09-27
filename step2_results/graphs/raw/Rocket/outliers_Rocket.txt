@@ -1,0 +1,15 @@
+== Rocket — Smallest (raw) ==
+ n_vertices  n_faces                   path
+         36       56 data\Rocket\D00426.obj
+         66      108 data\Rocket\D00472.obj
+         88      156 data\Rocket\D00015.obj
+        161      224 data\Rocket\D00614.obj
+        170      304 data\Rocket\D00433.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                   path
+      12987    24466 data\Rocket\D00564.obj
+       7791    15310 data\Rocket\D00975.obj
+       6491    12970 data\Rocket\D00719.obj
+       3242     6348 data\Rocket\D00354.obj
+       2060     4064 data\Rocket\D00485.obj

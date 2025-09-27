@@ -1,0 +1,15 @@
+== Starship — Smallest (raw) ==
+ n_vertices  n_faces                    path
+        265      502 data\Starship\m1359.obj
+        467      926 data\Starship\m1376.obj
+        568     1067 data\Starship\m1366.obj
+        718     1174 data\Starship\m1365.obj
+       1004     1720 data\Starship\m1369.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                    path
+      31232    59339 data\Starship\m1368.obj
+      13824    27169 data\Starship\m1381.obj
+      13685    22819 data\Starship\m1362.obj
+      11926    20996 data\Starship\m1380.obj
+      11132    20655 data\Starship\m1385.obj

@@ -1,0 +1,15 @@
+== WheelChair — Smallest (raw) ==
+ n_vertices  n_faces                       path
+        685      928 data\WheelChair\D00453.obj
+        679     1232 data\WheelChair\D00526.obj
+        986     1508 data\WheelChair\D00604.obj
+        867     1519 data\WheelChair\D00203.obj
+       1134     1908 data\WheelChair\D00782.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                       path
+      43912    83378 data\WheelChair\D00720.obj
+      29285    58260 data\WheelChair\D00394.obj
+      26911    53400 data\WheelChair\D00088.obj
+      24137    47752 data\WheelChair\D00004.obj
+      22753    45128 data\WheelChair\D00628.obj

@@ -1,0 +1,15 @@
+== SubmachineGun — Smallest (normalized) ==
+ n_vertices  n_faces                                                           path
+       2842     5499 step2_results\normalized\SubmachineGun\D00970_refined_norm.obj
+       2907     5499 step2_results\normalized\SubmachineGun\D00256_refined_norm.obj
+       2765     5500 step2_results\normalized\SubmachineGun\D00537_refined_norm.obj
+       2782     5500 step2_results\normalized\SubmachineGun\D00489_refined_norm.obj
+       2846     5500 step2_results\normalized\SubmachineGun\D00893_refined_norm.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                                           path
+       6530    13248    step2_results\normalized\SubmachineGun\D00064_kept_norm.obj
+       5992    11856 step2_results\normalized\SubmachineGun\D00062_refined_norm.obj
+       5899    11636 step2_results\normalized\SubmachineGun\D00878_refined_norm.obj
+       5482    10832 step2_results\normalized\SubmachineGun\D00431_refined_norm.obj
+       5216    10128 step2_results\normalized\SubmachineGun\D00219_refined_norm.obj

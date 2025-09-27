@@ -1,0 +1,15 @@
+== Car — Smallest (raw) ==
+ n_vertices  n_faces               path
+        132      134 data\Car\m1532.obj
+        250      391 data\Car\m1515.obj
+        249      440 data\Car\m1547.obj
+        386      539 data\Car\m1543.obj
+        332      546 data\Car\m1561.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                path
+      60220   113420  data\Car\m1544.obj
+      54710   109357  data\Car\m1510.obj
+      47474    94842  data\Car\m1509.obj
+      34973    59487  data\Car\m1556.obj
+      35859    57202 data\Car\D00260.obj

@@ -1,0 +1,15 @@
+== DeskLamp — Smallest (normalized) ==
+ n_vertices  n_faces                                                      path
+       1930     3182   step2_results\normalized\DeskLamp\m611_refined_norm.obj
+       2405     3939   step2_results\normalized\DeskLamp\m605_refined_norm.obj
+       2768     5499   step2_results\normalized\DeskLamp\m603_refined_norm.obj
+       2775     5499 step2_results\normalized\DeskLamp\D00257_refined_norm.obj
+       2799     5499 step2_results\normalized\DeskLamp\D00912_refined_norm.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                                         path
+      13633    27200 step2_results\normalized\DeskLamp\D00455_simplified_norm.obj
+       9502    18519       step2_results\normalized\DeskLamp\D00330_kept_norm.obj
+       5891    11732       step2_results\normalized\DeskLamp\D00759_kept_norm.obj
+       5696    11216       step2_results\normalized\DeskLamp\D00090_kept_norm.obj
+       5466    10944      step2_results\normalized\DeskLamp\m614_refined_norm.obj

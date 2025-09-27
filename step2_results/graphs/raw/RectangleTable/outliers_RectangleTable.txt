@@ -1,0 +1,15 @@
+== RectangleTable — Smallest (raw) ==
+ n_vertices  n_faces                         path
+         44       52 data\RectangleTable\m876.obj
+         36       60 data\RectangleTable\m888.obj
+         36       60 data\RectangleTable\m912.obj
+         40       60 data\RectangleTable\m915.obj
+         60       65 data\RectangleTable\m871.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                           path
+      12460    25005 data\RectangleTable\D00523.obj
+       7120    13672 data\RectangleTable\D00603.obj
+       3713     6494 data\RectangleTable\D00230.obj
+       2973     4598 data\RectangleTable\D00766.obj
+       2229     4384   data\RectangleTable\m872.obj

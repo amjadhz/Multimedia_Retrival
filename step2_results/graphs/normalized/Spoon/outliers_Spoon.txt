@@ -1,0 +1,15 @@
+== Spoon — Smallest (normalized) ==
+ n_vertices  n_faces                                                   path
+       2846     5483 step2_results\normalized\Spoon\D00562_refined_norm.obj
+       2753     5499 step2_results\normalized\Spoon\D00085_refined_norm.obj
+       2767     5499 step2_results\normalized\Spoon\D00517_refined_norm.obj
+       2789     5499 step2_results\normalized\Spoon\D00144_refined_norm.obj
+       2796     5499 step2_results\normalized\Spoon\D00683_refined_norm.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                                   path
+       5793    11264 step2_results\normalized\Spoon\D00422_refined_norm.obj
+       4443     8784 step2_results\normalized\Spoon\D00842_refined_norm.obj
+       2906     5500 step2_results\normalized\Spoon\D00964_refined_norm.obj
+       2868     5500 step2_results\normalized\Spoon\D00338_refined_norm.obj
+       2803     5500 step2_results\normalized\Spoon\D00790_refined_norm.obj

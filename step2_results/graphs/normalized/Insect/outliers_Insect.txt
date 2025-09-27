@@ -1,0 +1,15 @@
+== Insect — Smallest (normalized) ==
+ n_vertices  n_faces                                                    path
+       3039     5021 step2_results\normalized\Insect\D00615_refined_norm.obj
+       2992     5158 step2_results\normalized\Insect\D00180_refined_norm.obj
+       3003     5160 step2_results\normalized\Insect\D00102_refined_norm.obj
+       3255     5432 step2_results\normalized\Insect\D00672_refined_norm.obj
+       2858     5497 step2_results\normalized\Insect\D00786_refined_norm.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                                       path
+      13680    27200 step2_results\normalized\Insect\D00973_simplified_norm.obj
+       9173    17819           step2_results\normalized\Insect\m6_kept_norm.obj
+       6502    12872       step2_results\normalized\Insect\D00082_kept_norm.obj
+       5798    11584       step2_results\normalized\Insect\m11_refined_norm.obj
+       5798    11584       step2_results\normalized\Insect\m15_refined_norm.obj

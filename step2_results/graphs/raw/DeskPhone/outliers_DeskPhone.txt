@@ -1,0 +1,15 @@
+== DeskPhone — Smallest (raw) ==
+ n_vertices  n_faces                      path
+        531      848 data\DeskPhone\D00135.obj
+        586     1108 data\DeskPhone\D00556.obj
+        814     1506 data\DeskPhone\D00680.obj
+        880     1678 data\DeskPhone\D00894.obj
+       1699     3314 data\DeskPhone\D00486.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                      path
+      48061    94497 data\DeskPhone\D00316.obj
+      39869    79650 data\DeskPhone\D00899.obj
+      31349    60638 data\DeskPhone\D00511.obj
+      27338    54476 data\DeskPhone\D00403.obj
+      27047    53855 data\DeskPhone\D00897.obj

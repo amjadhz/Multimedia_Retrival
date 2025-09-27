@@ -1,0 +1,15 @@
+== Computer — Smallest (raw) ==
+ n_vertices  n_faces                     path
+         28       30 data\Computer\D01102.obj
+         28       30  data\Computer\m1765.obj
+         29       43 data\Computer\D01071.obj
+         29       43  data\Computer\m1766.obj
+         46       76 data\Computer\D01085.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                     path
+      17298    34076 data\Computer\D01128.obj
+      17298    34076  data\Computer\m1772.obj
+      11463    20737 data\Computer\D01023.obj
+       6515    11201 data\Computer\D01115.obj
+       5026     9528 data\Computer\D01067.obj

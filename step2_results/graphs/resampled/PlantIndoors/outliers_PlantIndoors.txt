@@ -1,0 +1,15 @@
+== PlantIndoors — Smallest (resampled) ==
+ n_vertices  n_faces                                                     path
+       7248     4615 step2_results\resampled\PlantIndoors\m995_simplified.obj
+       2852     5499   step2_results\resampled\PlantIndoors\m1035_refined.obj
+       3132     5499    step2_results\resampled\PlantIndoors\m998_refined.obj
+       3717     5499    step2_results\resampled\PlantIndoors\m997_refined.obj
+       4143     5499   step2_results\resampled\PlantIndoors\m1027_refined.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                                   path
+       4887    11264 step2_results\resampled\PlantIndoors\m1033_refined.obj
+       6696    10794   step2_results\resampled\PlantIndoors\D00609_kept.obj
+       6696    10794    step2_results\resampled\PlantIndoors\m1025_kept.obj
+       5786    10304  step2_results\resampled\PlantIndoors\m990_refined.obj
+       5786    10304  step2_results\resampled\PlantIndoors\m992_refined.obj

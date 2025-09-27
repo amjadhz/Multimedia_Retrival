@@ -1,0 +1,15 @@
+== Quadruped — Smallest (resampled) ==
+ n_vertices  n_faces                                                 path
+       2802     5488    step2_results\resampled\Quadruped\m97_refined.obj
+       2751     5499 step2_results\resampled\Quadruped\D00226_refined.obj
+       2752     5499   step2_results\resampled\Quadruped\m104_refined.obj
+       2768     5499 step2_results\resampled\Quadruped\D00934_refined.obj
+       2768     5499   step2_results\resampled\Quadruped\m276_refined.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                                    path
+      13670    27200 step2_results\resampled\Quadruped\D00700_simplified.obj
+      13655    27200   step2_results\resampled\Quadruped\m112_simplified.obj
+      13602    27200 step2_results\resampled\Quadruped\D00509_simplified.obj
+      13602    27200 step2_results\resampled\Quadruped\D00794_simplified.obj
+       6344    12676       step2_results\resampled\Quadruped\D00867_kept.obj

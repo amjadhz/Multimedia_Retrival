@@ -1,0 +1,15 @@
+== Fish — Smallest (resampled) ==
+ n_vertices  n_faces                                            path
+       3007     5495 step2_results\resampled\Fish\D00682_refined.obj
+       3040     5499 step2_results\resampled\Fish\D00165_refined.obj
+       3051     5499 step2_results\resampled\Fish\D00142_refined.obj
+       3055     5499 step2_results\resampled\Fish\D00030_refined.obj
+       3072     5499 step2_results\resampled\Fish\D00022_refined.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                            path
+       5046     8094    step2_results\resampled\Fish\D00748_kept.obj
+       3131     5500 step2_results\resampled\Fish\D00535_refined.obj
+       3110     5500 step2_results\resampled\Fish\D00763_refined.obj
+       3105     5500 step2_results\resampled\Fish\D00950_refined.obj
+       3104     5500 step2_results\resampled\Fish\D00450_refined.obj
