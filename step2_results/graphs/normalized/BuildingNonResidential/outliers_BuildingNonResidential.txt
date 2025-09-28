@@ -1,15 +1,15 @@
 == BuildingNonResidential — Smallest (normalized) ==
  n_vertices  n_faces                                                                  path
-       2986     5097 step2_results\normalized\BuildingNonResidential\m404_refined_norm.obj
-       2909     5382 step2_results\normalized\BuildingNonResidential\m407_refined_norm.obj
-       3033     5481 step2_results\normalized\BuildingNonResidential\m389_refined_norm.obj
-       2812     5499 step2_results\normalized\BuildingNonResidential\m387_refined_norm.obj
-       2834     5499 step2_results\normalized\BuildingNonResidential\m383_refined_norm.obj
+       6852    10999    step2_results\normalized\BuildingNonResidential\m421_kept_norm.obj
+       5860    11008 step2_results\normalized\BuildingNonResidential\m390_refined_norm.obj
+       6672    11136 step2_results\normalized\BuildingNonResidential\m395_refined_norm.obj
+       6443    11248 step2_results\normalized\BuildingNonResidential\m412_refined_norm.obj
+       5638    11264 step2_results\normalized\BuildingNonResidential\m472_refined_norm.obj
 
 == {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                                     path
-      14394    27200 step2_results\normalized\BuildingNonResidential\m420_simplified_norm.obj
-      13810    27200 step2_results\normalized\BuildingNonResidential\m416_simplified_norm.obj
-      14155    27172 step2_results\normalized\BuildingNonResidential\m406_simplified_norm.obj
-      14820    27149 step2_results\normalized\BuildingNonResidential\m399_simplified_norm.obj
-       6891    13248       step2_results\normalized\BuildingNonResidential\m401_kept_norm.obj
+       9810    19152    step2_results\normalized\BuildingNonResidential\m394_refined_norm.obj
+       9579    18514    step2_results\normalized\BuildingNonResidential\m389_refined_norm.obj
+       9012    17980 step2_results\normalized\BuildingNonResidential\m397_simplified_norm.obj
+       9015    17978 step2_results\normalized\BuildingNonResidential\m474_simplified_norm.obj
+       9035    17902 step2_results\normalized\BuildingNonResidential\m414_simplified_norm.obj

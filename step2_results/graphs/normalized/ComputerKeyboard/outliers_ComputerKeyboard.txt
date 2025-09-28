@@ -1,15 +1,15 @@
 == ComputerKeyboard — Smallest (normalized) ==
- n_vertices  n_faces                                                              path
-       3077     5205 step2_results\normalized\ComputerKeyboard\D00692_refined_norm.obj
-       2969     5499 step2_results\normalized\ComputerKeyboard\D00990_refined_norm.obj
-       2981     5499 step2_results\normalized\ComputerKeyboard\D00116_refined_norm.obj
-       3016     5499 step2_results\normalized\ComputerKeyboard\D00673_refined_norm.obj
-       3019     5500 step2_results\normalized\ComputerKeyboard\D00278_refined_norm.obj
+ n_vertices  n_faces                                                                 path
+       8302     8668 step2_results\normalized\ComputerKeyboard\D00525_simplified_norm.obj
+       6826    10629 step2_results\normalized\ComputerKeyboard\D00676_simplified_norm.obj
+       6772    11072 step2_results\normalized\ComputerKeyboard\D00382_simplified_norm.obj
+       6869    11928    step2_results\normalized\ComputerKeyboard\D00600_refined_norm.obj
+       6193    11942       step2_results\normalized\ComputerKeyboard\D00360_kept_norm.obj
 
 == {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                                 path
-      15370    27200 step2_results\normalized\ComputerKeyboard\D00382_simplified_norm.obj
-      13823    27200 step2_results\normalized\ComputerKeyboard\D00597_simplified_norm.obj
-      14288    27190 step2_results\normalized\ComputerKeyboard\D00420_simplified_norm.obj
-       6954    13443       step2_results\normalized\ComputerKeyboard\D00805_kept_norm.obj
-       6384    12756       step2_results\normalized\ComputerKeyboard\D00197_kept_norm.obj
+       9000    17993 step2_results\normalized\ComputerKeyboard\D00905_simplified_norm.obj
+       9014    17927 step2_results\normalized\ComputerKeyboard\D00569_simplified_norm.obj
+       9455    17824    step2_results\normalized\ComputerKeyboard\D00127_refined_norm.obj
+       8938    17589 step2_results\normalized\ComputerKeyboard\D00493_simplified_norm.obj
+       8950    17551 step2_results\normalized\ComputerKeyboard\D00654_simplified_norm.obj

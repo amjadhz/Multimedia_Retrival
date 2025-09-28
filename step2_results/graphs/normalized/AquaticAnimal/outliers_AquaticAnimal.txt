@@ -1,15 +1,15 @@
 == AquaticAnimal — Smallest (normalized) ==
  n_vertices  n_faces                                                        path
-       2754     5367 step2_results\normalized\AquaticAnimal\m81_refined_norm.obj
-       2745     5375 step2_results\normalized\AquaticAnimal\m74_refined_norm.obj
-       2813     5436 step2_results\normalized\AquaticAnimal\m64_refined_norm.obj
-       2766     5499 step2_results\normalized\AquaticAnimal\m59_refined_norm.obj
-       2792     5499 step2_results\normalized\AquaticAnimal\m65_refined_norm.obj
+       5814    10893    step2_results\normalized\AquaticAnimal\m56_kept_norm.obj
+       6231    11680 step2_results\normalized\AquaticAnimal\m78_refined_norm.obj
+       6325    12648 step2_results\normalized\AquaticAnimal\m76_refined_norm.obj
+       6418    12832 step2_results\normalized\AquaticAnimal\m60_refined_norm.obj
+       6690    13376 step2_results\normalized\AquaticAnimal\m71_refined_norm.obj
 
 == {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                           path
-       5814    10893       step2_results\normalized\AquaticAnimal\m56_kept_norm.obj
-       4819     9440    step2_results\normalized\AquaticAnimal\m72_refined_norm.obj
-       4786     9000 step2_results\normalized\AquaticAnimal\m57_simplified_norm.obj
-       4775     9000 step2_results\normalized\AquaticAnimal\m55_simplified_norm.obj
-       4568     9000 step2_results\normalized\AquaticAnimal\m77_simplified_norm.obj
+       9000    17996 step2_results\normalized\AquaticAnimal\m62_simplified_norm.obj
+       9000    17996 step2_results\normalized\AquaticAnimal\m67_simplified_norm.obj
+       8994    17974 step2_results\normalized\AquaticAnimal\m73_simplified_norm.obj
+       9005    17932 step2_results\normalized\AquaticAnimal\m59_simplified_norm.obj
+       9015    17894 step2_results\normalized\AquaticAnimal\m77_simplified_norm.obj

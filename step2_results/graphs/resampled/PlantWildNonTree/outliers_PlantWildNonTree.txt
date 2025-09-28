@@ -1,15 +1,15 @@
 == PlantWildNonTree — Smallest (resampled) ==
  n_vertices  n_faces                                                         path
-       2452     3552    step2_results\resampled\PlantWildNonTree\m981_refined.obj
-       7920     5280 step2_results\resampled\PlantWildNonTree\m966_simplified.obj
-       5166     5498    step2_results\resampled\PlantWildNonTree\m971_refined.obj
-       3018     5499    step2_results\resampled\PlantWildNonTree\m983_refined.obj
-       3177     5499    step2_results\resampled\PlantWildNonTree\m974_refined.obj
+       7914     5274 step2_results\resampled\PlantWildNonTree\m966_simplified.obj
+       6513     9427       step2_results\resampled\PlantWildNonTree\m961_kept.obj
+      12486    11289 step2_results\resampled\PlantWildNonTree\m972_simplified.obj
+       9018    11712       step2_results\resampled\PlantWildNonTree\m968_kept.obj
+       5922    11752    step2_results\resampled\PlantWildNonTree\m977_refined.obj
 
 == {cls} — Largest ({stage}) ==
- n_vertices  n_faces                                                      path
-       8937    15965    step2_results\resampled\PlantWildNonTree\m980_kept.obj
-       6656    11843    step2_results\resampled\PlantWildNonTree\m986_kept.obj
-       5922    11752 step2_results\resampled\PlantWildNonTree\m977_refined.obj
-       9018    11712    step2_results\resampled\PlantWildNonTree\m968_kept.obj
-       4832     9600 step2_results\resampled\PlantWildNonTree\m982_refined.obj
+ n_vertices  n_faces                                                         path
+       9895    18944    step2_results\resampled\PlantWildNonTree\m983_refined.obj
+       9006    17980 step2_results\resampled\PlantWildNonTree\m975_simplified.obj
+       9017    17970 step2_results\resampled\PlantWildNonTree\m982_simplified.obj
+       9026    17816 step2_results\resampled\PlantWildNonTree\m988_simplified.obj
+       9111    16637 step2_results\resampled\PlantWildNonTree\m976_simplified.obj

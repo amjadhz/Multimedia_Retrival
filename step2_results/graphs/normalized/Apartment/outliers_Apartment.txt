@@ -1,15 +1,15 @@
 == Apartment — Smallest (normalized) ==
- n_vertices  n_faces                                                       path
-       3682     5465 step2_results\normalized\Apartment\D00953_refined_norm.obj
-       2884     5499   step2_results\normalized\Apartment\m465_refined_norm.obj
-       2926     5499   step2_results\normalized\Apartment\m463_refined_norm.obj
-       2975     5499 step2_results\normalized\Apartment\D00639_refined_norm.obj
-       3133     5499 step2_results\normalized\Apartment\D00792_refined_norm.obj
+ n_vertices  n_faces                                                          path
+       6688     7972       step2_results\normalized\Apartment\D00921_kept_norm.obj
+       5934     9026       step2_results\normalized\Apartment\D00310_kept_norm.obj
+       5558     9764    step2_results\normalized\Apartment\D00496_refined_norm.obj
+       6786    10068   step2_results\normalized\Apartment\m464_simplified_norm.obj
+       6859    10574 step2_results\normalized\Apartment\D00780_simplified_norm.obj
 
 == {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                          path
-       5143    10156    step2_results\normalized\Apartment\D00366_refined_norm.obj
-       3249    10117 step2_results\normalized\Apartment\D00626_simplified_norm.obj
-       5558     9764    step2_results\normalized\Apartment\D00496_refined_norm.obj
-       5934     9026       step2_results\normalized\Apartment\D00310_kept_norm.obj
-       8273     9000 step2_results\normalized\Apartment\D00681_simplified_norm.obj
+       8954    17870 step2_results\normalized\Apartment\D00366_simplified_norm.obj
+       7213    17780 step2_results\normalized\Apartment\D00626_simplified_norm.obj
+       9021    17749 step2_results\normalized\Apartment\D00138_simplified_norm.obj
+       9112    17620 step2_results\normalized\Apartment\D00086_simplified_norm.obj
+       9002    17512 step2_results\normalized\Apartment\D00639_simplified_norm.obj

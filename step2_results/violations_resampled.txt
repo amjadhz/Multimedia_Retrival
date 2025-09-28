@@ -1,0 +1,52 @@
+== Above 10k ==
+             cls  n_vertices  n_faces                                                          path
+       Apartment       10078    12570       step2_results\resampled\Apartment\D00045_simplified.obj
+       Apartment       10530    12557       step2_results\resampled\Apartment\D00681_simplified.obj
+            City       12423    12563            step2_results\resampled\City\D01101_simplified.obj
+            City       11805    12557            step2_results\resampled\City\D01192_simplified.obj
+            City       14455    12549            step2_results\resampled\City\D01195_simplified.obj
+       DeskPhone       14773    12538       step2_results\resampled\DeskPhone\D00706_simplified.obj
+           House       10106    12562           step2_results\resampled\House\D00001_simplified.obj
+           House       11845    12534           step2_results\resampled\House\D00389_simplified.obj
+           House       14286    12530           step2_results\resampled\House\D00574_simplified.obj
+        Humanoid       10081    12553          step2_results\resampled\Humanoid\m198_simplified.obj
+ MilitaryVehicle       10171    12532 step2_results\resampled\MilitaryVehicle\D00173_simplified.obj
+ MilitaryVehicle       10962    12535 step2_results\resampled\MilitaryVehicle\D00933_simplified.obj
+    PlantIndoors       43171    12529    step2_results\resampled\PlantIndoors\D00080_simplified.obj
+    PlantIndoors       10699    12534    step2_results\resampled\PlantIndoors\D00128_simplified.obj
+    PlantIndoors       10437    12538    step2_results\resampled\PlantIndoors\D00159_simplified.obj
+    PlantIndoors       11641    12529    step2_results\resampled\PlantIndoors\D00595_simplified.obj
+    PlantIndoors       10719    12553    step2_results\resampled\PlantIndoors\D00624_simplified.obj
+    PlantIndoors       11606    12529     step2_results\resampled\PlantIndoors\m1005_simplified.obj
+    PlantIndoors       11640    12530     step2_results\resampled\PlantIndoors\m1014_simplified.obj
+    PlantIndoors       10721    12552     step2_results\resampled\PlantIndoors\m1018_simplified.obj
+PlantWildNonTree       10487    12530  step2_results\resampled\PlantWildNonTree\m962_simplified.obj
+PlantWildNonTree       10791    12530  step2_results\resampled\PlantWildNonTree\m967_simplified.obj
+PlantWildNonTree       12486    11289  step2_results\resampled\PlantWildNonTree\m972_simplified.obj
+PlantWildNonTree       10543    12535  step2_results\resampled\PlantWildNonTree\m973_simplified.obj
+      Skyscraper       20670    12556      step2_results\resampled\Skyscraper\D00006_simplified.obj
+      Skyscraper       33712    12534      step2_results\resampled\Skyscraper\D00058_simplified.obj
+      Skyscraper       18843    12530      step2_results\resampled\Skyscraper\D00259_simplified.obj
+      Skyscraper       25108    12564      step2_results\resampled\Skyscraper\D00520_simplified.obj
+      Skyscraper       10546    12532      step2_results\resampled\Skyscraper\D00532_simplified.obj
+      Skyscraper       10761    12565      step2_results\resampled\Skyscraper\D00729_simplified.obj
+      Skyscraper       10954    12537      step2_results\resampled\Skyscraper\D00870_simplified.obj
+            Tree       28299    12530            step2_results\resampled\Tree\D00096_simplified.obj
+            Tree       19212    10602            step2_results\resampled\Tree\D00200_simplified.obj
+            Tree       26271    12530            step2_results\resampled\Tree\D00221_simplified.obj
+            Tree       30855    12530            step2_results\resampled\Tree\D00223_simplified.obj
+            Tree       12495     7280            step2_results\resampled\Tree\D00385_simplified.obj
+            Tree       11009    12531            step2_results\resampled\Tree\D00393_simplified.obj
+            Tree       27438    12530            step2_results\resampled\Tree\D00439_simplified.obj
+            Tree       16164    12529            step2_results\resampled\Tree\D00479_simplified.obj
+            Tree       27353    12530            step2_results\resampled\Tree\D00533_simplified.obj
+            Tree       18086    12529            step2_results\resampled\Tree\D00573_simplified.obj
+            Tree       11349     4767            step2_results\resampled\Tree\D00612_simplified.obj
+            Tree       20117    12530            step2_results\resampled\Tree\D00727_simplified.obj
+            Tree       19075    12530            step2_results\resampled\Tree\D00765_simplified.obj
+            Tree       21189    12531            step2_results\resampled\Tree\D00777_simplified.obj
+            Tree       10386    12531            step2_results\resampled\Tree\D00810_simplified.obj
+            Tree       27712    12530            step2_results\resampled\Tree\D00834_simplified.obj
+            Tree       13027    12531            step2_results\resampled\Tree\D00911_simplified.obj
+            Tree       19834    12530            step2_results\resampled\Tree\D00996_simplified.obj
+            Tree       13547    12565             step2_results\resampled\Tree\m1069_simplified.obj

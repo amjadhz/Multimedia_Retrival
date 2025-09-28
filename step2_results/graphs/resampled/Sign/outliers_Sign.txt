@@ -1,15 +1,15 @@
 == Sign — Smallest (resampled) ==
  n_vertices  n_faces                                           path
-       2818     5499 step2_results\resampled\Sign\m1678_refined.obj
-       2879     5499 step2_results\resampled\Sign\m1673_refined.obj
-       2756     5500 step2_results\resampled\Sign\m1684_refined.obj
-       2764     5500 step2_results\resampled\Sign\m1676_refined.obj
-       2788     5500 step2_results\resampled\Sign\m1679_refined.obj
+       5670    11328 step2_results\resampled\Sign\m1680_refined.obj
+       6336    12576 step2_results\resampled\Sign\m1679_refined.obj
+       6540    13032    step2_results\resampled\Sign\m1681_kept.obj
+       6850    13312 step2_results\resampled\Sign\m1675_refined.obj
+       7753    13888 step2_results\resampled\Sign\m1670_refined.obj
 
 == {cls} — Largest ({stage}) ==
- n_vertices  n_faces                                           path
-       6540    13032    step2_results\resampled\Sign\m1681_kept.obj
-       5670    11328 step2_results\resampled\Sign\m1680_refined.obj
-       4492     8804 step2_results\resampled\Sign\m1682_refined.obj
-       3705     5500 step2_results\resampled\Sign\m1671_refined.obj
-       3559     5500 step2_results\resampled\Sign\m1670_refined.obj
+ n_vertices  n_faces                                              path
+       9734    19456    step2_results\resampled\Sign\m1684_refined.obj
+       9006    17984 step2_results\resampled\Sign\m1676_simplified.obj
+       9004    17926 step2_results\resampled\Sign\m1674_simplified.obj
+       9012    17920 step2_results\resampled\Sign\m1683_simplified.obj
+       9044    17908 step2_results\resampled\Sign\m1682_simplified.obj

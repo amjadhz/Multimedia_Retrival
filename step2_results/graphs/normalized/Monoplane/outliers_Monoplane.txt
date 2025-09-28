@@ -1,15 +1,15 @@
 == Monoplane — Smallest (normalized) ==
- n_vertices  n_faces                                                       path
-       2775     5499 step2_results\normalized\Monoplane\D00840_refined_norm.obj
-       2870     5499 step2_results\normalized\Monoplane\D00167_refined_norm.obj
-       2935     5499 step2_results\normalized\Monoplane\D00098_refined_norm.obj
-       2938     5499 step2_results\normalized\Monoplane\D00995_refined_norm.obj
-       2953     5499 step2_results\normalized\Monoplane\D00011_refined_norm.obj
+ n_vertices  n_faces                                                          path
+       5849    10072       step2_results\normalized\Monoplane\D00688_kept_norm.obj
+       5580    10688    step2_results\normalized\Monoplane\D00402_refined_norm.obj
+       5738    10816    step2_results\normalized\Monoplane\D00304_refined_norm.obj
+       6098    11024    step2_results\normalized\Monoplane\D00482_refined_norm.obj
+       6801    13562 step2_results\normalized\Monoplane\D00617_simplified_norm.obj
 
 == {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                          path
-      13620    27200 step2_results\normalized\Monoplane\D00617_simplified_norm.obj
-       5738    10816    step2_results\normalized\Monoplane\D00304_refined_norm.obj
-       5580    10688    step2_results\normalized\Monoplane\D00402_refined_norm.obj
-       5849    10072       step2_results\normalized\Monoplane\D00688_kept_norm.obj
-       4554     8640    step2_results\normalized\Monoplane\D00043_refined_norm.obj
+       9884    19488    step2_results\normalized\Monoplane\D00840_refined_norm.obj
+       9022    17846 step2_results\normalized\Monoplane\D00319_simplified_norm.obj
+       9009    17822 step2_results\normalized\Monoplane\D00019_simplified_norm.obj
+       9021    17768 step2_results\normalized\Monoplane\D00925_simplified_norm.obj
+       8935    17533 step2_results\normalized\Monoplane\D00043_simplified_norm.obj

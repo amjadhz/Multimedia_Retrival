@@ -1,15 +1,15 @@
 == DeskLamp — Smallest (resampled) ==
- n_vertices  n_faces                                                path
-       1988     3182   step2_results\resampled\DeskLamp\m611_refined.obj
-       2405     3939   step2_results\resampled\DeskLamp\m605_refined.obj
-       2768     5499   step2_results\resampled\DeskLamp\m603_refined.obj
-       2775     5499 step2_results\resampled\DeskLamp\D00257_refined.obj
-       2799     5499 step2_results\resampled\DeskLamp\D00912_refined.obj
+ n_vertices  n_faces                                                   path
+       5696    11216       step2_results\resampled\DeskLamp\D00090_kept.obj
+       5891    11732       step2_results\resampled\DeskLamp\D00759_kept.obj
+       6576    12800      step2_results\resampled\DeskLamp\m613_refined.obj
+       7492    13062 step2_results\resampled\DeskLamp\D00698_simplified.obj
+       6756    13376    step2_results\resampled\DeskLamp\D00147_refined.obj
 
 == {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                   path
-      13633    27200 step2_results\resampled\DeskLamp\D00455_simplified.obj
+       9943    19584    step2_results\resampled\DeskLamp\D00693_refined.obj
        9502    18519       step2_results\resampled\DeskLamp\D00330_kept.obj
-       5891    11732       step2_results\resampled\DeskLamp\D00759_kept.obj
-       5456    11488    step2_results\resampled\DeskLamp\D00698_refined.obj
-       5696    11216       step2_results\resampled\DeskLamp\D00090_kept.obj
+       9119    18184    step2_results\resampled\DeskLamp\D00531_refined.obj
+       8996    18004   step2_results\resampled\DeskLamp\m614_simplified.obj
+       9008    17970 step2_results\resampled\DeskLamp\D00797_simplified.obj

@@ -1,15 +1,15 @@
 == Bed — Smallest (resampled) ==
  n_vertices  n_faces                                           path
-       2784     5499 step2_results\resampled\Bed\D00031_refined.obj
-       2784     5499 step2_results\resampled\Bed\D00213_refined.obj
-       2786     5499 step2_results\resampled\Bed\D00650_refined.obj
-       2837     5499 step2_results\resampled\Bed\D00217_refined.obj
-       2895     5499   step2_results\resampled\Bed\m950_refined.obj
+       5651    10304   step2_results\resampled\Bed\m946_refined.obj
+       5985    10944 step2_results\resampled\Bed\D00735_refined.obj
+       6032    11520   step2_results\resampled\Bed\m950_refined.obj
+       6349    12248    step2_results\resampled\Bed\D00552_kept.obj
+       6343    12488 step2_results\resampled\Bed\D00836_refined.obj
 
 == {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                              path
-      13954    27200 step2_results\resampled\Bed\D00538_simplified.obj
-      13882    27200   step2_results\resampled\Bed\m945_simplified.obj
-      13745    27200 step2_results\resampled\Bed\D00184_simplified.obj
-      13644    27200 step2_results\resampled\Bed\D00322_simplified.obj
-       6349    12248       step2_results\resampled\Bed\D00552_kept.obj
+       9074    18056    step2_results\resampled\Bed\D00213_refined.obj
+       9002    17980   step2_results\resampled\Bed\m949_simplified.obj
+       9017    17970 step2_results\resampled\Bed\D00988_simplified.obj
+       9009    17953 step2_results\resampled\Bed\D00839_simplified.obj
+       9009    17946 step2_results\resampled\Bed\D00417_simplified.obj

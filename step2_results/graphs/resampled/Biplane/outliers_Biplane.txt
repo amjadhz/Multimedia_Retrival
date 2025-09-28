@@ -1,15 +1,15 @@
 == Biplane — Smallest (resampled) ==
- n_vertices  n_faces                                               path
-       2884     5477  step2_results\resampled\Biplane\m1143_refined.obj
-       3013     5495  step2_results\resampled\Biplane\m1144_refined.obj
-       2861     5499  step2_results\resampled\Biplane\m1119_refined.obj
-       2877     5499 step2_results\resampled\Biplane\D00069_refined.obj
-       2987     5499 step2_results\resampled\Biplane\D00666_refined.obj
+ n_vertices  n_faces                                              path
+       5022     9246   step2_results\resampled\Biplane\D00246_kept.obj
+       5646    10464 step2_results\resampled\Biplane\m1125_refined.obj
+       5379    10513   step2_results\resampled\Biplane\D00515_kept.obj
+       5941    11385   step2_results\resampled\Biplane\D00373_kept.obj
+       6704    11497    step2_results\resampled\Biplane\m1122_kept.obj
 
 == {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                  path
-      18223    35996 step2_results\resampled\Biplane\D00616_simplified.obj
-       9723    17379       step2_results\resampled\Biplane\D00320_kept.obj
-       6704    11497        step2_results\resampled\Biplane\m1122_kept.obj
-       5941    11385       step2_results\resampled\Biplane\D00373_kept.obj
-       5379    10513       step2_results\resampled\Biplane\D00515_kept.obj
+       8652    17971 step2_results\resampled\Biplane\D00616_simplified.obj
+       9038    17920 step2_results\resampled\Biplane\D00601_simplified.obj
+       9137    17812 step2_results\resampled\Biplane\D00490_simplified.obj
+       9055    17710  step2_results\resampled\Biplane\m1119_simplified.obj
+       9146    17704 step2_results\resampled\Biplane\D00854_simplified.obj

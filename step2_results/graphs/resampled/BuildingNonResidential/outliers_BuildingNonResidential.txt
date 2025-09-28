@@ -1,15 +1,15 @@
 == BuildingNonResidential — Smallest (resampled) ==
  n_vertices  n_faces                                                            path
-       2999     5097 step2_results\resampled\BuildingNonResidential\m404_refined.obj
-       2910     5382 step2_results\resampled\BuildingNonResidential\m407_refined.obj
-       3037     5481 step2_results\resampled\BuildingNonResidential\m389_refined.obj
-       2812     5499 step2_results\resampled\BuildingNonResidential\m387_refined.obj
-       2834     5499 step2_results\resampled\BuildingNonResidential\m383_refined.obj
+       6853    10999    step2_results\resampled\BuildingNonResidential\m421_kept.obj
+       5860    11008 step2_results\resampled\BuildingNonResidential\m390_refined.obj
+       6672    11136 step2_results\resampled\BuildingNonResidential\m395_refined.obj
+       6480    11248 step2_results\resampled\BuildingNonResidential\m412_refined.obj
+       5638    11264 step2_results\resampled\BuildingNonResidential\m472_refined.obj
 
 == {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                               path
-      14402    27200 step2_results\resampled\BuildingNonResidential\m420_simplified.obj
-      13810    27200 step2_results\resampled\BuildingNonResidential\m416_simplified.obj
-      14176    27196 step2_results\resampled\BuildingNonResidential\m406_simplified.obj
-      14854    27184 step2_results\resampled\BuildingNonResidential\m399_simplified.obj
-       6912    13248       step2_results\resampled\BuildingNonResidential\m401_kept.obj
+       9810    19152    step2_results\resampled\BuildingNonResidential\m394_refined.obj
+       9579    18532    step2_results\resampled\BuildingNonResidential\m389_refined.obj
+       9012    17980 step2_results\resampled\BuildingNonResidential\m397_simplified.obj
+       9015    17978 step2_results\resampled\BuildingNonResidential\m474_simplified.obj
+       9035    17902 step2_results\resampled\BuildingNonResidential\m414_simplified.obj

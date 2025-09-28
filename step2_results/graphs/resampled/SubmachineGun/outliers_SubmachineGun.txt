@@ -1,15 +1,15 @@
 == SubmachineGun — Smallest (resampled) ==
  n_vertices  n_faces                                                     path
-       2842     5499 step2_results\resampled\SubmachineGun\D00970_refined.obj
-       2909     5499 step2_results\resampled\SubmachineGun\D00256_refined.obj
-       2765     5500 step2_results\resampled\SubmachineGun\D00537_refined.obj
-       2782     5500 step2_results\resampled\SubmachineGun\D00489_refined.obj
-       2846     5500 step2_results\resampled\SubmachineGun\D00893_refined.obj
+       5899    11636 step2_results\resampled\SubmachineGun\D00878_refined.obj
+       5992    11856 step2_results\resampled\SubmachineGun\D00062_refined.obj
+       6487    12560 step2_results\resampled\SubmachineGun\D00970_refined.obj
+       6376    12720 step2_results\resampled\SubmachineGun\D00537_refined.obj
+       6530    13248    step2_results\resampled\SubmachineGun\D00064_kept.obj
 
 == {cls} — Largest ({stage}) ==
- n_vertices  n_faces                                                     path
-       6530    13248    step2_results\resampled\SubmachineGun\D00064_kept.obj
-       5992    11856 step2_results\resampled\SubmachineGun\D00062_refined.obj
-       5899    11636 step2_results\resampled\SubmachineGun\D00878_refined.obj
-       5482    10832 step2_results\resampled\SubmachineGun\D00431_refined.obj
-       5218    10128 step2_results\resampled\SubmachineGun\D00219_refined.obj
+ n_vertices  n_faces                                                        path
+       9366    18176    step2_results\resampled\SubmachineGun\D00960_refined.obj
+       9018    17960 step2_results\resampled\SubmachineGun\D00489_simplified.obj
+       9038    17944 step2_results\resampled\SubmachineGun\D00431_simplified.obj
+       8984    17859 step2_results\resampled\SubmachineGun\D00613_simplified.obj
+       9079    17793 step2_results\resampled\SubmachineGun\D00459_simplified.obj

@@ -3,11 +3,11 @@
 #
 # Outputs in step2_results/ :
 #   graphs/
-#     raw/overall/*.png
+#     raw/0 overall/*.png
 #     raw/<Class>/*.{png,txt}
-#     resampled/overall/*.png
+#     resampled/0 overall/*.png
 #     resampled/<Class>/*.{png,txt}
-#     normalized/overall/*.png
+#     normalized/0 overall/*.png
 #     normalized/<Class>/*.{png,txt}
 #   stats_raw.csv,         objects_raw.csv,         outliers_raw.txt
 #   resampled/   (ALL meshes: *_refined / *_simplified / *_kept)
@@ -102,69 +102,94 @@ def analyze_mesh_record(mesh, path: Path, cls: str, force_face_type=None):
         bbox_diag=float(np.linalg.norm(extent)),
     )
 
-# 2.3 Resampling (simple policy)
+# 2.3 Resampling (strict band enforcement)
 #   Goal: keep vertex count in [5000, 10000],
-#         with a bias toward ~5500–7000 for efficiency & quality.
-def refine_until(mesh, target_vertices):
-    """Loop subdivision until we reach ~target (stop at ~0.8*target to avoid overshoot)."""
+#         with a bias toward ~5500–7000 when we do simplify steps.
+
+def refine_until(mesh, target_vertices, max_passes=8, brake_mult=5.0):
+    """Loop subdivision until we reach ~target (bounded passes; avoids runaway growth)."""
     m = mesh
-    while len(m.vertices) < max(200, int(0.8 * target_vertices)):
+    for _ in range(max_passes):
+        if len(m.vertices) >= target_vertices:
+            break
         m = m.subdivide_loop(number_of_iterations=1)
         m.remove_degenerate_triangles()
         m.remove_duplicated_vertices()
         m.compute_vertex_normals()
-        if len(m.vertices) > 5 * target_vertices:  # very defensive
+        if len(m.vertices) > brake_mult * target_vertices:  # very defensive
             break
     return m
 
-def simplify_to(mesh, target_vertices):
-    """Quadric decimation to ~target (Open3D uses triangle count; it's OK as proxy)."""
-    target_tris = max(1000, int(target_vertices))  # basic floor
-    m = mesh.simplify_quadric_decimation(target_number_of_triangles=target_tris)
-    m.remove_degenerate_triangles()
-    m.remove_duplicated_vertices()
-    m.remove_non_manifold_edges()
-    m.compute_vertex_normals()
+def simplify_to_vertices(mesh, desired_vertices, passes=6):
+    """Quadric decimation guided by a *vertex target* via iterative F/V conversion."""
+    m = mesh
+    for _ in range(passes):
+        V = max(1, len(m.vertices))
+        F = max(4, len(m.triangles))
+        r = F / V
+        r = min(2.8, max(1.4, r))  # stabilize typical triangle/vertex ratio
+        target_tris = int(desired_vertices * r)
+        target_tris = max(200, min(target_tris, F - 1))
+        m = m.simplify_quadric_decimation(target_number_of_triangles=target_tris)
+        m.remove_degenerate_triangles()
+        m.remove_duplicated_vertices()
+        m.remove_non_manifold_edges()
+        m.compute_vertex_normals()
+        # stop early if we are close enough
+        if abs(len(m.vertices) - desired_vertices) <= 150:
+            break
     return m
 
-def resample_smart(mesh, n, prefer_low=True):
+def resample_to_band(mesh, prefer_low=True, minv=5000, maxv=10000):
     """
-    SIMPLE, range-aware rule:
-      - n < 5000         -> refine to ~5500  (suffix: _refined)
-      - 5000 ≤ n ≤ 7000  -> keep             (_kept)
-      - 7000 < n < 8500  -> small simplify:
-                              prefer_low  -> ~6800
-                              prefer_high -> ~8800
-                           (_simplified)
-      - n ≥ 8500 & ≤10000-> keep             (_kept)
-      - n > 10000        -> simplify in one go to ~9000
-                           (_simplified)
+    Hard-enforce vertex count into [minv, maxv] with gentle bias:
+      - below minv: refine toward ~5500
+      - in-band 7000..8500: optionally nudge down (~6800) if prefer_low; otherwise keep
+      - above maxv: simplify toward ~9000
+    Guaranteed to return a mesh with minv ≤ V ≤ maxv (barring unreadable inputs).
     """
-    if n < 5000:
-        m2 = refine_until(mesh, 5500)
-        # if overshoot >6000, nudge down a bit
-        if len(m2.vertices) > 6000:
-            m2 = simplify_to(m2, 5500)
-        return m2, "_refined"
+    V0 = len(mesh.vertices)
+    tgt_low, tgt_mid_l, tgt_mid_h, tgt_high = 5500, 6800, 8800, 9000
 
-    if 5000 <= n <= 7000:
-        return mesh, "_kept"
+    m = mesh
+    tag = "_kept"
 
-    if 7000 < n < 8500:
-        target = 6800 if prefer_low else 8800
-        m2 = simplify_to(mesh, target)
-        if len(m2.vertices) < 5000:
-            m2 = refine_until(m2, 5500)
-        return m2, "_simplified"
+    if V0 < minv:
+        m = refine_until(m, tgt_low)
+        tag = "_refined"
+    elif V0 > maxv:
+        m = simplify_to_vertices(m, tgt_high)
+        tag = "_simplified"
+    else:
+        if 7000 < V0 < 8500 and prefer_low:
+            m = simplify_to_vertices(m, tgt_mid_l)
+            tag = "_simplified"
+        else:
+            tag = "_kept"
 
-    if n <= 10000:
-        return mesh, "_kept"
+    # Final guard loop to enforce band
+    # If still out of band (decimator/subdivider can be quirky), iterate a few times.
+    for _ in range(4):
+        V = len(m.vertices)
+        if V < minv:
+            m = refine_until(m, tgt_low)
+            tag = "_refined"
+        elif V > maxv:
+            m = simplify_to_vertices(m, tgt_high)
+            tag = "_simplified"
+        else:
+            break
 
-    # n > 10000
-    m2 = simplify_to(mesh, 9000)
-    if len(m2.vertices) < 5000:
-        m2 = refine_until(m2, 5500)
-    return m2, "_simplified"
+    # Clamp once more if tiny drift remains
+    V = len(m.vertices)
+    if V < minv:
+        m = refine_until(m, minv)
+        tag = "_refined"
+    elif V > maxv:
+        m = simplify_to_vertices(m, maxv)
+        tag = "_simplified"
+
+    return m, tag
 
 # 2.5 Normalization (center + scale to unit cube)
 def normalize_mesh(mesh):
@@ -174,6 +199,7 @@ def normalize_mesh(mesh):
         extent = max(V) - min(V)
         s = 1 / max(extent)
         V' = (V - c) * s
+    NOTE: This does NOT change vertex/triangle counts.
     """
     v = np.asarray(mesh.vertices)
     c = v.mean(axis=0)
@@ -198,17 +224,17 @@ def _band_lines():
     for x in (5000, 10000):
         plt.axvline(x, linestyle="--", linewidth=1)
 
-def save_overall_plots(df: pd.DataFrame, out_root: Path, stage: str):
-    """Overall graphs for a stage -> graphs/<stage>/0 overall/*.png"""
+def save_overall_plots(df: pd.DataFrame, out_root: Path, stage: str, bins: int):
+    """Overall graphs for a stage -> graphs/<stage>/overall/*.png"""
     figdir = _ensure(out_root / "graphs" / stage / "0 overall")
 
     plt.figure(figsize=(8,6))
-    df["n_vertices"].hist(bins=40); _band_lines()
+    df["n_vertices"].hist(bins=bins); _band_lines()
     plt.xlabel("n_vertices"); plt.ylabel("count"); plt.title(f"{stage.upper()} — Histogram of n_vertices")
     plt.tight_layout(); plt.savefig(figdir / f"{stage}_hist_n_vertices.png", dpi=150); plt.close()
 
     plt.figure(figsize=(8,6))
-    df["n_faces"].hist(bins=40)
+    df["n_faces"].hist(bins=bins)
     plt.xlabel("n_faces"); plt.ylabel("count"); plt.title(f"{stage.upper()} — Histogram of n_faces")
     plt.tight_layout(); plt.savefig(figdir / f"{stage}_hist_n_faces.png", dpi=150); plt.close()
 
@@ -222,13 +248,11 @@ def save_overall_plots(df: pd.DataFrame, out_root: Path, stage: str):
     plt.xlabel("n_vertices"); plt.ylabel("n_faces"); plt.title(f"{stage.upper()} — Vertices vs Faces")
     plt.tight_layout(); plt.savefig(figdir / f"{stage}_scatter_vertices_vs_faces.png", dpi=150); plt.close()
 
-    # small text summary
     in_band = ((df["n_vertices"] >= 5000) & (df["n_vertices"] <= 10000)).sum()
     total = len(df)
     with open(figdir / f"{stage}_band_compliance.txt", "w") as f:
         f.write(f"Within [5000, 10000]: {in_band} / {total} ({(in_band/total*100):.1f}%)\n")
 
-    # for normalized, add a tiny “closer to 5k or 10k” pie
     if stage == "normalized" and total > 0:
         dist5 = (df["n_vertices"] - 5000).abs()
         dist10 = (df["n_vertices"] - 10000).abs()
@@ -238,7 +262,7 @@ def save_overall_plots(df: pd.DataFrame, out_root: Path, stage: str):
         plt.ylabel(""); plt.title("Normalized — Closer to 5k vs 10k")
         plt.tight_layout(); plt.savefig(figdir / "normalized_closer_5k_vs_10k.png", dpi=150); plt.close()
 
-def save_class_plots(df: pd.DataFrame, out_root: Path, stage: str, k_outliers: int = 5):
+def save_class_plots(df: pd.DataFrame, out_root: Path, stage: str, k_outliers: int, bins: int):
     """
     Per-class graphs & summaries:
       - histograms (n_vertices with band lines, n_faces)
@@ -252,21 +276,18 @@ def save_class_plots(df: pd.DataFrame, out_root: Path, stage: str, k_outliers: i
     for cls, g in df.groupby("cls"):
         cdir = _ensure(base / cls)
 
-        # Histogram: vertices
         plt.figure(figsize=(8,6))
-        g["n_vertices"].hist(bins=30); _band_lines()
+        g["n_vertices"].hist(bins=bins); _band_lines()
         plt.xlabel("n_vertices"); plt.ylabel("count")
         plt.title(f"{stage.upper()} — {cls} — Histogram of n_vertices")
         plt.tight_layout(); plt.savefig(cdir / f"{stage}_{cls}_hist_n_vertices.png", dpi=150); plt.close()
 
-        # Histogram: faces
         plt.figure(figsize=(8,6))
-        g["n_faces"].hist(bins=30)
+        g["n_faces"].hist(bins=bins)
         plt.xlabel("n_faces"); plt.ylabel("count")
         plt.title(f"{stage.upper()} — {cls} — Histogram of n_faces")
         plt.tight_layout(); plt.savefig(cdir / f"{stage}_{cls}_hist_n_faces.png", dpi=150); plt.close()
 
-        # Boxplots
         plt.figure(figsize=(7,5))
         plt.boxplot(g["n_vertices"].values, vert=True, labels=["n_vertices"])
         plt.title(f"{stage.upper()} — {cls} — Boxplot n_vertices")
@@ -277,14 +298,12 @@ def save_class_plots(df: pd.DataFrame, out_root: Path, stage: str, k_outliers: i
         plt.title(f"{stage.upper()} — {cls} — Boxplot n_faces")
         plt.tight_layout(); plt.savefig(cdir / f"{stage}_{cls}_box_faces.png", dpi=150); plt.close()
 
-        # Scatter
         plt.figure(figsize=(8,6))
         plt.scatter(g["n_vertices"], g["n_faces"], s=12); _band_lines()
         plt.xlabel("n_vertices"); plt.ylabel("n_faces")
         plt.title(f"{stage.upper()} — {cls} — Vertices vs Faces")
         plt.tight_layout(); plt.savefig(cdir / f"{stage}_{cls}_scatter_vertices_vs_faces.png", dpi=150); plt.close()
 
-        # Face-type pie
         ft_counts = g["face_type"].value_counts()
         if len(ft_counts) > 0:
             plt.figure(figsize=(6,6))
@@ -292,7 +311,6 @@ def save_class_plots(df: pd.DataFrame, out_root: Path, stage: str, k_outliers: i
             plt.ylabel(""); plt.title(f"{stage.upper()} — {cls} — Face types")
             plt.tight_layout(); plt.savefig(cdir / f"{stage}_{cls}_pie_face_types.png", dpi=150); plt.close()
 
-        # Extension pie
         ext_counts = g["ext"].value_counts()
         if len(ext_counts) > 0:
             plt.figure(figsize=(6,6))
@@ -300,7 +318,6 @@ def save_class_plots(df: pd.DataFrame, out_root: Path, stage: str, k_outliers: i
             plt.ylabel(""); plt.title(f"{stage.upper()} — {cls} — File extensions")
             plt.tight_layout(); plt.savefig(cdir / f"{stage}_{cls}_pie_extensions.png", dpi=150); plt.close()
 
-        # Outliers per class
         k = min(k_outliers, len(g))
         small = g.sort_values(["n_faces","n_vertices"]).head(k)
         large = g.sort_values(["n_faces","n_vertices"], ascending=[False,False]).head(k)
@@ -311,7 +328,6 @@ def save_class_plots(df: pd.DataFrame, out_root: Path, stage: str, k_outliers: i
             f.write(large[["n_vertices","n_faces","path"]].to_string(index=False))
             f.write("\n")
 
-        # Mini class report
         report = {
             "count": int(len(g)),
             "verts_mean": float(g["n_vertices"].mean()),
@@ -336,6 +352,9 @@ def main():
     parser.add_argument("--prefer_high", action="store_true",
                         help="bias in-band meshes toward ~9k (default bias is ~6–7k)")
     parser.add_argument("--limit", type=int, default=0, help="process only first N files (speed check)")
+    parser.add_argument("--bins_overall", type=int, default=120, help="histogram bins for overall plots")
+    parser.add_argument("--bins_class", type=int, default=60, help="histogram bins for per-class plots")
+    parser.add_argument("--class_outliers", type=int, default=5, help="how many per-class outliers to list")
     args = parser.parse_args()
 
     root = Path(args.root)
@@ -356,7 +375,7 @@ def main():
     raw_rows = []
     for p in files:
         m = safe_read_mesh(p)
-        if m is None: 
+        if m is None:
             continue
         rec = analyze_mesh_record(m, p, get_class(p, root))
         raw_rows.append(rec)
@@ -367,8 +386,8 @@ def main():
     df_raw = pd.DataFrame(raw_rows)
     df_raw.to_csv(outdir / "stats_raw.csv", index=False)
     df_raw[["cls","path","n_vertices","n_faces","n_triangles"]].to_csv(outdir / "objects_raw.csv", index=False)
-    save_overall_plots(df_raw, outdir, "raw")
-    save_class_plots(df_raw, outdir, "raw")
+    save_overall_plots(df_raw, outdir, "raw", bins=args.bins_overall)
+    save_class_plots(df_raw, outdir, "raw", k_outliers=args.class_outliers, bins=args.bins_class)
 
     # outliers
     k = min(5, len(df_raw))
@@ -381,7 +400,7 @@ def main():
         f.write("\n\n== Largest (raw) ==\n"); f.write(large[["cls","n_vertices","n_faces","path"]].to_string(index=False))
         f.write("\n\n== Average (raw) ==\n"); f.write(avg_row[["cls","n_vertices","n_faces","path"]].to_string(index=False)); f.write("\n")
 
-    # 2.3 Resample ALL (keep, refine, or simplify)
+    # 2.3 Resample ALL (strict band enforcement)
     resampled_records = []
     for _, r in df_raw.iterrows():
         p = Path(r["path"])
@@ -390,7 +409,7 @@ def main():
         if m is None:
             continue
         n = int(r["n_vertices"])
-        m2, suffix = resample_smart(m, n, prefer_low=(not args.prefer_high))
+        m2, suffix = resample_to_band(m, prefer_low=(not args.prefer_high))
 
         out_cls = resampled_dir / cls
         out_cls.mkdir(parents=True, exist_ok=True)
@@ -402,8 +421,22 @@ def main():
     df_res = pd.DataFrame(resampled_records)
     df_res.to_csv(outdir / "stats_resampled.csv", index=False)
     df_res[["cls","path","n_vertices","n_faces","n_triangles"]].to_csv(outdir / "objects_resampled.csv", index=False)
-    save_overall_plots(df_res, outdir, "resampled")
-    save_class_plots(df_res, outdir, "resampled")
+    save_overall_plots(df_res, outdir, "resampled", bins=args.bins_overall)
+    save_class_plots(df_res, outdir, "resampled", k_outliers=args.class_outliers, bins=args.bins_class)
+
+    # Write a quick check for any violations (should be zero)
+    below = df_res[df_res["n_vertices"] < 5000]
+    above = df_res[df_res["n_vertices"] > 10000]
+    if len(below) or len(above):
+        with open(outdir / "violations_resampled.txt", "w") as f:
+            if len(below):
+                f.write("== Below 5k ==\n")
+                f.write(below[["cls","n_vertices","n_faces","path"]].to_string(index=False))
+                f.write("\n\n")
+            if len(above):
+                f.write("== Above 10k ==\n")
+                f.write(above[["cls","n_vertices","n_faces","path"]].to_string(index=False))
+                f.write("\n")
 
     small_r = df_res.sort_values(["n_faces","n_vertices"]).head(min(5, len(df_res)))
     large_r = df_res.sort_values(["n_faces","n_vertices"], ascending=[False,False]).head(min(5, len(df_res)))
@@ -419,7 +452,7 @@ def main():
     for _, r in df_res.iterrows():
         p = Path(r["path"])
         m = safe_read_mesh(p)
-        if m is None: 
+        if m is None:
             continue
         m_norm = normalize_mesh(m)
 
@@ -433,8 +466,8 @@ def main():
     df_norm = pd.DataFrame(norm_records)
     df_norm.to_csv(outdir / "stats_normalized.csv", index=False)
     df_norm[["cls","path","n_vertices","n_faces","n_triangles"]].to_csv(outdir / "objects_normalized.csv", index=False)
-    save_overall_plots(df_norm, outdir, "normalized")
-    save_class_plots(df_norm, outdir, "normalized")
+    save_overall_plots(df_norm, outdir, "normalized", bins=args.bins_overall)
+    save_class_plots(df_norm, outdir, "normalized", k_outliers=args.class_outliers, bins=args.bins_class)
 
     small_n = df_norm.sort_values(["n_faces","n_vertices"]).head(min(5, len(df_norm)))
     large_n = df_norm.sort_values(["n_faces","n_vertices"], ascending=[False,False]).head(min(5, len(df_norm)))
@@ -448,6 +481,7 @@ def main():
     print("[DONE] Step 2 complete.")
     print("Graphs: step2_results/graphs/{raw,resampled,normalized}/{overall,<Class>}/")
     print("Meshes: resampled/ and normalized/ contain ALL objects (kept/refined/simplified).")
+    print("Note: Normalization does NOT change vertex counts; resampling enforces 5k–10k.")
 
 if __name__ == "__main__":
     main()

@@ -1,15 +1,15 @@
 == Guitar — Smallest (normalized) ==
- n_vertices  n_faces                                                    path
-       2795     5499 step2_results\normalized\Guitar\D00534_refined_norm.obj
-       2815     5499 step2_results\normalized\Guitar\D00222_refined_norm.obj
-       2898     5499 step2_results\normalized\Guitar\D00023_refined_norm.obj
-       2994     5499 step2_results\normalized\Guitar\D00414_refined_norm.obj
-       3037     5499 step2_results\normalized\Guitar\D00464_refined_norm.obj
+ n_vertices  n_faces                                                       path
+       5530    10792       step2_results\normalized\Guitar\D00655_kept_norm.obj
+       6015    11468    step2_results\normalized\Guitar\D00124_refined_norm.obj
+       6140    11543       step2_results\normalized\Guitar\D00232_kept_norm.obj
+       6779    12226 step2_results\normalized\Guitar\D00844_simplified_norm.obj
+       7342    14400    step2_results\normalized\Guitar\D00534_refined_norm.obj
 
 == {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                       path
-      14612    27196 step2_results\normalized\Guitar\D00844_simplified_norm.obj
-       8636    16930       step2_results\normalized\Guitar\D00461_kept_norm.obj
-       8888    15145       step2_results\normalized\Guitar\D00076_kept_norm.obj
-       6140    11543       step2_results\normalized\Guitar\D00232_kept_norm.obj
-       5530    10792       step2_results\normalized\Guitar\D00655_kept_norm.obj
+       9017    17942 step2_results\normalized\Guitar\D00097_simplified_norm.obj
+       9128    17854 step2_results\normalized\Guitar\D00335_simplified_norm.obj
+       8979    17833 step2_results\normalized\Guitar\D00645_simplified_norm.obj
+       9013    17808 step2_results\normalized\Guitar\D00222_simplified_norm.obj
+       9053    17807 step2_results\normalized\Guitar\D00023_simplified_norm.obj

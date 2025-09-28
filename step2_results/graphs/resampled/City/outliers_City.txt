@@ -1,15 +1,15 @@
 == City — Smallest (resampled) ==
- n_vertices  n_faces                                            path
-       5135     5213    step2_results\resampled\City\D01181_kept.obj
-       3968     5338 step2_results\resampled\City\D01092_refined.obj
-       3322     5451 step2_results\resampled\City\D01173_refined.obj
-       3322     5451  step2_results\resampled\City\m1660_refined.obj
-       3367     5483 step2_results\resampled\City\D01010_refined.obj
+ n_vertices  n_faces                                         path
+       5135     5213 step2_results\resampled\City\D01181_kept.obj
+       6615     7637 step2_results\resampled\City\D01001_kept.obj
+       5138     8732 step2_results\resampled\City\D01124_kept.obj
+       5532     9169  step2_results\resampled\City\m1654_kept.obj
+       5535     9169 step2_results\resampled\City\D01068_kept.obj
 
 == {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                               path
-      14221    27196 step2_results\resampled\City\D01090_simplified.obj
+       9139    17211 step2_results\resampled\City\D01091_simplified.obj
        9894    16671       step2_results\resampled\City\D01066_kept.obj
+       9062    16597  step2_results\resampled\City\m1661_simplified.obj
+       9069    16588 step2_results\resampled\City\D01039_simplified.obj
        9201    15870       step2_results\resampled\City\D01079_kept.obj
-       9201    15870        step2_results\resampled\City\m1662_kept.obj
-       5780    10656       step2_results\resampled\City\D01133_kept.obj

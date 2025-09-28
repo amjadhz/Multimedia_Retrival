@@ -1,15 +1,15 @@
 == Ship — Smallest (resampled) ==
- n_vertices  n_faces                                            path
-       2191     3830  step2_results\resampled\Ship\m1450_refined.obj
-       3727     5379 step2_results\resampled\Ship\D00467_refined.obj
-       2742     5385  step2_results\resampled\Ship\m1470_refined.obj
-       3334     5401  step2_results\resampled\Ship\m1429_refined.obj
-       2887     5495  step2_results\resampled\Ship\m1464_refined.obj
+ n_vertices  n_faces                                         path
+       6119    10502  step2_results\resampled\Ship\m1446_kept.obj
+       6122    10502 step2_results\resampled\Ship\D00247_kept.obj
+       6122    10502 step2_results\resampled\Ship\D00837_kept.obj
+       6923    10513  step2_results\resampled\Ship\m1465_kept.obj
+       6892    10725 step2_results\resampled\Ship\D00258_kept.obj
 
 == {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                               path
-      14029    27196 step2_results\resampled\Ship\D00543_simplified.obj
-      13707    27196  step2_results\resampled\Ship\m1453_simplified.obj
+       9911    19712     step2_results\resampled\Ship\m1463_refined.obj
        9703    18883        step2_results\resampled\Ship\m1466_kept.obj
+       9576    18756     step2_results\resampled\Ship\m1458_refined.obj
        9227    18210       step2_results\resampled\Ship\D00907_kept.obj
-       6859    12552        step2_results\resampled\Ship\m1442_kept.obj
+       9000    18000 step2_results\resampled\Ship\D00099_simplified.obj

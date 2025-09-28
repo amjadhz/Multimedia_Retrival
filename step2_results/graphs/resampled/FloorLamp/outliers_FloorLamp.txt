@@ -1,15 +1,15 @@
 == FloorLamp — Smallest (resampled) ==
  n_vertices  n_faces                                                 path
-       2801     5491 step2_results\resampled\FloorLamp\D00408_refined.obj
-       2758     5499   step2_results\resampled\FloorLamp\m623_refined.obj
-       2767     5499   step2_results\resampled\FloorLamp\m621_refined.obj
-       2774     5499 step2_results\resampled\FloorLamp\D00388_refined.obj
-       2774     5499 step2_results\resampled\FloorLamp\D00495_refined.obj
+       5097     9970    step2_results\resampled\FloorLamp\D00211_kept.obj
+       5584    11058      step2_results\resampled\FloorLamp\m620_kept.obj
+       5617    11136   step2_results\resampled\FloorLamp\m619_refined.obj
+       6575    12864 step2_results\resampled\FloorLamp\D00981_refined.obj
+       6470    12928   step2_results\resampled\FloorLamp\m618_refined.obj
 
 == {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                    path
-      13636    27200 step2_results\resampled\FloorLamp\D00186_simplified.obj
-      13621    27200 step2_results\resampled\FloorLamp\D00955_simplified.obj
+       9736    19456      step2_results\resampled\FloorLamp\m624_refined.obj
        9578    18962       step2_results\resampled\FloorLamp\D00400_kept.obj
-       5617    11136      step2_results\resampled\FloorLamp\m619_refined.obj
-       5584    11058         step2_results\resampled\FloorLamp\m620_kept.obj
+       9003    17994 step2_results\resampled\FloorLamp\D00228_simplified.obj
+       9001    17994 step2_results\resampled\FloorLamp\D00876_simplified.obj
+       9000    17994 step2_results\resampled\FloorLamp\D00856_simplified.obj

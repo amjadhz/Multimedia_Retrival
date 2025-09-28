@@ -1,15 +1,15 @@
 == Quadruped — Smallest (normalized) ==
  n_vertices  n_faces                                                       path
-       2778     5488    step2_results\normalized\Quadruped\m97_refined_norm.obj
-       2751     5499 step2_results\normalized\Quadruped\D00226_refined_norm.obj
-       2752     5499   step2_results\normalized\Quadruped\m104_refined_norm.obj
-       2763     5499   step2_results\normalized\Quadruped\m276_refined_norm.obj
-       2765     5499    step2_results\normalized\Quadruped\m98_refined_norm.obj
+       5163    10034       step2_results\normalized\Quadruped\m96_kept_norm.obj
+       5506    11008   step2_results\normalized\Quadruped\m106_refined_norm.obj
+       5779    11542    step2_results\normalized\Quadruped\m99_refined_norm.obj
+       6394    12668 step2_results\normalized\Quadruped\D00831_refined_norm.obj
+       6394    12668    step2_results\normalized\Quadruped\m91_refined_norm.obj
 
 == {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                          path
-      13670    27200 step2_results\normalized\Quadruped\D00700_simplified_norm.obj
-      13654    27200   step2_results\normalized\Quadruped\m112_simplified_norm.obj
-      13602    27200 step2_results\normalized\Quadruped\D00509_simplified_norm.obj
-      13602    27200 step2_results\normalized\Quadruped\D00794_simplified_norm.obj
-       6344    12676       step2_results\normalized\Quadruped\D00867_kept_norm.obj
+       9666    19328      step2_results\normalized\Quadruped\m100_refined_norm.obj
+       9203    18296    step2_results\normalized\Quadruped\D00111_refined_norm.obj
+       9183    18292      step2_results\normalized\Quadruped\m276_refined_norm.obj
+       8998    18003   step2_results\normalized\Quadruped\m108_simplified_norm.obj
+       9000    17996 step2_results\normalized\Quadruped\D00218_simplified_norm.obj

@@ -1,15 +1,15 @@
 == Hat — Smallest (normalized) ==
  n_vertices  n_faces                                                path
-       2765     5499 step2_results\normalized\Hat\m1629_refined_norm.obj
-       2982     5499 step2_results\normalized\Hat\m1631_refined_norm.obj
-       2752     5500 step2_results\normalized\Hat\m1630_refined_norm.obj
-       2752     5500 step2_results\normalized\Hat\m1636_refined_norm.obj
-       2752     5500 step2_results\normalized\Hat\m1637_refined_norm.obj
+       5071    10165    step2_results\normalized\Hat\m1635_kept_norm.obj
+       5814    11562    step2_results\normalized\Hat\m1634_kept_norm.obj
+       6786    13568 step2_results\normalized\Hat\m1636_refined_norm.obj
+       7539    13624 step2_results\normalized\Hat\m1631_refined_norm.obj
+       8053    15984 step2_results\normalized\Hat\m1639_refined_norm.obj
 
 == {cls} — Largest ({stage}) ==
- n_vertices  n_faces                                                path
-       8796    17614    step2_results\normalized\Hat\m1638_kept_norm.obj
-       5814    11562    step2_results\normalized\Hat\m1634_kept_norm.obj
-       5441    10612 step2_results\normalized\Hat\m1633_refined_norm.obj
-       5071    10165    step2_results\normalized\Hat\m1635_kept_norm.obj
-       5055    10056 step2_results\normalized\Hat\m1632_refined_norm.obj
+ n_vertices  n_faces                                                   path
+       9000    17996 step2_results\normalized\Hat\m1637_simplified_norm.obj
+       9000    17996 step2_results\normalized\Hat\m1640_simplified_norm.obj
+       9003    17994 step2_results\normalized\Hat\m1641_simplified_norm.obj
+       9004    17988 step2_results\normalized\Hat\m1627_simplified_norm.obj
+       9010    17939 step2_results\normalized\Hat\m1632_simplified_norm.obj

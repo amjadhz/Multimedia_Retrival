@@ -1,15 +1,15 @@
 == Musical_Instrument — Smallest (normalized) ==
- n_vertices  n_faces                                                              path
-       2795     5453 step2_results\normalized\Musical_Instrument\m632_refined_norm.obj
-       2849     5499 step2_results\normalized\Musical_Instrument\m646_refined_norm.obj
-       2851     5499 step2_results\normalized\Musical_Instrument\m638_refined_norm.obj
-       3088     5499 step2_results\normalized\Musical_Instrument\m647_refined_norm.obj
-       4012     5499 step2_results\normalized\Musical_Instrument\m645_refined_norm.obj
+ n_vertices  n_faces                                                                 path
+       6752    11888 step2_results\normalized\Musical_Instrument\m627_simplified_norm.obj
+       6831    13302 step2_results\normalized\Musical_Instrument\m629_simplified_norm.obj
+       7334    14392    step2_results\normalized\Musical_Instrument\m641_refined_norm.obj
+       9022    14955 step2_results\normalized\Musical_Instrument\m645_simplified_norm.obj
+       8905    15622 step2_results\normalized\Musical_Instrument\m633_simplified_norm.obj
 
 == {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                                 path
-      13780    27200 step2_results\normalized\Musical_Instrument\m629_simplified_norm.obj
-      14423    27182 step2_results\normalized\Musical_Instrument\m627_simplified_norm.obj
-       8634    16926       step2_results\normalized\Musical_Instrument\m637_kept_norm.obj
-       4968     9520    step2_results\normalized\Musical_Instrument\m643_refined_norm.obj
-       4966     9012    step2_results\normalized\Musical_Instrument\m634_refined_norm.obj
+       9013    17941 step2_results\normalized\Musical_Instrument\m640_simplified_norm.obj
+       9041    17878 step2_results\normalized\Musical_Instrument\m638_simplified_norm.obj
+       9086    17814 step2_results\normalized\Musical_Instrument\m626_simplified_norm.obj
+       9054    17799 step2_results\normalized\Musical_Instrument\m625_simplified_norm.obj
+       8971    17785 step2_results\normalized\Musical_Instrument\m632_simplified_norm.obj

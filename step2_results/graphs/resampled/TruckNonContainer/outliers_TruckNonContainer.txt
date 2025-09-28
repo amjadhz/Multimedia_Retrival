@@ -1,15 +1,15 @@
 == TruckNonContainer — Smallest (resampled) ==
- n_vertices  n_faces                                                         path
-       2764     5256 step2_results\resampled\TruckNonContainer\D00143_refined.obj
-       3205     5487 step2_results\resampled\TruckNonContainer\D00737_refined.obj
-       2812     5499 step2_results\resampled\TruckNonContainer\D00879_refined.obj
-       2836     5499 step2_results\resampled\TruckNonContainer\D00252_refined.obj
-       2855     5499 step2_results\resampled\TruckNonContainer\D00148_refined.obj
+ n_vertices  n_faces                                                      path
+       5246    10001 step2_results\resampled\TruckNonContainer\D00783_kept.obj
+       5071    10235 step2_results\resampled\TruckNonContainer\D00699_kept.obj
+       5231    10302 step2_results\resampled\TruckNonContainer\D00619_kept.obj
+       5492    10837 step2_results\resampled\TruckNonContainer\D00275_kept.obj
+       6979    11009 step2_results\resampled\TruckNonContainer\D00283_kept.obj
 
 == {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                            path
-      14621    27200 step2_results\resampled\TruckNonContainer\D00608_simplified.obj
-      14110    27200 step2_results\resampled\TruckNonContainer\D00055_simplified.obj
-      14055    27200 step2_results\resampled\TruckNonContainer\D00553_simplified.obj
-       8850    14607       step2_results\resampled\TruckNonContainer\D00943_kept.obj
-       6898    12657       step2_results\resampled\TruckNonContainer\D00266_kept.obj
+       9549    18532    step2_results\resampled\TruckNonContainer\D00148_refined.obj
+       9090    17735 step2_results\resampled\TruckNonContainer\D00879_simplified.obj
+       9047    17660    step2_results\resampled\TruckNonContainer\D00252_refined.obj
+       9394    17392    step2_results\resampled\TruckNonContainer\D00737_refined.obj
+       8910    17304 step2_results\resampled\TruckNonContainer\D00731_simplified.obj

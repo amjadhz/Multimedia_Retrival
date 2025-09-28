@@ -1,15 +1,15 @@
 == Truck — Smallest (normalized) ==
  n_vertices  n_faces                                                   path
-       2734     5423 step2_results\normalized\Truck\D00424_refined_norm.obj
-       2870     5447  step2_results\normalized\Truck\m1576_refined_norm.obj
-       2818     5499  step2_results\normalized\Truck\m1574_refined_norm.obj
-       2887     5499 step2_results\normalized\Truck\D00947_refined_norm.obj
-       2838     5500 step2_results\normalized\Truck\D00002_refined_norm.obj
+       5183     9199    step2_results\normalized\Truck\D00029_kept_norm.obj
+       5404     9669    step2_results\normalized\Truck\D00518_kept_norm.obj
+       5266     9855    step2_results\normalized\Truck\D00287_kept_norm.obj
+       5467     9986    step2_results\normalized\Truck\D00926_kept_norm.obj
+       5772    10438 step2_results\normalized\Truck\D00406_refined_norm.obj
 
 == {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                      path
-      14571    27186 step2_results\normalized\Truck\D00158_simplified_norm.obj
-      15125    27128 step2_results\normalized\Truck\D00112_simplified_norm.obj
        9613    18340        step2_results\normalized\Truck\m1572_kept_norm.obj
-       8925    15946       step2_results\normalized\Truck\D00303_kept_norm.obj
-       6936    12710       step2_results\normalized\Truck\D00010_kept_norm.obj
+       9037    17902 step2_results\normalized\Truck\D00241_simplified_norm.obj
+       9028    17830  step2_results\normalized\Truck\m1574_simplified_norm.obj
+       9063    17645 step2_results\normalized\Truck\D00047_simplified_norm.obj
+       9022    17448 step2_results\normalized\Truck\D00947_simplified_norm.obj

@@ -1,15 +1,15 @@
 == HumanHead — Smallest (normalized) ==
- n_vertices  n_faces                                                       path
-       2350     3477   step2_results\normalized\HumanHead\m347_refined_norm.obj
-       3159     5069 step2_results\normalized\HumanHead\D00061_refined_norm.obj
-       2788     5494 step2_results\normalized\HumanHead\D00434_refined_norm.obj
-       3016     5495   step2_results\normalized\HumanHead\m344_refined_norm.obj
-       2756     5499   step2_results\normalized\HumanHead\m366_refined_norm.obj
+ n_vertices  n_faces                                                    path
+       5167    10112 step2_results\normalized\HumanHead\D00591_kept_norm.obj
+       5228    10203 step2_results\normalized\HumanHead\D00013_kept_norm.obj
+       5161    10222 step2_results\normalized\HumanHead\D00131_kept_norm.obj
+       5284    10387 step2_results\normalized\HumanHead\D00072_kept_norm.obj
+       5276    10432 step2_results\normalized\HumanHead\D00106_kept_norm.obj
 
 == {cls} — Largest ({stage}) ==
- n_vertices  n_faces                                                          path
-      13702    27200 step2_results\normalized\HumanHead\D00578_simplified_norm.obj
-      13602    27200   step2_results\normalized\HumanHead\m353_simplified_norm.obj
-       9843    19464         step2_results\normalized\HumanHead\m369_kept_norm.obj
-       9148    18008         step2_results\normalized\HumanHead\m348_kept_norm.obj
-       6211    12349       step2_results\normalized\HumanHead\D00488_kept_norm.obj
+ n_vertices  n_faces                                                        path
+       9843    19464       step2_results\normalized\HumanHead\m369_kept_norm.obj
+       9865    19152    step2_results\normalized\HumanHead\m352_refined_norm.obj
+       9234    18412  step2_results\normalized\HumanHead\D00984_refined_norm.obj
+       9148    18008       step2_results\normalized\HumanHead\m348_kept_norm.obj
+       9000    17996 step2_results\normalized\HumanHead\m355_simplified_norm.obj

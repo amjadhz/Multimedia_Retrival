@@ -1,15 +1,15 @@
 == Bird — Smallest (normalized) ==
  n_vertices  n_faces                                                  path
-       2705     5243    step2_results\normalized\Bird\m42_refined_norm.obj
-       2749     5487    step2_results\normalized\Bird\m38_refined_norm.obj
-       2753     5499 step2_results\normalized\Bird\D00862_refined_norm.obj
-       2763     5499 step2_results\normalized\Bird\D00438_refined_norm.obj
-       2763     5499    step2_results\normalized\Bird\m41_refined_norm.obj
+       6057    11644       step2_results\normalized\Bird\m28_kept_norm.obj
+       5826    11648    step2_results\normalized\Bird\m50_refined_norm.obj
+       5947    11872 step2_results\normalized\Bird\D00999_refined_norm.obj
+       6135    11936    step2_results\normalized\Bird\m30_refined_norm.obj
+       6386    12768    step2_results\normalized\Bird\m44_refined_norm.obj
 
 == {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                     path
-      13747    27196 step2_results\normalized\Bird\D00164_simplified_norm.obj
-       8996    17079       step2_results\normalized\Bird\D00442_kept_norm.obj
-       5947    11872    step2_results\normalized\Bird\D00999_refined_norm.obj
-       5826    11648       step2_results\normalized\Bird\m50_refined_norm.obj
-       6057    11644          step2_results\normalized\Bird\m28_kept_norm.obj
+       9517    18496       step2_results\normalized\Bird\m39_refined_norm.obj
+       9042    18080       step2_results\normalized\Bird\m37_refined_norm.obj
+       9000    17996 step2_results\normalized\Bird\D00089_simplified_norm.obj
+       9000    17996 step2_results\normalized\Bird\D00762_simplified_norm.obj
+       9000    17996    step2_results\normalized\Bird\m34_simplified_norm.obj

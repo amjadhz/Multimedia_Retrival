@@ -1,15 +1,15 @@
 == Computer — Smallest (resampled) ==
  n_vertices  n_faces                                                path
-       3797     5453 step2_results\resampled\Computer\D01082_refined.obj
-       3229     5467  step2_results\resampled\Computer\m1773_refined.obj
-       3228     5470 step2_results\resampled\Computer\D01028_refined.obj
-       2817     5488 step2_results\resampled\Computer\D01070_refined.obj
-       2873     5499 step2_results\resampled\Computer\D01100_refined.obj
-
-== {cls} — Largest ({stage}) ==
- n_vertices  n_faces                                                path
-       6515    11201    step2_results\resampled\Computer\D01115_kept.obj
+       5026     9528    step2_results\resampled\Computer\D01067_kept.obj
+       5026     9528     step2_results\resampled\Computer\m1778_kept.obj
        5594    11008 step2_results\resampled\Computer\D01071_refined.obj
        5594    11008  step2_results\resampled\Computer\m1766_refined.obj
-       4972     9888 step2_results\resampled\Computer\D01072_refined.obj
-       4972     9888  step2_results\resampled\Computer\m1777_refined.obj
+       6515    11201    step2_results\resampled\Computer\D01115_kept.obj
+
+== {cls} — Largest ({stage}) ==
+ n_vertices  n_faces                                                   path
+       9736    19456    step2_results\resampled\Computer\D01085_refined.obj
+       9736    19456     step2_results\resampled\Computer\m1769_refined.obj
+       9010    17976  step2_results\resampled\Computer\m1774_simplified.obj
+       9024    17960 step2_results\resampled\Computer\D01072_simplified.obj
+       9024    17960  step2_results\resampled\Computer\m1777_simplified.obj

@@ -1,15 +1,15 @@
 == Bottle — Smallest (resampled) ==
- n_vertices  n_faces                                              path
-       2798     5487 step2_results\resampled\Bottle\D00716_refined.obj
-       2793     5491 step2_results\resampled\Bottle\D00139_refined.obj
-       2752     5499   step2_results\resampled\Bottle\m484_refined.obj
-       2763     5499 step2_results\resampled\Bottle\D00350_refined.obj
-       2766     5499 step2_results\resampled\Bottle\D00281_refined.obj
+ n_vertices  n_faces                                                 path
+       5504    10968    step2_results\resampled\Bottle\D00390_refined.obj
+       5633    11264      step2_results\resampled\Bottle\m492_refined.obj
+       6787    13408    step2_results\resampled\Bottle\D00716_refined.obj
+       6800    13596 step2_results\resampled\Bottle\D00176_simplified.obj
+       7174    14208      step2_results\resampled\Bottle\m484_refined.obj
 
 == {cls} — Largest ({stage}) ==
- n_vertices  n_faces                                                 path
-      13602    27200 step2_results\resampled\Bottle\D00176_simplified.obj
-       9294    18390       step2_results\resampled\Bottle\D00726_kept.obj
-       9202    18236       step2_results\resampled\Bottle\D00451_kept.obj
-       5633    11264      step2_results\resampled\Bottle\m492_refined.obj
-       5504    10968    step2_results\resampled\Bottle\D00390_refined.obj
+ n_vertices  n_faces                                              path
+       9949    19872 step2_results\resampled\Bottle\D00940_refined.obj
+       9884    19760 step2_results\resampled\Bottle\D00892_refined.obj
+       9730    19360 step2_results\resampled\Bottle\D00139_refined.obj
+       9294    18390    step2_results\resampled\Bottle\D00726_kept.obj
+       9202    18236    step2_results\resampled\Bottle\D00451_kept.obj

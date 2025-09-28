@@ -1,15 +1,15 @@
 == Monitor — Smallest (normalized) ==
  n_vertices  n_faces                                                     path
-       2793     5499 step2_results\normalized\Monitor\D00920_refined_norm.obj
-       2795     5499 step2_results\normalized\Monitor\D00141_refined_norm.obj
-       2837     5499 step2_results\normalized\Monitor\D00391_refined_norm.obj
-       2758     5500 step2_results\normalized\Monitor\D00469_refined_norm.obj
-       2784     5500 step2_results\normalized\Monitor\D00659_refined_norm.obj
+       6194    11984    step2_results\normalized\Monitor\D00852_kept_norm.obj
+       6489    12796 step2_results\normalized\Monitor\D00141_refined_norm.obj
+       7084    13952 step2_results\normalized\Monitor\D00391_refined_norm.obj
+       7100    14064 step2_results\normalized\Monitor\D00548_refined_norm.obj
+       7268    14448 step2_results\normalized\Monitor\D00920_refined_norm.obj
 
 == {cls} — Largest ({stage}) ==
- n_vertices  n_faces                                                     path
-       9961    19638    step2_results\normalized\Monitor\D00444_kept_norm.obj
-       9485    15511    step2_results\normalized\Monitor\D00336_kept_norm.obj
-       6194    11984    step2_results\normalized\Monitor\D00852_kept_norm.obj
-       5130    10184 step2_results\normalized\Monitor\D00007_refined_norm.obj
-       5083     9500 step2_results\normalized\Monitor\D00339_refined_norm.obj
+ n_vertices  n_faces                                                        path
+       9961    19638       step2_results\normalized\Monitor\D00444_kept_norm.obj
+       9508    18816    step2_results\normalized\Monitor\D00659_refined_norm.obj
+       9002    17996 step2_results\normalized\Monitor\D00387_simplified_norm.obj
+       9002    17988 step2_results\normalized\Monitor\D00469_simplified_norm.obj
+       9001    17948 step2_results\normalized\Monitor\D00978_simplified_norm.obj

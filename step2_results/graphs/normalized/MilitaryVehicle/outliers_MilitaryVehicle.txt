@@ -1,15 +1,15 @@
 == MilitaryVehicle — Smallest (normalized) ==
  n_vertices  n_faces                                                                path
-       2898     5484    step2_results\normalized\MilitaryVehicle\D00051_refined_norm.obj
-       2911     5499    step2_results\normalized\MilitaryVehicle\D00100_refined_norm.obj
-       2798     5500    step2_results\normalized\MilitaryVehicle\D00799_refined_norm.obj
-       3170     5500    step2_results\normalized\MilitaryVehicle\D00611_refined_norm.obj
-       4362     6799 step2_results\normalized\MilitaryVehicle\D00971_simplified_norm.obj
+       5858     9906       step2_results\normalized\MilitaryVehicle\D00334_kept_norm.obj
+       6774    11138 step2_results\normalized\MilitaryVehicle\D00971_simplified_norm.obj
+       9915    12532 step2_results\normalized\MilitaryVehicle\D00173_simplified_norm.obj
+       9170    12535 step2_results\normalized\MilitaryVehicle\D00933_simplified_norm.obj
+       7936    12591 step2_results\normalized\MilitaryVehicle\D00723_simplified_norm.obj
 
 == {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                                path
-      17850    35988 step2_results\normalized\MilitaryVehicle\D00801_simplified_norm.obj
-      13664    27200 step2_results\normalized\MilitaryVehicle\D00761_simplified_norm.obj
        9744    19260       step2_results\normalized\MilitaryVehicle\D00952_kept_norm.obj
-       5858     9906       step2_results\normalized\MilitaryVehicle\D00334_kept_norm.obj
-       7572     9000 step2_results\normalized\MilitaryVehicle\D00173_simplified_norm.obj
+       8847    18099 step2_results\normalized\MilitaryVehicle\D00801_simplified_norm.obj
+       9007    17918 step2_results\normalized\MilitaryVehicle\D00799_simplified_norm.obj
+       9592    17900    step2_results\normalized\MilitaryVehicle\D00611_refined_norm.obj
+       9040    17599 step2_results\normalized\MilitaryVehicle\D00051_simplified_norm.obj
