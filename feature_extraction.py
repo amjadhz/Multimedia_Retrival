@@ -2,7 +2,9 @@ import open3d as o3d
 import numpy as np
 from pathlib import Path
 
-mesh_path = "step2_results\\normalized\Car\m1495_kept_norm.obj"
+mesh_path = "step2_results\\normalized\Car\D00168_simplified_norm.obj"
+
+# This part removes the old suffixes "refined_norm", "simplified_norm", etc. from the path
 
 path = Path(mesh_path)
 stem = path.stem
@@ -23,6 +25,7 @@ triangles = np.asarray(mesh.triangles)
 matrix = [[],
           [],
           [],]
+
 for x,y,z in vertices:
     matrix[0].append(x)
     matrix[1].append(y)
@@ -34,7 +37,7 @@ eigenvalues, eigenvectors = np.linalg.eig(A_cov)
 indices = np.argsort(eigenvalues)[::-1]
 eigenvalues = eigenvalues[indices]
 eigenvectors = eigenvectors[:, indices]
-print(eigenvalues)
+
 major = eigenvectors[:, 0]
 medium = eigenvectors[:, 1]
 minor = eigenvectors[:, 2]
@@ -45,8 +48,6 @@ for v in vertices:
     y_updated = (np.dot(v, medium))
     z_updated = (np.dot(v, np.cross(major, medium)))
     updated_matrix.append([x_updated, y_updated, z_updated])
-
-
 
 # Moment test
 
@@ -59,7 +60,7 @@ for t in triangles:
 
 for v in vertices:
     x_updated = x_updated * np.sign(f[0])
-    y_updated = y_updated * -1
+    y_updated = y_updated * np.sign(f[1])
     z_updated = z_updated * np.sign(f[2])
     updated_matrix.append([x_updated, y_updated, z_updated])
 updated_matrix = np.array(updated_matrix)
