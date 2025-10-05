@@ -37,8 +37,13 @@ def compute_single_descriptors(mesh: o3d.geometry.TriangleMesh):
         volume = abs(mesh.get_volume())
         print(f"2. Volume: {volume:.6f}")
     except:
-        volume = np.nan
-        print(f"2. Volume: NaN (mesh not watertight)")
+
+        try:
+            volume = compute_signed_volume(v, f)
+            print(f"2. Volume: {volume:.6f} (approximation for non-watertight mesh)")
+        except:
+            volume = np.nan
+            print(f"2. Volume: NaN (computation failed)")
 
     # 3. Compactness (relative to sphere)
     # Formula: c = S³/(36πV²); sphere = 1.0, others > 1.0
@@ -84,6 +89,40 @@ def compute_single_descriptors(mesh: o3d.geometry.TriangleMesh):
         'eccentricity': float(eccentricity),
     }
 
+
+def compute_signed_volume(vertices, triangles):
+    """
+    Compute volume using the tetrahedron decomposition method.
+    Formula: V = (1/6) * Σ |det([v1, v2, v3])|
+    where v1, v2, v3 are vectors from origin to triangle vertices.
+    """
+    origin = np.array([0.0, 0.0, 0.0])
+    total_volume = 0.0
+
+    for tri in triangles:
+        # Get triangle vertices
+        x1 = vertices[tri[0]]
+        x2 = vertices[tri[1]]
+        x3 = vertices[tri[2]]
+
+        # Vectors from origin to vertices
+        v1 = x1 - origin
+        v2 = x2 - origin
+        v3 = x3 - origin
+
+        # Volume of tetrahedron: V = (1/6) * det([v1, v2, v3])
+        # Cross product: v1 × v2
+        cross_product = np.cross(v1, v2)
+
+        # Scalar triple product: (v1 × v2) · v3
+        scalar_triple = np.dot(cross_product, v3)
+
+        # Signed volume of this tetrahedron
+        tetrahedron_volume = scalar_triple / 6.0
+
+        total_volume += tetrahedron_volume
+
+    return abs(total_volume)
 
 def compute_distribution_descriptors(mesh: o3d.geometry.TriangleMesh, n_samples=10000, n_bins=64):
     """Compute distribution descriptors (A3, D1, D2, D3, D4)"""
