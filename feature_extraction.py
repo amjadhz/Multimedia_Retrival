@@ -58,16 +58,18 @@ for t in triangles:
     for i in range(3):
         f[i] += np.sign(center[i]) * (center[i] ** 2) 
 
-for v in vertices:
-    x_updated = x_updated * np.sign(f[0])
-    y_updated = y_updated * np.sign(f[1])
-    z_updated = z_updated * np.sign(f[2])
-    updated_matrix.append([x_updated, y_updated, z_updated])
-updated_matrix = np.array(updated_matrix)
+
+new_matrix = []
+for v in updated_matrix:
+    v[0] = v[0] * np.sign(f[0])
+    v[1] = v[1] * np.sign(f[1])
+    v[2] = v[2] * np.sign(f[2])
+    new_matrix.append([v[0], v[1], v[2]])
+new_matrix = np.array(new_matrix)
 
 
 new_mesh = o3d.geometry.TriangleMesh()
-new_mesh.vertices = o3d.utility.Vector3dVector(updated_matrix)
+new_mesh.vertices = o3d.utility.Vector3dVector(new_matrix)
 new_mesh.triangles = o3d.utility.Vector3iVector(triangles)
 
 out_path = Path(f"step3_results/full_normalized/{new_stem}_full_norm.obj")
