@@ -136,7 +136,13 @@ def compute_distribution_descriptors(mesh: o3d.geometry.TriangleMesh, n_samples=
     idx = np.random.randint(0, n_verts, (n_samples, 4))
 
     # A3: angle between 3 random vertices
+    idx = np.random.randint(0, n_verts, (n_samples, 4))
     v1, v2, v3 = v[idx[:, 0]], v[idx[:, 1]], v[idx[:, 2]]
+
+    # remove duplicate vertice
+    mask = (idx[:, 0] != idx[:, 1]) & (idx[:, 0] != idx[:, 2]) & (idx[:, 1] != idx[:, 2])
+    v1, v2, v3 = v1[mask], v2[mask], v3[mask]
+
     vec1 = v1 - v2
     vec2 = v3 - v2
     cos_angle = np.sum(vec1 * vec2, axis=1) / (np.linalg.norm(vec1, axis=1) * np.linalg.norm(vec2, axis=1) + 1e-12)
