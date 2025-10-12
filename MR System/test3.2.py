@@ -3,6 +3,8 @@ import numpy as np
 import open3d as o3d
 from scipy.spatial import ConvexHull
 from scipy.spatial.distance import pdist
+import random
+import math
 
 
 def safe_read_mesh(p: Path):
@@ -124,60 +126,246 @@ def compute_signed_volume(vertices, triangles):
 
     return abs(total_volume)
 
-def compute_distribution_descriptors(mesh: o3d.geometry.TriangleMesh, n_samples=10000, n_bins=64):
-    """Compute distribution descriptors (A3, D1, D2, D3, D4)"""
-    v = np.asarray(mesh.vertices)
-    n_verts = len(v)
 
-    print(f"\n=== Distribution Descriptors ===")
-    print(f"Sampling {n_samples} random points, {n_bins} bins")
+def calculate_A3(vertices, n):
+    """
+    A3: Angle between 3 random vertices.
+    Args:
+        vertices: Array of vertex coordinates
+        n: Target number of samples
+    Returns:
+        Array of angles in degrees [0, 180]
+    """
+    N = len(vertices)
+    k = int(math.pow(n, 1.0 / 3.0))
+    angles = []
 
-    centroid = v.mean(axis=0)
-    idx = np.random.randint(0, n_verts, (n_samples, 4))
+    for i in range(k):
+        vi = random.randint(0, N - 1)
+        for j in range(k):
+            vj = random.randint(0, N - 1)
+            if vj == vi:
+                continue
+            for l in range(k):
+                vl = random.randint(0, N - 1)
+                if vl == vi or vl == vj:
+                    continue
 
-    # A3: angle between 3 random vertices
-    idx = np.random.randint(0, n_verts, (n_samples, 4))
-    v1, v2, v3 = v[idx[:, 0]], v[idx[:, 1]], v[idx[:, 2]]
+                # Get coordinates of three vertices
+                A = np.array(vertices[vi])
+                B = np.array(vertices[vj])
+                C = np.array(vertices[vl])
 
-    # remove duplicate vertice
-    mask = (idx[:, 0] != idx[:, 1]) & (idx[:, 0] != idx[:, 2]) & (idx[:, 1] != idx[:, 2])
-    v1, v2, v3 = v1[mask], v2[mask], v3[mask]
+                # Calculate vectors
+                AB = B - A
+                AC = C - A
 
-    vec1 = v1 - v2
-    vec2 = v3 - v2
-    cos_angle = np.sum(vec1 * vec2, axis=1) / (np.linalg.norm(vec1, axis=1) * np.linalg.norm(vec2, axis=1) + 1e-12)
-    cos_angle = np.clip(cos_angle, -1, 1)
-    A3 = np.arccos(cos_angle)
-    print(f"A3 range: [{A3.min():.4f}, {A3.max():.4f}]")
+                # Skip zero vectors
+                norm_AB = np.linalg.norm(AB)
+                norm_AC = np.linalg.norm(AC)
+                if norm_AB < 1e-12 or norm_AC < 1e-12:
+                    continue
 
-    # D1: distance between barycenter and random vertex
-    D1 = np.linalg.norm(v[idx[:, 0]] - centroid, axis=1)
-    print(f"D1 range: [{D1.min():.4f}, {D1.max():.4f}]")
+                # Calculate the angle
+                cos_theta = np.dot(AB, AC) / (norm_AB * norm_AC)
+                angle = np.arccos(np.clip(cos_theta, -1.0, 1.0))
+                # Convert radians to degrees and store (as per document)
+                angles.append(np.degrees(angle))
 
-    # D2: distance between 2 random vertices
-    D2 = np.linalg.norm(v[idx[:, 0]] - v[idx[:, 1]], axis=1)
-    print(f"D2 range: [{D2.min():.4f}, {D2.max():.4f}]")
+    return np.array(angles)
 
-    # D3: square root of area of triangle
-    v1, v2, v3 = v[idx[:, 0]], v[idx[:, 1]], v[idx[:, 2]]
-    cross = np.cross(v2 - v1, v3 - v1)
-    area = 0.5 * np.linalg.norm(cross, axis=1)
-    D3 = np.sqrt(area)
-    print(f"D3 range: [{D3.min():.4f}, {D3.max():.4f}]")
+def calculate_D1(vertices):
+    """
+    D1: Distance between barycenter and each vertex.
+    Args:
+        vertices: Array of vertex coordinates
+    Returns:
+        Array of distances
+    """
+    barycenter = np.mean(vertices, axis=0)
+    distances = []
 
-    # D4: cube root of volume of tetrahedron
-    v1, v2, v3, v4 = v[idx[:, 0]], v[idx[:, 1]], v[idx[:, 2]], v[idx[:, 3]]
-    mat = np.stack([v2 - v1, v3 - v1, v4 - v1], axis=2)
-    vol = np.abs(np.linalg.det(mat)) / 6.0
-    D4 = np.cbrt(vol)
-    print(f"D4 range: [{D4.min():.4f}, {D4.max():.4f}]")
+    # Traverse all vertices
+    for vertex in vertices:
+        distance = np.linalg.norm(np.array(vertex) - barycenter)
+        distances.append(distance)
 
-    # Compute histograms
+    return np.array(distances)
+
+def calculate_D2(vertices, n):
+    """
+    D2: Distance between 2 random vertices.
+    Args:
+        vertices: Array of vertex coordinates
+        n: Target number of samples
+    Returns:
+        Array of distances
+    """
+    N = len(vertices)
+    k = int(math.pow(n, 1.0 / 2.0))
+    distances = []
+
+    for i in range(k):
+        vi = random.randint(0, N - 1)
+        for j in range(k):
+            vj = random.randint(0, N - 1)
+            if vj == vi:
+                continue
+
+            A = np.array(vertices[vi])
+            B = np.array(vertices[vj])
+
+            distance = np.linalg.norm(B - A)
+            distances.append(distance)
+
+    return np.array(distances)
+
+def calculate_D3(vertices, n):
+    """
+    D3: Square root of area of triangle.
+    Args:
+        vertices: Array of vertex coordinates
+        n: Target number of samples
+    Returns:
+        Array of square roots of areas
+    """
+    N = len(vertices)
+    k = int(math.pow(n, 1.0 / 3.0))
+    sqrt_areas = []
+
+    for i in range(k):
+        vi = random.randint(0, N - 1)
+        for j in range(k):
+            vj = random.randint(0, N - 1)
+            if vj == vi:
+                continue
+            for l in range(k):
+                vl = random.randint(0, N - 1)
+                if vl == vi or vl == vj:
+                    continue
+
+                A = np.array(vertices[vi])
+                B = np.array(vertices[vj])
+                C = np.array(vertices[vl])
+
+                # Calculate cross product
+                AB = B - A
+                AC = C - A
+                cross_product = np.cross(AB, AC)
+
+                # Area of triangle
+                area = np.linalg.norm(cross_product) / 2.0
+                # IMPORTANT: Take square root as per document specification
+                sqrt_areas.append(np.sqrt(area))
+
+    return np.array(sqrt_areas)
+
+
+def calculate_D4(vertices, n):
+    """
+    D4: Cube root of volume of tetrahedron.
+    Args:
+        vertices: Array of vertex coordinates
+        n: Target number of samples
+    Returns:
+        Array of cube roots of volumes
+    """
+    N = len(vertices)
+    k = int(math.pow(n, 1.0 / 4.0))
+    cbrt_volumes = []
+
+    for i in range(k):
+        vi = random.randint(0, N - 1)
+        for j in range(k):
+            vj = random.randint(0, N - 1)
+            if vj == vi:
+                continue
+            for l in range(k):
+                vl = random.randint(0, N - 1)
+                if vl == vi or vl == vj:
+                    continue
+                for m in range(k):
+                    vm = random.randint(0, N - 1)
+                    if vm == vi or vm == vj or vm == vl:
+                        continue
+
+                    A = np.array(vertices[vi])
+                    B = np.array(vertices[vj])
+                    C = np.array(vertices[vl])
+                    D = np.array(vertices[vm])
+
+                    # Volume of tetrahedron
+                    volume = np.abs(np.dot(A - D, np.cross(B - D, C - D))) / 6.0
+                    cbrt_volumes.append(np.cbrt(volume))
+
+    return np.array(cbrt_volumes)
+
+def compute_distribution_descriptors(mesh: o3d.geometry.TriangleMesh, n_samples=1000000, n_bins=100):
+    """
+    Compute distribution descriptors using nested loop sampling method.
+    Args:
+        mesh: Input mesh
+        n_samples: Target number of samples.
+        n_bins: Number of histogram bins.
+    Returns:
+        Dictionary of feature values
+    """
+    vertices = np.asarray(mesh.vertices)
+    n_verts = len(vertices)
+
+    print(f"\n=== Distribution Descriptors (Nested Loop Method) ===")
+    print(f"Target samples: {n_samples:,}, Vertices: {n_verts:,}, Bins: {n_bins}")
+
+    # Calculate descriptors using nested loops
+    print("\nComputing A3 (angles)...")
+    A3 = calculate_A3(vertices, n_samples)
+    print(f"  Collected {len(A3):,} samples, range: [{A3.min():.2f}°, {A3.max():.2f}°]")
+
+    print("Computing D1 (barycenter distances)...")
+    D1 = calculate_D1(vertices)
+    print(f"  Collected {len(D1):,} samples, range: [{D1.min():.4f}, {D1.max():.4f}]")
+
+    print("Computing D2 (pairwise distances)...")
+    D2 = calculate_D2(vertices, n_samples)
+    print(f"  Collected {len(D2):,} samples, range: [{D2.min():.4f}, {D2.max():.4f}]")
+
+    print("Computing D3 (sqrt of triangle areas)...")
+    D3 = calculate_D3(vertices, n_samples)
+    print(f"  Collected {len(D3):,} samples, range: [{D3.min():.4f}, {D3.max():.4f}]")
+
+    print("Computing D4 (cbrt of tetrahedron volumes)...")
+    D4 = calculate_D4(vertices, n_samples)
+    print(f"  Collected {len(D4):,} samples, range: [{D4.min():.4f}, {D4.max():.4f}]")
+
+    # Compute normalized histograms with FIXED ranges for comparability
     def hist_to_features(data, name, n_bins):
-        hist, _ = np.histogram(data, bins=n_bins, range=(data.min(), data.max()))
-        hist = hist / hist.sum()
+        if len(data) == 0:
+            # Return zero histogram if no data
+            return {f'{name}_bin{i}': 0.0 for i in range(n_bins)}
+
+        # CRITICAL FIX: Use FIXED ranges for each descriptor to ensure comparability across shapes
+        # Without fixed ranges, different meshes will have different bin boundaries!
+        fixed_ranges = {
+            'A3': (0, 180),  # Angles in degrees [0°, 180°]
+            'D1': (0, 1.0),  # Normalized distance to barycenter (max ≈ 0.866 for unit cube)
+            'D2': (0, 2.0),  # Normalized distance between vertices (max ≈ √3 ≈ 1.73)
+            'D3': (0, 1.0),  # Normalized sqrt of area
+            'D4': (0, 1.0),  # Normalized cbrt of volume
+        }
+
+        # Get the appropriate range
+        hist_range = fixed_ranges.get(name, (data.min(), data.max()))
+
+        # Compute histogram with fixed range
+        hist, _ = np.histogram(data, bins=n_bins, range=hist_range)
+
+        # CRITICAL FIX: Normalize histogram - make each bin a percentage in [0, 1]
+        # This allows meaningful comparison between meshes with different numbers of samples
+        hist = hist / hist.sum() if hist.sum() > 0 else hist
+
         return {f'{name}_bin{i}': float(hist[i]) for i in range(n_bins)}
 
+    print("\nGenerating normalized histograms...")
     features = {}
     features.update(hist_to_features(A3, 'A3', n_bins))
     features.update(hist_to_features(D1, 'D1', n_bins))
@@ -209,7 +397,7 @@ def main():
 
     # Compute features
     single_features = compute_single_descriptors(mesh)
-    dist_features = compute_distribution_descriptors(mesh, n_samples=10000, n_bins=64)
+    dist_features = compute_distribution_descriptors(mesh, n_samples=1000000, n_bins=100)
 
     print(f"\n=== Summary ===")
     print(f"  Single-value: {len(single_features)}")
