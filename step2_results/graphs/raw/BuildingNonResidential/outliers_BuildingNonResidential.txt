@@ -6,7 +6,7 @@
         118      234 data\BuildingNonResidential\m471.obj
         246      274 data\BuildingNonResidential\m391.obj
 
-== {cls} — Largest ({stage}) ==
+== BuildingNonResidential — Largest (raw) ==
  n_vertices  n_faces                                 path
       20958    41638 data\BuildingNonResidential\m405.obj
       21085    40314 data\BuildingNonResidential\m402.obj

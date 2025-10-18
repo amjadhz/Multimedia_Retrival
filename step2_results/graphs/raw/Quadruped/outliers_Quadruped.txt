@@ -6,7 +6,7 @@
         233      461 data\Quadruped\m104.obj
         278      464  data\Quadruped\m93.obj
 
-== {cls} — Largest ({stage}) ==
+== Quadruped — Largest (raw) ==
  n_vertices  n_faces                      path
       23984    47900   data\Quadruped\m274.obj
       20586    41166   data\Quadruped\m275.obj

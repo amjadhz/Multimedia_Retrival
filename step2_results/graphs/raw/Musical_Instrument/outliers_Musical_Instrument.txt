@@ -6,7 +6,7 @@
        1033     1910 data\Musical_Instrument\m632.obj
        1370     2253 data\Musical_Instrument\m634.obj
 
-== {cls} — Largest ({stage}) ==
+== Musical_Instrument — Largest (raw) ==
  n_vertices  n_faces                             path
       45466    89887 data\Musical_Instrument\m631.obj
       23186    45658 data\Musical_Instrument\m639.obj

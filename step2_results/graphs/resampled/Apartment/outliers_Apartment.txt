@@ -1,15 +1,15 @@
 == Apartment — Smallest (resampled) ==
- n_vertices  n_faces                                                    path
-       6689     7972       step2_results\resampled\Apartment\D00921_kept.obj
-       5934     9026       step2_results\resampled\Apartment\D00310_kept.obj
-       6869    10068   step2_results\resampled\Apartment\m464_simplified.obj
-       5614    10140    step2_results\resampled\Apartment\D00496_refined.obj
-       6859    10574 step2_results\resampled\Apartment\D00780_simplified.obj
+ n_vertices  n_faces                                                            path
+       5132     7901 step2_results\resampled\Apartment\D00953_refined_simplified.obj
+       6689     7972               step2_results\resampled\Apartment\D00921_kept.obj
+       5117     8430 step2_results\resampled\Apartment\D00869_refined_simplified.obj
+       5128     8667 step2_results\resampled\Apartment\D00348_refined_simplified.obj
+       5934     9026               step2_results\resampled\Apartment\D00310_kept.obj
 
-== {cls} — Largest ({stage}) ==
+== Apartment — Largest (resampled) ==
  n_vertices  n_faces                                                    path
-       8954    17870 step2_results\resampled\Apartment\D00366_simplified.obj
-       8989    17780 step2_results\resampled\Apartment\D00626_simplified.obj
+       8966    18176 step2_results\resampled\Apartment\D00626_simplified.obj
        9021    17749 step2_results\resampled\Apartment\D00138_simplified.obj
-       9120    17620 step2_results\resampled\Apartment\D00086_simplified.obj
-       9022    17512 step2_results\resampled\Apartment\D00639_simplified.obj
+       9003    17385 step2_results\resampled\Apartment\D00086_simplified.obj
+       9092    13958 step2_results\resampled\Apartment\D00156_simplified.obj
+       9088    13951 step2_results\resampled\Apartment\D00651_simplified.obj

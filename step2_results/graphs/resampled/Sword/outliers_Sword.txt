@@ -1,15 +1,15 @@
 == Sword — Smallest (resampled) ==
- n_vertices  n_faces                                             path
-       5076    10136    step2_results\resampled\Sword\D00177_kept.obj
-       5413    10814      step2_results\resampled\Sword\m696_kept.obj
-       5413    10814      step2_results\resampled\Sword\m715_kept.obj
-       5573    10922    step2_results\resampled\Sword\D00540_kept.obj
-       5631    11100 step2_results\resampled\Sword\D00195_refined.obj
+ n_vertices  n_faces                                                        path
+       5111     8784   step2_results\resampled\Sword\m694_refined_simplified.obj
+       5108     9155   step2_results\resampled\Sword\m693_refined_simplified.obj
+       5141     9386 step2_results\resampled\Sword\D00513_refined_simplified.obj
+       5123     9743   step2_results\resampled\Sword\m698_refined_simplified.obj
+       5136     9744   step2_results\resampled\Sword\m712_refined_simplified.obj
 
-== {cls} — Largest ({stage}) ==
- n_vertices  n_faces                                              path
-       9906    19808  step2_results\resampled\Sword\D00635_refined.obj
-       9880    19712       step2_results\resampled\Sword\m695_kept.obj
-       9834    19648    step2_results\resampled\Sword\m719_refined.obj
-       9822    18880  step2_results\resampled\Sword\D00807_refined.obj
-       9003    17994 step2_results\resampled\Sword\m718_simplified.obj
+== Sword — Largest (resampled) ==
+ n_vertices  n_faces                                                path
+       9002    17975 step2_results\resampled\Sword\D00071_simplified.obj
+       9002    17973 step2_results\resampled\Sword\D00906_simplified.obj
+       9005    17958 step2_results\resampled\Sword\D00249_simplified.obj
+       9009    17910 step2_results\resampled\Sword\D00066_simplified.obj
+       9009    17910   step2_results\resampled\Sword\m710_simplified.obj

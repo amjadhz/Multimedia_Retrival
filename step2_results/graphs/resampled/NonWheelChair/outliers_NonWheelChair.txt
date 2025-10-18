@@ -1,15 +1,15 @@
 == NonWheelChair — Smallest (resampled) ==
- n_vertices  n_faces                                                     path
-       5063    10066    step2_results\resampled\NonWheelChair\D00480_kept.obj
-       5777    10624   step2_results\resampled\NonWheelChair\m819_refined.obj
-       5528    11008   step2_results\resampled\NonWheelChair\m817_refined.obj
-       5790    11520   step2_results\resampled\NonWheelChair\m809_refined.obj
-       5854    11680 step2_results\resampled\NonWheelChair\D00240_refined.obj
+ n_vertices  n_faces                                                              path
+       5103     9262 step2_results\resampled\NonWheelChair\m797_refined_simplified.obj
+       5104     9377 step2_results\resampled\NonWheelChair\m819_refined_simplified.obj
+       5110     9419 step2_results\resampled\NonWheelChair\m811_refined_simplified.obj
+       5099     9428 step2_results\resampled\NonWheelChair\m815_refined_simplified.obj
+       5092     9442 step2_results\resampled\NonWheelChair\m816_refined_simplified.obj
 
-== {cls} — Largest ({stage}) ==
+== NonWheelChair — Largest (resampled) ==
  n_vertices  n_faces                                                        path
-       9986    19936      step2_results\resampled\NonWheelChair\m786_refined.obj
-       9694    19232      step2_results\resampled\NonWheelChair\m789_refined.obj
-       9180    18304      step2_results\resampled\NonWheelChair\m826_refined.obj
-       9050    18032      step2_results\resampled\NonWheelChair\m791_refined.obj
-       9002    17992 step2_results\resampled\NonWheelChair\D00853_simplified.obj
+       9001    17966 step2_results\resampled\NonWheelChair\D00101_simplified.obj
+       9002    17964 step2_results\resampled\NonWheelChair\D00357_simplified.obj
+       9000    17956 step2_results\resampled\NonWheelChair\D00419_simplified.obj
+       9000    17905   step2_results\resampled\NonWheelChair\m796_simplified.obj
+       9009    17713 step2_results\resampled\NonWheelChair\D00443_simplified.obj

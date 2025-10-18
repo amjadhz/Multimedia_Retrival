@@ -6,7 +6,7 @@
        1230     2380 data\Cellphone\D00192.obj
        1271     2480 data\Cellphone\D00032.obj
 
-== {cls} — Largest ({stage}) ==
+== Cellphone — Largest (raw) ==
  n_vertices  n_faces                      path
       34506    68307 data\Cellphone\D00152.obj
       27252    53351 data\Cellphone\D00362.obj

@@ -1,15 +1,15 @@
 == Bottle — Smallest (normalized) ==
- n_vertices  n_faces                                                       path
-       5504    10968    step2_results\normalized\Bottle\D00390_refined_norm.obj
-       5633    11264      step2_results\normalized\Bottle\m492_refined_norm.obj
-       6776    13360    step2_results\normalized\Bottle\D00716_refined_norm.obj
-       6800    13596 step2_results\normalized\Bottle\D00176_simplified_norm.obj
-       7174    14208      step2_results\normalized\Bottle\m484_refined_norm.obj
+ n_vertices  n_faces                                                             path
+       5108     9709 step2_results\normalized\Bottle\m486_refined_simplified_norm.obj
+       5089     9774 step2_results\normalized\Bottle\m482_refined_simplified_norm.obj
+       5081     9776 step2_results\normalized\Bottle\m485_refined_simplified_norm.obj
+       5080     9934 step2_results\normalized\Bottle\m487_refined_simplified_norm.obj
+       5098     9980 step2_results\normalized\Bottle\m491_refined_simplified_norm.obj
 
-== {cls} — Largest ({stage}) ==
- n_vertices  n_faces                                                    path
-       9949    19872 step2_results\normalized\Bottle\D00940_refined_norm.obj
-       9884    19760 step2_results\normalized\Bottle\D00892_refined_norm.obj
-       9729    19352 step2_results\normalized\Bottle\D00139_refined_norm.obj
-       9294    18390    step2_results\normalized\Bottle\D00726_kept_norm.obj
-       9202    18236    step2_results\normalized\Bottle\D00451_kept_norm.obj
+== Bottle — Largest (normalized) ==
+ n_vertices  n_faces                                                       path
+       9004    17792 step2_results\normalized\Bottle\D00696_simplified_norm.obj
+       9007    17753 step2_results\normalized\Bottle\D00166_simplified_norm.obj
+       9053    17614 step2_results\normalized\Bottle\D00679_simplified_norm.obj
+       6500    12996 step2_results\normalized\Bottle\D00176_simplified_norm.obj
+       6505    12842 step2_results\normalized\Bottle\D00451_simplified_norm.obj

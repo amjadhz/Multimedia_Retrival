@@ -6,7 +6,7 @@
        1294     2539 data\Apartment\D00366.obj
        2006     3008 data\Apartment\D00348.obj
 
-== {cls} — Largest ({stage}) ==
+== Apartment — Largest (raw) ==
  n_vertices  n_faces                      path
       30598    60450 data\Apartment\D00626.obj
       20462    40064 data\Apartment\D00086.obj

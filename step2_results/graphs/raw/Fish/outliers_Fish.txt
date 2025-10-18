@@ -6,7 +6,7 @@
        3427     5798 data\Fish\D00950.obj
        3760     6300 data\Fish\D00030.obj
 
-== {cls} — Largest ({stage}) ==
+== Fish — Largest (raw) ==
  n_vertices  n_faces                 path
        5046     8094 data\Fish\D00748.obj
        4380     7312 data\Fish\D00850.obj

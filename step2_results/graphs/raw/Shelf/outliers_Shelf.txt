@@ -6,7 +6,7 @@
          56       84 data\Shelf\m860.obj
          64       96 data\Shelf\m856.obj
 
-== {cls} — Largest ({stage}) ==
+== Shelf — Largest (raw) ==
  n_vertices  n_faces                  path
        5444    10680 data\Shelf\D00631.obj
        4107     8126 data\Shelf\D00725.obj

@@ -1,15 +1,15 @@
 == Tool — Smallest (resampled) ==
- n_vertices  n_faces                                           path
-       5110    10216   step2_results\resampled\Tool\D01142_kept.obj
-       5201    10398   step2_results\resampled\Tool\D01044_kept.obj
-       5202    10400   step2_results\resampled\Tool\D01154_kept.obj
-       5508    11012   step2_results\resampled\Tool\D01156_kept.obj
-       5672    11328 step2_results\resampled\Tool\m1104_refined.obj
+ n_vertices  n_faces                                                      path
+       5106     9009 step2_results\resampled\Tool\m1108_refined_simplified.obj
+       5111     9193  step2_results\resampled\Tool\m590_refined_simplified.obj
+       5102     9379  step2_results\resampled\Tool\m589_refined_simplified.obj
+       5123     9711 step2_results\resampled\Tool\m1115_refined_simplified.obj
+       5085     9875 step2_results\resampled\Tool\m1106_refined_simplified.obj
 
-== {cls} — Largest ({stage}) ==
- n_vertices  n_faces                                               path
-       9001    17998 step2_results\resampled\Tool\D01040_simplified.obj
-       9001    17998  step2_results\resampled\Tool\m1099_simplified.obj
-       9000    17996 step2_results\resampled\Tool\D01003_simplified.obj
-       9000    17996 step2_results\resampled\Tool\D01012_simplified.obj
-       9000    17996 step2_results\resampled\Tool\D01084_simplified.obj
+== Tool — Largest (resampled) ==
+ n_vertices  n_faces                                         path
+       6198    12392 step2_results\resampled\Tool\D01069_kept.obj
+       6104    12204 step2_results\resampled\Tool\D01127_kept.obj
+       5508    11012 step2_results\resampled\Tool\D01156_kept.obj
+       5202    10400 step2_results\resampled\Tool\D01154_kept.obj
+       5201    10398 step2_results\resampled\Tool\D01044_kept.obj

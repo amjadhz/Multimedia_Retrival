@@ -6,7 +6,7 @@
          80       86 data\Sign\m1673.obj
         119      113 data\Sign\m1671.obj
 
-== {cls} — Largest ({stage}) ==
+== Sign — Largest (raw) ==
  n_vertices  n_faces                path
        6540    13032 data\Sign\m1681.obj
        4492     8804 data\Sign\m1682.obj

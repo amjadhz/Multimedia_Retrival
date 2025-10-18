@@ -1,10 +1,10 @@
 count: 37
-verts_mean: 7261.513513513513
-verts_median: 6800.0
-faces_mean: 14438.108108108108
-faces_median: 13595.0
-bbox_diag_mean: 1.2407980845571431
-bbox_diag_median: 1.2051934154700652
+verts_mean: 5859.810810810811
+verts_median: 5104.0
+faces_mean: 11649.594594594595
+faces_median: 10196.0
+bbox_diag_mean: 1.2418564889604105
+bbox_diag_median: 1.2067275729808937
 common_face_type: triangles
 common_ext: .obj
 in_band_5k_10k: 37

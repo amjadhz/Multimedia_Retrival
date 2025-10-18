@@ -6,7 +6,7 @@
         169      332 data\Drum\D00596.obj
         192      383 data\Drum\D00383.obj
 
-== {cls} — Largest ({stage}) ==
+== Drum — Largest (raw) ==
  n_vertices  n_faces                 path
        7993    15574 data\Drum\D00951.obj
        8313    11852 data\Drum\D00163.obj

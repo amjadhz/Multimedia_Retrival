@@ -1,15 +1,15 @@
 == Knife — Smallest (resampled) ==
- n_vertices  n_faces                                             path
-       5076    10136      step2_results\resampled\Knife\m723_kept.obj
-       5591    10304 step2_results\resampled\Knife\D01187_refined.obj
-       6742    13056   step2_results\resampled\Knife\m728_refined.obj
-       6567    13072   step2_results\resampled\Knife\m726_refined.obj
-       6980    13952 step2_results\resampled\Knife\D01119_refined.obj
+ n_vertices  n_faces                                                        path
+       5100     9179 step2_results\resampled\Knife\D01051_refined_simplified.obj
+       5090     9684 step2_results\resampled\Knife\D01063_refined_simplified.obj
+       5098     9721 step2_results\resampled\Knife\D01015_refined_simplified.obj
+       5146     9876   step2_results\resampled\Knife\m728_refined_simplified.obj
+       5093    10004   step2_results\resampled\Knife\m722_refined_simplified.obj
 
-== {cls} — Largest ({stage}) ==
- n_vertices  n_faces                                                path
-       9802    18208    step2_results\resampled\Knife\D01051_refined.obj
-       9002    17996 step2_results\resampled\Knife\D01175_simplified.obj
-       9001    17994   step2_results\resampled\Knife\m724_simplified.obj
-       9001    17994   step2_results\resampled\Knife\m725_simplified.obj
-       9000    17986 step2_results\resampled\Knife\D01075_simplified.obj
+== Knife — Largest (resampled) ==
+ n_vertices  n_faces                                                        path
+       5316    10624            step2_results\resampled\Knife\D01175_refined.obj
+       5275    10528            step2_results\resampled\Knife\D01077_refined.obj
+       5591    10304            step2_results\resampled\Knife\D01187_refined.obj
+       5097    10195 step2_results\resampled\Knife\D01075_refined_simplified.obj
+       5098    10193 step2_results\resampled\Knife\D01132_refined_simplified.obj

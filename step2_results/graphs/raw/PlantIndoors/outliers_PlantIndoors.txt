@@ -6,7 +6,7 @@
         234      401 data\PlantIndoors\m1036.obj
         395      414 data\PlantIndoors\m1030.obj
 
-== {cls} — Largest ({stage}) ==
+== PlantIndoors — Largest (raw) ==
  n_vertices  n_faces                         path
       64126    34817 data\PlantIndoors\D00080.obj
       22431    31897 data\PlantIndoors\D00159.obj

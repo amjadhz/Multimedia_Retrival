@@ -1,15 +1,15 @@
 == Chess — Smallest (normalized) ==
- n_vertices  n_faces                                                   path
-       5890    11776 step2_results\normalized\Chess\D01021_refined_norm.obj
-       5890    11776  step2_results\normalized\Chess\m1611_refined_norm.obj
-       6014    12018     step2_results\normalized\Chess\m1610_kept_norm.obj
-       6050    12096 step2_results\normalized\Chess\D01017_refined_norm.obj
-       6162    12320 step2_results\normalized\Chess\D01045_refined_norm.obj
+ n_vertices  n_faces                                                              path
+       5131     9712  step2_results\normalized\Chess\m1589_refined_simplified_norm.obj
+       5101    10150 step2_results\normalized\Chess\D01099_refined_simplified_norm.obj
+       5100    10155  step2_results\normalized\Chess\m1606_refined_simplified_norm.obj
+       5099    10177 step2_results\normalized\Chess\D01130_refined_simplified_norm.obj
+       5100    10177  step2_results\normalized\Chess\m1612_refined_simplified_norm.obj
 
-== {cls} — Largest ({stage}) ==
- n_vertices  n_faces                                                      path
-       9730    19456    step2_results\normalized\Chess\D01186_refined_norm.obj
-       9730    19456     step2_results\normalized\Chess\m1609_refined_norm.obj
-       9523    18960    step2_results\normalized\Chess\D01099_refined_norm.obj
-       9523    18960     step2_results\normalized\Chess\m1606_refined_norm.obj
-       9001    17998 step2_results\normalized\Chess\D01112_simplified_norm.obj
+== Chess — Largest (normalized) ==
+ n_vertices  n_faces                                                     path
+       8987    17748 step2_results\normalized\Chess\m1595_simplified_norm.obj
+       9035    17674 step2_results\normalized\Chess\m1593_simplified_norm.obj
+       9005    17541 step2_results\normalized\Chess\m1596_simplified_norm.obj
+       6727    13450      step2_results\normalized\Chess\D01081_kept_norm.obj
+       6727    13450       step2_results\normalized\Chess\m1601_kept_norm.obj

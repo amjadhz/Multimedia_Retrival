@@ -1,15 +1,15 @@
 == Drum — Smallest (resampled) ==
- n_vertices  n_faces                                               path
-       6332     9688 step2_results\resampled\Drum\D00163_simplified.obj
-       5561    10366       step2_results\resampled\Drum\D00297_kept.obj
-       5390    10532       step2_results\resampled\Drum\D00939_kept.obj
-       5506    10641       step2_results\resampled\Drum\D00026_kept.obj
-       5653    11181       step2_results\resampled\Drum\D00980_kept.obj
+ n_vertices  n_faces                                                       path
+       5134     8886 step2_results\resampled\Drum\D00375_refined_simplified.obj
+       5988     9267         step2_results\resampled\Drum\D00163_simplified.obj
+       5119     9534 step2_results\resampled\Drum\D00308_refined_simplified.obj
+       5132     9851 step2_results\resampled\Drum\D00557_refined_simplified.obj
+       5093     9869 step2_results\resampled\Drum\D00383_refined_simplified.obj
 
-== {cls} — Largest ({stage}) ==
+== Drum — Largest (resampled) ==
  n_vertices  n_faces                                               path
-       9000    17996 step2_results\resampled\Drum\D00189_simplified.obj
-       9023    17845 step2_results\resampled\Drum\D00404_simplified.obj
-       8964    17717 step2_results\resampled\Drum\D00551_simplified.obj
-       9034    17656 step2_results\resampled\Drum\D00596_simplified.obj
-       8940    17417 step2_results\resampled\Drum\D00383_simplified.obj
+       6533    12663 step2_results\resampled\Drum\D00951_simplified.obj
+       5653    11181       step2_results\resampled\Drum\D00980_kept.obj
+       5506    10641       step2_results\resampled\Drum\D00026_kept.obj
+       5390    10532       step2_results\resampled\Drum\D00939_kept.obj
+       5264    10416    step2_results\resampled\Drum\D00404_refined.obj

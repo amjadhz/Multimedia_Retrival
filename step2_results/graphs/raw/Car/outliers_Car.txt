@@ -6,7 +6,7 @@
         386      539 data\Car\m1543.obj
         332      546 data\Car\m1561.obj
 
-== {cls} — Largest ({stage}) ==
+== Car — Largest (raw) ==
  n_vertices  n_faces                path
       60220   113420  data\Car\m1544.obj
       54710   109357  data\Car\m1510.obj

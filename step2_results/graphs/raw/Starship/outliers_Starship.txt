@@ -6,7 +6,7 @@
         718     1174 data\Starship\m1365.obj
        1004     1720 data\Starship\m1369.obj
 
-== {cls} — Largest ({stage}) ==
+== Starship — Largest (raw) ==
  n_vertices  n_faces                    path
       31232    59339 data\Starship\m1368.obj
       13824    27169 data\Starship\m1381.obj

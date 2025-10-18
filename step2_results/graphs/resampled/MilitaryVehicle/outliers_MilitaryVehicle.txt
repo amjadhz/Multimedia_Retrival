@@ -1,15 +1,15 @@
 == MilitaryVehicle — Smallest (resampled) ==
- n_vertices  n_faces                                                          path
-       5859     9906       step2_results\resampled\MilitaryVehicle\D00334_kept.obj
-       6825    11138 step2_results\resampled\MilitaryVehicle\D00971_simplified.obj
-      10171    12532 step2_results\resampled\MilitaryVehicle\D00173_simplified.obj
-      10962    12535 step2_results\resampled\MilitaryVehicle\D00933_simplified.obj
-       9184    12591 step2_results\resampled\MilitaryVehicle\D00723_simplified.obj
+ n_vertices  n_faces                                                                  path
+       5148     8527 step2_results\resampled\MilitaryVehicle\D00778_refined_simplified.obj
+       5128     8980 step2_results\resampled\MilitaryVehicle\D00100_refined_simplified.obj
+       9111     9251         step2_results\resampled\MilitaryVehicle\D00933_simplified.obj
+       5130     9263 step2_results\resampled\MilitaryVehicle\D00611_refined_simplified.obj
+       5097     9851 step2_results\resampled\MilitaryVehicle\D00051_refined_simplified.obj
 
-== {cls} — Largest ({stage}) ==
+== MilitaryVehicle — Largest (resampled) ==
  n_vertices  n_faces                                                          path
-       9744    19260       step2_results\resampled\MilitaryVehicle\D00952_kept.obj
-       8853    18099 step2_results\resampled\MilitaryVehicle\D00801_simplified.obj
-       9007    17918 step2_results\resampled\MilitaryVehicle\D00799_simplified.obj
-       9592    17900    step2_results\resampled\MilitaryVehicle\D00611_refined.obj
-       9055    17599 step2_results\resampled\MilitaryVehicle\D00051_simplified.obj
+       8965    18327 step2_results\resampled\MilitaryVehicle\D00801_simplified.obj
+       9014    16672 step2_results\resampled\MilitaryVehicle\D00272_simplified.obj
+       9035    16246 step2_results\resampled\MilitaryVehicle\D00458_simplified.obj
+       9017    16018 step2_results\resampled\MilitaryVehicle\D00918_simplified.obj
+       9094    15993 step2_results\resampled\MilitaryVehicle\D00529_simplified.obj

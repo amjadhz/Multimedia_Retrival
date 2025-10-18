@@ -1,15 +1,15 @@
 == Wheel — Smallest (normalized) ==
- n_vertices  n_faces                                                    path
-       5753    10880    step2_results\normalized\Wheel\m738_refined_norm.obj
-       9078    15310 step2_results\normalized\Wheel\m734_simplified_norm.obj
-       7794    15552    step2_results\normalized\Wheel\m736_refined_norm.obj
-       8993    15906 step2_results\normalized\Wheel\m740_simplified_norm.obj
-       8066    16128    step2_results\normalized\Wheel\m747_refined_norm.obj
+ n_vertices  n_faces                                                            path
+       5117     8741 step2_results\normalized\Wheel\m734_refined_simplified_norm.obj
+       5128     8761 step2_results\normalized\Wheel\m740_refined_simplified_norm.obj
+       5157     9634 step2_results\normalized\Wheel\m737_refined_simplified_norm.obj
+       5119     9644 step2_results\normalized\Wheel\m738_refined_simplified_norm.obj
+       5101    10063 step2_results\normalized\Wheel\m746_refined_simplified_norm.obj
 
-== {cls} — Largest ({stage}) ==
- n_vertices  n_faces                                                    path
-       8994    18024 step2_results\normalized\Wheel\m739_simplified_norm.obj
-       9000    18000 step2_results\normalized\Wheel\m744_simplified_norm.obj
-       9000    18000 step2_results\normalized\Wheel\m745_simplified_norm.obj
-       9000    17996 step2_results\normalized\Wheel\m742_simplified_norm.obj
-       8991    17980 step2_results\normalized\Wheel\m748_simplified_norm.obj
+== Wheel — Largest (normalized) ==
+ n_vertices  n_faces                                                            path
+       5145    10286 step2_results\normalized\Wheel\m742_refined_simplified_norm.obj
+       5098    10232 step2_results\normalized\Wheel\m739_refined_simplified_norm.obj
+       5100    10200 step2_results\normalized\Wheel\m744_refined_simplified_norm.obj
+       5100    10200 step2_results\normalized\Wheel\m745_refined_simplified_norm.obj
+       5100    10196 step2_results\normalized\Wheel\m743_refined_simplified_norm.obj

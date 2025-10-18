@@ -6,7 +6,7 @@
        3622     7154 data\TruckNonContainer\D00143.obj
        4409     7843 data\TruckNonContainer\D00215.obj
 
-== {cls} — Largest ({stage}) ==
+== TruckNonContainer — Largest (raw) ==
  n_vertices  n_faces                              path
       11914    21540 data\TruckNonContainer\D00353.obj
        7636    14733 data\TruckNonContainer\D00055.obj

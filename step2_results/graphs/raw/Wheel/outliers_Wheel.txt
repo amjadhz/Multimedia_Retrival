@@ -6,7 +6,7 @@
         256      508 data\Wheel\m742.obj
         413      680 data\Wheel\m738.obj
 
-== {cls} — Largest ({stage}) ==
+== Wheel — Largest (raw) ==
  n_vertices  n_faces                path
        3721     7442 data\Wheel\m744.obj
        4352     7372 data\Wheel\m740.obj

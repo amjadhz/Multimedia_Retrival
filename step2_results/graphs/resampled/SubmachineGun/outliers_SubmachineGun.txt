@@ -1,15 +1,15 @@
 == SubmachineGun — Smallest (resampled) ==
- n_vertices  n_faces                                                     path
-       5899    11636 step2_results\resampled\SubmachineGun\D00878_refined.obj
-       5992    11856 step2_results\resampled\SubmachineGun\D00062_refined.obj
-       6487    12560 step2_results\resampled\SubmachineGun\D00970_refined.obj
-       6376    12720 step2_results\resampled\SubmachineGun\D00537_refined.obj
-       6530    13248    step2_results\resampled\SubmachineGun\D00064_kept.obj
+ n_vertices  n_faces                                                                path
+       5157     9193 step2_results\resampled\SubmachineGun\D00733_refined_simplified.obj
+       5122     9644 step2_results\resampled\SubmachineGun\D00384_refined_simplified.obj
+       5118     9753 step2_results\resampled\SubmachineGun\D00256_refined_simplified.obj
+       5104     9782 step2_results\resampled\SubmachineGun\D00960_refined_simplified.obj
+       5115     9871 step2_results\resampled\SubmachineGun\D00060_refined_simplified.obj
 
-== {cls} — Largest ({stage}) ==
+== SubmachineGun — Largest (resampled) ==
  n_vertices  n_faces                                                        path
-       9366    18176    step2_results\resampled\SubmachineGun\D00960_refined.obj
-       9018    17960 step2_results\resampled\SubmachineGun\D00489_simplified.obj
-       9038    17944 step2_results\resampled\SubmachineGun\D00431_simplified.obj
-       8984    17859 step2_results\resampled\SubmachineGun\D00613_simplified.obj
-       9079    17793 step2_results\resampled\SubmachineGun\D00459_simplified.obj
+       9027    17752 step2_results\resampled\SubmachineGun\D00119_simplified.obj
+       9016    17743 step2_results\resampled\SubmachineGun\D00068_simplified.obj
+       9021    17681 step2_results\resampled\SubmachineGun\D00459_simplified.obj
+       9026    14849 step2_results\resampled\SubmachineGun\D00371_simplified.obj
+       6530    13248       step2_results\resampled\SubmachineGun\D00064_kept.obj

@@ -1,15 +1,15 @@
 == Rocket — Smallest (resampled) ==
- n_vertices  n_faces                                                 path
-       5864    11616    step2_results\resampled\Rocket\D00346_refined.obj
-       6491    12970       step2_results\resampled\Rocket\D00719_kept.obj
-       6775    13036    step2_results\resampled\Rocket\D00437_refined.obj
-       6814    13361 step2_results\resampled\Rocket\D00975_simplified.obj
-       7236    14336    step2_results\resampled\Rocket\D00426_refined.obj
+ n_vertices  n_faces                                                         path
+       5131     9646 step2_results\resampled\Rocket\D00614_refined_simplified.obj
+       5144     9809 step2_results\resampled\Rocket\D00437_refined_simplified.obj
+       5114    10024 step2_results\resampled\Rocket\D00472_refined_simplified.obj
+       5103    10034 step2_results\resampled\Rocket\D00354_refined_simplified.obj
+       5104    10072 step2_results\resampled\Rocket\D00426_refined_simplified.obj
 
-== {cls} — Largest ({stage}) ==
- n_vertices  n_faces                                                 path
-       9746    19456    step2_results\resampled\Rocket\D00433_refined.obj
-       9000    17996 step2_results\resampled\Rocket\D00697_simplified.obj
-       9000    17996 step2_results\resampled\Rocket\D00942_simplified.obj
-       9002    17992 step2_results\resampled\Rocket\D00428_simplified.obj
-       9002    17992 step2_results\resampled\Rocket\D00851_simplified.obj
+== Rocket — Largest (resampled) ==
+ n_vertices  n_faces                                                         path
+       9058    16760         step2_results\resampled\Rocket\D00564_simplified.obj
+       6491    12970               step2_results\resampled\Rocket\D00719_kept.obj
+       6519    12772         step2_results\resampled\Rocket\D00975_simplified.obj
+       5100    10196 step2_results\resampled\Rocket\D00697_refined_simplified.obj
+       5100    10196 step2_results\resampled\Rocket\D00942_refined_simplified.obj

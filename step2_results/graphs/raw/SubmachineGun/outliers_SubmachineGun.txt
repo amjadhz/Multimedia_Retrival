@@ -6,7 +6,7 @@
         577     1014 data\SubmachineGun\D00060.obj
         760     1320 data\SubmachineGun\D00256.obj
 
-== {cls} — Largest ({stage}) ==
+== SubmachineGun — Largest (raw) ==
  n_vertices  n_faces                          path
       24710    48853 data\SubmachineGun\D00459.obj
       19423    38341 data\SubmachineGun\D00068.obj

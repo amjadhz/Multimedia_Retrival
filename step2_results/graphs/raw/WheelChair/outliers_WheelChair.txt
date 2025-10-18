@@ -6,7 +6,7 @@
         867     1519 data\WheelChair\D00203.obj
        1134     1908 data\WheelChair\D00782.obj
 
-== {cls} — Largest ({stage}) ==
+== WheelChair — Largest (raw) ==
  n_vertices  n_faces                       path
       43912    83378 data\WheelChair\D00720.obj
       29285    58260 data\WheelChair\D00394.obj

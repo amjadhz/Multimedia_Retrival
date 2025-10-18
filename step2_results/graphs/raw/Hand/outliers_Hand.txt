@@ -6,7 +6,7 @@
         386      768   data\Hand\m327.obj
         421      837 data\Hand\D01074.obj
 
-== {cls} — Largest ({stage}) ==
+== Hand — Largest (raw) ==
  n_vertices  n_faces                 path
       43386    86361 data\Hand\D01172.obj
       43386    86361   data\Hand\m323.obj

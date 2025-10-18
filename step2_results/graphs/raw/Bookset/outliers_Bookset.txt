@@ -6,7 +6,7 @@
         160      298 data\Bookset\D01110.obj
         360      306 data\Bookset\D01065.obj
 
-== {cls} — Largest ({stage}) ==
+== Bookset — Largest (raw) ==
  n_vertices  n_faces                    path
        2393     4612 data\Bookset\D01190.obj
        2208     4325 data\Bookset\D01038.obj

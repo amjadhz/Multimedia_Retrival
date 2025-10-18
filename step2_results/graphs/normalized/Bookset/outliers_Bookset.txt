@@ -1,15 +1,15 @@
 == Bookset — Smallest (normalized) ==
- n_vertices  n_faces                                                     path
-       6896     9392 step2_results\normalized\Bookset\D01146_refined_norm.obj
-       7229    12272 step2_results\normalized\Bookset\D01042_refined_norm.obj
-       6420    12460 step2_results\normalized\Bookset\D01108_refined_norm.obj
-       6360    12516 step2_results\normalized\Bookset\D01122_refined_norm.obj
-       6648    12840 step2_results\normalized\Bookset\D01135_refined_norm.obj
+ n_vertices  n_faces                                                                path
+        624      832    step2_results\normalized\Bookset\D01096_refined_clamped_norm.obj
+       5120     6308 step2_results\normalized\Bookset\D01146_refined_simplified_norm.obj
+       5112     8128 step2_results\normalized\Bookset\D01042_refined_simplified_norm.obj
+       5109     8266 step2_results\normalized\Bookset\D01183_refined_simplified_norm.obj
+       5102     8485 step2_results\normalized\Bookset\D01065_refined_simplified_norm.obj
 
-== {cls} — Largest ({stage}) ==
- n_vertices  n_faces                                                        path
-       9646    19044    step2_results\normalized\Bookset\D01110_refined_norm.obj
-       9505    18444    step2_results\normalized\Bookset\D01190_refined_norm.obj
-       8956    17824 step2_results\normalized\Bookset\D01030_simplified_norm.obj
-       9079    17704 step2_results\normalized\Bookset\D01184_simplified_norm.obj
-       9019    17639 step2_results\normalized\Bookset\D01182_simplified_norm.obj
+== Bookset — Largest (normalized) ==
+ n_vertices  n_faces                                                                path
+       5140    10097 step2_results\normalized\Bookset\D01030_refined_simplified_norm.obj
+       5111    10092 step2_results\normalized\Bookset\D01050_refined_simplified_norm.obj
+       5093    10085 step2_results\normalized\Bookset\D01184_refined_simplified_norm.obj
+       5092    10038 step2_results\normalized\Bookset\D01182_refined_simplified_norm.obj
+       5105    10028 step2_results\normalized\Bookset\D01110_refined_simplified_norm.obj

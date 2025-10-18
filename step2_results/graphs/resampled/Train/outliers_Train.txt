@@ -1,15 +1,15 @@
 == Train — Smallest (resampled) ==
- n_vertices  n_faces                                                path
-       7271     9510 step2_results\resampled\Train\D01016_simplified.obj
-       5037     9653       step2_results\resampled\Train\D01064_kept.obj
-       5303    10237        step2_results\resampled\Train\m1585_kept.obj
-       5450    10401       step2_results\resampled\Train\D01047_kept.obj
-       5520    10567        step2_results\resampled\Train\m1586_kept.obj
+ n_vertices  n_faces                                                        path
+       6472     8673         step2_results\resampled\Train\D01016_simplified.obj
+       5106     8883 step2_results\resampled\Train\D01014_refined_simplified.obj
+       5115     9050  step2_results\resampled\Train\m1588_refined_simplified.obj
+       5137     9273 step2_results\resampled\Train\D01035_refined_simplified.obj
+       5102     9442 step2_results\resampled\Train\D01147_refined_simplified.obj
 
-== {cls} — Largest ({stage}) ==
+== Train — Largest (resampled) ==
  n_vertices  n_faces                                                path
-       9001    17970  step2_results\resampled\Train\m1584_simplified.obj
-       9023    17954  step2_results\resampled\Train\m1578_simplified.obj
-       9013    17951  step2_results\resampled\Train\m1583_simplified.obj
-       9066    17749 step2_results\resampled\Train\D01089_simplified.obj
-       9023    17652  step2_results\resampled\Train\m1587_simplified.obj
+       9018    17508  step2_results\resampled\Train\m1581_simplified.obj
+       9092    16798 step2_results\resampled\Train\D01055_simplified.obj
+       9016    16794 step2_results\resampled\Train\D01180_simplified.obj
+       6464    12868  step2_results\resampled\Train\m1582_simplified.obj
+       6234    11607 step2_results\resampled\Train\D01059_simplified.obj

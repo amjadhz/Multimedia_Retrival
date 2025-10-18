@@ -1,15 +1,15 @@
 == WheelChair — Smallest (normalized) ==
- n_vertices  n_faces                                                           path
-       6972    12476    step2_results\normalized\WheelChair\D00274_refined_norm.obj
-       6811    13502 step2_results\normalized\WheelChair\D00070_simplified_norm.obj
-       6809    13510 step2_results\normalized\WheelChair\D00687_simplified_norm.obj
-       6809    13510 step2_results\normalized\WheelChair\D00821_simplified_norm.obj
-       6802    13528 step2_results\normalized\WheelChair\D00365_simplified_norm.obj
+ n_vertices  n_faces                                                                   path
+       5100     8603 step2_results\normalized\WheelChair\D00499_refined_simplified_norm.obj
+       5114     8673 step2_results\normalized\WheelChair\D00453_refined_simplified_norm.obj
+       5114     8915 step2_results\normalized\WheelChair\D00274_refined_simplified_norm.obj
+       5122     9175 step2_results\normalized\WheelChair\D00604_refined_simplified_norm.obj
+       5091     9250 step2_results\normalized\WheelChair\D00203_refined_simplified_norm.obj
 
-== {cls} — Largest ({stage}) ==
+== WheelChair — Largest (normalized) ==
  n_vertices  n_faces                                                           path
-       9026    17958 step2_results\normalized\WheelChair\D00449_simplified_norm.obj
-       9036    17936 step2_results\normalized\WheelChair\D00290_simplified_norm.obj
-       9071    17903 step2_results\normalized\WheelChair\D00394_simplified_norm.obj
-       9128    17858 step2_results\normalized\WheelChair\D00088_simplified_norm.obj
-       9114    17850 step2_results\normalized\WheelChair\D00628_simplified_norm.obj
+       9010    17926 step2_results\normalized\WheelChair\D00449_simplified_norm.obj
+       8999    17749 step2_results\normalized\WheelChair\D00394_simplified_norm.obj
+       9036    17675 step2_results\normalized\WheelChair\D00088_simplified_norm.obj
+       9013    17648 step2_results\normalized\WheelChair\D00628_simplified_norm.obj
+       9029    17586 step2_results\normalized\WheelChair\D00004_simplified_norm.obj

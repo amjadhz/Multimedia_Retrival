@@ -1,15 +1,15 @@
 == ComputerKeyboard — Smallest (resampled) ==
- n_vertices  n_faces                                                           path
-       8303     8668 step2_results\resampled\ComputerKeyboard\D00525_simplified.obj
-       6837    10629 step2_results\resampled\ComputerKeyboard\D00676_simplified.obj
-       6772    11072 step2_results\resampled\ComputerKeyboard\D00382_simplified.obj
-       6869    11928    step2_results\resampled\ComputerKeyboard\D00600_refined.obj
-       6193    11942       step2_results\resampled\ComputerKeyboard\D00360_kept.obj
+ n_vertices  n_faces                                                                   path
+       6451     6790         step2_results\resampled\ComputerKeyboard\D00525_simplified.obj
+       5147     8946 step2_results\resampled\ComputerKeyboard\D00600_refined_simplified.obj
+       5096     9094 step2_results\resampled\ComputerKeyboard\D00692_refined_simplified.obj
+       5153     9467 step2_results\resampled\ComputerKeyboard\D00278_refined_simplified.obj
+       5103     9531 step2_results\resampled\ComputerKeyboard\D00127_refined_simplified.obj
 
-== {cls} — Largest ({stage}) ==
+== ComputerKeyboard — Largest (resampled) ==
  n_vertices  n_faces                                                           path
-       9000    17993 step2_results\resampled\ComputerKeyboard\D00905_simplified.obj
-       9014    17927 step2_results\resampled\ComputerKeyboard\D00569_simplified.obj
-       9455    17824    step2_results\resampled\ComputerKeyboard\D00127_refined.obj
-       8940    17589 step2_results\resampled\ComputerKeyboard\D00493_simplified.obj
-       8950    17551 step2_results\resampled\ComputerKeyboard\D00654_simplified.obj
+       6536    12758 step2_results\resampled\ComputerKeyboard\D00597_simplified.obj
+       6384    12756       step2_results\resampled\ComputerKeyboard\D00197_kept.obj
+       6564    12702       step2_results\resampled\ComputerKeyboard\D00627_kept.obj
+       6510    12681 step2_results\resampled\ComputerKeyboard\D00420_simplified.obj
+       6509    12565 step2_results\resampled\ComputerKeyboard\D00805_simplified.obj

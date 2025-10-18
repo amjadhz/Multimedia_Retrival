@@ -6,7 +6,7 @@
        1009     1998 data\Hat\m1627.obj
        1002     2000 data\Hat\m1637.obj
 
-== {cls} — Largest ({stage}) ==
+== Hat — Largest (raw) ==
  n_vertices  n_faces               path
        8796    17614 data\Hat\m1638.obj
        5814    11562 data\Hat\m1634.obj

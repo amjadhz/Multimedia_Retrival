@@ -1,15 +1,15 @@
 == MultiSeat — Smallest (normalized) ==
- n_vertices  n_faces                                                        path
-       5634    10758    step2_results\normalized\MultiSeat\m782_refined_norm.obj
-       5772    11264    step2_results\normalized\MultiSeat\m836_refined_norm.obj
-       5981    11856  step2_results\normalized\MultiSeat\D00053_refined_norm.obj
-       6878    12722 step2_results\normalized\MultiSeat\m843_simplified_norm.obj
-       7189    12808    step2_results\normalized\MultiSeat\m832_refined_norm.obj
+ n_vertices  n_faces                                                                path
+       5122     8807 step2_results\normalized\MultiSeat\m832_refined_simplified_norm.obj
+       5124     9627 step2_results\normalized\MultiSeat\m840_refined_simplified_norm.obj
+       5096     9661 step2_results\normalized\MultiSeat\m781_refined_simplified_norm.obj
+       5108     9675 step2_results\normalized\MultiSeat\m835_refined_simplified_norm.obj
+       5140     9676 step2_results\normalized\MultiSeat\m780_refined_simplified_norm.obj
 
-== {cls} — Largest ({stage}) ==
+== MultiSeat — Largest (normalized) ==
  n_vertices  n_faces                                                          path
-       9870    19712    step2_results\normalized\MultiSeat\D00145_refined_norm.obj
-       9003    17994   step2_results\normalized\MultiSeat\m784_simplified_norm.obj
-       9003    17977 step2_results\normalized\MultiSeat\D00046_simplified_norm.obj
-       9018    17972 step2_results\normalized\MultiSeat\D00146_simplified_norm.obj
-       9010    17972 step2_results\normalized\MultiSeat\D00586_simplified_norm.obj
+       9002    17972 step2_results\normalized\MultiSeat\D00985_simplified_norm.obj
+       9000    17950 step2_results\normalized\MultiSeat\D00289_simplified_norm.obj
+       9007    17938 step2_results\normalized\MultiSeat\D00648_simplified_norm.obj
+       9001    17938 step2_results\normalized\MultiSeat\D00146_simplified_norm.obj
+       9022    17812 step2_results\normalized\MultiSeat\D00273_simplified_norm.obj

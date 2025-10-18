@@ -1,15 +1,15 @@
 == Glasses — Smallest (normalized) ==
- n_vertices  n_faces                                                     path
-       5790    11072 step2_results\normalized\Glasses\D00432_refined_norm.obj
-       5652    11300    step2_results\normalized\Glasses\D00050_kept_norm.obj
-       5652    11300    step2_results\normalized\Glasses\D00507_kept_norm.obj
-       6044    12000 step2_results\normalized\Glasses\D00225_refined_norm.obj
-       6210    12368 step2_results\normalized\Glasses\D00475_refined_norm.obj
+ n_vertices  n_faces                                                                path
+       5089     9359 step2_results\normalized\Glasses\D00656_refined_simplified_norm.obj
+       5126     9752 step2_results\normalized\Glasses\D00432_refined_simplified_norm.obj
+       5110     9850 step2_results\normalized\Glasses\D00877_refined_simplified_norm.obj
+       5102    10080 step2_results\normalized\Glasses\D00560_refined_simplified_norm.obj
+       5108    10102 step2_results\normalized\Glasses\D00883_refined_simplified_norm.obj
 
-== {cls} — Largest ({stage}) ==
+== Glasses — Largest (normalized) ==
  n_vertices  n_faces                                                        path
-       9290    18499       step2_results\normalized\Glasses\D00660_kept_norm.obj
-       9001    17990 step2_results\normalized\Glasses\D00730_simplified_norm.obj
-       9017    17950 step2_results\normalized\Glasses\D00816_simplified_norm.obj
-       8999    17927 step2_results\normalized\Glasses\D00813_simplified_norm.obj
-       9036    17912 step2_results\normalized\Glasses\D00575_simplified_norm.obj
+       9008    17932 step2_results\normalized\Glasses\D00816_simplified_norm.obj
+       8990    17870 step2_results\normalized\Glasses\D00640_simplified_norm.obj
+       9002    17844 step2_results\normalized\Glasses\D00575_simplified_norm.obj
+       6502    12923 step2_results\normalized\Glasses\D00660_simplified_norm.obj
+       6519    12656       step2_results\normalized\Glasses\D00201_kept_norm.obj

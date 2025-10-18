@@ -1,15 +1,15 @@
 == Car — Smallest (resampled) ==
- n_vertices  n_faces                                              path
-       5153     8561       step2_results\resampled\Car\D00504_kept.obj
-       5322     9896       step2_results\resampled\Car\D00793_kept.obj
-       5514    10104        step2_results\resampled\Car\m1498_kept.obj
-       5247    10472        step2_results\resampled\Car\m1552_kept.obj
-       6806    10813 step2_results\resampled\Car\D00785_simplified.obj
+ n_vertices  n_faces                                                      path
+       5132     6250  step2_results\resampled\Car\m1508_refined_simplified.obj
+       5109     7188  step2_results\resampled\Car\m1502_refined_simplified.obj
+       5096     8441  step2_results\resampled\Car\m1542_refined_simplified.obj
+       5108     8465 step2_results\resampled\Car\D00541_refined_simplified.obj
+       5153     8561               step2_results\resampled\Car\D00504_kept.obj
 
-== {cls} — Largest ({stage}) ==
+== Car — Largest (resampled) ==
  n_vertices  n_faces                                              path
-       8950    18061  step2_results\resampled\Car\m1560_simplified.obj
+       9099    18359  step2_results\resampled\Car\m1560_simplified.obj
+       8992    18055  step2_results\resampled\Car\m1509_simplified.obj
        9000    17992 step2_results\resampled\Car\D00299_simplified.obj
-       9012    17988  step2_results\resampled\Car\m1510_simplified.obj
-       8953    17978  step2_results\resampled\Car\m1509_simplified.obj
-       9018    17938  step2_results\resampled\Car\m1497_simplified.obj
+       8998    17954  step2_results\resampled\Car\m1510_simplified.obj
+       9000    17903  step2_results\resampled\Car\m1516_simplified.obj

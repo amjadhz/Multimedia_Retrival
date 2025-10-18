@@ -6,7 +6,7 @@
         799     1550   data\Mug\m503.obj
         896     1696 data\Mug\D00908.obj
 
-== {cls} — Largest ({stage}) ==
+== Mug — Largest (raw) ==
  n_vertices  n_faces                path
       37360    74720 data\Mug\D00202.obj
       19522    38316 data\Mug\D00227.obj

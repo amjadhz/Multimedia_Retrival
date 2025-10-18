@@ -6,7 +6,7 @@
         361      696   data\FloorLamp\m619.obj
         440      804 data\FloorLamp\D00981.obj
 
-== {cls} — Largest ({stage}) ==
+== FloorLamp — Largest (raw) ==
  n_vertices  n_faces                      path
       23655    46274 data\FloorLamp\D00580.obj
       17582    34872 data\FloorLamp\D00924.obj

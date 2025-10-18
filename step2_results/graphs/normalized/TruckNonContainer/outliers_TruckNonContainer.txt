@@ -1,15 +1,15 @@
 == TruckNonContainer — Smallest (normalized) ==
- n_vertices  n_faces                                                            path
-       5233    10001 step2_results\normalized\TruckNonContainer\D00783_kept_norm.obj
-       5069    10235 step2_results\normalized\TruckNonContainer\D00699_kept_norm.obj
-       5231    10302 step2_results\normalized\TruckNonContainer\D00619_kept_norm.obj
-       5492    10837 step2_results\normalized\TruckNonContainer\D00275_kept_norm.obj
-       6967    11009 step2_results\normalized\TruckNonContainer\D00283_kept_norm.obj
+ n_vertices  n_faces                                                                          path
+       5093     9231 step2_results\normalized\TruckNonContainer\D00737_refined_simplified_norm.obj
+       5105     9233 step2_results\normalized\TruckNonContainer\D00215_refined_simplified_norm.obj
+       5050     9716 step2_results\normalized\TruckNonContainer\D00143_refined_simplified_norm.obj
+       5066     9753 step2_results\normalized\TruckNonContainer\D00572_refined_simplified_norm.obj
+       5109     9766 step2_results\normalized\TruckNonContainer\D00148_refined_simplified_norm.obj
 
-== {cls} — Largest ({stage}) ==
+== TruckNonContainer — Largest (normalized) ==
  n_vertices  n_faces                                                                  path
-       9549    18532    step2_results\normalized\TruckNonContainer\D00148_refined_norm.obj
-       9088    17735 step2_results\normalized\TruckNonContainer\D00879_simplified_norm.obj
-       9047    17660    step2_results\normalized\TruckNonContainer\D00252_refined_norm.obj
-       9387    17380    step2_results\normalized\TruckNonContainer\D00737_refined_norm.obj
-       8908    17304 step2_results\normalized\TruckNonContainer\D00731_simplified_norm.obj
+       8968    15901 step2_results\normalized\TruckNonContainer\D00353_simplified_norm.obj
+       6535    12540 step2_results\normalized\TruckNonContainer\D00055_simplified_norm.obj
+       6537    12260 step2_results\normalized\TruckNonContainer\D00553_simplified_norm.obj
+       6497    11925 step2_results\normalized\TruckNonContainer\D00266_simplified_norm.obj
+       6025    11840       step2_results\normalized\TruckNonContainer\D00267_kept_norm.obj

@@ -1,15 +1,15 @@
 == RectangleTable — Smallest (normalized) ==
- n_vertices  n_faces                                                            path
-       5748     7862 step2_results\normalized\RectangleTable\D00418_refined_norm.obj
-       5520    10240   step2_results\normalized\RectangleTable\m896_refined_norm.obj
-       5514    11008   step2_results\normalized\RectangleTable\m883_refined_norm.obj
-       5514    11008   step2_results\normalized\RectangleTable\m917_refined_norm.obj
-       6288    11776   step2_results\normalized\RectangleTable\m920_refined_norm.obj
+ n_vertices  n_faces                                                                       path
+       5045     6449 step2_results\normalized\RectangleTable\D00418_refined_simplified_norm.obj
+       5101     7513   step2_results\normalized\RectangleTable\m910_refined_simplified_norm.obj
+       4053     7579   step2_results\normalized\RectangleTable\m871_refined_simplified_norm.obj
+       5108     8360 step2_results\normalized\RectangleTable\D00766_refined_simplified_norm.obj
+       5102     8433 step2_results\normalized\RectangleTable\D00317_refined_simplified_norm.obj
 
-== {cls} — Largest ({stage}) ==
+== RectangleTable — Largest (normalized) ==
  n_vertices  n_faces                                                               path
-       9833    19168      step2_results\normalized\RectangleTable\m873_refined_norm.obj
-       9578    18688      step2_results\normalized\RectangleTable\m893_refined_norm.obj
-       8988    18061 step2_results\normalized\RectangleTable\D00523_simplified_norm.obj
-       9000    17996   step2_results\normalized\RectangleTable\m870_simplified_norm.obj
-       9006    17988 step2_results\normalized\RectangleTable\D00421_simplified_norm.obj
+       8998    18081 step2_results\normalized\RectangleTable\D00523_simplified_norm.obj
+       6523    12480 step2_results\normalized\RectangleTable\D00603_simplified_norm.obj
+       5514    11008      step2_results\normalized\RectangleTable\m883_refined_norm.obj
+       5514    11008      step2_results\normalized\RectangleTable\m917_refined_norm.obj
+       5324    10624    step2_results\normalized\RectangleTable\D00421_refined_norm.obj

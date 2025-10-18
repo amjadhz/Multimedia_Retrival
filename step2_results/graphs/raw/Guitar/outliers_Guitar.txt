@@ -6,7 +6,7 @@
        1062     1995 data\Guitar\D00222.obj
        1481     2555 data\Guitar\D00374.obj
 
-== {cls} — Largest ({stage}) ==
+== Guitar — Largest (raw) ==
  n_vertices  n_faces                   path
       32762    64993 data\Guitar\D00335.obj
       29451    57673 data\Guitar\D00849.obj

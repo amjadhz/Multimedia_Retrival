@@ -1,15 +1,15 @@
 == Fish — Smallest (normalized) ==
- n_vertices  n_faces                                                     path
-       5044     8094       step2_results\normalized\Fish\D00748_kept_norm.obj
-       8764    16280 step2_results\normalized\Fish\D00012_simplified_norm.obj
-       8928    16316 step2_results\normalized\Fish\D00251_simplified_norm.obj
-       8949    16318 step2_results\normalized\Fish\D00763_simplified_norm.obj
-       8746    16347 step2_results\normalized\Fish\D00643_simplified_norm.obj
+ n_vertices  n_faces                                                             path
+       5044     8094               step2_results\normalized\Fish\D00748_kept_norm.obj
+       5115     8531 step2_results\normalized\Fish\D00012_refined_simplified_norm.obj
+       5110     8574 step2_results\normalized\Fish\D00763_refined_simplified_norm.obj
+       5109     8605 step2_results\normalized\Fish\D00251_refined_simplified_norm.obj
+       5130     8617 step2_results\normalized\Fish\D00850_refined_simplified_norm.obj
 
-== {cls} — Largest ({stage}) ==
- n_vertices  n_faces                                                     path
-       9013    16743 step2_results\normalized\Fish\D00142_simplified_norm.obj
-       9099    16684 step2_results\normalized\Fish\D00351_simplified_norm.obj
-       8927    16592 step2_results\normalized\Fish\D00633_simplified_norm.obj
-       8776    16578 step2_results\normalized\Fish\D00682_simplified_norm.obj
-       9032    16518 step2_results\normalized\Fish\D00636_simplified_norm.obj
+== Fish — Largest (normalized) ==
+ n_vertices  n_faces                                                             path
+       5155     9312 step2_results\normalized\Fish\D00142_refined_simplified_norm.obj
+       5105     9145 step2_results\normalized\Fish\D00351_refined_simplified_norm.obj
+       5124     8966 step2_results\normalized\Fish\D00636_refined_simplified_norm.obj
+       5132     8924 step2_results\normalized\Fish\D00950_refined_simplified_norm.obj
+       5103     8907 step2_results\normalized\Fish\D00633_refined_simplified_norm.obj

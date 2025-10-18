@@ -1,15 +1,15 @@
 == Starship — Smallest (normalized) ==
- n_vertices  n_faces                                                        path
-       5520     9658    step2_results\normalized\Starship\m1371_refined_norm.obj
-       5720    11360       step2_results\normalized\Starship\m1354_kept_norm.obj
-       8995    11516       step2_results\normalized\Starship\m1357_kept_norm.obj
-       6063    11589       step2_results\normalized\Starship\m1373_kept_norm.obj
-       6855    11720 step2_results\normalized\Starship\m1355_simplified_norm.obj
+ n_vertices  n_faces                                                                path
+       5028     6490         step2_results\normalized\Starship\m1357_simplified_norm.obj
+       5073     7057 step2_results\normalized\Starship\m1360_refined_simplified_norm.obj
+       5292     8238         step2_results\normalized\Starship\m1383_simplified_norm.obj
+       5116     9264 step2_results\normalized\Starship\m1356_refined_simplified_norm.obj
+       5102     9399 step2_results\normalized\Starship\m1358_refined_simplified_norm.obj
 
-== {cls} — Largest ({stage}) ==
+== Starship — Largest (normalized) ==
  n_vertices  n_faces                                                        path
-       9877    18784    step2_results\normalized\Starship\m1365_refined_norm.obj
-       9020    17928 step2_results\normalized\Starship\m1359_simplified_norm.obj
-       8987    17894 step2_results\normalized\Starship\m1361_simplified_norm.obj
-       8911    17756 step2_results\normalized\Starship\m1384_simplified_norm.obj
-       8991    17688 step2_results\normalized\Starship\m1381_simplified_norm.obj
+       8973    17651 step2_results\normalized\Starship\m1381_simplified_norm.obj
+       9108    16698 step2_results\normalized\Starship\m1385_simplified_norm.obj
+       9002    16663 step2_results\normalized\Starship\m1368_simplified_norm.obj
+       9024    15303 step2_results\normalized\Starship\m1380_simplified_norm.obj
+       9078    14956 step2_results\normalized\Starship\m1362_simplified_norm.obj

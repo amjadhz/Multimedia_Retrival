@@ -6,7 +6,7 @@
          40       60 data\RectangleTable\m915.obj
          60       65 data\RectangleTable\m871.obj
 
-== {cls} — Largest ({stage}) ==
+== RectangleTable — Largest (raw) ==
  n_vertices  n_faces                           path
       12460    25005 data\RectangleTable\D00523.obj
        7120    13672 data\RectangleTable\D00603.obj

@@ -6,7 +6,7 @@
         371      620   data\Bottle\m483.obj
         353      704   data\Bottle\m492.obj
 
-== {cls} — Largest ({stage}) ==
+== Bottle — Largest (raw) ==
  n_vertices  n_faces                   path
       23142    45936 data\Bottle\D00166.obj
       13038    25850 data\Bottle\D00696.obj

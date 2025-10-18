@@ -1,15 +1,15 @@
 == Motorcycle — Smallest (resampled) ==
- n_vertices  n_faces                                                     path
-       5713    11152       step2_results\resampled\Motorcycle\D00880_kept.obj
-       5963    11520     step2_results\resampled\Motorcycle\m1484_refined.obj
-       6818    12061 step2_results\resampled\Motorcycle\D00395_simplified.obj
-       6529    12510       step2_results\resampled\Motorcycle\D00288_kept.obj
-       9049    15282 step2_results\resampled\Motorcycle\D00476_simplified.obj
+ n_vertices  n_faces                                                             path
+       5143     9077 step2_results\resampled\Motorcycle\D00945_refined_simplified.obj
+       5103     9462 step2_results\resampled\Motorcycle\D00269_refined_simplified.obj
+       5121     9479 step2_results\resampled\Motorcycle\D00396_refined_simplified.obj
+       5112     9852  step2_results\resampled\Motorcycle\m1484_refined_simplified.obj
+       5138     9877 step2_results\resampled\Motorcycle\D00224_refined_simplified.obj
 
-== {cls} — Largest ({stage}) ==
+== Motorcycle — Largest (resampled) ==
  n_vertices  n_faces                                                     path
-       9168    18382       step2_results\resampled\Motorcycle\D00768_kept.obj
-       9543    18052       step2_results\resampled\Motorcycle\D00021_kept.obj
-       9543    18048        step2_results\resampled\Motorcycle\m1480_kept.obj
-       8971    18026 step2_results\resampled\Motorcycle\D00054_simplified.obj
-       9060    17796 step2_results\resampled\Motorcycle\D00858_simplified.obj
+       8971    17967 step2_results\resampled\Motorcycle\D00703_simplified.obj
+       8971    17966  step2_results\resampled\Motorcycle\m1483_simplified.obj
+       9027    17730 step2_results\resampled\Motorcycle\D00858_simplified.obj
+       9007    17609 step2_results\resampled\Motorcycle\D00521_simplified.obj
+       8996    17491 step2_results\resampled\Motorcycle\D00345_simplified.obj

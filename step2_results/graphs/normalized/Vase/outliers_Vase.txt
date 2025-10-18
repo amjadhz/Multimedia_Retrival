@@ -1,15 +1,15 @@
 == Vase — Smallest (normalized) ==
- n_vertices  n_faces                                                path
-       6725    12432 step2_results\normalized\Vase\m529_refined_norm.obj
-       7850    12444 step2_results\normalized\Vase\m541_refined_norm.obj
-       6402    12800 step2_results\normalized\Vase\m545_refined_norm.obj
-       7712    15360 step2_results\normalized\Vase\m533_refined_norm.obj
-       8137    16000 step2_results\normalized\Vase\m547_refined_norm.obj
+ n_vertices  n_faces                                                           path
+       5101     7281 step2_results\normalized\Vase\m541_refined_simplified_norm.obj
+       5072     9366 step2_results\normalized\Vase\m529_refined_simplified_norm.obj
+       5106    10016 step2_results\normalized\Vase\m543_refined_simplified_norm.obj
+       5101    10018 step2_results\normalized\Vase\m535_refined_simplified_norm.obj
+       5101    10037 step2_results\normalized\Vase\m528_refined_simplified_norm.obj
 
-== {cls} — Largest ({stage}) ==
- n_vertices  n_faces                                                   path
-       9666    19136    step2_results\normalized\Vase\m543_refined_norm.obj
-       9000    18000 step2_results\normalized\Vase\m531_simplified_norm.obj
-       9001    17998 step2_results\normalized\Vase\m536_simplified_norm.obj
-       9001    17998 step2_results\normalized\Vase\m540_simplified_norm.obj
-       9000    17998 step2_results\normalized\Vase\m534_simplified_norm.obj
+== Vase — Largest (normalized) ==
+ n_vertices  n_faces                                                           path
+       5100    10200 step2_results\normalized\Vase\m531_refined_simplified_norm.obj
+       5100    10200 step2_results\normalized\Vase\m537_refined_simplified_norm.obj
+       5100    10198 step2_results\normalized\Vase\m534_refined_simplified_norm.obj
+       5100    10196 step2_results\normalized\Vase\m527_refined_simplified_norm.obj
+       5100    10196 step2_results\normalized\Vase\m536_refined_simplified_norm.obj

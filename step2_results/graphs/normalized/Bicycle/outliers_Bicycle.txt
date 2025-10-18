@@ -1,15 +1,15 @@
 == Bicycle — Smallest (normalized) ==
- n_vertices  n_faces                                                    path
-       5354    10548   step2_results\normalized\Bicycle\D00904_kept_norm.obj
-       6044    11946   step2_results\normalized\Bicycle\D00974_kept_norm.obj
-       6044    11948    step2_results\normalized\Bicycle\m1475_kept_norm.obj
-       6951    12939   step2_results\normalized\Bicycle\D00514_kept_norm.obj
-       7084    13440 step2_results\normalized\Bicycle\m1472_refined_norm.obj
+ n_vertices  n_faces                                                                path
+       5109     9570  step2_results\normalized\Bicycle\m1472_refined_simplified_norm.obj
+       5122     9590 step2_results\normalized\Bicycle\D00621_refined_simplified_norm.obj
+       5117     9592 step2_results\normalized\Bicycle\D00016_refined_simplified_norm.obj
+       5124     9599  step2_results\normalized\Bicycle\m1478_refined_simplified_norm.obj
+       5099     9685 step2_results\normalized\Bicycle\D00033_refined_simplified_norm.obj
 
-== {cls} — Largest ({stage}) ==
+== Bicycle — Largest (normalized) ==
  n_vertices  n_faces                                                        path
-       9035    17700 step2_results\normalized\Bicycle\D00750_simplified_norm.obj
-       8946    17598 step2_results\normalized\Bicycle\D00077_simplified_norm.obj
-       9009    17246 step2_results\normalized\Bicycle\D00847_simplified_norm.obj
-       9009    17244 step2_results\normalized\Bicycle\D00078_simplified_norm.obj
-       9009    17239  step2_results\normalized\Bicycle\m1477_simplified_norm.obj
+       8913    17533 step2_results\normalized\Bicycle\D00077_simplified_norm.obj
+       9031    17288 step2_results\normalized\Bicycle\D00078_simplified_norm.obj
+       9030    17288 step2_results\normalized\Bicycle\D00847_simplified_norm.obj
+       9031    17283  step2_results\normalized\Bicycle\m1477_simplified_norm.obj
+       9042    17239 step2_results\normalized\Bicycle\D00838_simplified_norm.obj

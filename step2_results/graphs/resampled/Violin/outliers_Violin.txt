@@ -1,15 +1,15 @@
 == Violin — Smallest (resampled) ==
- n_vertices  n_faces                                                 path
-       5751    10700    step2_results\resampled\Violin\D00108_refined.obj
-       6848    11837 step2_results\resampled\Violin\D00898_simplified.obj
-       6831    13009       step2_results\resampled\Violin\D00598_kept.obj
-       6808    13201 step2_results\resampled\Violin\D00993_simplified.obj
-       6799    13422 step2_results\resampled\Violin\D00358_simplified.obj
+ n_vertices  n_faces                                                         path
+       5103     8829 step2_results\resampled\Violin\D00704_refined_simplified.obj
+       5155     9277 step2_results\resampled\Violin\D00506_refined_simplified.obj
+       5136     9487 step2_results\resampled\Violin\D00108_refined_simplified.obj
+       5099     9516 step2_results\resampled\Violin\D00340_refined_simplified.obj
+       5140     9537 step2_results\resampled\Violin\D00570_refined_simplified.obj
 
-== {cls} — Largest ({stage}) ==
- n_vertices  n_faces                                                 path
-       9702    18396    step2_results\resampled\Violin\D00324_refined.obj
-       9047    17807 step2_results\resampled\Violin\D00376_simplified.obj
-       9005    17600 step2_results\resampled\Violin\D00349_simplified.obj
-       9037    17497 step2_results\resampled\Violin\D00620_simplified.obj
-       9099    17479 step2_results\resampled\Violin\D00675_simplified.obj
+== Violin — Largest (resampled) ==
+ n_vertices  n_faces                                                         path
+       6499    12830         step2_results\resampled\Violin\D00358_simplified.obj
+       6506    12618         step2_results\resampled\Violin\D00993_simplified.obj
+       6503    12377         step2_results\resampled\Violin\D00598_simplified.obj
+       6551    11314         step2_results\resampled\Violin\D00898_simplified.obj
+       5101    10114 step2_results\resampled\Violin\D00376_refined_simplified.obj

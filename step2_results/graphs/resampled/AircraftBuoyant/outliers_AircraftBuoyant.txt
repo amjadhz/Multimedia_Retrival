@@ -1,15 +1,15 @@
 == AircraftBuoyant — Smallest (resampled) ==
- n_vertices  n_faces                                                         path
-       6260    11160    step2_results\resampled\AircraftBuoyant\m1339_refined.obj
-       6622    13184    step2_results\resampled\AircraftBuoyant\m1341_refined.obj
-       9148    16956 step2_results\resampled\AircraftBuoyant\m1351_simplified.obj
-       8761    16960       step2_results\resampled\AircraftBuoyant\m1338_kept.obj
-       9103    17338 step2_results\resampled\AircraftBuoyant\m1344_simplified.obj
+ n_vertices  n_faces                                                                 path
+       4992     6565 step2_results\resampled\AircraftBuoyant\m1339_refined_simplified.obj
+       5127     9728 step2_results\resampled\AircraftBuoyant\m1344_refined_simplified.obj
+       5101     9807 step2_results\resampled\AircraftBuoyant\m1345_refined_simplified.obj
+       5140     9812 step2_results\resampled\AircraftBuoyant\m1337_refined_simplified.obj
+       5112     9813 step2_results\resampled\AircraftBuoyant\m1342_refined_simplified.obj
 
-== {cls} — Largest ({stage}) ==
- n_vertices  n_faces                                                         path
-       9001    17990 step2_results\resampled\AircraftBuoyant\m1343_simplified.obj
-       8992    17839 step2_results\resampled\AircraftBuoyant\m1352_simplified.obj
-       8970    17782 step2_results\resampled\AircraftBuoyant\m1347_simplified.obj
-       8975    17702 step2_results\resampled\AircraftBuoyant\m1340_simplified.obj
-       8969    17689 step2_results\resampled\AircraftBuoyant\m1346_simplified.obj
+== AircraftBuoyant — Largest (resampled) ==
+ n_vertices  n_faces                                                                 path
+       9057    16774         step2_results\resampled\AircraftBuoyant\m1351_simplified.obj
+       6505    12720         step2_results\resampled\AircraftBuoyant\m1338_simplified.obj
+       5475    10240            step2_results\resampled\AircraftBuoyant\m1349_refined.obj
+       5101    10190 step2_results\resampled\AircraftBuoyant\m1343_refined_simplified.obj
+       5106    10152 step2_results\resampled\AircraftBuoyant\m1341_refined_simplified.obj

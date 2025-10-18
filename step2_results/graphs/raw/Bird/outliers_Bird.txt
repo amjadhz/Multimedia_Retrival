@@ -6,7 +6,7 @@
         116      210    data\Bird\m42.obj
         260      364 data\Bird\D00323.obj
 
-== {cls} — Largest ({stage}) ==
+== Bird — Largest (raw) ==
  n_vertices  n_faces                 path
       16542    33072    data\Bird\m45.obj
       15871    31702 data\Bird\D00113.obj

@@ -6,7 +6,7 @@
        3061     5514 data\Motorcycle\D00269.obj
        3397     6096 data\Motorcycle\D00396.obj
 
-== {cls} — Largest ({stage}) ==
+== Motorcycle — Largest (raw) ==
  n_vertices  n_faces                       path
       46403    90616 data\Motorcycle\D00703.obj
       46403    90616  data\Motorcycle\m1483.obj

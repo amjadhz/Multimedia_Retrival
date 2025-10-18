@@ -1,15 +1,15 @@
 == HumanHead — Smallest (resampled) ==
- n_vertices  n_faces                                              path
-       5167    10112 step2_results\resampled\HumanHead\D00591_kept.obj
-       5243    10203 step2_results\resampled\HumanHead\D00013_kept.obj
-       5161    10222 step2_results\resampled\HumanHead\D00131_kept.obj
-       5284    10387 step2_results\resampled\HumanHead\D00072_kept.obj
-       5276    10432 step2_results\resampled\HumanHead\D00106_kept.obj
+ n_vertices  n_faces                                                            path
+       5093     8565 step2_results\resampled\HumanHead\D00061_refined_simplified.obj
+       5104     9179   step2_results\resampled\HumanHead\m347_refined_simplified.obj
+       5136     9413   step2_results\resampled\HumanHead\m345_refined_simplified.obj
+       5135     9429   step2_results\resampled\HumanHead\m342_refined_simplified.obj
+       5117     9453 step2_results\resampled\HumanHead\D00629_refined_simplified.obj
 
-== {cls} — Largest ({stage}) ==
- n_vertices  n_faces                                                  path
-       9843    19464       step2_results\resampled\HumanHead\m369_kept.obj
-       9865    19152    step2_results\resampled\HumanHead\m352_refined.obj
-       9235    18412  step2_results\resampled\HumanHead\D00984_refined.obj
-       9148    18008       step2_results\resampled\HumanHead\m348_kept.obj
-       9000    17996 step2_results\resampled\HumanHead\m355_simplified.obj
+== HumanHead — Largest (resampled) ==
+ n_vertices  n_faces                                                    path
+       9000    17996   step2_results\resampled\HumanHead\m355_simplified.obj
+       9000    17996   step2_results\resampled\HumanHead\m365_simplified.obj
+       9025    17370   step2_results\resampled\HumanHead\m349_simplified.obj
+       6500    12996   step2_results\resampled\HumanHead\m353_simplified.obj
+       6509    12907 step2_results\resampled\HumanHead\D00578_simplified.obj

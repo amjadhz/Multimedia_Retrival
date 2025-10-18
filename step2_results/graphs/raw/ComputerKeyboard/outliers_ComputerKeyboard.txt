@@ -6,7 +6,7 @@
         805     1363 data\ComputerKeyboard\D00116.obj
        1043     1698 data\ComputerKeyboard\D00278.obj
 
-== {cls} — Largest ({stage}) ==
+== ComputerKeyboard — Largest (raw) ==
  n_vertices  n_faces                             path
        8454    16594 data\ComputerKeyboard\D00597.obj
        7131    13914 data\ComputerKeyboard\D00420.obj

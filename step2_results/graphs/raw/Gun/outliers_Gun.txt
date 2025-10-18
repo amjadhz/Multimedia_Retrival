@@ -6,7 +6,7 @@
         293      558 data\Gun\D00244.obj
         293      558   data\Gun\m658.obj
 
-== {cls} — Largest ({stage}) ==
+== Gun — Largest (raw) ==
  n_vertices  n_faces                path
       28389    56596 data\Gun\D00972.obj
       27863    55622   data\Gun\m684.obj

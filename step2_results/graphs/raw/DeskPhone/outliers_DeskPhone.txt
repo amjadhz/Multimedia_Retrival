@@ -6,7 +6,7 @@
         880     1678 data\DeskPhone\D00894.obj
        1699     3314 data\DeskPhone\D00486.obj
 
-== {cls} — Largest ({stage}) ==
+== DeskPhone — Largest (raw) ==
  n_vertices  n_faces                      path
       48061    94497 data\DeskPhone\D00316.obj
       39869    79650 data\DeskPhone\D00899.obj

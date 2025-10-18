@@ -6,7 +6,7 @@
         454      901 data\Train\D01094.obj
        1257     2527 data\Train\D01031.obj
 
-== {cls} — Largest ({stage}) ==
+== Train — Largest (raw) ==
  n_vertices  n_faces                  path
       13612    25591 data\Train\D01180.obj
       11298    21980  data\Train\m1581.obj

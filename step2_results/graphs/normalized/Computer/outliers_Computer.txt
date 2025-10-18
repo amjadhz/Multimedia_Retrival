@@ -1,15 +1,15 @@
 == Computer — Smallest (normalized) ==
- n_vertices  n_faces                                                      path
-       5026     9528    step2_results\normalized\Computer\D01067_kept_norm.obj
-       5026     9528     step2_results\normalized\Computer\m1778_kept_norm.obj
-       5594    11008 step2_results\normalized\Computer\D01071_refined_norm.obj
-       5594    11008  step2_results\normalized\Computer\m1766_refined_norm.obj
-       6512    11201    step2_results\normalized\Computer\D01115_kept_norm.obj
+ n_vertices  n_faces                                                                 path
+       5130     7350 step2_results\normalized\Computer\D01082_refined_simplified_norm.obj
+       5090     9057 step2_results\normalized\Computer\D01028_refined_simplified_norm.obj
+       5098     9057  step2_results\normalized\Computer\m1773_refined_simplified_norm.obj
+       5026     9528               step2_results\normalized\Computer\D01067_kept_norm.obj
+       5026     9528                step2_results\normalized\Computer\m1778_kept_norm.obj
 
-== {cls} — Largest ({stage}) ==
+== Computer — Largest (normalized) ==
  n_vertices  n_faces                                                         path
-       9736    19456    step2_results\normalized\Computer\D01085_refined_norm.obj
-       9736    19456     step2_results\normalized\Computer\m1769_refined_norm.obj
-       9010    17976  step2_results\normalized\Computer\m1774_simplified_norm.obj
-       9024    17960 step2_results\normalized\Computer\D01072_simplified_norm.obj
-       9024    17960  step2_results\normalized\Computer\m1777_simplified_norm.obj
+       9021    17529 step2_results\normalized\Computer\D01128_simplified_norm.obj
+       9021    17529  step2_results\normalized\Computer\m1772_simplified_norm.obj
+       9020    15890 step2_results\normalized\Computer\D01023_simplified_norm.obj
+       6512    11201       step2_results\normalized\Computer\D01115_kept_norm.obj
+       5594    11008    step2_results\normalized\Computer\D01071_refined_norm.obj

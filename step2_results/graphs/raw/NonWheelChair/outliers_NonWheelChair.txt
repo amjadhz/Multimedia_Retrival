@@ -6,7 +6,7 @@
         120      180 data\NonWheelChair\m809.obj
         104      184 data\NonWheelChair\m807.obj
 
-== {cls} — Largest ({stage}) ==
+== NonWheelChair — Largest (raw) ==
  n_vertices  n_faces                          path
       16724    33404 data\NonWheelChair\D00419.obj
       12172    24248   data\NonWheelChair\m796.obj

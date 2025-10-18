@@ -1,15 +1,15 @@
 == Skyscraper — Smallest (normalized) ==
- n_vertices  n_faces                                                           path
-       6784    10068 step2_results\normalized\Skyscraper\D00664_simplified_norm.obj
-       6372    10967       step2_results\normalized\Skyscraper\D00300_kept_norm.obj
-       5516    10976       step2_results\normalized\Skyscraper\D00589_kept_norm.obj
-       7636    12530 step2_results\normalized\Skyscraper\D00259_simplified_norm.obj
-       9528    12532 step2_results\normalized\Skyscraper\D00532_simplified_norm.obj
+ n_vertices  n_faces                                                                   path
+       5119     8324 step2_results\normalized\Skyscraper\D00998_refined_simplified_norm.obj
+       5128     8639 step2_results\normalized\Skyscraper\D00059_refined_simplified_norm.obj
+       5357     8966         step2_results\normalized\Skyscraper\D00259_simplified_norm.obj
+       9549     8978         step2_results\normalized\Skyscraper\D00006_simplified_norm.obj
+      12889     8979         step2_results\normalized\Skyscraper\D00058_simplified_norm.obj
 
-== {cls} — Largest ({stage}) ==
+== Skyscraper — Largest (normalized) ==
  n_vertices  n_faces                                                           path
-       9383    18160    step2_results\normalized\Skyscraper\D00130_refined_norm.obj
-       9075    17892 step2_results\normalized\Skyscraper\D00872_simplified_norm.obj
-       8906    17452    step2_results\normalized\Skyscraper\D00641_refined_norm.obj
-       9024    16448 step2_results\normalized\Skyscraper\D00059_simplified_norm.obj
-       9021    15797 step2_results\normalized\Skyscraper\D00998_simplified_norm.obj
+       9006    13304 step2_results\normalized\Skyscraper\D00584_simplified_norm.obj
+       6501    12801 step2_results\normalized\Skyscraper\D00822_simplified_norm.obj
+       8529    12625 step2_results\normalized\Skyscraper\D00729_simplified_norm.obj
+       6540    12553 step2_results\normalized\Skyscraper\D00125_simplified_norm.obj
+       6543    12526 step2_results\normalized\Skyscraper\D00105_simplified_norm.obj

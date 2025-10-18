@@ -6,7 +6,7 @@
         278      492    data\Insect\m12.obj
         298      492     data\Insect\m0.obj
 
-== {cls} — Largest ({stage}) ==
+== Insect — Largest (raw) ==
  n_vertices  n_faces                   path
       23399    46516 data\Insect\D00430.obj
       22663    41626 data\Insect\D00884.obj

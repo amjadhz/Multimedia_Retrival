@@ -6,7 +6,7 @@
         524      868 data\Monoplane\D00262.obj
         586      940 data\Monoplane\D00995.obj
 
-== {cls} — Largest ({stage}) ==
+== Monoplane — Largest (raw) ==
  n_vertices  n_faces                      path
        7418    14796 data\Monoplane\D00617.obj
        5849    10072 data\Monoplane\D00688.obj

@@ -6,7 +6,7 @@
         131      255 data\Knife\D01189.obj
         132      262 data\Knife\D01120.obj
 
-== {cls} — Largest ({stage}) ==
+== Knife — Largest (raw) ==
  n_vertices  n_faces                  path
        5076    10136   data\Knife\m723.obj
         985     1965 data\Knife\D01132.obj

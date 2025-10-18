@@ -1,15 +1,15 @@
 == RoundTable — Smallest (normalized) ==
- n_vertices  n_faces                                                        path
-       5619    10380   step2_results\normalized\RoundTable\m929_refined_norm.obj
-       6232    11776   step2_results\normalized\RoundTable\m928_refined_norm.obj
-       6567    13108   step2_results\normalized\RoundTable\m938_refined_norm.obj
-       6647    13237    step2_results\normalized\RoundTable\D00702_kept_norm.obj
-       6720    13264 step2_results\normalized\RoundTable\D00503_refined_norm.obj
+ n_vertices  n_faces                                                                   path
+       5098     8861 step2_results\normalized\RoundTable\D00107_refined_simplified_norm.obj
+       5120     9008   step2_results\normalized\RoundTable\m926_refined_simplified_norm.obj
+       5107     9058   step2_results\normalized\RoundTable\m925_refined_simplified_norm.obj
+       5124     9083   step2_results\normalized\RoundTable\m924_refined_simplified_norm.obj
+       5126     9325 step2_results\normalized\RoundTable\D00407_refined_simplified_norm.obj
 
-== {cls} — Largest ({stage}) ==
- n_vertices  n_faces                                                           path
-       9903    18560    step2_results\normalized\RoundTable\D00407_refined_norm.obj
-       9000    17996 step2_results\normalized\RoundTable\D00756_simplified_norm.obj
-       9000    17996   step2_results\normalized\RoundTable\m937_simplified_norm.obj
-       9001    17992   step2_results\normalized\RoundTable\m933_simplified_norm.obj
-       9005    17990 step2_results\normalized\RoundTable\D00524_simplified_norm.obj
+== RoundTable — Largest (normalized) ==
+ n_vertices  n_faces                                                                   path
+       9000    17980         step2_results\normalized\RoundTable\D00492_simplified_norm.obj
+       9000    17906         step2_results\normalized\RoundTable\D00094_simplified_norm.obj
+       8686    17128           step2_results\normalized\RoundTable\m932_simplified_norm.obj
+       6647    13237               step2_results\normalized\RoundTable\D00702_kept_norm.obj
+       5100    10196 step2_results\normalized\RoundTable\D00756_refined_simplified_norm.obj

@@ -1,15 +1,15 @@
 == PlantIndoors — Smallest (resampled) ==
- n_vertices  n_faces                                                     path
-       7242     4603 step2_results\resampled\PlantIndoors\m995_simplified.obj
-       5331     6734      step2_results\resampled\PlantIndoors\m1009_kept.obj
-       6257     7196      step2_results\resampled\PlantIndoors\m1010_kept.obj
-       6365     7424      step2_results\resampled\PlantIndoors\m1013_kept.obj
-       5671     7624     step2_results\resampled\PlantIndoors\D00657_kept.obj
+ n_vertices  n_faces                                                             path
+       7240     4599         step2_results\resampled\PlantIndoors\m995_simplified.obj
+       5128     6581 step2_results\resampled\PlantIndoors\m991_refined_simplified.obj
+       5331     6734              step2_results\resampled\PlantIndoors\m1009_kept.obj
+       6537     6957       step2_results\resampled\PlantIndoors\D00370_simplified.obj
+       6537     6958        step2_results\resampled\PlantIndoors\m1007_simplified.obj
 
-== {cls} — Largest ({stage}) ==
- n_vertices  n_faces                                                      path
-       9009    17982 step2_results\resampled\PlantIndoors\m1032_simplified.obj
-       9018    17925 step2_results\resampled\PlantIndoors\m1029_simplified.obj
-       9021    17898 step2_results\resampled\PlantIndoors\m1036_simplified.obj
-       9036    17827 step2_results\resampled\PlantIndoors\m1034_simplified.obj
-       9060    17332  step2_results\resampled\PlantIndoors\m993_simplified.obj
+== PlantIndoors — Largest (resampled) ==
+ n_vertices  n_faces                                                       path
+       9120    13057  step2_results\resampled\PlantIndoors\m1001_simplified.obj
+       9030    12882 step2_results\resampled\PlantIndoors\D00073_simplified.obj
+       9050    12660 step2_results\resampled\PlantIndoors\D00622_simplified.obj
+       9048    12652  step2_results\resampled\PlantIndoors\m1017_simplified.obj
+       8691    12550  step2_results\resampled\PlantIndoors\m1006_simplified.obj

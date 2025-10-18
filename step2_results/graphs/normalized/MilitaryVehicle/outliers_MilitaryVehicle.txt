@@ -1,15 +1,15 @@
 == MilitaryVehicle — Smallest (normalized) ==
- n_vertices  n_faces                                                                path
-       5858     9906       step2_results\normalized\MilitaryVehicle\D00334_kept_norm.obj
-       6774    11138 step2_results\normalized\MilitaryVehicle\D00971_simplified_norm.obj
-       9915    12532 step2_results\normalized\MilitaryVehicle\D00173_simplified_norm.obj
-       9170    12535 step2_results\normalized\MilitaryVehicle\D00933_simplified_norm.obj
-       7936    12591 step2_results\normalized\MilitaryVehicle\D00723_simplified_norm.obj
+ n_vertices  n_faces                                                                        path
+       5148     8527 step2_results\normalized\MilitaryVehicle\D00778_refined_simplified_norm.obj
+       5127     8980 step2_results\normalized\MilitaryVehicle\D00100_refined_simplified_norm.obj
+       6774     9251         step2_results\normalized\MilitaryVehicle\D00933_simplified_norm.obj
+       5130     9263 step2_results\normalized\MilitaryVehicle\D00611_refined_simplified_norm.obj
+       5093     9851 step2_results\normalized\MilitaryVehicle\D00051_refined_simplified_norm.obj
 
-== {cls} — Largest ({stage}) ==
+== MilitaryVehicle — Largest (normalized) ==
  n_vertices  n_faces                                                                path
-       9744    19260       step2_results\normalized\MilitaryVehicle\D00952_kept_norm.obj
-       8847    18099 step2_results\normalized\MilitaryVehicle\D00801_simplified_norm.obj
-       9007    17918 step2_results\normalized\MilitaryVehicle\D00799_simplified_norm.obj
-       9592    17900    step2_results\normalized\MilitaryVehicle\D00611_refined_norm.obj
-       9040    17599 step2_results\normalized\MilitaryVehicle\D00051_simplified_norm.obj
+       8948    18327 step2_results\normalized\MilitaryVehicle\D00801_simplified_norm.obj
+       8987    16672 step2_results\normalized\MilitaryVehicle\D00272_simplified_norm.obj
+       9019    16244 step2_results\normalized\MilitaryVehicle\D00458_simplified_norm.obj
+       9017    16018 step2_results\normalized\MilitaryVehicle\D00918_simplified_norm.obj
+       7906    15993 step2_results\normalized\MilitaryVehicle\D00529_simplified_norm.obj

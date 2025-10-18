@@ -6,7 +6,7 @@
         797     1291 data\PianoBoard\D00718.obj
         719     1429 data\PianoBoard\D00253.obj
 
-== {cls} — Largest ({stage}) ==
+== PianoBoard — Largest (raw) ==
  n_vertices  n_faces                       path
        8133    15777 data\PianoBoard\D00755.obj
        9628    15427 data\PianoBoard\D00181.obj

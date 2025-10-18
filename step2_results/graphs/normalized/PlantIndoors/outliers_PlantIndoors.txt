@@ -1,15 +1,15 @@
 == PlantIndoors — Smallest (normalized) ==
- n_vertices  n_faces                                                           path
-       7242     4603 step2_results\normalized\PlantIndoors\m995_simplified_norm.obj
-       5331     6734      step2_results\normalized\PlantIndoors\m1009_kept_norm.obj
-       6257     7196      step2_results\normalized\PlantIndoors\m1010_kept_norm.obj
-       6365     7424      step2_results\normalized\PlantIndoors\m1013_kept_norm.obj
-       5671     7624     step2_results\normalized\PlantIndoors\D00657_kept_norm.obj
+ n_vertices  n_faces                                                                   path
+       7240     4599         step2_results\normalized\PlantIndoors\m995_simplified_norm.obj
+       5128     6581 step2_results\normalized\PlantIndoors\m991_refined_simplified_norm.obj
+       5331     6734              step2_results\normalized\PlantIndoors\m1009_kept_norm.obj
+       6534     6957       step2_results\normalized\PlantIndoors\D00370_simplified_norm.obj
+       6535     6958        step2_results\normalized\PlantIndoors\m1007_simplified_norm.obj
 
-== {cls} — Largest ({stage}) ==
- n_vertices  n_faces                                                            path
-       9009    17982 step2_results\normalized\PlantIndoors\m1032_simplified_norm.obj
-       9018    17925 step2_results\normalized\PlantIndoors\m1029_simplified_norm.obj
-       9021    17898 step2_results\normalized\PlantIndoors\m1036_simplified_norm.obj
-       9036    17827 step2_results\normalized\PlantIndoors\m1034_simplified_norm.obj
-       9060    17332  step2_results\normalized\PlantIndoors\m993_simplified_norm.obj
+== PlantIndoors — Largest (normalized) ==
+ n_vertices  n_faces                                                             path
+       9120    13057  step2_results\normalized\PlantIndoors\m1001_simplified_norm.obj
+       9030    12882 step2_results\normalized\PlantIndoors\D00073_simplified_norm.obj
+       8918    12660 step2_results\normalized\PlantIndoors\D00622_simplified_norm.obj
+       8916    12652  step2_results\normalized\PlantIndoors\m1017_simplified_norm.obj
+       8691    12550  step2_results\normalized\PlantIndoors\m1006_simplified_norm.obj

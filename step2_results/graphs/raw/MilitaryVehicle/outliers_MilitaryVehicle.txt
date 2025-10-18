@@ -6,7 +6,7 @@
        3204     5588 data\MilitaryVehicle\D00100.obj
        4449     7133 data\MilitaryVehicle\D00778.obj
 
-== {cls} — Largest ({stage}) ==
+== MilitaryVehicle — Largest (raw) ==
  n_vertices  n_faces                            path
       38226    74054 data\MilitaryVehicle\D00529.obj
       34333    69048 data\MilitaryVehicle\D00801.obj

@@ -6,7 +6,7 @@
         178      350   data\Sword\m689.obj
         180      350   data\Sword\m690.obj
 
-== {cls} — Largest ({stage}) ==
+== Sword — Largest (raw) ==
  n_vertices  n_faces                  path
       18888    37241   data\Sword\m717.obj
       15478    30816 data\Sword\D00249.obj

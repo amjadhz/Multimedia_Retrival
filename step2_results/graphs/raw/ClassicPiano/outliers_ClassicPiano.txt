@@ -6,7 +6,7 @@
         615     1148 data\ClassicPiano\D00811.obj
         626     1206 data\ClassicPiano\D00005.obj
 
-== {cls} — Largest ({stage}) ==
+== ClassicPiano — Largest (raw) ==
  n_vertices  n_faces                         path
        8121    15106 data\ClassicPiano\D00605.obj
        7253    13777 data\ClassicPiano\D00279.obj

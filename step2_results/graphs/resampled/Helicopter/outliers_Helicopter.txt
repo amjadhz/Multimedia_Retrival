@@ -1,15 +1,15 @@
 == Helicopter — Smallest (resampled) ==
- n_vertices  n_faces                                                  path
-       5207     7969    step2_results\resampled\Helicopter\D00397_kept.obj
-       5429     8458    step2_results\resampled\Helicopter\D00977_kept.obj
-       5729    10160     step2_results\resampled\Helicopter\m1323_kept.obj
-       5580    10464  step2_results\resampled\Helicopter\m1316_refined.obj
-       5792    10472 step2_results\resampled\Helicopter\D00498_refined.obj
+ n_vertices  n_faces                                                             path
+       5207     7969               step2_results\resampled\Helicopter\D00397_kept.obj
+       5126     8280 step2_results\resampled\Helicopter\D00820_refined_simplified.obj
+       5429     8458               step2_results\resampled\Helicopter\D00977_kept.obj
+       5297     8940             step2_results\resampled\Helicopter\m1326_refined.obj
+       5148     9049 step2_results\resampled\Helicopter\D00658_refined_simplified.obj
 
-== {cls} — Largest ({stage}) ==
+== Helicopter — Largest (resampled) ==
  n_vertices  n_faces                                                     path
-       8998    18008  step2_results\resampled\Helicopter\m1328_simplified.obj
-       8996    18001 step2_results\resampled\Helicopter\D00644_simplified.obj
-       9000    17996  step2_results\resampled\Helicopter\m1311_simplified.obj
-       9018    17988  step2_results\resampled\Helicopter\m1308_simplified.obj
-       9016    17976 step2_results\resampled\Helicopter\D00423_simplified.obj
+       8999    18007 step2_results\resampled\Helicopter\D00644_simplified.obj
+       8999    17948  step2_results\resampled\Helicopter\m1308_simplified.obj
+       9008    17736  step2_results\resampled\Helicopter\m1307_simplified.obj
+       9012    17279 step2_results\resampled\Helicopter\D00751_simplified.obj
+       9001    16688 step2_results\resampled\Helicopter\D00471_simplified.obj

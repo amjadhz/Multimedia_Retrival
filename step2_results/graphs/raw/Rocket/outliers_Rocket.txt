@@ -6,7 +6,7 @@
         161      224 data\Rocket\D00614.obj
         170      304 data\Rocket\D00433.obj
 
-== {cls} — Largest ({stage}) ==
+== Rocket — Largest (raw) ==
  n_vertices  n_faces                   path
       12987    24466 data\Rocket\D00564.obj
        7791    15310 data\Rocket\D00975.obj

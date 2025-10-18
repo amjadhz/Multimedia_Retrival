@@ -6,7 +6,7 @@
          36       64 data\MultiSeat\m841.obj
          46       86 data\MultiSeat\m778.obj
 
-== {cls} — Largest ({stage}) ==
+== MultiSeat — Largest (raw) ==
  n_vertices  n_faces                      path
       40607    80270 data\MultiSeat\D00263.obj
       27775    55260 data\MultiSeat\D00273.obj

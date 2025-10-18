@@ -1,15 +1,15 @@
 == Ship — Smallest (normalized) ==
- n_vertices  n_faces                                               path
-       6119    10502  step2_results\normalized\Ship\m1446_kept_norm.obj
-       6122    10502 step2_results\normalized\Ship\D00247_kept_norm.obj
-       6122    10502 step2_results\normalized\Ship\D00837_kept_norm.obj
-       6923    10513  step2_results\normalized\Ship\m1465_kept_norm.obj
-       6892    10725 step2_results\normalized\Ship\D00258_kept_norm.obj
+ n_vertices  n_faces                                                             path
+       5137     6247 step2_results\normalized\Ship\D00791_refined_simplified_norm.obj
+       5152     6273 step2_results\normalized\Ship\D00292_refined_simplified_norm.obj
+       5157     6277 step2_results\normalized\Ship\D00027_refined_simplified_norm.obj
+       5155     6288  step2_results\normalized\Ship\m1435_refined_simplified_norm.obj
+       5111     6913 step2_results\normalized\Ship\D00467_refined_simplified_norm.obj
 
-== {cls} — Largest ({stage}) ==
+== Ship — Largest (normalized) ==
  n_vertices  n_faces                                                     path
-       9911    19712     step2_results\normalized\Ship\m1463_refined_norm.obj
-       9703    18883        step2_results\normalized\Ship\m1466_kept_norm.obj
-       9526    18755     step2_results\normalized\Ship\m1458_refined_norm.obj
-       9227    18210       step2_results\normalized\Ship\D00907_kept_norm.obj
-       9000    18000 step2_results\normalized\Ship\D00099_simplified_norm.obj
+       9028    17600 step2_results\normalized\Ship\D00175_simplified_norm.obj
+       9031    17541 step2_results\normalized\Ship\D00429_simplified_norm.obj
+       8899    17468 step2_results\normalized\Ship\D00771_simplified_norm.obj
+       8946    17125 step2_results\normalized\Ship\D00809_simplified_norm.obj
+       9010    16922 step2_results\normalized\Ship\D00539_simplified_norm.obj

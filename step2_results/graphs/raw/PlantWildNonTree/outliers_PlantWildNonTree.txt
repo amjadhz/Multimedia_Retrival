@@ -6,7 +6,7 @@
         241      450  data\PlantWildNonTree\m975.obj
         332      600  data\PlantWildNonTree\m982.obj
 
-== {cls} — Largest ({stage}) ==
+== PlantWildNonTree — Largest (raw) ==
  n_vertices  n_faces                           path
       50833    87141 data\PlantWildNonTree\m985.obj
       13868    22889 data\PlantWildNonTree\m965.obj

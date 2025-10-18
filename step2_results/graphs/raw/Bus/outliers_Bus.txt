@@ -6,7 +6,7 @@
        5220     8783 data\Bus\D00857.obj
        4587     9305 data\Bus\D00436.obj
 
-== {cls} — Largest ({stage}) ==
+== Bus — Largest (raw) ==
  n_vertices  n_faces                path
       13436    25298 data\Bus\D00182.obj
       12919    24603 data\Bus\D00084.obj

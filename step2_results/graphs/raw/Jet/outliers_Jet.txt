@@ -6,7 +6,7 @@
         213      208 data\Jet\m1176.obj
         204      244 data\Jet\m1295.obj
 
-== {cls} — Largest ({stage}) ==
+== Jet — Largest (raw) ==
  n_vertices  n_faces               path
        9380    17255 data\Jet\m1256.obj
        8795    16953 data\Jet\m1257.obj

@@ -6,7 +6,7 @@
         339      612   data\Cup\m499.obj
         353      702 data\Cup\D00067.obj
 
-== {cls} — Largest ({stage}) ==
+== Cup — Largest (raw) ==
  n_vertices  n_faces                path
       12529    24928 data\Cup\D00550.obj
       12252    24500 data\Cup\D00174.obj

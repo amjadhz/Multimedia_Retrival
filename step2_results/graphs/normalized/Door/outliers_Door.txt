@@ -1,15 +1,15 @@
 == Door — Smallest (normalized) ==
- n_vertices  n_faces                                                  path
-       5772    11038 step2_results\normalized\Door\D01167_refined_norm.obj
-       5772    11038  step2_results\normalized\Door\m1724_refined_norm.obj
-       5848    11420 step2_results\normalized\Door\D01062_refined_norm.obj
-       5848    11420  step2_results\normalized\Door\m1723_refined_norm.obj
-       6040    11440    step2_results\normalized\Door\D01005_kept_norm.obj
+ n_vertices  n_faces                                                             path
+       5131     8930  step2_results\normalized\Door\m1718_refined_simplified_norm.obj
+       5132     8947 step2_results\normalized\Door\D01129_refined_simplified_norm.obj
+       5020     9462  step2_results\normalized\Door\m1724_refined_simplified_norm.obj
+       5030     9485 step2_results\normalized\Door\D01167_refined_simplified_norm.obj
+       5099     9515 step2_results\normalized\Door\D01141_refined_simplified_norm.obj
 
-== {cls} — Largest ({stage}) ==
- n_vertices  n_faces                                                     path
-       9228    18432    step2_results\normalized\Door\D01143_refined_norm.obj
-       8998    18010 step2_results\normalized\Door\D01158_simplified_norm.obj
-       8998    18010  step2_results\normalized\Door\m1721_simplified_norm.obj
-       9014    17976 step2_results\normalized\Door\D01114_simplified_norm.obj
-       9014    17976  step2_results\normalized\Door\m1722_simplified_norm.obj
+== Door — Largest (normalized) ==
+ n_vertices  n_faces                                                            path
+       6040    11440              step2_results\normalized\Door\D01005_kept_norm.obj
+       6040    11440               step2_results\normalized\Door\m1713_kept_norm.obj
+       5266    10480           step2_results\normalized\Door\D01114_refined_norm.obj
+       5266    10480            step2_results\normalized\Door\m1722_refined_norm.obj
+       5089    10314 step2_results\normalized\Door\m1731_refined_simplified_norm.obj

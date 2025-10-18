@@ -1,15 +1,15 @@
 == ClassicPiano — Smallest (normalized) ==
- n_vertices  n_faces                                                          path
-       5204     9053    step2_results\normalized\ClassicPiano\D00233_kept_norm.obj
-       5131     9436    step2_results\normalized\ClassicPiano\D00784_kept_norm.obj
-       6800    10292    step2_results\normalized\ClassicPiano\D00314_kept_norm.obj
-       5889    10703    step2_results\normalized\ClassicPiano\D00092_kept_norm.obj
-       5571    10711 step2_results\normalized\ClassicPiano\D00967_refined_norm.obj
+ n_vertices  n_faces                                                                     path
+       5134     8240 step2_results\normalized\ClassicPiano\D00789_refined_simplified_norm.obj
+       5146     9034 step2_results\normalized\ClassicPiano\D00845_refined_simplified_norm.obj
+       5204     9053               step2_results\normalized\ClassicPiano\D00233_kept_norm.obj
+       5099     9371 step2_results\normalized\ClassicPiano\D00579_refined_simplified_norm.obj
+       5131     9436               step2_results\normalized\ClassicPiano\D00784_kept_norm.obj
 
-== {cls} — Largest ({stage}) ==
+== ClassicPiano — Largest (normalized) ==
  n_vertices  n_faces                                                             path
-       9766    19296    step2_results\normalized\ClassicPiano\D00005_refined_norm.obj
-       9399    18367    step2_results\normalized\ClassicPiano\D00811_refined_norm.obj
-       8986    17761 step2_results\normalized\ClassicPiano\D00120_simplified_norm.obj
-       9440    17504    step2_results\normalized\ClassicPiano\D00845_refined_norm.obj
-       9035    17258 step2_results\normalized\ClassicPiano\D00983_simplified_norm.obj
+       6502    12345 step2_results\normalized\ClassicPiano\D00279_simplified_norm.obj
+       6413    11885 step2_results\normalized\ClassicPiano\D00605_simplified_norm.obj
+       5570    10712    step2_results\normalized\ClassicPiano\D00967_refined_norm.obj
+       5889    10703       step2_results\normalized\ClassicPiano\D00092_kept_norm.obj
+       6800    10292       step2_results\normalized\ClassicPiano\D00314_kept_norm.obj

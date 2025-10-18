@@ -6,7 +6,7 @@
         119      174 data\House\m435.obj
         200      216 data\House\m454.obj
 
-== {cls} — Largest ({stage}) ==
+== House — Largest (raw) ==
  n_vertices  n_faces                  path
       46252    84001 data\House\D00001.obj
       34797    60834 data\House\D00359.obj

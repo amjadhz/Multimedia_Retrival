@@ -6,7 +6,7 @@
         424      824 data\AircraftBuoyant\m1341.obj
         742     1374 data\AircraftBuoyant\m1346.obj
 
-== {cls} — Largest ({stage}) ==
+== AircraftBuoyant — Largest (raw) ==
  n_vertices  n_faces                           path
       12985    24464 data\AircraftBuoyant\m1351.obj
        8761    16960 data\AircraftBuoyant\m1338.obj

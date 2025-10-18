@@ -1,15 +1,15 @@
 == Humanoid — Smallest (resampled) ==
- n_vertices  n_faces                                              path
-       5647    10130    step2_results\resampled\Humanoid\m143_kept.obj
-       5554    11104 step2_results\resampled\Humanoid\m208_refined.obj
-       5793    11536 step2_results\resampled\Humanoid\m257_refined.obj
-       5862    11648 step2_results\resampled\Humanoid\m259_refined.obj
-       6010    11648 step2_results\resampled\Humanoid\m154_refined.obj
+ n_vertices  n_faces                                                         path
+       5783     5096 step2_results\resampled\Humanoid\m198_refined_simplified.obj
+       5096     7006 step2_results\resampled\Humanoid\m165_refined_simplified.obj
+       5097     7091 step2_results\resampled\Humanoid\m166_refined_simplified.obj
+       5112     8519 step2_results\resampled\Humanoid\m146_refined_simplified.obj
+       5112     8523 step2_results\resampled\Humanoid\m194_refined_simplified.obj
 
-== {cls} — Largest ({stage}) ==
+== Humanoid — Largest (resampled) ==
  n_vertices  n_faces                                                 path
-       9932    19776    step2_results\resampled\Humanoid\m205_refined.obj
-       9698    19260       step2_results\resampled\Humanoid\m252_kept.obj
-       9623    19059       step2_results\resampled\Humanoid\m224_kept.obj
-       9060    18110       step2_results\resampled\Humanoid\m140_kept.obj
-       9000    18000 step2_results\resampled\Humanoid\m125_simplified.obj
+       9042    18022 step2_results\resampled\Humanoid\m170_simplified.obj
+       9000    17996 step2_results\resampled\Humanoid\m178_simplified.obj
+       9000    17996 step2_results\resampled\Humanoid\m265_simplified.obj
+       9000    17992 step2_results\resampled\Humanoid\m145_simplified.obj
+       9000    17990 step2_results\resampled\Humanoid\m149_simplified.obj

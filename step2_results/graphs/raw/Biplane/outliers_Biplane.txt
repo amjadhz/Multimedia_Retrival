@@ -6,7 +6,7 @@
         354      520  data\Biplane\m1127.obj
         408      524  data\Biplane\m1137.obj
 
-== {cls} — Largest ({stage}) ==
+== Biplane — Largest (raw) ==
  n_vertices  n_faces                    path
       65698   129810  data\Biplane\m1120.obj
       40788    77092 data\Biplane\D00634.obj

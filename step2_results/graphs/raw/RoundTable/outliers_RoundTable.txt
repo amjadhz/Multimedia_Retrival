@@ -6,7 +6,7 @@
          72      140   data\RoundTable\m937.obj
         136      236 data\RoundTable\D00344.obj
 
-== {cls} — Largest ({stage}) ==
+== RoundTable — Largest (raw) ==
  n_vertices  n_faces                       path
       13002    25984 data\RoundTable\D00492.obj
       12412    24720 data\RoundTable\D00094.obj

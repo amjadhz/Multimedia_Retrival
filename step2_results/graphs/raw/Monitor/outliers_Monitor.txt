@@ -6,7 +6,7 @@
         461      903 data\Monitor\D00920.obj
        1097     2102 data\Monitor\D00919.obj
 
-== {cls} — Largest ({stage}) ==
+== Monitor — Largest (raw) ==
  n_vertices  n_faces                    path
       21122    39695 data\Monitor\D00863.obj
       18962    37916 data\Monitor\D00387.obj

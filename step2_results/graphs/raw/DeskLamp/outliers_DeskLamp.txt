@@ -6,7 +6,7 @@
         136      200   data\DeskLamp\m613.obj
         166      316   data\DeskLamp\m603.obj
 
-== {cls} — Largest ({stage}) ==
+== DeskLamp — Largest (raw) ==
  n_vertices  n_faces                     path
       22837    45584 data\DeskLamp\D00547.obj
       21616    38066 data\DeskLamp\D00744.obj

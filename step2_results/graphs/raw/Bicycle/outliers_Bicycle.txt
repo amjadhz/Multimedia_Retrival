@@ -6,7 +6,7 @@
        2192     4031 data\Bicycle\D00033.obj
        2192     4034  data\Bicycle\m1473.obj
 
-== {cls} — Largest ({stage}) ==
+== Bicycle — Largest (raw) ==
  n_vertices  n_faces                    path
       56754   111446 data\Bicycle\D00462.obj
       34292    64450 data\Bicycle\D00555.obj
