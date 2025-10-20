@@ -2,9 +2,9 @@
          cls  n_vertices  n_faces                                                             path
        Shelf         112      168     step2_results\normalized\Shelf\m857_refined_clamped_norm.obj
      Bookset         624      832 step2_results\normalized\Bookset\D01096_refined_clamped_norm.obj
+     Bookset        1614     3116 step2_results\normalized\Bookset\D01108_refined_clamped_norm.obj
 PlantIndoors        7240     4599   step2_results\normalized\PlantIndoors\m995_simplified_norm.obj
         Tree        5410     4629                step2_results\normalized\Tree\m1050_kept_norm.obj
-        Tree       11313     4779         step2_results\normalized\Tree\D00612_simplified_norm.obj
 
 == Largest (normalized) ==
             cls  n_vertices  n_faces                                                                path
@@ -15,5 +15,5 @@ MilitaryVehicle        8948    18327 step2_results\normalized\MilitaryVehicle\D0
  RectangleTable        8998    18081  step2_results\normalized\RectangleTable\D00523_simplified_norm.obj
 
 == Average (normalized) ==
-          cls  n_vertices  n_faces                                                                   path
-AquaticAnimal        5110     9823 step2_results\normalized\AquaticAnimal\m75_refined_simplified_norm.obj
+     cls  n_vertices  n_faces                                                                 path
+Computer        5110     9873 step2_results\normalized\Computer\D01164_refined_simplified_norm.obj

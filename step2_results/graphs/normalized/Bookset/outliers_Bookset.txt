@@ -1,10 +1,10 @@
 == Bookset — Smallest (normalized) ==
  n_vertices  n_faces                                                                path
         624      832    step2_results\normalized\Bookset\D01096_refined_clamped_norm.obj
+       1614     3116    step2_results\normalized\Bookset\D01108_refined_clamped_norm.obj
        5120     6308 step2_results\normalized\Bookset\D01146_refined_simplified_norm.obj
        5112     8128 step2_results\normalized\Bookset\D01042_refined_simplified_norm.obj
        5109     8266 step2_results\normalized\Bookset\D01183_refined_simplified_norm.obj
-       5102     8485 step2_results\normalized\Bookset\D01065_refined_simplified_norm.obj
 
 == Bookset — Largest (normalized) ==
  n_vertices  n_faces                                                                path

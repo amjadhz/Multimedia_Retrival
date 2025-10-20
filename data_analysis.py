@@ -314,6 +314,9 @@ def normalize_mesh(mesh):
         s = 1 / max(extent)   # scale so the largest bbox side becomes 1
         V' = (V - c) * s
     NOTE: This does NOT change vertex/triangle counts.
+
+    Returns:
+        m2, s, centroid_norm_after, extent_max_after
     """
     v = np.asarray(mesh.vertices)
     c = v.mean(axis=0)
@@ -322,15 +325,42 @@ def normalize_mesh(mesh):
     extent = vmax - vmin
     s = 1.0 / max(extent.max(), 1e-12)
     v_norm = v_centered * s
+
     m2 = o3d.geometry.TriangleMesh(
         vertices=o3d.utility.Vector3dVector(v_norm),
         triangles=mesh.triangles
     )
     m2.compute_vertex_normals()
-    return m2
+
+    # Normalization check metrics
+    v2 = np.asarray(m2.vertices)
+    v2min, v2max = v2.min(0), v2.max(0)
+    extent2 = v2max - v2min
+    extent_max_after = float(extent2.max())                 # should be ~1.0
+    centroid_norm_after = float(np.linalg.norm(v2.mean(0))) # should be ~0.0
+
+    return m2, float(s), centroid_norm_after, extent_max_after
 
 
 # ----------------------------- Plotting ---------------------------------------
+
+def _hist_safe(series: pd.Series, bins: int, xlabel: str, title: str, outpath: Path):
+    # Clean and guard
+    x = pd.to_numeric(series, errors="coerce").replace([np.inf, -np.inf], np.nan).dropna()
+    if len(x) == 0:
+        return  # nothing to plot
+    vmin, vmax = float(x.min()), float(x.max())
+
+    plt.figure(figsize=(8,6))
+    if not np.isfinite(vmin) or not np.isfinite(vmax):
+        return  # nothing sensible to plot
+    if np.isclose(vmax, vmin):  # degenerate range -> 1 bin with a tiny pad
+        eps = 1e-9 if vmin == 0 else abs(vmin) * 1e-6
+        plt.hist(x, bins=1, range=(vmin - eps, vmax + eps))
+    else:
+        plt.hist(x, bins=bins)
+    plt.xlabel(xlabel); plt.ylabel("count"); plt.title(title)
+    plt.tight_layout(); plt.savefig(outpath, dpi=150); plt.close()
 
 def _band_lines():
     for x in (5000, 10000):
@@ -365,14 +395,34 @@ def save_overall_plots(df: pd.DataFrame, out_root: Path, stage: str, bins: int):
     with open(figdir / f"{stage}_band_compliance.txt", "w") as f:
         f.write(f"Within [5000, 10000]: {in_band} / {total} ({(in_band/total*100):.1f}%)\n")
 
-    if stage == "normalized" and total > 0:
-        dist5 = (df["n_vertices"] - 5000).abs()
-        dist10 = (df["n_vertices"] - 10000).abs()
-        closer5 = (dist5 <= dist10).sum(); closer10 = total - closer5
-        plt.figure(figsize=(6,6))
-        pd.Series({"closer_to_5k": closer5, "closer_to_10k": closer10}).plot(kind="pie", autopct="%1.0f%%")
-        plt.ylabel(""); plt.title("Normalized — Closer to 5k vs 10k")
-        plt.tight_layout(); plt.savefig(figdir / "normalized_closer_5k_vs_10k.png", dpi=150); plt.close()
+    # NORMALIZATION CHECK additions (overall)
+    if stage == "normalized" and total > 0 and {"extent_max_after","centroid_norm_after"}.issubset(df.columns):
+        _hist_safe(
+            df["extent_max_after"],
+            bins=max(20, bins//4),
+            xlabel="extent_max_after",
+            title="NORMALIZED — Histogram of extent_max_after (target ≈ 1.0)",
+            outpath=figdir / "normalized_hist_extent_max.png",
+        )
+        _hist_safe(
+            df["centroid_norm_after"],
+            bins=max(20, bins//4),
+            xlabel="centroid_norm_after",
+            title="NORMALIZED — Histogram of centroid_norm_after (target ≈ 0.0)",
+            outpath=figdir / "normalized_hist_centroid_norm.png",
+        )
+
+        # Scalars (text summary with pass/fail under tolerances)
+        tol_extent = 1e-3
+        tol_centroid = 1e-3
+        pass_extent = ((df["extent_max_after"] - 1.0).abs() <= tol_extent).mean()
+        pass_centroid = (df["centroid_norm_after"].abs() <= tol_centroid).mean()
+        with open(figdir / "normalized_scalar_summary.txt", "w") as f:
+            f.write("== Normalization scalar checks (overall) ==\n")
+            f.write(f"extent_max_after — mean: {df['extent_max_after'].mean():.6f}, median: {df['extent_max_after'].median():.6f}\n")
+            f.write(f"centroid_norm_after — mean: {df['centroid_norm_after'].mean():.6e}, median: {df['centroid_norm_after'].median():.6e}\n")
+            f.write(f"pass_rate |extent_max_after - 1| <= {tol_extent:g}: {pass_extent*100:.1f}%\n")
+            f.write(f"pass_rate |centroid_norm_after| <= {tol_centroid:g}: {pass_centroid*100:.1f}%\n")
 
 def save_class_plots(df: pd.DataFrame, out_root: Path, stage: str, k_outliers: int, bins: int):
     """
@@ -383,6 +433,7 @@ def save_class_plots(df: pd.DataFrame, out_root: Path, stage: str, k_outliers: i
       - pies (face_type, ext)
       - outliers_<Class>.txt (smallest/largest)
       - class_report.txt (count, means/medians, bbox stats, common face type/ext)
+      - NORMALIZATION CHECK additions: per-class hist & scalar summary
     """
     base = out_root / "graphs" / stage
     for cls, g in df.groupby("cls"):
@@ -456,6 +507,34 @@ def save_class_plots(df: pd.DataFrame, out_root: Path, stage: str, k_outliers: i
         with open(cdir / "class_report.txt", "w") as f:
             for k_, v_ in report.items():
                 f.write(f"{k_}: {v_}\n")
+
+        # NORMALIZATION CHECK additions (per-class)
+        if stage == "normalized" and {"extent_max_after","centroid_norm_after"}.issubset(g.columns) and len(g):
+            _hist_safe(
+                g["extent_max_after"],
+                bins=max(12, bins//6),
+                xlabel="extent_max_after",
+                title=f"NORMALIZED — {cls} — extent_max_after (target ≈ 1.0)",
+                outpath=cdir / f"normalized_{cls}_hist_extent_max.png",
+            )
+            _hist_safe(
+                g["centroid_norm_after"],
+                bins=max(12, bins//6),
+                xlabel="centroid_norm_after",
+                title=f"NORMALIZED — {cls} — centroid_norm_after (target ≈ 0.0)",
+                outpath=cdir / f"normalized_{cls}_hist_centroid_norm.png",
+            )
+
+            tol_extent = 1e-3
+            tol_centroid = 1e-3
+            pass_extent = ((g["extent_max_after"] - 1.0).abs() <= tol_extent).mean()
+            pass_centroid = (g["centroid_norm_after"].abs() <= tol_centroid).mean()
+            with open(cdir / "class_norm_checks.txt", "w") as f:
+                f.write(f"== Normalization scalar checks — {cls} ==\n")
+                f.write(f"extent_max_after — mean: {g['extent_max_after'].mean():.6f}, median: {g['extent_max_after'].median():.6f}\n")
+                f.write(f"centroid_norm_after — mean: {g['centroid_norm_after'].mean():.6e}, median: {g['centroid_norm_after'].median():.6e}\n")
+                f.write(f"pass_rate |extent_max_after - 1| <= {tol_extent:g}: {pass_extent*100:.1f}%\n")
+                f.write(f"pass_rate |centroid_norm_after| <= {tol_centroid:g}: {pass_centroid*100:.1f}%\n")
 
 
 # ----------------------------- Main pipeline ----------------------------------
@@ -569,18 +648,26 @@ def main():
         m = safe_read_mesh(p)
         if m is None:
             continue
-        m_norm = normalize_mesh(m)
+        m_norm, s, cnorm, emax = normalize_mesh(m)
 
         out_cls = normalized_dir / r["cls"]
         out_cls.mkdir(parents=True, exist_ok=True)
         out_path = out_cls / f"{p.stem}_norm.obj"
         o3d.io.write_triangle_mesh(str(out_path), m_norm, write_ascii=True)
 
-        norm_records.append(analyze_mesh_record(m_norm, out_path, r["cls"], force_face_type="triangles"))
+        rec = analyze_mesh_record(m_norm, out_path, r["cls"], force_face_type="triangles")
+        rec.update({
+            "norm_scale_s": float(s),
+            "centroid_norm_after": float(cnorm),
+            "extent_max_after": float(emax),
+        })
+        norm_records.append(rec)
 
     df_norm = pd.DataFrame(norm_records)
     df_norm.to_csv(outdir / "stats_normalized.csv", index=False)
-    df_norm[["cls","path","n_vertices","n_faces","n_triangles"]].to_csv(outdir / "objects_normalized.csv", index=False)
+    df_norm[["cls","path","n_vertices","n_faces","n_triangles","norm_scale_s","centroid_norm_after","extent_max_after"]].to_csv(
+        outdir / "objects_normalized.csv", index=False
+    )
     save_overall_plots(df_norm, outdir, "normalized", bins=args.bins_overall)
     save_class_plots(df_norm, outdir, "normalized", k_outliers=args.class_outliers, bins=args.bins_class)
 

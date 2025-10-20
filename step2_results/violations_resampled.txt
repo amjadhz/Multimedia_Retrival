@@ -2,6 +2,7 @@
             cls  n_vertices  n_faces                                                                 path
 AircraftBuoyant        4992     6565 step2_results\resampled\AircraftBuoyant\m1339_refined_simplified.obj
         Bookset         624      832           step2_results\resampled\Bookset\D01096_refined_clamped.obj
+        Bookset        1614     3116           step2_results\resampled\Bookset\D01108_refined_clamped.obj
      PianoBoard        4912     9841     step2_results\resampled\PianoBoard\D00212_refined_simplified.obj
           Shelf         112      168               step2_results\resampled\Shelf\m857_refined_clamped.obj
 

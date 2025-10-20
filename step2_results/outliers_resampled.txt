@@ -2,9 +2,9 @@
          cls  n_vertices  n_faces                                                       path
        Shelf         112      168     step2_results\resampled\Shelf\m857_refined_clamped.obj
      Bookset         624      832 step2_results\resampled\Bookset\D01096_refined_clamped.obj
+     Bookset        1614     3116 step2_results\resampled\Bookset\D01108_refined_clamped.obj
 PlantIndoors        7240     4599   step2_results\resampled\PlantIndoors\m995_simplified.obj
         Tree        5410     4629                step2_results\resampled\Tree\m1050_kept.obj
-        Tree       11361     4779         step2_results\resampled\Tree\D00612_simplified.obj
 
 == Largest (resampled) ==
             cls  n_vertices  n_faces                                                          path

@@ -1,0 +1,5 @@
+== Normalization scalar checks — BuildingNonResidential ==
+extent_max_after — mean: 1.000000, median: 1.000000
+centroid_norm_after — mean: 5.955063e-16, median: 3.774178e-16
+pass_rate |extent_max_after - 1| <= 0.001: 100.0%
+pass_rate |centroid_norm_after| <= 0.001: 100.0%
