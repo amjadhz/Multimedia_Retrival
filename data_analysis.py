@@ -1,10 +1,7 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 # Step 2 — Preprocessing & Cleaning (MR assignment)
-# Single, self-contained script (Open3D + NumPy + Pandas + Matplotlib)
+# Simple, single-file script (Open3D + NumPy + Pandas + Matplotlib)
 #
-# Outputs in <out>/ :
+# Outputs in step2_results/ :
 #   graphs/
 #     raw/0 overall/*.png
 #     raw/<Class>/*.{png,txt}
@@ -13,59 +10,49 @@
 #     normalized/0 overall/*.png
 #     normalized/<Class>/*.{png,txt}
 #   stats_raw.csv,         objects_raw.csv,         outliers_raw.txt
-#   resampled/   (ALL meshes: *_refined / *_refined_clamped / *_refined_simplified / *_simplified / *_kept)
+#   resampled/   (ALL meshes: *_refined / *_simplified / *_kept)
 #   stats_resampled.csv,   objects_resampled.csv,   outliers_resampled.txt
 #   normalized/  (ALL normalized)
 #   stats_normalized.csv,  objects_normalized.csv,  outliers_normalized.txt
 #
-# ---------------- MR formulas used (names match variables) --------------------
-# V  = vertex array (N x 3), v = V[i]
-# AABB (axis-aligned bbox):
-#     vmin = V.min(axis=0)        # (bbox_min_x, bbox_min_y, bbox_min_z)
-#     vmax = V.max(axis=0)        # (bbox_max_x, bbox_max_y, bbox_max_z)
-#     extent = vmax - vmin        # (extent_x, extent_y, extent_z)
-#     bbox_diag = ||extent||_2    # np.linalg.norm(extent)
-# Barycenter (centroid):
-#     c = V.mean(axis=0)
-# Normalization (uniform to unit cube):
-#     s = 1 / max(extent)         # scale so the largest bbox side becomes 1
-#     V' = (V - c) * s            # translate to origin and scale (fits unit cube)
-#
-# Resampling guidance (lecture intuition):
-#   • Good sampling band ~ 5k..10k vertices for stable feature extraction.
-#   • Open3D decimator targets TRIANGLES, not vertices -> map vertex goal to triangle goal
-#     using F/V; typical triangle meshes have F/V ~ 1.5–2.5. Clamp to [1.0, 3.0] for safety.
+# -------------------------------------------
+# MR formulas used (names match variables):
+#   V  = vertex array (N x 3), v = V[i]
+#   AABB (axis-aligned bbox):
+#       vmin = V.min(axis=0)        # (bbox_min_x, bbox_min_y, bbox_min_z)
+#       vmax = V.max(axis=0)        # (bbox_max_x, bbox_max_y, bbox_max_z)
+#       extent = vmax - vmin        # (extent_x, extent_y, extent_z)
+#       bbox_diag = ||extent||_2    # np.linalg.norm(extent)
+#   Barycenter (centroid):
+#       c = V.mean(axis=0)
+#   Normalization (uniform to unit cube):
+#       s = 1 / max(extent)         # scale so the largest bbox side becomes 1
+#       V' = (V - c) * s            # translate to origin and scale (fits unit cube)
+# These are exactly the cell/grid & resampling ideas from the MR lectures.
 
-import argparse, sys
+
+import argparse, csv, sys
 from pathlib import Path
+
 import numpy as np
 import pandas as pd
 import open3d as o3d
 import matplotlib.pyplot as plt
 
-plt.switch_backend("Agg")  # headless-safe for saving figures
+plt.switch_backend("Agg")  # safe for headless runs
 
 SUPPORTED = {".obj", ".off", ".ply", ".stl", ".glb", ".gltf"}
 
-
-# ----------------------------- Utilities --------------------------------------
-
-def _ensure(d: Path) -> Path:
-    d.mkdir(parents=True, exist_ok=True)
-    return d
-
+# Small helpers (simple & clear)
 def get_class(path: Path, root: Path) -> str:
-    """Infer class from first subfolder under root; fallback 'Unknown'."""
+    """Infer class from first subfolder under root."""
     rel = path.relative_to(root)
     return rel.parts[0] if len(rel.parts) >= 2 else "Unknown"
 
 def face_type_obj(path: Path, tri_count=None) -> str:
-    """
-    Quick face-type detector for .obj files (triangles/quads/ngons/mixed).
-    For non-OBJ, we don't parse faces; we return 'unknown'.
-    """
+    """Very quick face-type detector for .obj (triangles/quads/ngons/mixed)."""
     if path.suffix.lower() != ".obj":
-        return "unknown"
+        return "triangles" if (tri_count is not None and tri_count > 0) else "unknown"
     tri = quad = ngon = 0
     try:
         with open(path, "r", errors="ignore") as f:
@@ -84,9 +71,7 @@ def face_type_obj(path: Path, tri_count=None) -> str:
     return "unknown"
 
 def safe_read_mesh(p: Path):
-    """
-    Read a mesh and do light cleanup; return None if unreadable.
-    """
+    """Read a mesh and do light cleanup; return None if unreadable."""
     try:
         m = o3d.io.read_triangle_mesh(str(p), enable_post_processing=True)
         if m is None or len(m.vertices) == 0:
@@ -100,14 +85,12 @@ def safe_read_mesh(p: Path):
     except Exception:
         return None
 
+# 2.1 Analyze one shape
 def analyze_mesh_record(mesh, path: Path, cls: str, force_face_type=None):
-    """
-    Compute per-mesh stats reused across phases.
-    Implements MR AABB/bbox_diag formulae explicitly.
-    """
+    """Compute stats for a mesh (used in all phases)."""
     v = np.asarray(mesh.vertices)
     t = np.asarray(mesh.triangles)
-    vmin, vmax = v.min(0), v.max(0)   # AABB
+    vmin, vmax = v.min(0), v.max(0)      # AABB
     extent = vmax - vmin
     return dict(
         cls=cls, path=str(path), ext=path.suffix.lower(),
@@ -119,204 +102,155 @@ def analyze_mesh_record(mesh, path: Path, cls: str, force_face_type=None):
         bbox_diag=float(np.linalg.norm(extent)),
     )
 
+# 2.3 Resampling (strict band enforcement)
+#   Goal: keep vertex count in [5000, 10000],
+#         with a bias toward ~5500–7000 when we do simplify steps.
 
-# ---------------------- Shape-aware refinement helpers ------------------------
-
-def _bbox_diag_from_mesh(m: o3d.geometry.TriangleMesh) -> float:
-    v = np.asarray(m.vertices)
-    if v.size == 0:
-        return 1.0
-    extent = v.max(axis=0) - v.min(axis=0)
-    d = float(np.linalg.norm(extent))
-    return d if d > 1e-9 else 1.0
-
-def _sample_points(m: o3d.geometry.TriangleMesh, n: int = 4000) -> o3d.geometry.PointCloud:
-    # Uniform sampling is fast & deterministic
-    return m.sample_points_uniformly(number_of_points=n)
-
-def _normalized_bidirectional_drift(m_ref: o3d.geometry.TriangleMesh,
-                                    m_new: o3d.geometry.TriangleMesh,
-                                    n_samples: int = 4000) -> float:
-    """
-    Approximate bidirectional Chamfer distance between meshes, normalized by bbox diag of reference.
-    Lower is better. Safe refinement typically keeps drift ~0.5%–2% (0.005–0.02).
-    """
-    d = _bbox_diag_from_mesh(m_ref)
-    p_ref = _sample_points(m_ref, n_samples)
-    p_new = _sample_points(m_new, n_samples)
-
-    # dist(ref -> new)
-    d1 = np.asarray(p_ref.compute_point_cloud_distance(p_new))
-    # dist(new -> ref)
-    d2 = np.asarray(p_new.compute_point_cloud_distance(p_ref))
-
-    chamfer = float(d1.mean() + d2.mean()) * 0.5
-    return chamfer / d
-
-def refine_to_target_safely(mesh: o3d.geometry.TriangleMesh,
-                             target_vertices: int = 5200,
-                             max_passes: int = 6,
-                             max_rel_drift: float = 0.015,  # 1.5% of bbox diag
-                             n_samples: int = 4000):
-    """
-    Refine by MIDPOINT subdivision, but after each step measure geometric drift
-    w.r.t. the ORIGINAL. If the next step would push drift beyond `max_rel_drift`,
-    STOP and return the last safe version. Prevents shape-damaging growth.
-
-    Returns: (mesh_out, tag) where tag is "_refined" or "_refined_clamped".
-    """
-    base = mesh
-    best = mesh
-    tag = "_refined"
-
-    for _ in range(max_passes):
-        V = len(best.vertices)
-        if V >= target_vertices:
-            break
-
-        cand = best.subdivide_midpoint(number_of_iterations=1)
-        cand.remove_degenerate_triangles()
-        cand.remove_duplicated_vertices()
-        cand.remove_non_manifold_edges()
-        cand.compute_vertex_normals()
-
-        drift = _normalized_bidirectional_drift(base, cand, n_samples=n_samples)
-
-        if drift <= max_rel_drift:
-            best = cand
-        else:
-            tag = "_refined_clamped"
-            break
-
-        # Extra hard safety
-        if len(best.vertices) > 3 * target_vertices:
-            tag = "_refined_clamped"
-            break
-
-    return best, tag
-
-
-# ----------------------------- Simplification ---------------------------------
-
-def _estimate_target_tris(desired_vertices: int, V_now: int, F_now: int) -> int:
-    """
-    Convert a vertex goal to a triangle goal using the Faces/Vertices ratio.
-    Typical triangle meshes have F/V ~ 1.5–2.5.
-    Clamp to [1.0, 3.0] to be permissive but realistic.
-    """
-    r = F_now / max(1, V_now)
-    r = min(3.0, max(1.0, r))
-    tgt_tris = int(max(200, desired_vertices * r))
-    return tgt_tris
-
-def simplify_towards_vertices(mesh, desired_vertices: int, tol: int = 100, max_outer: int = 8):
-    """
-    Move the mesh toward a vertex goal using Open3D quadric decimation in *small steps*.
-    (Open3D decimator takes triangle targets; we map from desired V via bounded F/V.)
-    """
+def refine_until(mesh, target_vertices, max_passes=8, brake_mult=5.0):
+    """Loop subdivision until we reach ~target (bounded passes; avoids runaway growth)."""
     m = mesh
-    for _ in range(max_outer):
-        V = len(m.vertices)
-        F = len(m.triangles)
-        if abs(V - desired_vertices) <= tol:
+    for _ in range(max_passes):
+        if len(m.vertices) >= target_vertices:
             break
-
-        tgt_tris = _estimate_target_tris(desired_vertices, V, F)
-
-        # For big reductions, cut ~15–25% each step to preserve shape
-        if desired_vertices < V:
-            step_tris = int(max(F * 0.75, tgt_tris))  # small-ish reduction step
-            step_tris = max(200, min(step_tris, F - 1))
-        else:
-            # If we need more vertices, the caller should refine first
+        m = m.subdivide_loop(number_of_iterations=1)
+        m.remove_degenerate_triangles()
+        m.remove_duplicated_vertices()
+        m.compute_vertex_normals()
+        if len(m.vertices) > brake_mult * target_vertices:  # very defensive
             break
+    return m
 
-        m = m.simplify_quadric_decimation(target_number_of_triangles=step_tris)
+def simplify_to_vertices(mesh, desired_vertices, passes=6):
+    """Quadric decimation guided by a *vertex target* via iterative F/V conversion."""
+    m = mesh
+    for _ in range(passes):
+        V = max(1, len(m.vertices))
+        F = max(4, len(m.triangles))
+        r = F / V
+        r = min(2.8, max(1.4, r))  # stabilize typical triangle/vertex ratio
+        target_tris = int(desired_vertices * r)
+        target_tris = max(200, min(target_tris, F - 1))
+        m = m.simplify_quadric_decimation(target_number_of_triangles=target_tris)
         m.remove_degenerate_triangles()
         m.remove_duplicated_vertices()
         m.remove_non_manifold_edges()
         m.compute_vertex_normals()
+        # stop early if we are close enough
+        if abs(len(m.vertices) - desired_vertices) <= 150:
+            break
     return m
 
-
-# ------------------------------ Resampling ------------------------------------
-
-def resample_to_band(mesh, prefer_low: bool = True, minv: int = 5000, maxv: int = 10000):
+def resample_to_band(mesh, prefer_low=True, minv=5000, maxv=10000):
     """
-    Force vertex count into [minv, maxv] while preserving shape.
-
-    Cases:
-      • Below band: shape-aware MIDPOINT refine toward ~5.2k; stop before damage.
-        If we overshoot a lot, lightly simplify back to ~5.1k.
-        If drift budget stops early (<5k), KEEP it (clamped) to protect shape.
-      • In band: optional gentle nudge toward ~6.5k (prefer_low=True), otherwise keep.
-      • Above band: simplify in small steps guided by bounded F/V.
+    Hard-enforce vertex count into [minv, maxv] with gentle bias:
+      - below minv: refine toward ~5500
+      - in-band 7000..8500: optionally nudge down (~6800) if prefer_low; otherwise keep
+      - above maxv: simplify toward ~9000
+    Guaranteed to return a mesh with minv ≤ V ≤ maxv (barring unreadable inputs).
     """
     V0 = len(mesh.vertices)
-    prefer_target = 6500 if prefer_low else 9000
+    tgt_low, tgt_mid_l, tgt_mid_h, tgt_high = 5500, 6800, 8800, 9000
+
     m = mesh
     tag = "_kept"
 
-    # --- Too small: shape-aware refine toward ~5.2k, stop before damage ---
     if V0 < minv:
-        m, tag_ref = refine_to_target_safely(mesh, target_vertices=5200,
-                                             max_passes=6, max_rel_drift=0.015, n_samples=4000)
-        tag = tag_ref  # "_refined" or "_refined_clamped"
-
-        V = len(m.vertices)
-        # Gently shave if we overshot a lot (rare)
-        if V > 5600:
-            m = simplify_towards_vertices(m, 5100, tol=60)
-            tag = "_refined_simplified"
-
-        # Respect clamp: do NOT force more refinement if drift budget blocked us
-        return m, tag
-
-    # --- Already in band: tiny nudge (optional) ---
-    if minv <= V0 <= maxv:
-        if 7000 < V0 < 8500:
-            if prefer_low:
-                m = simplify_towards_vertices(m, 6500, tol=80)
-                tag = "_simplified"
-            else:
-                tag = "_kept"
-        else:
-            if prefer_low and V0 > prefer_target * 1.05:
-                m = simplify_towards_vertices(m, prefer_target, tol=80)
-                tag = "_simplified"
-            else:
-                tag = "_kept"
-
-    # --- Too large: staged simplification ---
-    if V0 > maxv:
-        m = simplify_towards_vertices(m, int(maxv * 0.9), tol=120)
+        m = refine_until(m, tgt_low)
+        tag = "_refined"
+    elif V0 > maxv:
+        m = simplify_to_vertices(m, tgt_high)
         tag = "_simplified"
+    else:
+        if 7000 < V0 < 8500 and prefer_low:
+            m = simplify_to_vertices(m, tgt_mid_l)
+            tag = "_simplified"
+        else:
+            tag = "_kept"
 
-    # Final tiny enforcement (only for upper side; do not force refine if below)
-    for _ in range(2):
+    # Final guard loop to enforce band
+    # If still out of band (decimator/subdivider can be quirky), iterate a few times.
+    for _ in range(4):
         V = len(m.vertices)
-        if V > maxv:
-            m = simplify_towards_vertices(m, maxv, tol=80)
+        if V < minv:
+            m = refine_until(m, tgt_low)
+            tag = "_refined"
+        elif V > maxv:
+            m = simplify_to_vertices(m, tgt_high)
             tag = "_simplified"
         else:
             break
 
+    # Clamp once more if tiny drift remains
+    V = len(m.vertices)
+    if V < minv:
+        m = refine_until(m, minv)
+        tag = "_refined"
+    elif V > maxv:
+        m = simplify_to_vertices(m, maxv)
+        tag = "_simplified"
+
     return m, tag
 
+def resample(mesh, prefer_low=True, minv=5000, maxv=10000):
+    """
+    Hard-enforce vertex count into [minv, maxv] with gentle bias:
+      - below minv: refine toward ~5500
+      - in-band 7000..8500: optionally nudge down (~6800) if prefer_low; otherwise keep
+      - above maxv: simplify toward ~9000
+    Guaranteed to return a mesh with minv ≤ V ≤ maxv (barring unreadable inputs).
+    """
+    V0 = len(mesh.vertices)
+    tgt_low, tgt_mid_l, tgt_mid_h, tgt_high = 5500, 6800, 8800, 9000
 
-# ----------------------------- Normalization ----------------------------------
+    m = mesh
+    tag = "_kept"
 
+    if V0 < minv:
+        m = refine_until(m, tgt_low)
+        tag = "_refined"
+    elif V0 > maxv:
+        m = simplify_to_vertices(m, tgt_high)
+        tag = "_simplified"
+    else:
+        if 7000 < V0 < 8500 and prefer_low:
+            m = simplify_to_vertices(m, tgt_mid_l)
+            tag = "_simplified"
+        else:
+            tag = "_kept"
+
+    # Final guard loop to enforce band
+    # If still out of band (decimator/subdivider can be quirky), iterate a few times.
+    for _ in range(4):
+        V = len(m.vertices)
+        if V < minv:
+            m = refine_until(m, tgt_low)
+            tag = "_refined"
+        elif V > maxv:
+            m = simplify_to_vertices(m, tgt_high)
+            tag = "_simplified"
+        else:
+            break
+
+    # Clamp once more if tiny drift remains
+    V = len(m.vertices)
+    if V < minv:
+        m = refine_until(m, minv)
+        tag = "_refined"
+    elif V > maxv:
+        m = simplify_to_vertices(m, maxv)
+        tag = "_simplified"
+
+    return m
+
+# 2.5 Normalization (center + scale to unit cube)
 def normalize_mesh(mesh):
     """
     2.5 — Normalization (uniform):
         c = mean(V)           # barycenter
         extent = max(V) - min(V)
-        s = 1 / max(extent)   # scale so the largest bbox side becomes 1
+        s = 1 / max(extent)
         V' = (V - c) * s
     NOTE: This does NOT change vertex/triangle counts.
-
-    Returns:
-        m2, s, centroid_norm_after, extent_max_after
     """
     v = np.asarray(mesh.vertices)
     c = v.mean(axis=0)
@@ -325,49 +259,24 @@ def normalize_mesh(mesh):
     extent = vmax - vmin
     s = 1.0 / max(extent.max(), 1e-12)
     v_norm = v_centered * s
-
     m2 = o3d.geometry.TriangleMesh(
         vertices=o3d.utility.Vector3dVector(v_norm),
         triangles=mesh.triangles
     )
     m2.compute_vertex_normals()
+    return m2
 
-    # Normalization check metrics
-    v2 = np.asarray(m2.vertices)
-    v2min, v2max = v2.min(0), v2.max(0)
-    extent2 = v2max - v2min
-    extent_max_after = float(extent2.max())                 # should be ~1.0
-    centroid_norm_after = float(np.linalg.norm(v2.mean(0))) # should be ~0.0
-
-    return m2, float(s), centroid_norm_after, extent_max_after
-
-
-# ----------------------------- Plotting ---------------------------------------
-
-def _hist_safe(series: pd.Series, bins: int, xlabel: str, title: str, outpath: Path):
-    # Clean and guard
-    x = pd.to_numeric(series, errors="coerce").replace([np.inf, -np.inf], np.nan).dropna()
-    if len(x) == 0:
-        return  # nothing to plot
-    vmin, vmax = float(x.min()), float(x.max())
-
-    plt.figure(figsize=(8,6))
-    if not np.isfinite(vmin) or not np.isfinite(vmax):
-        return  # nothing sensible to plot
-    if np.isclose(vmax, vmin):  # degenerate range -> 1 bin with a tiny pad
-        eps = 1e-9 if vmin == 0 else abs(vmin) * 1e-6
-        plt.hist(x, bins=1, range=(vmin - eps, vmax + eps))
-    else:
-        plt.hist(x, bins=bins)
-    plt.xlabel(xlabel); plt.ylabel("count"); plt.title(title)
-    plt.tight_layout(); plt.savefig(outpath, dpi=150); plt.close()
+# Plotting (overall + per-class)
+def _ensure(d: Path):
+    d.mkdir(parents=True, exist_ok=True)
+    return d
 
 def _band_lines():
     for x in (5000, 10000):
         plt.axvline(x, linestyle="--", linewidth=1)
 
 def save_overall_plots(df: pd.DataFrame, out_root: Path, stage: str, bins: int):
-    """Overall graphs for a stage -> graphs/<stage>/0 overall/*.png"""
+    """Overall graphs for a stage -> graphs/<stage>/overall/*.png"""
     figdir = _ensure(out_root / "graphs" / stage / "0 overall")
 
     plt.figure(figsize=(8,6))
@@ -395,34 +304,14 @@ def save_overall_plots(df: pd.DataFrame, out_root: Path, stage: str, bins: int):
     with open(figdir / f"{stage}_band_compliance.txt", "w") as f:
         f.write(f"Within [5000, 10000]: {in_band} / {total} ({(in_band/total*100):.1f}%)\n")
 
-    # NORMALIZATION CHECK additions (overall)
-    if stage == "normalized" and total > 0 and {"extent_max_after","centroid_norm_after"}.issubset(df.columns):
-        _hist_safe(
-            df["extent_max_after"],
-            bins=max(20, bins//4),
-            xlabel="extent_max_after",
-            title="NORMALIZED — Histogram of extent_max_after (target ≈ 1.0)",
-            outpath=figdir / "normalized_hist_extent_max.png",
-        )
-        _hist_safe(
-            df["centroid_norm_after"],
-            bins=max(20, bins//4),
-            xlabel="centroid_norm_after",
-            title="NORMALIZED — Histogram of centroid_norm_after (target ≈ 0.0)",
-            outpath=figdir / "normalized_hist_centroid_norm.png",
-        )
-
-        # Scalars (text summary with pass/fail under tolerances)
-        tol_extent = 1e-3
-        tol_centroid = 1e-3
-        pass_extent = ((df["extent_max_after"] - 1.0).abs() <= tol_extent).mean()
-        pass_centroid = (df["centroid_norm_after"].abs() <= tol_centroid).mean()
-        with open(figdir / "normalized_scalar_summary.txt", "w") as f:
-            f.write("== Normalization scalar checks (overall) ==\n")
-            f.write(f"extent_max_after — mean: {df['extent_max_after'].mean():.6f}, median: {df['extent_max_after'].median():.6f}\n")
-            f.write(f"centroid_norm_after — mean: {df['centroid_norm_after'].mean():.6e}, median: {df['centroid_norm_after'].median():.6e}\n")
-            f.write(f"pass_rate |extent_max_after - 1| <= {tol_extent:g}: {pass_extent*100:.1f}%\n")
-            f.write(f"pass_rate |centroid_norm_after| <= {tol_centroid:g}: {pass_centroid*100:.1f}%\n")
+    if stage == "normalized" and total > 0:
+        dist5 = (df["n_vertices"] - 5000).abs()
+        dist10 = (df["n_vertices"] - 10000).abs()
+        closer5 = (dist5 <= dist10).sum(); closer10 = total - closer5
+        plt.figure(figsize=(6,6))
+        pd.Series({"closer_to_5k": closer5, "closer_to_10k": closer10}).plot(kind="pie", autopct="%1.0f%%")
+        plt.ylabel(""); plt.title("Normalized — Closer to 5k vs 10k")
+        plt.tight_layout(); plt.savefig(figdir / "normalized_closer_5k_vs_10k.png", dpi=150); plt.close()
 
 def save_class_plots(df: pd.DataFrame, out_root: Path, stage: str, k_outliers: int, bins: int):
     """
@@ -433,7 +322,6 @@ def save_class_plots(df: pd.DataFrame, out_root: Path, stage: str, k_outliers: i
       - pies (face_type, ext)
       - outliers_<Class>.txt (smallest/largest)
       - class_report.txt (count, means/medians, bbox stats, common face type/ext)
-      - NORMALIZATION CHECK additions: per-class hist & scalar summary
     """
     base = out_root / "graphs" / stage
     for cls, g in df.groupby("cls"):
@@ -481,14 +369,13 @@ def save_class_plots(df: pd.DataFrame, out_root: Path, stage: str, k_outliers: i
             plt.ylabel(""); plt.title(f"{stage.upper()} — {cls} — File extensions")
             plt.tight_layout(); plt.savefig(cdir / f"{stage}_{cls}_pie_extensions.png", dpi=150); plt.close()
 
-        # Outliers text (smallest/largest by faces then vertices)
         k = min(k_outliers, len(g))
         small = g.sort_values(["n_faces","n_vertices"]).head(k)
         large = g.sort_values(["n_faces","n_vertices"], ascending=[False,False]).head(k)
         with open(cdir / f"outliers_{cls}.txt", "w") as f:
             f.write(f"== {cls} — Smallest ({stage}) ==\n")
             f.write(small[["n_vertices","n_faces","path"]].to_string(index=False))
-            f.write(f"\n\n== {cls} — Largest ({stage}) ==\n")
+            f.write("\n\n== {cls} — Largest ({stage}) ==\n")
             f.write(large[["n_vertices","n_faces","path"]].to_string(index=False))
             f.write("\n")
 
@@ -508,46 +395,16 @@ def save_class_plots(df: pd.DataFrame, out_root: Path, stage: str, k_outliers: i
             for k_, v_ in report.items():
                 f.write(f"{k_}: {v_}\n")
 
-        # NORMALIZATION CHECK additions (per-class)
-        if stage == "normalized" and {"extent_max_after","centroid_norm_after"}.issubset(g.columns) and len(g):
-            _hist_safe(
-                g["extent_max_after"],
-                bins=max(12, bins//6),
-                xlabel="extent_max_after",
-                title=f"NORMALIZED — {cls} — extent_max_after (target ≈ 1.0)",
-                outpath=cdir / f"normalized_{cls}_hist_extent_max.png",
-            )
-            _hist_safe(
-                g["centroid_norm_after"],
-                bins=max(12, bins//6),
-                xlabel="centroid_norm_after",
-                title=f"NORMALIZED — {cls} — centroid_norm_after (target ≈ 0.0)",
-                outpath=cdir / f"normalized_{cls}_hist_centroid_norm.png",
-            )
-
-            tol_extent = 1e-3
-            tol_centroid = 1e-3
-            pass_extent = ((g["extent_max_after"] - 1.0).abs() <= tol_extent).mean()
-            pass_centroid = (g["centroid_norm_after"].abs() <= tol_centroid).mean()
-            with open(cdir / "class_norm_checks.txt", "w") as f:
-                f.write(f"== Normalization scalar checks — {cls} ==\n")
-                f.write(f"extent_max_after — mean: {g['extent_max_after'].mean():.6f}, median: {g['extent_max_after'].median():.6f}\n")
-                f.write(f"centroid_norm_after — mean: {g['centroid_norm_after'].mean():.6e}, median: {g['centroid_norm_after'].median():.6e}\n")
-                f.write(f"pass_rate |extent_max_after - 1| <= {tol_extent:g}: {pass_extent*100:.1f}%\n")
-                f.write(f"pass_rate |centroid_norm_after| <= {tol_centroid:g}: {pass_centroid*100:.1f}%\n")
-
-
-# ----------------------------- Main pipeline ----------------------------------
-
+# Main (simple, linear pipeline)
 def main():
-    parser = argparse.ArgumentParser("Step 2 — Preprocess & Clean 3D meshes (simple + shape-aware)")
+    parser = argparse.ArgumentParser("Step 2 — Preprocess & Clean 3D meshes (simple)")
     parser.add_argument("--root", type=str, default="data", help="dataset root folder")
     parser.add_argument("--out",  type=str, default="step2_results", help="output folder")
     parser.add_argument("--prefer_high", action="store_true",
-                        help="bias in-band meshes toward ~9k (default bias is ~6.5k)")
-    parser.add_argument("--limit", type=int, default=0, help="process only first N files")
-    parser.add_argument("--bins_overall", type=int, default=120, help="histogram bins (overall)")
-    parser.add_argument("--bins_class", type=int, default=60, help="histogram bins (per-class)")
+                        help="bias in-band meshes toward ~9k (default bias is ~6–7k)")
+    parser.add_argument("--limit", type=int, default=0, help="process only first N files (speed check)")
+    parser.add_argument("--bins_overall", type=int, default=120, help="histogram bins for overall plots")
+    parser.add_argument("--bins_class", type=int, default=60, help="histogram bins for per-class plots")
     parser.add_argument("--class_outliers", type=int, default=5, help="how many per-class outliers to list")
     args = parser.parse_args()
 
@@ -558,14 +415,14 @@ def main():
     for d in (outdir, resampled_dir, normalized_dir):
         d.mkdir(parents=True, exist_ok=True)
 
-    # Scan files
+    # Scan all supported files
     files = [p for p in root.rglob("*") if p.is_file() and p.suffix.lower() in SUPPORTED]
     if args.limit and args.limit > 0:
         files = files[:args.limit]
     if not files:
         print("No meshes found. Supported:", ", ".join(sorted(SUPPORTED))); sys.exit(1)
 
-    # ---- 2.1 Analyze RAW ----
+    # 2.1 Analyze RAW
     raw_rows = []
     for p in files:
         m = safe_read_mesh(p)
@@ -583,7 +440,7 @@ def main():
     save_overall_plots(df_raw, outdir, "raw", bins=args.bins_overall)
     save_class_plots(df_raw, outdir, "raw", k_outliers=args.class_outliers, bins=args.bins_class)
 
-    # Outliers (text)
+    # outliers
     k = min(5, len(df_raw))
     small = df_raw.sort_values(["n_faces","n_vertices"]).head(k)
     large = df_raw.sort_values(["n_faces","n_vertices"], ascending=[False,False]).head(k)
@@ -594,7 +451,7 @@ def main():
         f.write("\n\n== Largest (raw) ==\n"); f.write(large[["cls","n_vertices","n_faces","path"]].to_string(index=False))
         f.write("\n\n== Average (raw) ==\n"); f.write(avg_row[["cls","n_vertices","n_faces","path"]].to_string(index=False)); f.write("\n")
 
-    # ---- 2.3 Resample ALL (band + shape-aware) ----
+    # 2.3 Resample ALL (strict band enforcement)
     resampled_records = []
     for _, r in df_raw.iterrows():
         p = Path(r["path"])
@@ -602,7 +459,7 @@ def main():
         m = safe_read_mesh(p)
         if m is None:
             continue
-
+        n = int(r["n_vertices"])
         m2, suffix = resample_to_band(m, prefer_low=(not args.prefer_high))
 
         out_cls = resampled_dir / cls
@@ -618,13 +475,13 @@ def main():
     save_overall_plots(df_res, outdir, "resampled", bins=args.bins_overall)
     save_class_plots(df_res, outdir, "resampled", k_outliers=args.class_outliers, bins=args.bins_class)
 
-    # Band violations (should be empty on upper side; lower side allowed if clamped)
+    # Write a quick check for any violations (should be zero)
     below = df_res[df_res["n_vertices"] < 5000]
     above = df_res[df_res["n_vertices"] > 10000]
     if len(below) or len(above):
         with open(outdir / "violations_resampled.txt", "w") as f:
             if len(below):
-                f.write("== Below 5k (kept to protect shape) ==\n")
+                f.write("== Below 5k ==\n")
                 f.write(below[["cls","n_vertices","n_faces","path"]].to_string(index=False))
                 f.write("\n\n")
             if len(above):
@@ -641,33 +498,25 @@ def main():
         f.write("\n\n== Largest (resampled) ==\n"); f.write(large_r[["cls","n_vertices","n_faces","path"]].to_string(index=False))
         f.write("\n\n== Average (resampled) ==\n"); f.write(avg_r[["cls","n_vertices","n_faces","path"]].to_string(index=False)); f.write("\n")
 
-    # ---- 2.5 Normalize ALL resampled (counts unchanged; only center+scale) ----
+    # 2.5 Normalize ALL resampled (counts unchanged; only center+scale)
     norm_records = []
     for _, r in df_res.iterrows():
         p = Path(r["path"])
         m = safe_read_mesh(p)
         if m is None:
             continue
-        m_norm, s, cnorm, emax = normalize_mesh(m)
+        m_norm = normalize_mesh(m)
 
         out_cls = normalized_dir / r["cls"]
         out_cls.mkdir(parents=True, exist_ok=True)
         out_path = out_cls / f"{p.stem}_norm.obj"
         o3d.io.write_triangle_mesh(str(out_path), m_norm, write_ascii=True)
 
-        rec = analyze_mesh_record(m_norm, out_path, r["cls"], force_face_type="triangles")
-        rec.update({
-            "norm_scale_s": float(s),
-            "centroid_norm_after": float(cnorm),
-            "extent_max_after": float(emax),
-        })
-        norm_records.append(rec)
+        norm_records.append(analyze_mesh_record(m_norm, out_path, r["cls"], force_face_type="triangles"))
 
     df_norm = pd.DataFrame(norm_records)
     df_norm.to_csv(outdir / "stats_normalized.csv", index=False)
-    df_norm[["cls","path","n_vertices","n_faces","n_triangles","norm_scale_s","centroid_norm_after","extent_max_after"]].to_csv(
-        outdir / "objects_normalized.csv", index=False
-    )
+    df_norm[["cls","path","n_vertices","n_faces","n_triangles"]].to_csv(outdir / "objects_normalized.csv", index=False)
     save_overall_plots(df_norm, outdir, "normalized", bins=args.bins_overall)
     save_class_plots(df_norm, outdir, "normalized", k_outliers=args.class_outliers, bins=args.bins_class)
 
@@ -681,10 +530,9 @@ def main():
         f.write("\n\n== Average (normalized) ==\n"); f.write(avg_n[["cls","n_vertices","n_faces","path"]].to_string(index=False)); f.write("\n")
 
     print("[DONE] Step 2 complete.")
-    print("Graphs: <out>/graphs/{raw,resampled,normalized}/{0 overall,<Class>}/")
-    print("Meshes: <out>/{resampled,normalized}/ contain ALL objects (kept/refined/simplified).")
-    print("Note: Normalization does NOT change vertex counts; resampling enforces 5k–10k,")
-    print("      but extremely low-res shapes may be *clamped* below 5k to preserve geometry.")
+    print("Graphs: step2_results/graphs/{raw,resampled,normalized}/{overall,<Class>}/")
+    print("Meshes: resampled/ and normalized/ contain ALL objects (kept/refined/simplified).")
+    print("Note: Normalization does NOT change vertex counts; resampling enforces 5k–10k.")
 
 if __name__ == "__main__":
     main()
