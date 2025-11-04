@@ -322,7 +322,7 @@ def compute_distribution_descriptors(mesh: o3d.geometry.TriangleMesh, n_samples=
     return features
 
 
-def process_single_class(class_folder, output_csv, n_samples=100000, n_bins=64):
+def process_single_class(class_folder, output_csv, n_samples=100000, n_bins=100):
     """
     Process all meshes in a single class folder
     """
@@ -434,9 +434,9 @@ def process_single_class(class_folder, output_csv, n_samples=100000, n_bins=64):
 
 def main():
 
-    CLASS_FOLDER = "../step3_results/full_normalized/HumanHead"
+    CLASS_FOLDER = "../step3_1_results/Normalized/Bottle"
     N_SAMPLES = 150000
-    N_BINS = 64
+    N_BINS = 100
 
     # Auto-generate output filename from class name
     class_name = Path(CLASS_FOLDER).name

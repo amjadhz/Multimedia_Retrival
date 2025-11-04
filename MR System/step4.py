@@ -11,35 +11,61 @@ from data_analysis import resample
 from sklearn.metrics.pairwise import cosine_similarity
 import tempfile
 import os
+from data_analysis import normalize_mesh
+
+# Weight configuration
+WEIGHTS = {
+    'single_value': {
+        'surface_area': 0.015,  # 3.5%
+        'volume': 0.005,  # 3.5%
+        'compactness': 0.010,  # 2.0%
+        'rectangularity': 0.025,  # 3.5%
+        'diameter': 0.025,  # 3.5%
+        'convexity': 0.010,  # 2.0%
+        'eccentricity': 0.010,  # 2.0%
+        # Total single-value: 0.20 (20%)
+    },
+    'histogram': {
+        'A3': 0.3,  # 30%
+        'D1': 0.05,  # 5%
+        'D2': 0.21,  # 15%
+        'D3': 0.22,  # 15%
+        'D4': 0.22,  # 15%
+        # Total histogram: 0.80 (80%)
+    }
+}
 
 
-def mesh_querying(model_file_name, csv_path, distance_stats_path, K,
-                  stopwatch: Stopwatch | None = None):
+def mesh_querying(model_file_name, csv_path, normalization_params_path, K,
+                  stopwatch: Stopwatch | None = None,
+                  weights=None):
     """
-    Query K most similar models using distance normalization
+    Query K most similar models using normalized features
+
+    Distance metrics:
+    - Single-value features: Euclidean distance
+    - Histogram features: Cosine distance
 
     Parameters:
         model_file_name: Query model path
-        csv_path: Feature database path (all_features.csv)
-        distance_stats_path: Distance statistics CSV path
+        csv_path: Feature database path (normalized all_features.csv)
+        normalization_params_path: Normalization parameters CSV path
         K: Number of most similar models to return
         stopwatch: Performance monitoring object
+        weights: Custom weight dict (optional, uses WEIGHTS if None)
     """
-    # Load distance statistics
-    distance_stats_df = pd.read_csv(distance_stats_path)
+    # Use default weights if not provided
+    if weights is None:
+        weights = WEIGHTS
 
-    # Convert to dictionary for easy lookup
-    distance_stats = {}
-    for _, row in distance_stats_df.iterrows():
-        distance_stats[row['feature']] = {
-            'mean': row['mean'],
-            'std': row['std']
-        }
+    # Load normalization parameters
+    norm_params_df = pd.read_csv(normalization_params_path, index_col=0)
 
+    # Load database (should be normalized)
     data = pd.read_csv(csv_path)
 
     # Process query model
-    descriptors = process_new_model(model_file_name)
+    descriptors = process_new_model(model_file_name, norm_params_df)
 
     # Single-value feature names (7 features)
     single_value_names = [
@@ -50,66 +76,63 @@ def mesh_querying(model_file_name, csv_path, distance_stats_path, K,
     if stopwatch is not None:
         stopwatch.start()
 
-    # Extract database features
+    # Extract database features (already normalized)
     single_value_features = data.iloc[:, 2:9].values
     histogram_features = [
-        data.iloc[:, 9:73].values,
-        data.iloc[:, 73:137].values,
-        data.iloc[:, 137:201].values,
-        data.iloc[:, 201:265].values,
-        data.iloc[:, 265:329].values
+        data.iloc[:, 9:109].values,  # A3 (100 bins)
+        data.iloc[:, 109:209].values,  # D1 (100 bins)
+        data.iloc[:, 209:309].values,  # D2 (100 bins)
+        data.iloc[:, 309:409].values,  # D3 (100 bins)
+        data.iloc[:, 409:509].values  # D4 (100 bins)
     ]
 
-    # Separate query features
+    # Separate query features (already normalized)
     query_single_values = np.array(descriptors[:7])
     query_histograms = [
-        np.array(descriptors[7:71]),
-        np.array(descriptors[71:135]),
-        np.array(descriptors[135:199]),
-        np.array(descriptors[199:263]),
-        np.array(descriptors[263:327])
+        np.array(descriptors[7:107]),  # A3 (100 bins)
+        np.array(descriptors[107:207]),  # D1 (100 bins)
+        np.array(descriptors[207:307]),  # D2 (100 bins)
+        np.array(descriptors[307:407]),  # D3 (100 bins)
+        np.array(descriptors[407:507])  # D4 (100 bins)
     ]
 
-    # Initialize total distances
     n_samples = len(data)
     total_distances = np.zeros(n_samples)
 
-    # 1. Calculate and normalize single-value feature distances
+    # 1. Calculate single-value feature distances using EUCLIDEAN distance
+    print("\nComputing single-value distances (Euclidean)...")
+
+    # Compute Euclidean distance for each feature separately with weights
     for i, feature_name in enumerate(single_value_names):
-        raw_distances = np.abs(single_value_features[:, i] - query_single_values[i])
-        mean_dist = distance_stats[feature_name]['mean']
-        std_dist = distance_stats[feature_name]['std']
+        # Euclidean distance: |query - database|
+        feature_distances = np.abs(single_value_features[:, i] - query_single_values[i])
 
-        if std_dist > 0:
-            z_distances = (raw_distances - mean_dist) / std_dist
-        else:
-            z_distances = raw_distances
+        # Apply weight
+        weight = weights['single_value'][feature_name]
+        weighted_distances = weight * feature_distances
 
-        total_distances += z_distances
+        total_distances += weighted_distances
 
-    # 2. Calculate and normalize histogram distances
+        print(f"  {feature_name:20} : weight={weight:.4f}, "
+              f"dist range=[{feature_distances.min():.4f}, {feature_distances.max():.4f}]")
+
+    # 2. Calculate histogram distances using COSINE distance
+    print("\nComputing histogram distances (Cosine)...")
     histogram_names = ['A3', 'D1', 'D2', 'D3', 'D4']
 
     for i, hist_name in enumerate(histogram_names):
-        raw_distances = []
-        for j in range(n_samples):
-            similarity = cosine_similarity(
-                [query_histograms[i]],
-                [histogram_features[i][j]]
-            )[0][0]
-            distance = 1 - similarity
-            raw_distances.append(distance)
+        # Cosine distance: 1 - cosine_similarity
+        similarities = cosine_similarity([query_histograms[i]], histogram_features[i])[0]
+        cosine_distances = 1 - similarities
 
-        raw_distances = np.array(raw_distances)
-        mean_dist = distance_stats[hist_name]['mean']
-        std_dist = distance_stats[hist_name]['std']
+        # Apply weight
+        weight = weights['histogram'][hist_name]
+        weighted_distances = weight * cosine_distances
 
-        if std_dist > 0:
-            z_distances = (raw_distances - mean_dist) / std_dist
-        else:
-            z_distances = raw_distances
+        total_distances += weighted_distances
 
-        total_distances += z_distances
+        print(f"  {hist_name:20} : weight={weight:.4f}, "
+              f"dist range=[{cosine_distances.min():.4f}, {cosine_distances.max():.4f}]")
 
     # 3. Find K most similar models
     closest_indices = np.argsort(total_distances)[:K]
@@ -120,53 +143,41 @@ def mesh_querying(model_file_name, csv_path, distance_stats_path, K,
         stopwatch.stop()
         stopwatch.record_time()
 
+    # Print summary
+    print(f"\nQuery complete:")
+    print(f"  Total weight: {sum(weights['single_value'].values()) + sum(weights['histogram'].values()):.2f}")
+    print(f"  Single-value weight: {sum(weights['single_value'].values()):.2f} (20%)")
+    print(f"  Histogram weight: {sum(weights['histogram'].values()):.2f} (80%)")
+
     return [model[0] for model in closest_models], list(zip(closest_models, closest_distances))
 
 
-def process_new_model(input_mesh_path):
-    """
-    Process new model and extract features
+def process_new_model(input_mesh_path, norm_params_df=None):
+    import copy
 
-    Note: Returned feature order must match database:
-    - First 7: Single-value features (unnormalized raw values)
-    - Last 320: 5 histogram features (64 bins each, normalized)
-    """
     try:
-        # Use temporary file
-        with tempfile.NamedTemporaryFile(suffix='.obj', delete=False) as tmp:
-            temp_path = tmp.name
-
-        # First read mesh
+        # Step 1: Read mesh
         input_mesh = o3d.io.read_triangle_mesh(input_mesh_path)
 
-        # Resample - pass mesh object instead of path
+        # Step 2: Resample
         resampled_mesh = resample(input_mesh)
 
-        # Save resampled mesh
-        o3d.io.write_triangle_mesh(temp_path, resampled_mesh)
+        # Step 3: Simple normalization
+        simple_normalized = normalize_mesh(resampled_mesh)
 
-        # Normalize
-        normalized_mesh = mesh_normalize_for_new(resampled_mesh)
-        normalized_mesh.compute_vertex_normals()
-        o3d.io.write_triangle_mesh(temp_path, normalized_mesh)
+        # Step 4: Pose normalization
+        normalized_mesh = mesh_normalize_for_new(copy.deepcopy(simple_normalized))
 
-        # Extract features
-        normalized_mesh = trimesh.load(temp_path)
-
-        # Single-value features (returns dictionary)
+        # Step 5 & 6: Extract features (直接用 Open3D mesh，不保存)
+        # ✅ 直接用 Open3D mesh，无需转换为 Trimesh
         single_features = compute_single_descriptors(normalized_mesh)
-
-        # Histogram features (returns dictionary)
         dist_features = compute_distribution_descriptors(
             normalized_mesh,
             n_samples=150000,
-            n_bins=64
+            n_bins=100
         )
 
-        # Clean up temporary file
-        os.unlink(temp_path)
-
-        # Combine into list (in CSV column order)
+        # Combine into list
         descriptors = []
 
         # Add single-value features (7 features)
@@ -174,15 +185,34 @@ def process_new_model(input_mesh_path):
             'surface_area', 'volume', 'compactness',
             'rectangularity', 'diameter', 'convexity', 'eccentricity'
         ]
+
         for name in single_value_names:
             value = single_features[name]
-            descriptors.append(0.0 if np.isnan(value) else value)
+            value = 0.0 if np.isnan(value) else value
 
-        # Add histogram features (5 × 64 = 320 features)
+            # Normalize using database statistics
+            if norm_params_df is not None and name in norm_params_df.index:
+                mean = norm_params_df.loc[name, 'mean']
+                std = norm_params_df.loc[name, 'std']
+                if std > 0:
+                    value = (value - mean) / std
+
+            descriptors.append(value)
+
+        # Add histogram features (5 × 100 = 500 features)
         for hist_name in ['A3', 'D1', 'D2', 'D3', 'D4']:
-            for i in range(64):
+            hist_values = []
+            for i in range(100):
                 bin_name = f'{hist_name}_bin{i}'
-                descriptors.append(dist_features[bin_name])
+                hist_values.append(dist_features[bin_name])
+
+            # Normalize histogram to sum=1
+            hist_array = np.array(hist_values)
+            hist_sum = hist_array.sum()
+            if hist_sum > 0:
+                hist_array = hist_array / hist_sum
+
+            descriptors.extend(hist_array)
 
         return descriptors
 
@@ -191,26 +221,36 @@ def process_new_model(input_mesh_path):
         raise
 
 
-def fast_query(input_mesh_path, descriptors_path,
-               distance_stats_path, ann_index, K,
-               stopwatch: Stopwatch | None = None):
+def fast_query(input_mesh_path, descriptors_path, normalization_params_path,
+               ann_index, K, stopwatch: Stopwatch | None = None,
+               weights=None):
     """
-    Fast query using ANN (with distance normalization)
-    """
-    distance_stats_df = pd.read_csv(distance_stats_path)
-    distance_stats = {}
-    for _, row in distance_stats_df.iterrows():
-        distance_stats[row['feature']] = {
-            'mean': row['mean'],
-            'std': row['std']
-        }
+    Fast query using ANN
 
-    descriptors = process_new_model(input_mesh_path)
+    Parameters:
+        input_mesh_path: Query model path
+        descriptors_path: Feature database path (normalized)
+        normalization_params_path: Normalization parameters CSV path
+        ann_index: ANN index
+        K: Number of results
+        stopwatch: Performance monitoring object
+        weights: Custom weight dict (optional)
+    """
+    # Use default weights if not provided
+    if weights is None:
+        weights = WEIGHTS
+
+    # Load normalization parameters
+    norm_params_df = pd.read_csv(normalization_params_path, index_col=0)
+
+    # Process query
+    descriptors = process_new_model(input_mesh_path, norm_params_df)
     db_descriptors = pd.read_csv(descriptors_path)
 
     if stopwatch is not None:
         stopwatch.start()
 
+    # Get candidates from ANN
     K_candidates = min(K * 3, len(db_descriptors))
     indices, raw_distances = ann(ann_index, descriptors, K_candidates)
 
@@ -222,51 +262,43 @@ def fast_query(input_mesh_path, descriptors_path,
         'rectangularity', 'diameter', 'convexity', 'eccentricity'
     ]
 
+    # Extract candidate features
     single_value_features = candidate_features.iloc[:, 2:9].values
     histogram_features = [
-        candidate_features.iloc[:, 9:73].values,
-        candidate_features.iloc[:, 73:137].values,
-        candidate_features.iloc[:, 137:201].values,
-        candidate_features.iloc[:, 201:265].values,
-        candidate_features.iloc[:, 265:329].values
+        candidate_features.iloc[:, 9:109].values,  # A3 (100 bins)
+        candidate_features.iloc[:, 109:209].values,  # D1 (100 bins)
+        candidate_features.iloc[:, 209:309].values,  # D2 (100 bins)
+        candidate_features.iloc[:, 309:409].values,  # D3 (100 bins)
+        candidate_features.iloc[:, 409:509].values  # D4 (100 bins)
     ]
 
     query_single_values = np.array(descriptors[:7])
     query_histograms = [
-        np.array(descriptors[7:71]),
-        np.array(descriptors[71:135]),
-        np.array(descriptors[135:199]),
-        np.array(descriptors[199:263]),
-        np.array(descriptors[263:327])
+        np.array(descriptors[7:107]),  # A3 (100 bins)
+        np.array(descriptors[107:207]),  # D1 (100 bins)
+        np.array(descriptors[207:307]),  # D2 (100 bins)
+        np.array(descriptors[307:407]),  # D3 (100 bins)
+        np.array(descriptors[407:507])  # D4 (100 bins)
     ]
 
     n_candidates = len(candidate_features)
     total_distances = np.zeros(n_candidates)
 
+    # 1. Single-value distances (Euclidean)
     for i, feature_name in enumerate(single_value_names):
-        raw_distances = np.abs(single_value_features[:, i] - query_single_values[i])
-        mean_dist = distance_stats[feature_name]['mean']
-        std_dist = distance_stats[feature_name]['std']
-        z_distances = (raw_distances - mean_dist) / std_dist if std_dist > 0 else raw_distances
-        total_distances += z_distances
+        feature_distances = np.abs(single_value_features[:, i] - query_single_values[i])
+        weight = weights['single_value'][feature_name]
+        total_distances += weight * feature_distances
 
+    # 2. Histogram distances (Cosine)
     histogram_names = ['A3', 'D1', 'D2', 'D3', 'D4']
     for i, hist_name in enumerate(histogram_names):
-        raw_distances = []
-        for j in range(n_candidates):
-            similarity = cosine_similarity(
-                [query_histograms[i]],
-                [histogram_features[i][j]]
-            )[0][0]
-            distance = 1 - similarity
-            raw_distances.append(distance)
-        raw_distances = np.array(raw_distances)
+        similarities = cosine_similarity([query_histograms[i]], histogram_features[i])[0]
+        cosine_distances = 1 - similarities
+        weight = weights['histogram'][hist_name]
+        total_distances += weight * cosine_distances
 
-        mean_dist = distance_stats[hist_name]['mean']
-        std_dist = distance_stats[hist_name]['std']
-        z_distances = (raw_distances - mean_dist) / std_dist if std_dist > 0 else raw_distances
-        total_distances += z_distances
-
+    # 3. Find top K
     top_k_indices = np.argsort(total_distances)[:K]
     final_indices = candidate_indices[top_k_indices]
     final_distances = total_distances[top_k_indices]

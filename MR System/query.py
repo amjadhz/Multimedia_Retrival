@@ -1,18 +1,16 @@
-# query_example.py
-
 from step4 import mesh_querying
 
-# 查询
 classes, results = mesh_querying(
-    model_file_name="../data/Guitar/D00023.obj",
+    #model_file_name="../data/AquaticAnimal/m80.obj",
+    model_file_name="../step3_1_results/normalized/Bottle/D00020_refined_simplified_norm.obj",
     csv_path="database/all_features.csv",
-    distance_stats_path="database/distance_stats.csv",
+    normalization_params_path="database/normalization_params.csv",
     K=10
 )
 
-print("\nresults for data/Guitar/D00023.obj:")
+print("\nResults for data/AircraftBuoyant/m1347.obj:")
 print("=" * 70)
 for i, ((cls, fname), dist) in enumerate(results, 1):
     print(f"{i:2}. {cls:15} | {fname:30} | distance: {dist:8.4f}")
 
-print(f"\nTop-10 class: {classes}")
+print(f"\nTop-10 classes: {classes}")
