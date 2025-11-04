@@ -1,15 +1,15 @@
-== Spoon — Smallest (resampled) ==
- n_vertices  n_faces                                                        path
-       5123     9684 step2_results\resampled\Spoon\D00157_refined_simplified.obj
-       5097     9695 step2_results\resampled\Spoon\D00661_refined_simplified.obj
-       5109     9916 step2_results\resampled\Spoon\D00422_refined_simplified.obj
-       5104     9969 step2_results\resampled\Spoon\D00517_refined_simplified.obj
-       5108     9978 step2_results\resampled\Spoon\D00790_refined_simplified.obj
+== Spoon â€” Smallest (resampled) ==
+ n_vertices  n_faces                                             path
+       5793    11264 step2_results\resampled\Spoon\D00422_refined.obj
+       6209    11792 step2_results\resampled\Spoon\D00157_refined.obj
+       7235    13724 step2_results\resampled\Spoon\D00661_refined.obj
+       7303    14336 step2_results\resampled\Spoon\D00517_refined.obj
+       7786    15280 step2_results\resampled\Spoon\D00338_refined.obj
 
-== Spoon — Largest (resampled) ==
- n_vertices  n_faces                                                        path
-       5156    10304 step2_results\resampled\Spoon\D00085_refined_simplified.obj
-       5114    10224 step2_results\resampled\Spoon\D00497_refined_simplified.obj
-       5114    10224 step2_results\resampled\Spoon\D00593_refined_simplified.obj
-       5100    10196 step2_results\resampled\Spoon\D00669_refined_simplified.obj
-       5100    10196 step2_results\resampled\Spoon\D00927_refined_simplified.obj
+== {cls} â€” Largest ({stage}) ==
+ n_vertices  n_faces                                                path
+       9167    18320    step2_results\resampled\Spoon\D00085_refined.obj
+       9090    18176    step2_results\resampled\Spoon\D00497_refined.obj
+       9090    18176    step2_results\resampled\Spoon\D00593_refined.obj
+       9000    17996 step2_results\resampled\Spoon\D00927_simplified.obj
+       9001    17986 step2_results\resampled\Spoon\D00014_simplified.obj

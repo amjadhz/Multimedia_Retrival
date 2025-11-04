@@ -1,19 +1,19 @@
 == Smallest (normalized) ==
-         cls  n_vertices  n_faces                                                             path
-       Shelf         112      168     step2_results\normalized\Shelf\m857_refined_clamped_norm.obj
-     Bookset         624      832 step2_results\normalized\Bookset\D01096_refined_clamped_norm.obj
-     Bookset        1614     3116 step2_results\normalized\Bookset\D01108_refined_clamped_norm.obj
-PlantIndoors        7240     4599   step2_results\normalized\PlantIndoors\m995_simplified_norm.obj
-        Tree        5410     4629                step2_results\normalized\Tree\m1050_kept_norm.obj
+             cls  n_vertices  n_faces                                                               path
+    PlantIndoors        7242     4603     step2_results\normalized\PlantIndoors\m995_simplified_norm.obj
+            Tree        5410     4629                  step2_results\normalized\Tree\m1050_kept_norm.obj
+            Tree       11277     4767           step2_results\normalized\Tree\D00612_simplified_norm.obj
+            City        5119     5213                 step2_results\normalized\City\D01181_kept_norm.obj
+PlantWildNonTree        7914     5274 step2_results\normalized\PlantWildNonTree\m966_simplified_norm.obj
 
 == Largest (normalized) ==
-            cls  n_vertices  n_faces                                                                path
-        Biplane        8949    18580         step2_results\normalized\Biplane\D00616_simplified_norm.obj
-            Car        9099    18359              step2_results\normalized\Car\m1560_simplified_norm.obj
-MilitaryVehicle        8948    18327 step2_results\normalized\MilitaryVehicle\D00801_simplified_norm.obj
-      Apartment        7517    18176       step2_results\normalized\Apartment\D00626_simplified_norm.obj
- RectangleTable        8998    18081  step2_results\normalized\RectangleTable\D00523_simplified_norm.obj
+          cls  n_vertices  n_faces                                                         path
+NonWheelChair        9986    19936 step2_results\normalized\NonWheelChair\m786_refined_norm.obj
+       Bottle        9949    19872      step2_results\normalized\Bottle\D00940_refined_norm.obj
+        Sword        9906    19808       step2_results\normalized\Sword\D00635_refined_norm.obj
+     Humanoid        9932    19776      step2_results\normalized\Humanoid\m205_refined_norm.obj
+       Bottle        9884    19760      step2_results\normalized\Bottle\D00892_refined_norm.obj
 
 == Average (normalized) ==
-     cls  n_vertices  n_faces                                                                 path
-Computer        5110     9873 step2_results\normalized\Computer\D01164_refined_simplified_norm.obj
+cls  n_vertices  n_faces                                                   path
+Jet        8992    17883 step2_results\normalized\Jet\m1250_simplified_norm.obj

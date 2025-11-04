@@ -1,15 +1,15 @@
-== Insect — Smallest (normalized) ==
- n_vertices  n_faces                                                               path
-       5061     8393    step2_results\normalized\Insect\m19_refined_simplified_norm.obj
-       5083     8393 step2_results\normalized\Insect\D00672_refined_simplified_norm.obj
-       5118     8692 step2_results\normalized\Insect\D00109_refined_simplified_norm.obj
-       5085     8801 step2_results\normalized\Insect\D00294_refined_simplified_norm.obj
-       4967     8965 step2_results\normalized\Insect\D00615_refined_simplified_norm.obj
+== Insect â€” Smallest (normalized) ==
+ n_vertices  n_faces                                                 path
+       6164     9646 step2_results\normalized\Insect\D00788_kept_norm.obj
+       5087     9716 step2_results\normalized\Insect\D00117_kept_norm.obj
+       5266    10274    step2_results\normalized\Insect\m26_kept_norm.obj
+       5591    10716  step2_results\normalized\Insect\m8_refined_norm.obj
+       5916    11271 step2_results\normalized\Insect\D00333_kept_norm.obj
 
-== Insect — Largest (normalized) ==
+== {cls} â€” Largest ({stage}) ==
  n_vertices  n_faces                                                       path
-       9006    17956 step2_results\normalized\Insect\D00668_simplified_norm.obj
-       9016    17948 step2_results\normalized\Insect\D00732_simplified_norm.obj
-       9001    17946 step2_results\normalized\Insect\D00752_simplified_norm.obj
-       9012    17792 step2_results\normalized\Insect\D00753_simplified_norm.obj
-       9002    17787 step2_results\normalized\Insect\D00430_simplified_norm.obj
+       9109    18176       step2_results\normalized\Insect\m24_refined_norm.obj
+       9001    17998 step2_results\normalized\Insect\D00590_simplified_norm.obj
+       9000    17996    step2_results\normalized\Insect\m25_simplified_norm.obj
+       9010    17980 step2_results\normalized\Insect\D00806_simplified_norm.obj
+       9009    17980 step2_results\normalized\Insect\D00989_simplified_norm.obj

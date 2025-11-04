@@ -1,15 +1,15 @@
-== Cellphone — Smallest (normalized) ==
- n_vertices  n_faces                                                                  path
-       4312     7219         step2_results\normalized\Cellphone\D00527_simplified_norm.obj
-       5013     9728               step2_results\normalized\Cellphone\D00817_kept_norm.obj
-       5104    10002 step2_results\normalized\Cellphone\D00369_refined_simplified_norm.obj
-       5121    10030 step2_results\normalized\Cellphone\D00032_refined_simplified_norm.obj
-       5092    10072 step2_results\normalized\Cellphone\D00979_refined_simplified_norm.obj
-
-== Cellphone — Largest (normalized) ==
+== Cellphone â€” Smallest (normalized) ==
  n_vertices  n_faces                                                          path
-       8997    17892 step2_results\normalized\Cellphone\D00542_simplified_norm.obj
-       9037    17501 step2_results\normalized\Cellphone\D00152_simplified_norm.obj
-       9035    17394 step2_results\normalized\Cellphone\D00362_simplified_norm.obj
-       9098    16964 step2_results\normalized\Cellphone\D00018_simplified_norm.obj
-       9005    16122 step2_results\normalized\Cellphone\D00079_simplified_norm.obj
+       5013     9728       step2_results\normalized\Cellphone\D00817_kept_norm.obj
+       5685    11300       step2_results\normalized\Cellphone\D00248_kept_norm.obj
+       8252    11427       step2_results\normalized\Cellphone\D00527_kept_norm.obj
+       6318    11912       step2_results\normalized\Cellphone\D00327_kept_norm.obj
+       6827    12138 step2_results\normalized\Cellphone\D00554_simplified_norm.obj
+
+== {cls} â€” Largest ({stage}) ==
+ n_vertices  n_faces                                                          path
+       9738    18374       step2_results\normalized\Cellphone\D00848_kept_norm.obj
+       9144    18252    step2_results\normalized\Cellphone\D00902_refined_norm.obj
+       9002    17992 step2_results\normalized\Cellphone\D00997_simplified_norm.obj
+       9021    17962 step2_results\normalized\Cellphone\D00192_simplified_norm.obj
+       9016    17930 step2_results\normalized\Cellphone\D00542_simplified_norm.obj

@@ -1,15 +1,15 @@
-== Glasses — Smallest (resampled) ==
- n_vertices  n_faces                                                          path
-       5089     9359 step2_results\resampled\Glasses\D00656_refined_simplified.obj
-       5126     9752 step2_results\resampled\Glasses\D00432_refined_simplified.obj
-       5113     9856 step2_results\resampled\Glasses\D00877_refined_simplified.obj
-       5102    10080 step2_results\resampled\Glasses\D00560_refined_simplified.obj
-       5108    10102 step2_results\resampled\Glasses\D00883_refined_simplified.obj
+== Glasses â€” Smallest (resampled) ==
+ n_vertices  n_faces                                               path
+       5790    11072 step2_results\resampled\Glasses\D00432_refined.obj
+       5652    11300    step2_results\resampled\Glasses\D00050_kept.obj
+       5652    11300    step2_results\resampled\Glasses\D00507_kept.obj
+       6044    12000 step2_results\resampled\Glasses\D00225_refined.obj
+       6210    12368 step2_results\resampled\Glasses\D00475_refined.obj
 
-== Glasses — Largest (resampled) ==
+== {cls} â€” Largest ({stage}) ==
  n_vertices  n_faces                                                  path
-       9008    17932 step2_results\resampled\Glasses\D00816_simplified.obj
-       9004    17870 step2_results\resampled\Glasses\D00640_simplified.obj
-       9002    17844 step2_results\resampled\Glasses\D00575_simplified.obj
-       6502    12923 step2_results\resampled\Glasses\D00660_simplified.obj
-       6519    12656       step2_results\resampled\Glasses\D00201_kept.obj
+       9290    18499       step2_results\resampled\Glasses\D00660_kept.obj
+       9001    17990 step2_results\resampled\Glasses\D00730_simplified.obj
+       9017    17950 step2_results\resampled\Glasses\D00816_simplified.obj
+       8999    17927 step2_results\resampled\Glasses\D00813_simplified.obj
+       9036    17912 step2_results\resampled\Glasses\D00575_simplified.obj

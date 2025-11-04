@@ -1,4 +1,4 @@
-== TruckNonContainer — Smallest (raw) ==
+== TruckNonContainer â€” Smallest (raw) ==
  n_vertices  n_faces                              path
        2578     4348 data\TruckNonContainer\D00737.obj
        2288     4415 data\TruckNonContainer\D00252.obj
@@ -6,7 +6,7 @@
        3622     7154 data\TruckNonContainer\D00143.obj
        4409     7843 data\TruckNonContainer\D00215.obj
 
-== TruckNonContainer — Largest (raw) ==
+== {cls} â€” Largest ({stage}) ==
  n_vertices  n_faces                              path
       11914    21540 data\TruckNonContainer\D00353.obj
        7636    14733 data\TruckNonContainer\D00055.obj

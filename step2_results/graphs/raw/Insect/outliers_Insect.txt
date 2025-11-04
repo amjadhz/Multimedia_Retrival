@@ -1,4 +1,4 @@
-== Insect — Smallest (raw) ==
+== Insect â€” Smallest (raw) ==
  n_vertices  n_faces                   path
         163      284    data\Insect\m24.obj
         255      410     data\Insect\m1.obj
@@ -6,7 +6,7 @@
         278      492    data\Insect\m12.obj
         298      492     data\Insect\m0.obj
 
-== Insect — Largest (raw) ==
+== {cls} â€” Largest ({stage}) ==
  n_vertices  n_faces                   path
       23399    46516 data\Insect\D00430.obj
       22663    41626 data\Insect\D00884.obj

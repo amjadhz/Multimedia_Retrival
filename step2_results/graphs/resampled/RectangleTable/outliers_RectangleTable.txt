@@ -1,15 +1,15 @@
-== RectangleTable — Smallest (resampled) ==
- n_vertices  n_faces                                                                 path
-       5106     6525 step2_results\resampled\RectangleTable\D00418_refined_simplified.obj
-       5148     7602   step2_results\resampled\RectangleTable\m910_refined_simplified.obj
-       5108     8360 step2_results\resampled\RectangleTable\D00766_refined_simplified.obj
-       5112     8433 step2_results\resampled\RectangleTable\D00317_refined_simplified.obj
-       5134     8907 step2_results\resampled\RectangleTable\D00187_refined_simplified.obj
+== RectangleTable â€” Smallest (resampled) ==
+ n_vertices  n_faces                                                      path
+       5838     8472 step2_results\resampled\RectangleTable\D00418_refined.obj
+       5520    10240   step2_results\resampled\RectangleTable\m896_refined.obj
+       5514    11008   step2_results\resampled\RectangleTable\m883_refined.obj
+       5514    11008   step2_results\resampled\RectangleTable\m917_refined.obj
+       6288    11776   step2_results\resampled\RectangleTable\m920_refined.obj
 
-== RectangleTable — Largest (resampled) ==
+== {cls} â€” Largest ({stage}) ==
  n_vertices  n_faces                                                         path
-       8998    18081 step2_results\resampled\RectangleTable\D00523_simplified.obj
-       6523    12480 step2_results\resampled\RectangleTable\D00603_simplified.obj
-       5514    11008      step2_results\resampled\RectangleTable\m883_refined.obj
-       5514    11008      step2_results\resampled\RectangleTable\m917_refined.obj
-       5324    10624    step2_results\resampled\RectangleTable\D00421_refined.obj
+       9833    19168      step2_results\resampled\RectangleTable\m873_refined.obj
+       9578    18688      step2_results\resampled\RectangleTable\m893_refined.obj
+       8988    18061 step2_results\resampled\RectangleTable\D00523_simplified.obj
+       9000    17996   step2_results\resampled\RectangleTable\m870_simplified.obj
+       9006    17988 step2_results\resampled\RectangleTable\D00421_simplified.obj

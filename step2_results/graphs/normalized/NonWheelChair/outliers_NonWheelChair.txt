@@ -1,15 +1,15 @@
-== NonWheelChair — Smallest (normalized) ==
- n_vertices  n_faces                                                                    path
-       5102     9262 step2_results\normalized\NonWheelChair\m797_refined_simplified_norm.obj
-       5103     9377 step2_results\normalized\NonWheelChair\m819_refined_simplified_norm.obj
-       5110     9419 step2_results\normalized\NonWheelChair\m811_refined_simplified_norm.obj
-       5099     9428 step2_results\normalized\NonWheelChair\m815_refined_simplified_norm.obj
-       5092     9442 step2_results\normalized\NonWheelChair\m816_refined_simplified_norm.obj
+== NonWheelChair â€” Smallest (normalized) ==
+ n_vertices  n_faces                                                           path
+       5063    10066    step2_results\normalized\NonWheelChair\D00480_kept_norm.obj
+       5777    10624   step2_results\normalized\NonWheelChair\m819_refined_norm.obj
+       5528    11008   step2_results\normalized\NonWheelChair\m817_refined_norm.obj
+       5790    11520   step2_results\normalized\NonWheelChair\m809_refined_norm.obj
+       5854    11680 step2_results\normalized\NonWheelChair\D00240_refined_norm.obj
 
-== NonWheelChair — Largest (normalized) ==
+== {cls} â€” Largest ({stage}) ==
  n_vertices  n_faces                                                              path
-       9001    17966 step2_results\normalized\NonWheelChair\D00101_simplified_norm.obj
-       9002    17964 step2_results\normalized\NonWheelChair\D00357_simplified_norm.obj
-       9000    17956 step2_results\normalized\NonWheelChair\D00419_simplified_norm.obj
-       9000    17905   step2_results\normalized\NonWheelChair\m796_simplified_norm.obj
-       9009    17713 step2_results\normalized\NonWheelChair\D00443_simplified_norm.obj
+       9986    19936      step2_results\normalized\NonWheelChair\m786_refined_norm.obj
+       9694    19232      step2_results\normalized\NonWheelChair\m789_refined_norm.obj
+       9180    18304      step2_results\normalized\NonWheelChair\m826_refined_norm.obj
+       9050    18032      step2_results\normalized\NonWheelChair\m791_refined_norm.obj
+       9002    17992 step2_results\normalized\NonWheelChair\D00853_simplified_norm.obj

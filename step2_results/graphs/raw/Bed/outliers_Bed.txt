@@ -1,4 +1,4 @@
-== Bed — Smallest (raw) ==
+== Bed â€” Smallest (raw) ==
  n_vertices  n_faces                path
         441      560   data\Bed\m947.obj
         357      572   data\Bed\m951.obj
@@ -6,7 +6,7 @@
         449      644   data\Bed\m946.obj
         447      684 data\Bed\D00735.obj
 
-== Bed — Largest (raw) ==
+== {cls} â€” Largest ({stage}) ==
  n_vertices  n_faces                path
       17296    34247 data\Bed\D00210.obj
       16364    32646 data\Bed\D00839.obj

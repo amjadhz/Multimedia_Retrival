@@ -1,15 +1,15 @@
-== Gun — Smallest (resampled) ==
- n_vertices  n_faces                                                      path
-       5075     7160   step2_results\resampled\Gun\m660_refined_simplified.obj
-       5106     8280   step2_results\resampled\Gun\m652_refined_simplified.obj
-       5138     9434 step2_results\resampled\Gun\D00204_refined_simplified.obj
-       5150     9452   step2_results\resampled\Gun\m649_refined_simplified.obj
-       5130     9628   step2_results\resampled\Gun\m686_refined_simplified.obj
+== Gun â€” Smallest (resampled) ==
+ n_vertices  n_faces                                           path
+       5580    10240   step2_results\resampled\Gun\m675_refined.obj
+       5308    10332    step2_results\resampled\Gun\D00137_kept.obj
+       5641    11248   step2_results\resampled\Gun\m655_refined.obj
+       5644    11264 step2_results\resampled\Gun\D00153_refined.obj
+       6703    13232   step2_results\resampled\Gun\m662_refined.obj
 
-== Gun — Largest (resampled) ==
+== {cls} â€” Largest ({stage}) ==
  n_vertices  n_faces                                              path
-       8998    18031   step2_results\resampled\Gun\m666_simplified.obj
-       9002    17958   step2_results\resampled\Gun\m657_simplified.obj
-       9011    17926   step2_results\resampled\Gun\m684_simplified.obj
-       9003    17916   step2_results\resampled\Gun\m656_simplified.obj
-       9025    17904 step2_results\resampled\Gun\D00972_simplified.obj
+       9335    19392      step2_results\resampled\Gun\m660_refined.obj
+       9249    18288      step2_results\resampled\Gun\m681_refined.obj
+       8994    18023   step2_results\resampled\Gun\m666_simplified.obj
+       8999    17985 step2_results\resampled\Gun\D00606_simplified.obj
+       9008    17984 step2_results\resampled\Gun\D00161_simplified.obj

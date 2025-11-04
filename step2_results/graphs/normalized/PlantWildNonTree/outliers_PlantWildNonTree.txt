@@ -1,15 +1,15 @@
-== PlantWildNonTree — Smallest (normalized) ==
- n_vertices  n_faces                                                                       path
-       7912     5272         step2_results\normalized\PlantWildNonTree\m966_simplified_norm.obj
-       4967     5532 step2_results\normalized\PlantWildNonTree\m971_refined_simplified_norm.obj
-       3992     6619 step2_results\normalized\PlantWildNonTree\m974_refined_simplified_norm.obj
-       5152     6898 step2_results\normalized\PlantWildNonTree\m978_refined_simplified_norm.obj
-       5097     7646 step2_results\normalized\PlantWildNonTree\m979_refined_simplified_norm.obj
-
-== PlantWildNonTree — Largest (normalized) ==
+== PlantWildNonTree â€” Smallest (normalized) ==
  n_vertices  n_faces                                                               path
-       9070    14783 step2_results\normalized\PlantWildNonTree\m985_simplified_norm.obj
-       8911    14012 step2_results\normalized\PlantWildNonTree\m965_simplified_norm.obj
-       6656    11843       step2_results\normalized\PlantWildNonTree\m986_kept_norm.obj
-       6446    11753 step2_results\normalized\PlantWildNonTree\m980_simplified_norm.obj
-       8236    11696 step2_results\normalized\PlantWildNonTree\m963_simplified_norm.obj
+       7914     5274 step2_results\normalized\PlantWildNonTree\m966_simplified_norm.obj
+       6513     9427       step2_results\normalized\PlantWildNonTree\m961_kept_norm.obj
+      12220    11289 step2_results\normalized\PlantWildNonTree\m972_simplified_norm.obj
+       5843    11562    step2_results\normalized\PlantWildNonTree\m977_refined_norm.obj
+       9018    11712       step2_results\normalized\PlantWildNonTree\m968_kept_norm.obj
+
+== {cls} â€” Largest ({stage}) ==
+ n_vertices  n_faces                                                               path
+       9895    18944    step2_results\normalized\PlantWildNonTree\m983_refined_norm.obj
+       9006    17980 step2_results\normalized\PlantWildNonTree\m975_simplified_norm.obj
+       9017    17970 step2_results\normalized\PlantWildNonTree\m982_simplified_norm.obj
+       9026    17816 step2_results\normalized\PlantWildNonTree\m988_simplified_norm.obj
+       9098    16637 step2_results\normalized\PlantWildNonTree\m976_simplified_norm.obj

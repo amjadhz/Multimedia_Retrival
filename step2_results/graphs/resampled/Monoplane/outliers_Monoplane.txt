@@ -1,15 +1,15 @@
-== Monoplane — Smallest (resampled) ==
- n_vertices  n_faces                                                            path
-       5109     9218 step2_results\resampled\Monoplane\D00482_refined_simplified.obj
-       5122     9540 step2_results\resampled\Monoplane\D00301_refined_simplified.obj
-       5142     9595 step2_results\resampled\Monoplane\D00798_refined_simplified.obj
-       5107     9606 step2_results\resampled\Monoplane\D00995_refined_simplified.obj
-       5085     9612 step2_results\resampled\Monoplane\D00304_refined_simplified.obj
+== Monoplane â€” Smallest (resampled) ==
+ n_vertices  n_faces                                                    path
+       5849    10072       step2_results\resampled\Monoplane\D00688_kept.obj
+       5580    10688    step2_results\resampled\Monoplane\D00402_refined.obj
+       5738    10816    step2_results\resampled\Monoplane\D00304_refined.obj
+       6098    11024    step2_results\resampled\Monoplane\D00482_refined.obj
+       6801    13562 step2_results\resampled\Monoplane\D00617_simplified.obj
 
-== Monoplane — Largest (resampled) ==
- n_vertices  n_faces                                                            path
-       6502    12964         step2_results\resampled\Monoplane\D00617_simplified.obj
-       5580    10688            step2_results\resampled\Monoplane\D00402_refined.obj
-       5106    10120 step2_results\resampled\Monoplane\D00319_refined_simplified.obj
-       5110    10084 step2_results\resampled\Monoplane\D00925_refined_simplified.obj
-       5849    10072               step2_results\resampled\Monoplane\D00688_kept.obj
+== {cls} â€” Largest ({stage}) ==
+ n_vertices  n_faces                                                    path
+       9884    19488    step2_results\resampled\Monoplane\D00840_refined.obj
+       9022    17846 step2_results\resampled\Monoplane\D00319_simplified.obj
+       9010    17822 step2_results\resampled\Monoplane\D00019_simplified.obj
+       9021    17768 step2_results\resampled\Monoplane\D00925_simplified.obj
+       8937    17533 step2_results\resampled\Monoplane\D00043_simplified.obj

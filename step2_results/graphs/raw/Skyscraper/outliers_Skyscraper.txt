@@ -1,4 +1,4 @@
-== Skyscraper — Smallest (raw) ==
+== Skyscraper â€” Smallest (raw) ==
  n_vertices  n_faces                       path
         365      668 data\Skyscraper\D00872.obj
         680     1135 data\Skyscraper\D00130.obj
@@ -6,7 +6,7 @@
        3865     5928 data\Skyscraper\D00998.obj
        4274     6932 data\Skyscraper\D00059.obj
 
-== Skyscraper — Largest (raw) ==
+== {cls} â€” Largest ({stage}) ==
  n_vertices  n_faces                       path
       49527    55151 data\Skyscraper\D00259.obj
       48226    54476 data\Skyscraper\D00006.obj

@@ -1,15 +1,15 @@
-== Rocket — Smallest (normalized) ==
- n_vertices  n_faces                                                               path
-       5131     9646 step2_results\normalized\Rocket\D00614_refined_simplified_norm.obj
-       5144     9809 step2_results\normalized\Rocket\D00437_refined_simplified_norm.obj
-       5114    10024 step2_results\normalized\Rocket\D00472_refined_simplified_norm.obj
-       5103    10034 step2_results\normalized\Rocket\D00354_refined_simplified_norm.obj
-       5104    10072 step2_results\normalized\Rocket\D00426_refined_simplified_norm.obj
+== Rocket â€” Smallest (normalized) ==
+ n_vertices  n_faces                                                       path
+       5864    11616    step2_results\normalized\Rocket\D00346_refined_norm.obj
+       6491    12970       step2_results\normalized\Rocket\D00719_kept_norm.obj
+       6775    13034    step2_results\normalized\Rocket\D00437_refined_norm.obj
+       6813    13361 step2_results\normalized\Rocket\D00975_simplified_norm.obj
+       7236    14336    step2_results\normalized\Rocket\D00426_refined_norm.obj
 
-== Rocket — Largest (normalized) ==
- n_vertices  n_faces                                                               path
-       9058    16760         step2_results\normalized\Rocket\D00564_simplified_norm.obj
-       6491    12970               step2_results\normalized\Rocket\D00719_kept_norm.obj
-       6518    12772         step2_results\normalized\Rocket\D00975_simplified_norm.obj
-       5100    10196 step2_results\normalized\Rocket\D00697_refined_simplified_norm.obj
-       5100    10196 step2_results\normalized\Rocket\D00942_refined_simplified_norm.obj
+== {cls} â€” Largest ({stage}) ==
+ n_vertices  n_faces                                                       path
+       9746    19456    step2_results\normalized\Rocket\D00433_refined_norm.obj
+       9000    17996 step2_results\normalized\Rocket\D00697_simplified_norm.obj
+       9000    17996 step2_results\normalized\Rocket\D00942_simplified_norm.obj
+       9002    17992 step2_results\normalized\Rocket\D00428_simplified_norm.obj
+       9002    17992 step2_results\normalized\Rocket\D00851_simplified_norm.obj

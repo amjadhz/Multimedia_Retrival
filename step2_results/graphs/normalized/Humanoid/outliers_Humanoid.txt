@@ -1,15 +1,15 @@
-== Humanoid — Smallest (normalized) ==
- n_vertices  n_faces                                                               path
-       5612     5096 step2_results\normalized\Humanoid\m198_refined_simplified_norm.obj
-       5058     7006 step2_results\normalized\Humanoid\m165_refined_simplified_norm.obj
-       5066     7091 step2_results\normalized\Humanoid\m166_refined_simplified_norm.obj
-       5112     8519 step2_results\normalized\Humanoid\m146_refined_simplified_norm.obj
-       5112     8523 step2_results\normalized\Humanoid\m194_refined_simplified_norm.obj
+== Humanoid â€” Smallest (normalized) ==
+ n_vertices  n_faces                                                    path
+       5622    10130    step2_results\normalized\Humanoid\m143_kept_norm.obj
+       5554    11104 step2_results\normalized\Humanoid\m208_refined_norm.obj
+       5793    11536 step2_results\normalized\Humanoid\m257_refined_norm.obj
+       5862    11648 step2_results\normalized\Humanoid\m259_refined_norm.obj
+       6010    11648 step2_results\normalized\Humanoid\m154_refined_norm.obj
 
-== Humanoid — Largest (normalized) ==
+== {cls} â€” Largest ({stage}) ==
  n_vertices  n_faces                                                       path
-       9042    18022 step2_results\normalized\Humanoid\m170_simplified_norm.obj
-       9000    17996 step2_results\normalized\Humanoid\m178_simplified_norm.obj
-       9000    17996 step2_results\normalized\Humanoid\m265_simplified_norm.obj
-       8998    17992 step2_results\normalized\Humanoid\m145_simplified_norm.obj
-       9000    17990 step2_results\normalized\Humanoid\m149_simplified_norm.obj
+       9932    19776    step2_results\normalized\Humanoid\m205_refined_norm.obj
+       9698    19260       step2_results\normalized\Humanoid\m252_kept_norm.obj
+       9623    19059       step2_results\normalized\Humanoid\m224_kept_norm.obj
+       9060    18110       step2_results\normalized\Humanoid\m140_kept_norm.obj
+       9000    18000 step2_results\normalized\Humanoid\m125_simplified_norm.obj

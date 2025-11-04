@@ -1,4 +1,4 @@
-== SubmachineGun — Smallest (raw) ==
+== SubmachineGun â€” Smallest (raw) ==
  n_vertices  n_faces                          path
         170      277 data\SubmachineGun\D00893.obj
         182      284 data\SubmachineGun\D00960.obj
@@ -6,7 +6,7 @@
         577     1014 data\SubmachineGun\D00060.obj
         760     1320 data\SubmachineGun\D00256.obj
 
-== SubmachineGun — Largest (raw) ==
+== {cls} â€” Largest ({stage}) ==
  n_vertices  n_faces                          path
       24710    48853 data\SubmachineGun\D00459.obj
       19423    38341 data\SubmachineGun\D00068.obj

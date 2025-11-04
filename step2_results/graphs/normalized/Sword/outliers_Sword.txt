@@ -1,15 +1,15 @@
-== Sword — Smallest (normalized) ==
- n_vertices  n_faces                                                              path
-       5110     8784   step2_results\normalized\Sword\m694_refined_simplified_norm.obj
-       5108     9155   step2_results\normalized\Sword\m693_refined_simplified_norm.obj
-       5141     9386 step2_results\normalized\Sword\D00513_refined_simplified_norm.obj
-       5123     9743   step2_results\normalized\Sword\m698_refined_simplified_norm.obj
-       5136     9744   step2_results\normalized\Sword\m712_refined_simplified_norm.obj
+== Sword â€” Smallest (normalized) ==
+ n_vertices  n_faces                                                   path
+       5076    10136    step2_results\normalized\Sword\D00177_kept_norm.obj
+       5412    10814      step2_results\normalized\Sword\m696_kept_norm.obj
+       5412    10814      step2_results\normalized\Sword\m715_kept_norm.obj
+       5573    10922    step2_results\normalized\Sword\D00540_kept_norm.obj
+       5630    11100 step2_results\normalized\Sword\D00195_refined_norm.obj
 
-== Sword — Largest (normalized) ==
- n_vertices  n_faces                                                      path
-       8994    17975 step2_results\normalized\Sword\D00071_simplified_norm.obj
-       9002    17973 step2_results\normalized\Sword\D00906_simplified_norm.obj
-       9005    17958 step2_results\normalized\Sword\D00249_simplified_norm.obj
-       9009    17910 step2_results\normalized\Sword\D00066_simplified_norm.obj
-       9009    17910   step2_results\normalized\Sword\m710_simplified_norm.obj
+== {cls} â€” Largest ({stage}) ==
+ n_vertices  n_faces                                                    path
+       9906    19808  step2_results\normalized\Sword\D00635_refined_norm.obj
+       9880    19712       step2_results\normalized\Sword\m695_kept_norm.obj
+       9834    19648    step2_results\normalized\Sword\m719_refined_norm.obj
+       9822    18880  step2_results\normalized\Sword\D00807_refined_norm.obj
+       9003    17994 step2_results\normalized\Sword\m718_simplified_norm.obj

@@ -1,4 +1,4 @@
-== Bus — Smallest (raw) ==
+== Bus â€” Smallest (raw) ==
  n_vertices  n_faces                path
        3137     6109 data\Bus\D00832.obj
        4096     7979 data\Bus\D00516.obj
@@ -6,7 +6,7 @@
        5220     8783 data\Bus\D00857.obj
        4587     9305 data\Bus\D00436.obj
 
-== Bus — Largest (raw) ==
+== {cls} â€” Largest ({stage}) ==
  n_vertices  n_faces                path
       13436    25298 data\Bus\D00182.obj
       12919    24603 data\Bus\D00084.obj

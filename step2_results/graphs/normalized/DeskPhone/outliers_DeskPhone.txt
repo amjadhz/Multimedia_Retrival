@@ -1,15 +1,15 @@
-== DeskPhone — Smallest (normalized) ==
- n_vertices  n_faces                                                                  path
-       5838     8972         step2_results\normalized\DeskPhone\D00706_simplified_norm.obj
-       5114     9603 step2_results\normalized\DeskPhone\D00135_refined_simplified_norm.obj
-       5104     9875 step2_results\normalized\DeskPhone\D00680_refined_simplified_norm.obj
-       5104    10076 step2_results\normalized\DeskPhone\D00318_refined_simplified_norm.obj
-       5105    10116 step2_results\normalized\DeskPhone\D00894_refined_simplified_norm.obj
-
-== DeskPhone — Largest (normalized) ==
+== DeskPhone â€” Smallest (normalized) ==
  n_vertices  n_faces                                                          path
-       9002    17916 step2_results\normalized\DeskPhone\D00899_simplified_norm.obj
-       9022    17844 step2_results\normalized\DeskPhone\D00403_simplified_norm.obj
-       9008    17822 step2_results\normalized\DeskPhone\D00897_simplified_norm.obj
-       9024    17792 step2_results\normalized\DeskPhone\D00154_simplified_norm.obj
-       9000    17746 step2_results\normalized\DeskPhone\D00576_simplified_norm.obj
+       8056    12538 step2_results\normalized\DeskPhone\D00706_simplified_norm.obj
+       9098    12599 step2_results\normalized\DeskPhone\D00958_simplified_norm.obj
+       6670    13256    step2_results\normalized\DeskPhone\D00486_refined_norm.obj
+       7125    13568    step2_results\normalized\DeskPhone\D00135_refined_norm.obj
+       7862    15192 step2_results\normalized\DeskPhone\D00118_simplified_norm.obj
+
+== {cls} â€” Largest ({stage}) ==
+ n_vertices  n_faces                                                          path
+       9034    17980 step2_results\normalized\DeskPhone\D00899_simplified_norm.obj
+       9009    17970 step2_results\normalized\DeskPhone\D00829_simplified_norm.obj
+       9014    17960 step2_results\normalized\DeskPhone\D00220_simplified_norm.obj
+       9015    17936 step2_results\normalized\DeskPhone\D00894_simplified_norm.obj
+       9067    17934 step2_results\normalized\DeskPhone\D00403_simplified_norm.obj

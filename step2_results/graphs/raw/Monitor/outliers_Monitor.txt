@@ -1,4 +1,4 @@
-== Monitor — Smallest (raw) ==
+== Monitor â€” Smallest (raw) ==
  n_vertices  n_faces                    path
         163      294 data\Monitor\D00659.obj
         230      444 data\Monitor\D00469.obj
@@ -6,7 +6,7 @@
         461      903 data\Monitor\D00920.obj
        1097     2102 data\Monitor\D00919.obj
 
-== Monitor — Largest (raw) ==
+== {cls} â€” Largest ({stage}) ==
  n_vertices  n_faces                    path
       21122    39695 data\Monitor\D00863.obj
       18962    37916 data\Monitor\D00387.obj

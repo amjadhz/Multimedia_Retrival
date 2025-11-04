@@ -1,15 +1,15 @@
-== Starship — Smallest (resampled) ==
- n_vertices  n_faces                                                          path
-       7033     6490         step2_results\resampled\Starship\m1357_simplified.obj
-       5109     7072 step2_results\resampled\Starship\m1360_refined_simplified.obj
-       6573     8238         step2_results\resampled\Starship\m1383_simplified.obj
-       5116     9264 step2_results\resampled\Starship\m1356_refined_simplified.obj
-       5108     9399 step2_results\resampled\Starship\m1358_refined_simplified.obj
-
-== Starship — Largest (resampled) ==
+== Starship â€” Smallest (resampled) ==
  n_vertices  n_faces                                                  path
-       9007    17651 step2_results\resampled\Starship\m1381_simplified.obj
-       9108    16698 step2_results\resampled\Starship\m1385_simplified.obj
-       9062    16663 step2_results\resampled\Starship\m1368_simplified.obj
-       9024    15303 step2_results\resampled\Starship\m1380_simplified.obj
-       9084    14956 step2_results\resampled\Starship\m1362_simplified.obj
+       5531     9664    step2_results\resampled\Starship\m1371_refined.obj
+       5720    11360       step2_results\resampled\Starship\m1354_kept.obj
+       9664    11516       step2_results\resampled\Starship\m1357_kept.obj
+       6063    11589       step2_results\resampled\Starship\m1373_kept.obj
+       6855    11720 step2_results\resampled\Starship\m1355_simplified.obj
+
+== {cls} â€” Largest ({stage}) ==
+ n_vertices  n_faces                                                  path
+       9877    18784    step2_results\resampled\Starship\m1365_refined.obj
+       9020    17928 step2_results\resampled\Starship\m1359_simplified.obj
+       8987    17894 step2_results\resampled\Starship\m1361_simplified.obj
+       8982    17756 step2_results\resampled\Starship\m1384_simplified.obj
+       9025    17688 step2_results\resampled\Starship\m1381_simplified.obj

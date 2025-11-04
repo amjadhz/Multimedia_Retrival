@@ -1,4 +1,4 @@
-== Biplane — Smallest (raw) ==
+== Biplane â€” Smallest (raw) ==
  n_vertices  n_faces                    path
         264      328  data\Biplane\m1135.obj
         287      348 data\Biplane\D00132.obj
@@ -6,7 +6,7 @@
         354      520  data\Biplane\m1127.obj
         408      524  data\Biplane\m1137.obj
 
-== Biplane — Largest (raw) ==
+== {cls} â€” Largest ({stage}) ==
  n_vertices  n_faces                    path
       65698   129810  data\Biplane\m1120.obj
       40788    77092 data\Biplane\D00634.obj

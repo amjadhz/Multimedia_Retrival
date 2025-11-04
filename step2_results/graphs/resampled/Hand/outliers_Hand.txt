@@ -1,15 +1,15 @@
-== Hand — Smallest (resampled) ==
- n_vertices  n_faces                                                       path
-       5106     9855   step2_results\resampled\Hand\m326_refined_simplified.obj
-       5108     9856 step2_results\resampled\Hand\D01060_refined_simplified.obj
-       5105     9861 step2_results\resampled\Hand\D01041_refined_simplified.obj
-       5110     9861   step2_results\resampled\Hand\m325_refined_simplified.obj
-       5097    10040 step2_results\resampled\Hand\D01022_refined_simplified.obj
+== Hand â€” Smallest (resampled) ==
+ n_vertices  n_faces                                            path
+       5853    11312 step2_results\resampled\Hand\D01060_refined.obj
+       5853    11312   step2_results\resampled\Hand\m326_refined.obj
+       5953    11512 step2_results\resampled\Hand\D01041_refined.obj
+       5953    11512   step2_results\resampled\Hand\m325_refined.obj
+       6038    12072    step2_results\resampled\Hand\D01117_kept.obj
 
-== Hand — Largest (resampled) ==
+== {cls} â€” Largest ({stage}) ==
  n_vertices  n_faces                                               path
-       9000    17996 step2_results\resampled\Hand\D01153_simplified.obj
-       9000    17996   step2_results\resampled\Hand\m324_simplified.obj
-       9013    17716 step2_results\resampled\Hand\D01172_simplified.obj
-       9013    17716   step2_results\resampled\Hand\m323_simplified.obj
-       6500    12996 step2_results\resampled\Hand\D01020_simplified.obj
+       9001    17998 step2_results\resampled\Hand\D01153_simplified.obj
+       9001    17998 step2_results\resampled\Hand\D01162_simplified.obj
+       9001    17998   step2_results\resampled\Hand\m324_simplified.obj
+       9001    17998   step2_results\resampled\Hand\m332_simplified.obj
+       9000    17996   step2_results\resampled\Hand\m333_simplified.obj

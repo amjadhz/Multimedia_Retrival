@@ -1,4 +1,4 @@
-== DeskLamp — Smallest (raw) ==
+== DeskLamp â€” Smallest (raw) ==
  n_vertices  n_faces                     path
          69      113 data\DeskLamp\D00378.obj
          87      116   data\DeskLamp\m611.obj
@@ -6,7 +6,7 @@
         136      200   data\DeskLamp\m613.obj
         166      316   data\DeskLamp\m603.obj
 
-== DeskLamp — Largest (raw) ==
+== {cls} â€” Largest ({stage}) ==
  n_vertices  n_faces                     path
       22837    45584 data\DeskLamp\D00547.obj
       21616    38066 data\DeskLamp\D00744.obj

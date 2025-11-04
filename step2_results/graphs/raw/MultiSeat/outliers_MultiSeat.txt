@@ -1,4 +1,4 @@
-== MultiSeat — Smallest (raw) ==
+== MultiSeat â€” Smallest (raw) ==
  n_vertices  n_faces                    path
          24       36 data\MultiSeat\m784.obj
          40       43 data\MultiSeat\m782.obj
@@ -6,7 +6,7 @@
          36       64 data\MultiSeat\m841.obj
          46       86 data\MultiSeat\m778.obj
 
-== MultiSeat — Largest (raw) ==
+== {cls} â€” Largest ({stage}) ==
  n_vertices  n_faces                      path
       40607    80270 data\MultiSeat\D00263.obj
       27775    55260 data\MultiSeat\D00273.obj

@@ -1,15 +1,15 @@
-== BuildingNonResidential — Smallest (resampled) ==
- n_vertices  n_faces                                                                       path
-       5110     8220 step2_results\resampled\BuildingNonResidential\m395_refined_simplified.obj
-       5141     8271 step2_results\resampled\BuildingNonResidential\m384_refined_simplified.obj
-       5105     8418 step2_results\resampled\BuildingNonResidential\m409_refined_simplified.obj
-       5085     8654 step2_results\resampled\BuildingNonResidential\m396_refined_simplified.obj
-       5083     8705 step2_results\resampled\BuildingNonResidential\m404_refined_simplified.obj
+== BuildingNonResidential â€” Smallest (resampled) ==
+ n_vertices  n_faces                                                            path
+       6853    10999    step2_results\resampled\BuildingNonResidential\m421_kept.obj
+       5860    11008 step2_results\resampled\BuildingNonResidential\m390_refined.obj
+       6672    11136 step2_results\resampled\BuildingNonResidential\m395_refined.obj
+       6480    11248 step2_results\resampled\BuildingNonResidential\m412_refined.obj
+       5638    11264 step2_results\resampled\BuildingNonResidential\m472_refined.obj
 
-== BuildingNonResidential — Largest (resampled) ==
+== {cls} â€” Largest ({stage}) ==
  n_vertices  n_faces                                                               path
-       9029    17791 step2_results\resampled\BuildingNonResidential\m405_simplified.obj
-       9024    17694 step2_results\resampled\BuildingNonResidential\m470_simplified.obj
-       9099    17022 step2_results\resampled\BuildingNonResidential\m402_simplified.obj
-       6504    12457 step2_results\resampled\BuildingNonResidential\m401_simplified.obj
-       6528    12314 step2_results\resampled\BuildingNonResidential\m416_simplified.obj
+       9810    19152    step2_results\resampled\BuildingNonResidential\m394_refined.obj
+       9579    18532    step2_results\resampled\BuildingNonResidential\m389_refined.obj
+       9012    17980 step2_results\resampled\BuildingNonResidential\m397_simplified.obj
+       9015    17978 step2_results\resampled\BuildingNonResidential\m474_simplified.obj
+       9035    17902 step2_results\resampled\BuildingNonResidential\m414_simplified.obj

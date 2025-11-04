@@ -1,15 +1,15 @@
-== AquaticAnimal — Smallest (resampled) ==
- n_vertices  n_faces                                                             path
-       5105     8948 step2_results\resampled\AquaticAnimal\m63_refined_simplified.obj
-       5104     9438 step2_results\resampled\AquaticAnimal\m78_refined_simplified.obj
-       5108     9704 step2_results\resampled\AquaticAnimal\m79_refined_simplified.obj
-       5107     9763 step2_results\resampled\AquaticAnimal\m61_refined_simplified.obj
-       5110     9823 step2_results\resampled\AquaticAnimal\m75_refined_simplified.obj
+== AquaticAnimal â€” Smallest (resampled) ==
+ n_vertices  n_faces                                                  path
+       5814    10893    step2_results\resampled\AquaticAnimal\m56_kept.obj
+       6231    11680 step2_results\resampled\AquaticAnimal\m78_refined.obj
+       6326    12648 step2_results\resampled\AquaticAnimal\m76_refined.obj
+       6418    12832 step2_results\resampled\AquaticAnimal\m60_refined.obj
+       6690    13376 step2_results\resampled\AquaticAnimal\m71_refined.obj
 
-== AquaticAnimal — Largest (resampled) ==
+== {cls} â€” Largest ({stage}) ==
  n_vertices  n_faces                                                     path
+       9000    17996 step2_results\resampled\AquaticAnimal\m62_simplified.obj
        9000    17996 step2_results\resampled\AquaticAnimal\m67_simplified.obj
+       8995    17974 step2_results\resampled\AquaticAnimal\m73_simplified.obj
+       9005    17932 step2_results\resampled\AquaticAnimal\m59_simplified.obj
        9015    17894 step2_results\resampled\AquaticAnimal\m77_simplified.obj
-       9020    17177 step2_results\resampled\AquaticAnimal\m57_simplified.obj
-       9001    16994 step2_results\resampled\AquaticAnimal\m55_simplified.obj
-       8983    16882 step2_results\resampled\AquaticAnimal\m53_simplified.obj

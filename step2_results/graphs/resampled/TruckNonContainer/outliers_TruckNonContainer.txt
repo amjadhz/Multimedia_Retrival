@@ -1,15 +1,15 @@
-== TruckNonContainer — Smallest (resampled) ==
- n_vertices  n_faces                                                                    path
-       5112     9231 step2_results\resampled\TruckNonContainer\D00737_refined_simplified.obj
-       5129     9233 step2_results\resampled\TruckNonContainer\D00215_refined_simplified.obj
-       5052     9716 step2_results\resampled\TruckNonContainer\D00143_refined_simplified.obj
-       5069     9753 step2_results\resampled\TruckNonContainer\D00572_refined_simplified.obj
-       5110     9766 step2_results\resampled\TruckNonContainer\D00148_refined_simplified.obj
+== TruckNonContainer â€” Smallest (resampled) ==
+ n_vertices  n_faces                                                      path
+       5246    10001 step2_results\resampled\TruckNonContainer\D00783_kept.obj
+       5071    10235 step2_results\resampled\TruckNonContainer\D00699_kept.obj
+       5231    10302 step2_results\resampled\TruckNonContainer\D00619_kept.obj
+       5492    10837 step2_results\resampled\TruckNonContainer\D00275_kept.obj
+       6979    11009 step2_results\resampled\TruckNonContainer\D00283_kept.obj
 
-== TruckNonContainer — Largest (resampled) ==
+== {cls} â€” Largest ({stage}) ==
  n_vertices  n_faces                                                            path
-       9017    15901 step2_results\resampled\TruckNonContainer\D00353_simplified.obj
-       6535    12540 step2_results\resampled\TruckNonContainer\D00055_simplified.obj
-       6537    12260 step2_results\resampled\TruckNonContainer\D00553_simplified.obj
-       6497    11925 step2_results\resampled\TruckNonContainer\D00266_simplified.obj
-       6035    11840       step2_results\resampled\TruckNonContainer\D00267_kept.obj
+       9549    18532    step2_results\resampled\TruckNonContainer\D00148_refined.obj
+       9090    17735 step2_results\resampled\TruckNonContainer\D00879_simplified.obj
+       9047    17660    step2_results\resampled\TruckNonContainer\D00252_refined.obj
+       9394    17392    step2_results\resampled\TruckNonContainer\D00737_refined.obj
+       8910    17304 step2_results\resampled\TruckNonContainer\D00731_simplified.obj

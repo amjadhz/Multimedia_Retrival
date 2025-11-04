@@ -1,15 +1,15 @@
-== Sign — Smallest (normalized) ==
- n_vertices  n_faces                                                            path
-       5160     8961 step2_results\normalized\Sign\m1670_refined_simplified_norm.obj
-       5063     9320 step2_results\normalized\Sign\m1678_refined_simplified_norm.obj
-       5063     9351 step2_results\normalized\Sign\m1671_refined_simplified_norm.obj
-       5096     9462 step2_results\normalized\Sign\m1672_refined_simplified_norm.obj
-       5158     9531 step2_results\normalized\Sign\m1673_refined_simplified_norm.obj
+== Sign â€” Smallest (normalized) ==
+ n_vertices  n_faces                                                 path
+       5670    11328 step2_results\normalized\Sign\m1680_refined_norm.obj
+       6336    12576 step2_results\normalized\Sign\m1679_refined_norm.obj
+       6540    13032    step2_results\normalized\Sign\m1681_kept_norm.obj
+       6850    13312 step2_results\normalized\Sign\m1675_refined_norm.obj
+       7753    13888 step2_results\normalized\Sign\m1670_refined_norm.obj
 
-== Sign — Largest (normalized) ==
- n_vertices  n_faces                                                            path
-       6540    13032               step2_results\normalized\Sign\m1681_kept_norm.obj
-       5100    10188 step2_results\normalized\Sign\m1680_refined_simplified_norm.obj
-       5100    10188 step2_results\normalized\Sign\m1684_refined_simplified_norm.obj
-       5103    10178 step2_results\normalized\Sign\m1676_refined_simplified_norm.obj
-       5100    10178 step2_results\normalized\Sign\m1674_refined_simplified_norm.obj
+== {cls} â€” Largest ({stage}) ==
+ n_vertices  n_faces                                                    path
+       9734    19456    step2_results\normalized\Sign\m1684_refined_norm.obj
+       9006    17984 step2_results\normalized\Sign\m1676_simplified_norm.obj
+       9004    17926 step2_results\normalized\Sign\m1674_simplified_norm.obj
+       9012    17920 step2_results\normalized\Sign\m1683_simplified_norm.obj
+       9044    17908 step2_results\normalized\Sign\m1682_simplified_norm.obj

@@ -1,15 +1,15 @@
-== Wheel — Smallest (resampled) ==
- n_vertices  n_faces                                                      path
-       5117     8741 step2_results\resampled\Wheel\m734_refined_simplified.obj
-       5128     8761 step2_results\resampled\Wheel\m740_refined_simplified.obj
-       5157     9634 step2_results\resampled\Wheel\m737_refined_simplified.obj
-       5119     9644 step2_results\resampled\Wheel\m738_refined_simplified.obj
-       5101    10063 step2_results\resampled\Wheel\m746_refined_simplified.obj
+== Wheel â€” Smallest (resampled) ==
+ n_vertices  n_faces                                              path
+       5753    10880    step2_results\resampled\Wheel\m738_refined.obj
+       9078    15310 step2_results\resampled\Wheel\m734_simplified.obj
+       7794    15552    step2_results\resampled\Wheel\m736_refined.obj
+       8993    15906 step2_results\resampled\Wheel\m740_simplified.obj
+       8066    16128    step2_results\resampled\Wheel\m747_refined.obj
 
-== Wheel — Largest (resampled) ==
- n_vertices  n_faces                                                      path
-       5145    10286 step2_results\resampled\Wheel\m742_refined_simplified.obj
-       5098    10232 step2_results\resampled\Wheel\m739_refined_simplified.obj
-       5100    10200 step2_results\resampled\Wheel\m744_refined_simplified.obj
-       5100    10200 step2_results\resampled\Wheel\m745_refined_simplified.obj
-       5100    10196 step2_results\resampled\Wheel\m743_refined_simplified.obj
+== {cls} â€” Largest ({stage}) ==
+ n_vertices  n_faces                                              path
+       8994    18024 step2_results\resampled\Wheel\m739_simplified.obj
+       9000    18000 step2_results\resampled\Wheel\m744_simplified.obj
+       9000    18000 step2_results\resampled\Wheel\m745_simplified.obj
+       9000    17996 step2_results\resampled\Wheel\m742_simplified.obj
+       8991    17980 step2_results\resampled\Wheel\m748_simplified.obj

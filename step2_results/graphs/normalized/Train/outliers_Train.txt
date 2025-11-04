@@ -1,15 +1,15 @@
-== Train — Smallest (normalized) ==
- n_vertices  n_faces                                                              path
-       6466     8672         step2_results\normalized\Train\D01016_simplified_norm.obj
-       5022     8883 step2_results\normalized\Train\D01014_refined_simplified_norm.obj
-       5115     9050  step2_results\normalized\Train\m1588_refined_simplified_norm.obj
-       5120     9273 step2_results\normalized\Train\D01035_refined_simplified_norm.obj
-       5088     9442 step2_results\normalized\Train\D01147_refined_simplified_norm.obj
-
-== Train — Largest (normalized) ==
+== Train â€” Smallest (normalized) ==
  n_vertices  n_faces                                                      path
-       9018    17507  step2_results\normalized\Train\m1581_simplified_norm.obj
-       9047    16798 step2_results\normalized\Train\D01055_simplified_norm.obj
-       8948    16794 step2_results\normalized\Train\D01180_simplified_norm.obj
-       6459    12868  step2_results\normalized\Train\m1582_simplified_norm.obj
-       6234    11607 step2_results\normalized\Train\D01059_simplified_norm.obj
+       7265     9509 step2_results\normalized\Train\D01016_simplified_norm.obj
+       5036     9653       step2_results\normalized\Train\D01064_kept_norm.obj
+       5303    10237        step2_results\normalized\Train\m1585_kept_norm.obj
+       5444    10401       step2_results\normalized\Train\D01047_kept_norm.obj
+       5520    10567        step2_results\normalized\Train\m1586_kept_norm.obj
+
+== {cls} â€” Largest ({stage}) ==
+ n_vertices  n_faces                                                      path
+       9001    17970  step2_results\normalized\Train\m1584_simplified_norm.obj
+       9023    17954  step2_results\normalized\Train\m1578_simplified_norm.obj
+       9013    17951  step2_results\normalized\Train\m1583_simplified_norm.obj
+       9065    17749 step2_results\normalized\Train\D01089_simplified_norm.obj
+       9023    17652  step2_results\normalized\Train\m1587_simplified_norm.obj

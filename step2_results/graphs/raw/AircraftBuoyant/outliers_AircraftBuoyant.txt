@@ -1,4 +1,4 @@
-== AircraftBuoyant — Smallest (raw) ==
+== AircraftBuoyant â€” Smallest (raw) ==
  n_vertices  n_faces                           path
         201      340 data\AircraftBuoyant\m1337.obj
         178      344 data\AircraftBuoyant\m1343.obj
@@ -6,7 +6,7 @@
         424      824 data\AircraftBuoyant\m1341.obj
         742     1374 data\AircraftBuoyant\m1346.obj
 
-== AircraftBuoyant — Largest (raw) ==
+== {cls} â€” Largest ({stage}) ==
  n_vertices  n_faces                           path
       12985    24464 data\AircraftBuoyant\m1351.obj
        8761    16960 data\AircraftBuoyant\m1338.obj

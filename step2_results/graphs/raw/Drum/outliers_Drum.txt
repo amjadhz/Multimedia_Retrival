@@ -1,4 +1,4 @@
-== Drum — Smallest (raw) ==
+== Drum â€” Smallest (raw) ==
  n_vertices  n_faces                 path
          24       44 data\Drum\D00709.obj
          36       68 data\Drum\D00115.obj
@@ -6,7 +6,7 @@
         169      332 data\Drum\D00596.obj
         192      383 data\Drum\D00383.obj
 
-== Drum — Largest (raw) ==
+== {cls} â€” Largest ({stage}) ==
  n_vertices  n_faces                 path
        7993    15574 data\Drum\D00951.obj
        8313    11852 data\Drum\D00163.obj

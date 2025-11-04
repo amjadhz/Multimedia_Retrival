@@ -1,15 +1,15 @@
-== PianoBoard — Smallest (normalized) ==
- n_vertices  n_faces                                                                   path
-       5126     8837 step2_results\normalized\PianoBoard\D00966_refined_simplified_norm.obj
-       5106     8844 step2_results\normalized\PianoBoard\D00332_refined_simplified_norm.obj
-       5099     9363 step2_results\normalized\PianoBoard\D00122_refined_simplified_norm.obj
-       5065     9408 step2_results\normalized\PianoBoard\D00718_refined_simplified_norm.obj
-       5078     9547 step2_results\normalized\PianoBoard\D00235_refined_simplified_norm.obj
+== PianoBoard â€” Smallest (normalized) ==
+ n_vertices  n_faces                                                           path
+       5666    10102       step2_results\normalized\PianoBoard\D00623_kept_norm.obj
+       6264    11804    step2_results\normalized\PianoBoard\D00235_refined_norm.obj
+       6603    12497       step2_results\normalized\PianoBoard\D00885_kept_norm.obj
+       6832    13190 step2_results\normalized\PianoBoard\D00755_simplified_norm.obj
+       7333    13646    step2_results\normalized\PianoBoard\D00122_refined_norm.obj
 
-== PianoBoard — Largest (normalized) ==
- n_vertices  n_faces                                                                   path
-       6541    12608         step2_results\normalized\PianoBoard\D00755_simplified_norm.obj
-       6603    12497               step2_results\normalized\PianoBoard\D00885_kept_norm.obj
-       5141    10286 step2_results\normalized\PianoBoard\D00962_refined_simplified_norm.obj
-       5092    10153 step2_results\normalized\PianoBoard\D00253_refined_simplified_norm.obj
-       5101    10116 step2_results\normalized\PianoBoard\D00721_refined_simplified_norm.obj
+== {cls} â€” Largest ({stage}) ==
+ n_vertices  n_faces                                                           path
+       9876    18800    step2_results\normalized\PianoBoard\D00381_refined_norm.obj
+       8998    17900 step2_results\normalized\PianoBoard\D00253_simplified_norm.obj
+       9015    17843 step2_results\normalized\PianoBoard\D00721_simplified_norm.obj
+       9091    17740 step2_results\normalized\PianoBoard\D00065_simplified_norm.obj
+       9046    17719 step2_results\normalized\PianoBoard\D00075_simplified_norm.obj

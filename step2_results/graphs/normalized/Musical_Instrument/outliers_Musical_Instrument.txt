@@ -1,15 +1,15 @@
-== Musical_Instrument — Smallest (normalized) ==
- n_vertices  n_faces                                                                         path
-       5046     8124 step2_results\normalized\Musical_Instrument\m633_refined_simplified_norm.obj
-       5154     8190 step2_results\normalized\Musical_Instrument\m645_refined_simplified_norm.obj
-       5159     9376 step2_results\normalized\Musical_Instrument\m647_refined_simplified_norm.obj
-       5145     9540 step2_results\normalized\Musical_Instrument\m634_refined_simplified_norm.obj
-       5115     9833 step2_results\normalized\Musical_Instrument\m630_refined_simplified_norm.obj
-
-== Musical_Instrument — Largest (normalized) ==
+== Musical_Instrument â€” Smallest (normalized) ==
  n_vertices  n_faces                                                                 path
-       9025    17608 step2_results\normalized\Musical_Instrument\m628_simplified_norm.obj
-       9065    17483 step2_results\normalized\Musical_Instrument\m644_simplified_norm.obj
-       9024    17360 step2_results\normalized\Musical_Instrument\m639_simplified_norm.obj
-       9027    17246 step2_results\normalized\Musical_Instrument\m631_simplified_norm.obj
-       9006    16144 step2_results\normalized\Musical_Instrument\m635_simplified_norm.obj
+       6752    11888 step2_results\normalized\Musical_Instrument\m627_simplified_norm.obj
+       6831    13302 step2_results\normalized\Musical_Instrument\m629_simplified_norm.obj
+       7334    14392    step2_results\normalized\Musical_Instrument\m641_refined_norm.obj
+       9022    14955 step2_results\normalized\Musical_Instrument\m645_simplified_norm.obj
+       8905    15622 step2_results\normalized\Musical_Instrument\m633_simplified_norm.obj
+
+== {cls} â€” Largest ({stage}) ==
+ n_vertices  n_faces                                                                 path
+       9013    17941 step2_results\normalized\Musical_Instrument\m640_simplified_norm.obj
+       9041    17878 step2_results\normalized\Musical_Instrument\m638_simplified_norm.obj
+       9086    17814 step2_results\normalized\Musical_Instrument\m626_simplified_norm.obj
+       9054    17799 step2_results\normalized\Musical_Instrument\m625_simplified_norm.obj
+       8971    17785 step2_results\normalized\Musical_Instrument\m632_simplified_norm.obj

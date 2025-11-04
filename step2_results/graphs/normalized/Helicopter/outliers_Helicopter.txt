@@ -1,15 +1,15 @@
-== Helicopter — Smallest (normalized) ==
- n_vertices  n_faces                                                                   path
-       5207     7969               step2_results\normalized\Helicopter\D00397_kept_norm.obj
-       5121     8280 step2_results\normalized\Helicopter\D00820_refined_simplified_norm.obj
-       5429     8458               step2_results\normalized\Helicopter\D00977_kept_norm.obj
-       5219     8936             step2_results\normalized\Helicopter\m1326_refined_norm.obj
-       5147     9049 step2_results\normalized\Helicopter\D00658_refined_simplified_norm.obj
+== Helicopter â€” Smallest (normalized) ==
+ n_vertices  n_faces                                                        path
+       5207     7969    step2_results\normalized\Helicopter\D00397_kept_norm.obj
+       5429     8458    step2_results\normalized\Helicopter\D00977_kept_norm.obj
+       5728    10160     step2_results\normalized\Helicopter\m1323_kept_norm.obj
+       5729    10321 step2_results\normalized\Helicopter\D00498_refined_norm.obj
+       5580    10464  step2_results\normalized\Helicopter\m1316_refined_norm.obj
 
-== Helicopter — Largest (normalized) ==
+== {cls} â€” Largest ({stage}) ==
  n_vertices  n_faces                                                           path
-       8996    18007 step2_results\normalized\Helicopter\D00644_simplified_norm.obj
-       8997    17948  step2_results\normalized\Helicopter\m1308_simplified_norm.obj
-       9002    17736  step2_results\normalized\Helicopter\m1307_simplified_norm.obj
-       9008    17279 step2_results\normalized\Helicopter\D00751_simplified_norm.obj
-       8929    16688 step2_results\normalized\Helicopter\D00471_simplified_norm.obj
+       8998    18008  step2_results\normalized\Helicopter\m1328_simplified_norm.obj
+       8993    18001 step2_results\normalized\Helicopter\D00644_simplified_norm.obj
+       9000    17996  step2_results\normalized\Helicopter\m1311_simplified_norm.obj
+       9016    17988  step2_results\normalized\Helicopter\m1308_simplified_norm.obj
+       9016    17976 step2_results\normalized\Helicopter\D00423_simplified_norm.obj

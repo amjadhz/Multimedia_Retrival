@@ -1,15 +1,15 @@
-== DeskPhone — Smallest (resampled) ==
- n_vertices  n_faces                                                            path
-      12487     8972         step2_results\resampled\DeskPhone\D00706_simplified.obj
-       5114     9603 step2_results\resampled\DeskPhone\D00135_refined_simplified.obj
-       5104     9875 step2_results\resampled\DeskPhone\D00680_refined_simplified.obj
-       5104    10076 step2_results\resampled\DeskPhone\D00318_refined_simplified.obj
-       5105    10116 step2_results\resampled\DeskPhone\D00894_refined_simplified.obj
-
-== DeskPhone — Largest (resampled) ==
+== DeskPhone â€” Smallest (resampled) ==
  n_vertices  n_faces                                                    path
-       9002    17916 step2_results\resampled\DeskPhone\D00899_simplified.obj
-       9022    17844 step2_results\resampled\DeskPhone\D00403_simplified.obj
-       9020    17822 step2_results\resampled\DeskPhone\D00897_simplified.obj
-       9024    17792 step2_results\resampled\DeskPhone\D00154_simplified.obj
-       9000    17746 step2_results\resampled\DeskPhone\D00576_simplified.obj
+      14773    12538 step2_results\resampled\DeskPhone\D00706_simplified.obj
+       9098    12599 step2_results\resampled\DeskPhone\D00958_simplified.obj
+       6670    13256    step2_results\resampled\DeskPhone\D00486_refined.obj
+       7125    13568    step2_results\resampled\DeskPhone\D00135_refined.obj
+       9063    15192 step2_results\resampled\DeskPhone\D00118_simplified.obj
+
+== {cls} â€” Largest ({stage}) ==
+ n_vertices  n_faces                                                    path
+       9034    17980 step2_results\resampled\DeskPhone\D00899_simplified.obj
+       9009    17970 step2_results\resampled\DeskPhone\D00829_simplified.obj
+       9014    17960 step2_results\resampled\DeskPhone\D00220_simplified.obj
+       9015    17936 step2_results\resampled\DeskPhone\D00894_simplified.obj
+       9067    17934 step2_results\resampled\DeskPhone\D00403_simplified.obj

@@ -1,4 +1,4 @@
-== Sword — Smallest (raw) ==
+== Sword â€” Smallest (raw) ==
  n_vertices  n_faces                  path
         196      259   data\Sword\m693.obj
         176      295 data\Sword\D00807.obj
@@ -6,7 +6,7 @@
         178      350   data\Sword\m689.obj
         180      350   data\Sword\m690.obj
 
-== Sword — Largest (raw) ==
+== {cls} â€” Largest ({stage}) ==
  n_vertices  n_faces                  path
       18888    37241   data\Sword\m717.obj
       15478    30816 data\Sword\D00249.obj

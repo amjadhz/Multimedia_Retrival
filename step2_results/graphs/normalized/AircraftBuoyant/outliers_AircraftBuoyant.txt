@@ -1,15 +1,15 @@
-== AircraftBuoyant — Smallest (normalized) ==
- n_vertices  n_faces                                                                       path
-       4967     6565 step2_results\normalized\AircraftBuoyant\m1339_refined_simplified_norm.obj
-       5120     9728 step2_results\normalized\AircraftBuoyant\m1344_refined_simplified_norm.obj
-       5101     9807 step2_results\normalized\AircraftBuoyant\m1345_refined_simplified_norm.obj
-       5140     9812 step2_results\normalized\AircraftBuoyant\m1337_refined_simplified_norm.obj
-       5112     9813 step2_results\normalized\AircraftBuoyant\m1342_refined_simplified_norm.obj
+== AircraftBuoyant â€” Smallest (normalized) ==
+ n_vertices  n_faces                                                               path
+       6235     9550    step2_results\normalized\AircraftBuoyant\m1339_refined_norm.obj
+       6622    13184    step2_results\normalized\AircraftBuoyant\m1341_refined_norm.obj
+       9148    16956 step2_results\normalized\AircraftBuoyant\m1351_simplified_norm.obj
+       8761    16960       step2_results\normalized\AircraftBuoyant\m1338_kept_norm.obj
+       9103    17338 step2_results\normalized\AircraftBuoyant\m1344_simplified_norm.obj
 
-== AircraftBuoyant — Largest (normalized) ==
- n_vertices  n_faces                                                                       path
-       9057    16774         step2_results\normalized\AircraftBuoyant\m1351_simplified_norm.obj
-       6505    12720         step2_results\normalized\AircraftBuoyant\m1338_simplified_norm.obj
-       5475    10240            step2_results\normalized\AircraftBuoyant\m1349_refined_norm.obj
-       5101    10190 step2_results\normalized\AircraftBuoyant\m1343_refined_simplified_norm.obj
-       5106    10152 step2_results\normalized\AircraftBuoyant\m1341_refined_simplified_norm.obj
+== {cls} â€” Largest ({stage}) ==
+ n_vertices  n_faces                                                               path
+       9001    17990 step2_results\normalized\AircraftBuoyant\m1343_simplified_norm.obj
+       8991    17839 step2_results\normalized\AircraftBuoyant\m1352_simplified_norm.obj
+       8970    17782 step2_results\normalized\AircraftBuoyant\m1347_simplified_norm.obj
+       8974    17702 step2_results\normalized\AircraftBuoyant\m1340_simplified_norm.obj
+       8969    17689 step2_results\normalized\AircraftBuoyant\m1346_simplified_norm.obj

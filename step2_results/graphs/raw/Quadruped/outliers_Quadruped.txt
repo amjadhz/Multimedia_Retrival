@@ -1,4 +1,4 @@
-== Quadruped — Smallest (raw) ==
+== Quadruped â€” Smallest (raw) ==
  n_vertices  n_faces                    path
         127      226 data\Quadruped\m102.obj
         176      235  data\Quadruped\m86.obj
@@ -6,7 +6,7 @@
         233      461 data\Quadruped\m104.obj
         278      464  data\Quadruped\m93.obj
 
-== Quadruped — Largest (raw) ==
+== {cls} â€” Largest ({stage}) ==
  n_vertices  n_faces                      path
       23984    47900   data\Quadruped\m274.obj
       20586    41166   data\Quadruped\m275.obj

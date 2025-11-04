@@ -1,15 +1,15 @@
-== Motorcycle — Smallest (normalized) ==
- n_vertices  n_faces                                                                   path
-       5143     9077 step2_results\normalized\Motorcycle\D00945_refined_simplified_norm.obj
-       5103     9462 step2_results\normalized\Motorcycle\D00269_refined_simplified_norm.obj
-       5121     9479 step2_results\normalized\Motorcycle\D00396_refined_simplified_norm.obj
-       5112     9852  step2_results\normalized\Motorcycle\m1484_refined_simplified_norm.obj
-       5138     9877 step2_results\normalized\Motorcycle\D00224_refined_simplified_norm.obj
-
-== Motorcycle — Largest (normalized) ==
+== Motorcycle â€” Smallest (normalized) ==
  n_vertices  n_faces                                                           path
-       8971    17967 step2_results\normalized\Motorcycle\D00703_simplified_norm.obj
-       8971    17966  step2_results\normalized\Motorcycle\m1483_simplified_norm.obj
-       9021    17730 step2_results\normalized\Motorcycle\D00858_simplified_norm.obj
-       9007    17609 step2_results\normalized\Motorcycle\D00521_simplified_norm.obj
-       8988    17491 step2_results\normalized\Motorcycle\D00345_simplified_norm.obj
+       5713    11152       step2_results\normalized\Motorcycle\D00880_kept_norm.obj
+       5963    11520     step2_results\normalized\Motorcycle\m1484_refined_norm.obj
+       6818    12061 step2_results\normalized\Motorcycle\D00395_simplified_norm.obj
+       6529    12510       step2_results\normalized\Motorcycle\D00288_kept_norm.obj
+       8826    15282 step2_results\normalized\Motorcycle\D00476_simplified_norm.obj
+
+== {cls} â€” Largest ({stage}) ==
+ n_vertices  n_faces                                                           path
+       9168    18382       step2_results\normalized\Motorcycle\D00768_kept_norm.obj
+       9543    18052       step2_results\normalized\Motorcycle\D00021_kept_norm.obj
+       9543    18048        step2_results\normalized\Motorcycle\m1480_kept_norm.obj
+       8971    18026 step2_results\normalized\Motorcycle\D00054_simplified_norm.obj
+       9054    17796 step2_results\normalized\Motorcycle\D00858_simplified_norm.obj

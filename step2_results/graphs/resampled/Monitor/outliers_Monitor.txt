@@ -1,15 +1,15 @@
-== Monitor — Smallest (resampled) ==
- n_vertices  n_faces                                                          path
-       5111     8707 step2_results\resampled\Monitor\D00412_refined_simplified.obj
-       5109     9089 step2_results\resampled\Monitor\D00339_refined_simplified.obj
-       5105     9247 step2_results\resampled\Monitor\D00229_refined_simplified.obj
-       5104    10034 step2_results\resampled\Monitor\D00659_refined_simplified.obj
-       5101    10049 step2_results\resampled\Monitor\D00391_refined_simplified.obj
+== Monitor â€” Smallest (resampled) ==
+ n_vertices  n_faces                                               path
+       6196    11984    step2_results\resampled\Monitor\D00852_kept.obj
+       6490    12796 step2_results\resampled\Monitor\D00141_refined.obj
+       7084    13952 step2_results\resampled\Monitor\D00391_refined.obj
+       7100    14064 step2_results\resampled\Monitor\D00548_refined.obj
+       7268    14448 step2_results\resampled\Monitor\D00920_refined.obj
 
-== Monitor — Largest (resampled) ==
+== {cls} â€” Largest ({stage}) ==
  n_vertices  n_faces                                                  path
-       9000    17992 step2_results\resampled\Monitor\D00387_simplified.obj
-       9000    17934 step2_results\resampled\Monitor\D00978_simplified.obj
-       9022    17666 step2_results\resampled\Monitor\D00364_simplified.obj
-       8757    16878 step2_results\resampled\Monitor\D00863_simplified.obj
-       9048    16842 step2_results\resampled\Monitor\D01000_simplified.obj
+       9961    19638       step2_results\resampled\Monitor\D00444_kept.obj
+       9508    18816    step2_results\resampled\Monitor\D00659_refined.obj
+       9002    17996 step2_results\resampled\Monitor\D00387_simplified.obj
+       9002    17988 step2_results\resampled\Monitor\D00469_simplified.obj
+       9005    17948 step2_results\resampled\Monitor\D00978_simplified.obj

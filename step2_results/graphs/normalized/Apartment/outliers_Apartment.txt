@@ -1,15 +1,15 @@
-== Apartment — Smallest (normalized) ==
- n_vertices  n_faces                                                                  path
-       5132     7901 step2_results\normalized\Apartment\D00953_refined_simplified_norm.obj
-       6688     7972               step2_results\normalized\Apartment\D00921_kept_norm.obj
-       5116     8430 step2_results\normalized\Apartment\D00869_refined_simplified_norm.obj
-       5128     8667 step2_results\normalized\Apartment\D00348_refined_simplified_norm.obj
-       5093     9025 step2_results\normalized\Apartment\D00496_refined_simplified_norm.obj
-
-== Apartment — Largest (normalized) ==
+== Apartment â€” Smallest (normalized) ==
  n_vertices  n_faces                                                          path
-       7517    18176 step2_results\normalized\Apartment\D00626_simplified_norm.obj
+       6688     7972       step2_results\normalized\Apartment\D00921_kept_norm.obj
+       5934     9026       step2_results\normalized\Apartment\D00310_kept_norm.obj
+       5558     9764    step2_results\normalized\Apartment\D00496_refined_norm.obj
+       6786    10068   step2_results\normalized\Apartment\m464_simplified_norm.obj
+       6859    10574 step2_results\normalized\Apartment\D00780_simplified_norm.obj
+
+== {cls} â€” Largest ({stage}) ==
+ n_vertices  n_faces                                                          path
+       8954    17870 step2_results\normalized\Apartment\D00366_simplified_norm.obj
+       7213    17780 step2_results\normalized\Apartment\D00626_simplified_norm.obj
        9021    17749 step2_results\normalized\Apartment\D00138_simplified_norm.obj
-       8947    17385 step2_results\normalized\Apartment\D00086_simplified_norm.obj
-       8527    13958 step2_results\normalized\Apartment\D00156_simplified_norm.obj
-       8526    13951 step2_results\normalized\Apartment\D00651_simplified_norm.obj
+       9112    17620 step2_results\normalized\Apartment\D00086_simplified_norm.obj
+       9002    17512 step2_results\normalized\Apartment\D00639_simplified_norm.obj

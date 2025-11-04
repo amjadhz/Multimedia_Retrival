@@ -1,15 +1,15 @@
-== MultiSeat — Smallest (resampled) ==
- n_vertices  n_faces                                                          path
-       5123     8807 step2_results\resampled\MultiSeat\m832_refined_simplified.obj
-       5124     9627 step2_results\resampled\MultiSeat\m840_refined_simplified.obj
-       5096     9661 step2_results\resampled\MultiSeat\m781_refined_simplified.obj
-       5108     9675 step2_results\resampled\MultiSeat\m835_refined_simplified.obj
-       5140     9676 step2_results\resampled\MultiSeat\m780_refined_simplified.obj
+== MultiSeat â€” Smallest (resampled) ==
+ n_vertices  n_faces                                                  path
+       5635    11008    step2_results\resampled\MultiSeat\m782_refined.obj
+       5773    11264    step2_results\resampled\MultiSeat\m836_refined.obj
+       5981    11856  step2_results\resampled\MultiSeat\D00053_refined.obj
+       6878    12722 step2_results\resampled\MultiSeat\m843_simplified.obj
+       7247    12808    step2_results\resampled\MultiSeat\m832_refined.obj
 
-== MultiSeat — Largest (resampled) ==
+== {cls} â€” Largest ({stage}) ==
  n_vertices  n_faces                                                    path
-       9002    17972 step2_results\resampled\MultiSeat\D00985_simplified.obj
-       9000    17950 step2_results\resampled\MultiSeat\D00289_simplified.obj
-       9007    17938 step2_results\resampled\MultiSeat\D00648_simplified.obj
-       9001    17938 step2_results\resampled\MultiSeat\D00146_simplified.obj
-       9022    17812 step2_results\resampled\MultiSeat\D00273_simplified.obj
+       9870    19712    step2_results\resampled\MultiSeat\D00145_refined.obj
+       9003    17994   step2_results\resampled\MultiSeat\m784_simplified.obj
+       9003    17977 step2_results\resampled\MultiSeat\D00046_simplified.obj
+       9018    17972 step2_results\resampled\MultiSeat\D00146_simplified.obj
+       9010    17972 step2_results\resampled\MultiSeat\D00586_simplified.obj

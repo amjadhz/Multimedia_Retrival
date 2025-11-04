@@ -1,15 +1,15 @@
-== Chess — Smallest (resampled) ==
- n_vertices  n_faces                                                        path
-       5131     9712  step2_results\resampled\Chess\m1589_refined_simplified.obj
-       5101    10150 step2_results\resampled\Chess\D01099_refined_simplified.obj
-       5100    10155  step2_results\resampled\Chess\m1606_refined_simplified.obj
-       5099    10177 step2_results\resampled\Chess\D01130_refined_simplified.obj
-       5100    10177  step2_results\resampled\Chess\m1612_refined_simplified.obj
+== Chess â€” Smallest (resampled) ==
+ n_vertices  n_faces                                             path
+       5890    11776 step2_results\resampled\Chess\D01021_refined.obj
+       5890    11776  step2_results\resampled\Chess\m1611_refined.obj
+       6094    12018     step2_results\resampled\Chess\m1610_kept.obj
+       6050    12096 step2_results\resampled\Chess\D01017_refined.obj
+       6162    12320 step2_results\resampled\Chess\D01045_refined.obj
 
-== Chess — Largest (resampled) ==
- n_vertices  n_faces                                               path
-       9020    17748 step2_results\resampled\Chess\m1595_simplified.obj
-       9035    17674 step2_results\resampled\Chess\m1593_simplified.obj
-       9012    17541 step2_results\resampled\Chess\m1596_simplified.obj
-       6727    13450      step2_results\resampled\Chess\D01081_kept.obj
-       6727    13450       step2_results\resampled\Chess\m1601_kept.obj
+== {cls} â€” Largest ({stage}) ==
+ n_vertices  n_faces                                                path
+       9730    19456    step2_results\resampled\Chess\D01186_refined.obj
+       9730    19456     step2_results\resampled\Chess\m1609_refined.obj
+       9523    18960    step2_results\resampled\Chess\D01099_refined.obj
+       9523    18960     step2_results\resampled\Chess\m1606_refined.obj
+       9001    17998 step2_results\resampled\Chess\D01112_simplified.obj

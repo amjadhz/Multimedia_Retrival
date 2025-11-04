@@ -1,15 +1,15 @@
-== Hat — Smallest (normalized) ==
- n_vertices  n_faces                                                           path
-       5091     8935 step2_results\normalized\Hat\m1631_refined_simplified_norm.obj
-       5122     9201 step2_results\normalized\Hat\m1628_refined_simplified_norm.obj
-       5113     9276 step2_results\normalized\Hat\m1629_refined_simplified_norm.obj
-       5101    10128 step2_results\normalized\Hat\m1639_refined_simplified_norm.obj
-       5071    10165               step2_results\normalized\Hat\m1635_kept_norm.obj
+== Hat â€” Smallest (normalized) ==
+ n_vertices  n_faces                                                path
+       5071    10165    step2_results\normalized\Hat\m1635_kept_norm.obj
+       5814    11562    step2_results\normalized\Hat\m1634_kept_norm.obj
+       6786    13568 step2_results\normalized\Hat\m1636_refined_norm.obj
+       7539    13624 step2_results\normalized\Hat\m1631_refined_norm.obj
+       8053    15984 step2_results\normalized\Hat\m1639_refined_norm.obj
 
-== Hat — Largest (normalized) ==
- n_vertices  n_faces                                                           path
-       6499    13021         step2_results\normalized\Hat\m1638_simplified_norm.obj
-       5814    11562               step2_results\normalized\Hat\m1634_kept_norm.obj
-       5441    10612            step2_results\normalized\Hat\m1633_refined_norm.obj
-       5100    10196 step2_results\normalized\Hat\m1630_refined_simplified_norm.obj
-       5100    10196 step2_results\normalized\Hat\m1636_refined_simplified_norm.obj
+== {cls} â€” Largest ({stage}) ==
+ n_vertices  n_faces                                                   path
+       9000    17996 step2_results\normalized\Hat\m1637_simplified_norm.obj
+       9000    17996 step2_results\normalized\Hat\m1640_simplified_norm.obj
+       9003    17994 step2_results\normalized\Hat\m1641_simplified_norm.obj
+       9004    17988 step2_results\normalized\Hat\m1627_simplified_norm.obj
+       9010    17939 step2_results\normalized\Hat\m1632_simplified_norm.obj

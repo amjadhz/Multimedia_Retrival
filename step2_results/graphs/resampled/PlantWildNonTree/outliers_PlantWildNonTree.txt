@@ -1,15 +1,15 @@
-== PlantWildNonTree — Smallest (resampled) ==
- n_vertices  n_faces                                                                 path
-       7912     5272         step2_results\resampled\PlantWildNonTree\m966_simplified.obj
-       5112     5692 step2_results\resampled\PlantWildNonTree\m971_refined_simplified.obj
-       5152     6898 step2_results\resampled\PlantWildNonTree\m978_refined_simplified.obj
-       5098     7646 step2_results\resampled\PlantWildNonTree\m979_refined_simplified.obj
-       5109     8223 step2_results\resampled\PlantWildNonTree\m987_refined_simplified.obj
-
-== PlantWildNonTree — Largest (resampled) ==
+== PlantWildNonTree â€” Smallest (resampled) ==
  n_vertices  n_faces                                                         path
-       9070    14783 step2_results\resampled\PlantWildNonTree\m985_simplified.obj
-       9043    14012 step2_results\resampled\PlantWildNonTree\m965_simplified.obj
-       6656    11843       step2_results\resampled\PlantWildNonTree\m986_kept.obj
-       6488    11753 step2_results\resampled\PlantWildNonTree\m980_simplified.obj
-       8236    11696 step2_results\resampled\PlantWildNonTree\m963_simplified.obj
+       7914     5274 step2_results\resampled\PlantWildNonTree\m966_simplified.obj
+       6513     9427       step2_results\resampled\PlantWildNonTree\m961_kept.obj
+      12486    11289 step2_results\resampled\PlantWildNonTree\m972_simplified.obj
+       9018    11712       step2_results\resampled\PlantWildNonTree\m968_kept.obj
+       5922    11752    step2_results\resampled\PlantWildNonTree\m977_refined.obj
+
+== {cls} â€” Largest ({stage}) ==
+ n_vertices  n_faces                                                         path
+       9895    18944    step2_results\resampled\PlantWildNonTree\m983_refined.obj
+       9006    17980 step2_results\resampled\PlantWildNonTree\m975_simplified.obj
+       9017    17970 step2_results\resampled\PlantWildNonTree\m982_simplified.obj
+       9026    17816 step2_results\resampled\PlantWildNonTree\m988_simplified.obj
+       9111    16637 step2_results\resampled\PlantWildNonTree\m976_simplified.obj

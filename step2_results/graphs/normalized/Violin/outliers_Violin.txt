@@ -1,15 +1,15 @@
-== Violin — Smallest (normalized) ==
- n_vertices  n_faces                                                               path
-       5103     8829 step2_results\normalized\Violin\D00704_refined_simplified_norm.obj
-       5155     9277 step2_results\normalized\Violin\D00506_refined_simplified_norm.obj
-       5136     9487 step2_results\normalized\Violin\D00108_refined_simplified_norm.obj
-       5099     9516 step2_results\normalized\Violin\D00340_refined_simplified_norm.obj
-       5140     9537 step2_results\normalized\Violin\D00570_refined_simplified_norm.obj
+== Violin â€” Smallest (normalized) ==
+ n_vertices  n_faces                                                       path
+       5751    10700    step2_results\normalized\Violin\D00108_refined_norm.obj
+       6847    11837 step2_results\normalized\Violin\D00898_simplified_norm.obj
+       6831    13009       step2_results\normalized\Violin\D00598_kept_norm.obj
+       6808    13201 step2_results\normalized\Violin\D00993_simplified_norm.obj
+       6796    13422 step2_results\normalized\Violin\D00358_simplified_norm.obj
 
-== Violin — Largest (normalized) ==
- n_vertices  n_faces                                                               path
-       6496    12830         step2_results\normalized\Violin\D00358_simplified_norm.obj
-       6506    12618         step2_results\normalized\Violin\D00993_simplified_norm.obj
-       6503    12377         step2_results\normalized\Violin\D00598_simplified_norm.obj
-       6550    11314         step2_results\normalized\Violin\D00898_simplified_norm.obj
-       5101    10114 step2_results\normalized\Violin\D00376_refined_simplified_norm.obj
+== {cls} â€” Largest ({stage}) ==
+ n_vertices  n_faces                                                       path
+       9698    18394    step2_results\normalized\Violin\D00324_refined_norm.obj
+       9047    17807 step2_results\normalized\Violin\D00376_simplified_norm.obj
+       9005    17600 step2_results\normalized\Violin\D00349_simplified_norm.obj
+       9037    17497 step2_results\normalized\Violin\D00620_simplified_norm.obj
+       9099    17479 step2_results\normalized\Violin\D00675_simplified_norm.obj

@@ -1,15 +1,15 @@
-== House — Smallest (normalized) ==
- n_vertices  n_faces                                                              path
-       5123     6527   step2_results\normalized\House\m441_refined_simplified_norm.obj
-       5135     8045   step2_results\normalized\House\m460_refined_simplified_norm.obj
-       5088     8238   step2_results\normalized\House\m456_refined_simplified_norm.obj
-       5065     8509   step2_results\normalized\House\m431_refined_simplified_norm.obj
-       5102     8655 step2_results\normalized\House\D00665_refined_simplified_norm.obj
+== House â€” Smallest (normalized) ==
+ n_vertices  n_faces                                                   path
+       6618     8864   step2_results\normalized\House\m441_refined_norm.obj
+       5500    10204    step2_results\normalized\House\D00454_kept_norm.obj
+       6408    10548   step2_results\normalized\House\m456_refined_norm.obj
+       5884    10970 step2_results\normalized\House\D00965_refined_norm.obj
+       5932    11020   step2_results\normalized\House\m430_refined_norm.obj
 
-== House — Largest (normalized) ==
+== {cls} â€” Largest ({stage}) ==
  n_vertices  n_faces                                                      path
-       8919    17554   step2_results\normalized\House\m429_simplified_norm.obj
-       9050    16826 step2_results\normalized\House\D00044_simplified_norm.obj
-       8207    15367   step2_results\normalized\House\m446_simplified_norm.obj
-       9035    15059 step2_results\normalized\House\D00415_simplified_norm.obj
-       8990    14773 step2_results\normalized\House\D00286_simplified_norm.obj
+       8954    18237   step2_results\normalized\House\m453_simplified_norm.obj
+       9004    17988 step2_results\normalized\House\D00889_simplified_norm.obj
+       8989    17986   step2_results\normalized\House\m452_simplified_norm.obj
+       8996    17950   step2_results\normalized\House\m461_simplified_norm.obj
+       9042    17904   step2_results\normalized\House\m439_simplified_norm.obj

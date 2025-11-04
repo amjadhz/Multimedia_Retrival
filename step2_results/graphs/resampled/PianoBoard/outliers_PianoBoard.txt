@@ -1,15 +1,15 @@
-== PianoBoard — Smallest (resampled) ==
- n_vertices  n_faces                                                             path
-       5126     8837 step2_results\resampled\PianoBoard\D00966_refined_simplified.obj
-       5106     8844 step2_results\resampled\PianoBoard\D00332_refined_simplified.obj
-       5111     9363 step2_results\resampled\PianoBoard\D00122_refined_simplified.obj
-       5070     9408 step2_results\resampled\PianoBoard\D00718_refined_simplified.obj
-       5118     9548 step2_results\resampled\PianoBoard\D00235_refined_simplified.obj
+== PianoBoard â€” Smallest (resampled) ==
+ n_vertices  n_faces                                                     path
+       5694    10102       step2_results\resampled\PianoBoard\D00623_kept.obj
+       6304    11804    step2_results\resampled\PianoBoard\D00235_refined.obj
+       6603    12497       step2_results\resampled\PianoBoard\D00885_kept.obj
+       6832    13190 step2_results\resampled\PianoBoard\D00755_simplified.obj
+       7351    13648    step2_results\resampled\PianoBoard\D00122_refined.obj
 
-== PianoBoard — Largest (resampled) ==
- n_vertices  n_faces                                                             path
-       6541    12608         step2_results\resampled\PianoBoard\D00755_simplified.obj
-       6603    12497               step2_results\resampled\PianoBoard\D00885_kept.obj
-       5142    10286 step2_results\resampled\PianoBoard\D00962_refined_simplified.obj
-       5092    10153 step2_results\resampled\PianoBoard\D00253_refined_simplified.obj
-       5101    10116 step2_results\resampled\PianoBoard\D00721_refined_simplified.obj
+== {cls} â€” Largest ({stage}) ==
+ n_vertices  n_faces                                                     path
+       9876    18800    step2_results\resampled\PianoBoard\D00381_refined.obj
+       8998    17900 step2_results\resampled\PianoBoard\D00253_simplified.obj
+       9015    17843 step2_results\resampled\PianoBoard\D00721_simplified.obj
+       9092    17740 step2_results\resampled\PianoBoard\D00065_simplified.obj
+       9046    17719 step2_results\resampled\PianoBoard\D00075_simplified.obj

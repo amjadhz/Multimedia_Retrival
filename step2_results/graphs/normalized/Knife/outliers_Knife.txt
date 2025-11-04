@@ -1,15 +1,15 @@
-== Knife — Smallest (normalized) ==
- n_vertices  n_faces                                                              path
-       5099     9179 step2_results\normalized\Knife\D01051_refined_simplified_norm.obj
-       5090     9684 step2_results\normalized\Knife\D01063_refined_simplified_norm.obj
-       5098     9721 step2_results\normalized\Knife\D01015_refined_simplified_norm.obj
-       5146     9876   step2_results\normalized\Knife\m728_refined_simplified_norm.obj
-       5093    10004   step2_results\normalized\Knife\m722_refined_simplified_norm.obj
+== Knife â€” Smallest (normalized) ==
+ n_vertices  n_faces                                                   path
+       5076    10136      step2_results\normalized\Knife\m723_kept_norm.obj
+       5591    10304 step2_results\normalized\Knife\D01187_refined_norm.obj
+       6742    13056   step2_results\normalized\Knife\m728_refined_norm.obj
+       6567    13072   step2_results\normalized\Knife\m726_refined_norm.obj
+       6980    13952 step2_results\normalized\Knife\D01119_refined_norm.obj
 
-== Knife — Largest (normalized) ==
- n_vertices  n_faces                                                              path
-       5316    10624            step2_results\normalized\Knife\D01175_refined_norm.obj
-       5275    10528            step2_results\normalized\Knife\D01077_refined_norm.obj
-       5591    10304            step2_results\normalized\Knife\D01187_refined_norm.obj
-       5097    10195 step2_results\normalized\Knife\D01075_refined_simplified_norm.obj
-       5098    10193 step2_results\normalized\Knife\D01132_refined_simplified_norm.obj
+== {cls} â€” Largest ({stage}) ==
+ n_vertices  n_faces                                                      path
+       9801    18099    step2_results\normalized\Knife\D01051_refined_norm.obj
+       9002    17996 step2_results\normalized\Knife\D01175_simplified_norm.obj
+       9001    17994   step2_results\normalized\Knife\m724_simplified_norm.obj
+       9001    17994   step2_results\normalized\Knife\m725_simplified_norm.obj
+       9000    17986 step2_results\normalized\Knife\D01075_simplified_norm.obj

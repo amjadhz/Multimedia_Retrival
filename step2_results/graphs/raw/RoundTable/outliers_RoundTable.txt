@@ -1,4 +1,4 @@
-== RoundTable — Smallest (raw) ==
+== RoundTable â€” Smallest (raw) ==
  n_vertices  n_faces                       path
          54       88   data\RoundTable\m922.obj
          54       88   data\RoundTable\m931.obj
@@ -6,7 +6,7 @@
          72      140   data\RoundTable\m937.obj
         136      236 data\RoundTable\D00344.obj
 
-== RoundTable — Largest (raw) ==
+== {cls} â€” Largest ({stage}) ==
  n_vertices  n_faces                       path
       13002    25984 data\RoundTable\D00492.obj
       12412    24720 data\RoundTable\D00094.obj

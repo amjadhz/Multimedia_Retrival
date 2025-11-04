@@ -1,19 +1,19 @@
 == Smallest (resampled) ==
-         cls  n_vertices  n_faces                                                       path
-       Shelf         112      168     step2_results\resampled\Shelf\m857_refined_clamped.obj
-     Bookset         624      832 step2_results\resampled\Bookset\D01096_refined_clamped.obj
-     Bookset        1614     3116 step2_results\resampled\Bookset\D01108_refined_clamped.obj
-PlantIndoors        7240     4599   step2_results\resampled\PlantIndoors\m995_simplified.obj
-        Tree        5410     4629                step2_results\resampled\Tree\m1050_kept.obj
+             cls  n_vertices  n_faces                                                         path
+    PlantIndoors        7242     4603     step2_results\resampled\PlantIndoors\m995_simplified.obj
+            Tree        5410     4629                  step2_results\resampled\Tree\m1050_kept.obj
+            Tree       11349     4767           step2_results\resampled\Tree\D00612_simplified.obj
+            City        5135     5213                 step2_results\resampled\City\D01181_kept.obj
+PlantWildNonTree        7914     5274 step2_results\resampled\PlantWildNonTree\m966_simplified.obj
 
 == Largest (resampled) ==
-            cls  n_vertices  n_faces                                                          path
-        Biplane        8967    18580         step2_results\resampled\Biplane\D00616_simplified.obj
-            Car        9099    18359              step2_results\resampled\Car\m1560_simplified.obj
-MilitaryVehicle        8965    18327 step2_results\resampled\MilitaryVehicle\D00801_simplified.obj
-      Apartment        8966    18176       step2_results\resampled\Apartment\D00626_simplified.obj
- RectangleTable        8998    18081  step2_results\resampled\RectangleTable\D00523_simplified.obj
+          cls  n_vertices  n_faces                                                   path
+         Vase        7872    23040          step2_results\resampled\Vase\m541_refined.obj
+NonWheelChair        9986    19936 step2_results\resampled\NonWheelChair\m786_refined.obj
+       Bottle        9949    19872      step2_results\resampled\Bottle\D00940_refined.obj
+        Sword        9906    19808       step2_results\resampled\Sword\D00635_refined.obj
+     Humanoid        9932    19776      step2_results\resampled\Humanoid\m205_refined.obj
 
 == Average (resampled) ==
-          cls  n_vertices  n_faces                                                              path
-NonWheelChair        5112    10072 step2_results\resampled\NonWheelChair\m790_refined_simplified.obj
+  cls  n_vertices  n_faces                                              path
+Wheel        9000    17996 step2_results\resampled\Wheel\m742_simplified.obj

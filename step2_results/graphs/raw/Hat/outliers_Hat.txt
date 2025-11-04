@@ -1,4 +1,4 @@
-== Hat — Smallest (raw) ==
+== Hat â€” Smallest (raw) ==
  n_vertices  n_faces               path
         426      848 data\Hat\m1636.obj
         562     1120 data\Hat\m1630.obj
@@ -6,7 +6,7 @@
        1009     1998 data\Hat\m1627.obj
        1002     2000 data\Hat\m1637.obj
 
-== Hat — Largest (raw) ==
+== {cls} â€” Largest ({stage}) ==
  n_vertices  n_faces               path
        8796    17614 data\Hat\m1638.obj
        5814    11562 data\Hat\m1634.obj

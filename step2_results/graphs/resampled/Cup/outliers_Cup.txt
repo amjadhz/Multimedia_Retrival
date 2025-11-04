@@ -1,15 +1,15 @@
-== Cup — Smallest (resampled) ==
- n_vertices  n_faces                                                      path
-       5109     9740   step2_results\resampled\Cup\m501_refined_simplified.obj
-       5131     9942   step2_results\resampled\Cup\m499_refined_simplified.obj
-       5114    10033   step2_results\resampled\Cup\m497_refined_simplified.obj
-       5110    10060   step2_results\resampled\Cup\m498_refined_simplified.obj
-       5105    10088 step2_results\resampled\Cup\D00270_refined_simplified.obj
+== Cup â€” Smallest (resampled) ==
+ n_vertices  n_faces                                           path
+       5551    11000   step2_results\resampled\Cup\m495_refined.obj
+       5618    11232 step2_results\resampled\Cup\D00067_refined.obj
+       5840    11520   step2_results\resampled\Cup\m498_refined.obj
+       6120    12144 step2_results\resampled\Cup\D00642_refined.obj
+       6206    12408 step2_results\resampled\Cup\D00882_refined.obj
 
-== Cup — Largest (resampled) ==
+== {cls} â€” Largest ({stage}) ==
  n_vertices  n_faces                                              path
+       9897    19672    step2_results\resampled\Cup\D00270_refined.obj
+       9000    18000 step2_results\resampled\Cup\D00463_simplified.obj
        9000    17996 step2_results\resampled\Cup\D00174_simplified.obj
-       9000    17996 step2_results\resampled\Cup\D00457_simplified.obj
-       9002    17874 step2_results\resampled\Cup\D00550_simplified.obj
-       9018    17732 step2_results\resampled\Cup\D00738_simplified.obj
-       6786    13568       step2_results\resampled\Cup\D00638_kept.obj
+       9000    17996 step2_results\resampled\Cup\D00328_simplified.obj
+       9000    17996 step2_results\resampled\Cup\D00363_simplified.obj

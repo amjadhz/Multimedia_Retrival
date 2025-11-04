@@ -1,15 +1,15 @@
-== SubmachineGun — Smallest (normalized) ==
- n_vertices  n_faces                                                                      path
-       5157     9193 step2_results\normalized\SubmachineGun\D00733_refined_simplified_norm.obj
-       5122     9644 step2_results\normalized\SubmachineGun\D00384_refined_simplified_norm.obj
-       5118     9753 step2_results\normalized\SubmachineGun\D00256_refined_simplified_norm.obj
-       5104     9782 step2_results\normalized\SubmachineGun\D00960_refined_simplified_norm.obj
-       5115     9871 step2_results\normalized\SubmachineGun\D00060_refined_simplified_norm.obj
+== SubmachineGun â€” Smallest (normalized) ==
+ n_vertices  n_faces                                                           path
+       5899    11636 step2_results\normalized\SubmachineGun\D00878_refined_norm.obj
+       5992    11856 step2_results\normalized\SubmachineGun\D00062_refined_norm.obj
+       6487    12560 step2_results\normalized\SubmachineGun\D00970_refined_norm.obj
+       6376    12720 step2_results\normalized\SubmachineGun\D00537_refined_norm.obj
+       6530    13248    step2_results\normalized\SubmachineGun\D00064_kept_norm.obj
 
-== SubmachineGun — Largest (normalized) ==
+== {cls} â€” Largest ({stage}) ==
  n_vertices  n_faces                                                              path
-       9027    17752 step2_results\normalized\SubmachineGun\D00119_simplified_norm.obj
-       9016    17743 step2_results\normalized\SubmachineGun\D00068_simplified_norm.obj
-       9016    17681 step2_results\normalized\SubmachineGun\D00459_simplified_norm.obj
-       9016    14849 step2_results\normalized\SubmachineGun\D00371_simplified_norm.obj
-       6530    13248       step2_results\normalized\SubmachineGun\D00064_kept_norm.obj
+       9366    18176    step2_results\normalized\SubmachineGun\D00960_refined_norm.obj
+       9018    17960 step2_results\normalized\SubmachineGun\D00489_simplified_norm.obj
+       9038    17944 step2_results\normalized\SubmachineGun\D00431_simplified_norm.obj
+       8981    17859 step2_results\normalized\SubmachineGun\D00613_simplified_norm.obj
+       9074    17793 step2_results\normalized\SubmachineGun\D00459_simplified_norm.obj

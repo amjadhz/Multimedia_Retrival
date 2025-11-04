@@ -1,4 +1,4 @@
-== FloorLamp — Smallest (raw) ==
+== FloorLamp â€” Smallest (raw) ==
  n_vertices  n_faces                      path
          46       76   data\FloorLamp\m624.obj
          54       88   data\FloorLamp\m622.obj
@@ -6,7 +6,7 @@
         361      696   data\FloorLamp\m619.obj
         440      804 data\FloorLamp\D00981.obj
 
-== FloorLamp — Largest (raw) ==
+== {cls} â€” Largest ({stage}) ==
  n_vertices  n_faces                      path
       23655    46274 data\FloorLamp\D00580.obj
       17582    34872 data\FloorLamp\D00924.obj

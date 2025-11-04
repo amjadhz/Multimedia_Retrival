@@ -1,15 +1,15 @@
-== Mug — Smallest (resampled) ==
- n_vertices  n_faces                                                      path
-       5102     9980   step2_results\resampled\Mug\m503_refined_simplified.obj
-       5099    10020 step2_results\resampled\Mug\D00372_refined_simplified.obj
-       5109    10061 step2_results\resampled\Mug\D00833_refined_simplified.obj
-       5099    10067 step2_results\resampled\Mug\D00908_refined_simplified.obj
-       5110    10082 step2_results\resampled\Mug\D00825_refined_simplified.obj
-
-== Mug — Largest (resampled) ==
+== Mug â€” Smallest (resampled) ==
  n_vertices  n_faces                                              path
-       9000    18000 step2_results\resampled\Mug\D00202_simplified.obj
-       9000    17992 step2_results\resampled\Mug\D00747_simplified.obj
-       9016    17562 step2_results\resampled\Mug\D00227_simplified.obj
+       5476    10944       step2_results\resampled\Mug\D00427_kept.obj
+       5703    11040       step2_results\resampled\Mug\D00685_kept.obj
+       5874    11720         step2_results\resampled\Mug\m509_kept.obj
        6672    13344       step2_results\resampled\Mug\D00913_kept.obj
-       6500    13000 step2_results\resampled\Mug\D00341_simplified.obj
+       6800    13600 step2_results\resampled\Mug\D00341_simplified.obj
+
+== {cls} â€” Largest ({stage}) ==
+ n_vertices  n_faces                                              path
+       9271    18513       step2_results\resampled\Mug\D00728_kept.obj
+       9000    18000 step2_results\resampled\Mug\D00202_simplified.obj
+       9000    18000 step2_results\resampled\Mug\D00705_simplified.obj
+       9001    17994 step2_results\resampled\Mug\D00747_simplified.obj
+       9001    17994 step2_results\resampled\Mug\D00770_simplified.obj
