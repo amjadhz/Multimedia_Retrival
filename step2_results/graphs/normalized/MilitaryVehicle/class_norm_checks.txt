@@ -1,5 +1,0 @@
-== Normalization scalar checks — MilitaryVehicle ==
-extent_max_after — mean: 1.000000, median: 1.000000
-centroid_norm_after — mean: 1.214526e-16, median: 9.094625e-17
-pass_rate |extent_max_after - 1| <= 0.001: 100.0%
-pass_rate |centroid_norm_after| <= 0.001: 100.0%
