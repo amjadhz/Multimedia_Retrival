@@ -10,3 +10,8 @@ Pillow
 annoy 
 mplcursors
 tqdm
+streamlit 
+pynndescent
+umap-learn
+trimesh
+stopwatch.py

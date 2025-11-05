@@ -1,7 +1,7 @@
 import open3d as o3d
 import numpy as np
 
-mesh_path = "data\Car\D00168.obj"
+mesh_path = "step3_1_results/normalized/Monoplane/D00688_kept.obj"
 
 mesh = o3d.io.read_triangle_mesh(mesh_path)
 
