@@ -1,4 +1,4 @@
-== Motorcycle â€” Smallest (normalized) ==
+== Motorcycle — Smallest (normalized) ==
  n_vertices  n_faces                                                           path
        5713    11152       step2_results\normalized\Motorcycle\D00880_kept_norm.obj
        5963    11520     step2_results\normalized\Motorcycle\m1484_refined_norm.obj
@@ -6,7 +6,7 @@
        6529    12510       step2_results\normalized\Motorcycle\D00288_kept_norm.obj
        8826    15282 step2_results\normalized\Motorcycle\D00476_simplified_norm.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                           path
        9168    18382       step2_results\normalized\Motorcycle\D00768_kept_norm.obj
        9543    18052       step2_results\normalized\Motorcycle\D00021_kept_norm.obj

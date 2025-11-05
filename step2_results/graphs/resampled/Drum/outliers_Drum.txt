@@ -1,4 +1,4 @@
-== Drum â€” Smallest (resampled) ==
+== Drum — Smallest (resampled) ==
  n_vertices  n_faces                                               path
        6332     9688 step2_results\resampled\Drum\D00163_simplified.obj
        5561    10366       step2_results\resampled\Drum\D00297_kept.obj
@@ -6,7 +6,7 @@
        5506    10641       step2_results\resampled\Drum\D00026_kept.obj
        5653    11181       step2_results\resampled\Drum\D00980_kept.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                               path
        9000    17996 step2_results\resampled\Drum\D00189_simplified.obj
        9023    17845 step2_results\resampled\Drum\D00404_simplified.obj

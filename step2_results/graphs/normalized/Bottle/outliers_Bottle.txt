@@ -1,4 +1,4 @@
-== Bottle â€” Smallest (normalized) ==
+== Bottle — Smallest (normalized) ==
  n_vertices  n_faces                                                       path
        5504    10968    step2_results\normalized\Bottle\D00390_refined_norm.obj
        5633    11264      step2_results\normalized\Bottle\m492_refined_norm.obj
@@ -6,7 +6,7 @@
        6800    13596 step2_results\normalized\Bottle\D00176_simplified_norm.obj
        7174    14208      step2_results\normalized\Bottle\m484_refined_norm.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                    path
        9949    19872 step2_results\normalized\Bottle\D00940_refined_norm.obj
        9884    19760 step2_results\normalized\Bottle\D00892_refined_norm.obj

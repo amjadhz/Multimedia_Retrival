@@ -1,4 +1,4 @@
-== MultiSeat â€” Smallest (resampled) ==
+== MultiSeat — Smallest (resampled) ==
  n_vertices  n_faces                                                  path
        5635    11008    step2_results\resampled\MultiSeat\m782_refined.obj
        5773    11264    step2_results\resampled\MultiSeat\m836_refined.obj
@@ -6,7 +6,7 @@
        6878    12722 step2_results\resampled\MultiSeat\m843_simplified.obj
        7247    12808    step2_results\resampled\MultiSeat\m832_refined.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                    path
        9870    19712    step2_results\resampled\MultiSeat\D00145_refined.obj
        9003    17994   step2_results\resampled\MultiSeat\m784_simplified.obj

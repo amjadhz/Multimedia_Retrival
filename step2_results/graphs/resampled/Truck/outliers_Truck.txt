@@ -1,4 +1,4 @@
-== Truck â€” Smallest (resampled) ==
+== Truck — Smallest (resampled) ==
  n_vertices  n_faces                                             path
        5209     9199    step2_results\resampled\Truck\D00029_kept.obj
        5427     9669    step2_results\resampled\Truck\D00518_kept.obj
@@ -6,7 +6,7 @@
        5602     9986    step2_results\resampled\Truck\D00926_kept.obj
        5776    10440 step2_results\resampled\Truck\D00406_refined.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                path
        9613    18340        step2_results\resampled\Truck\m1572_kept.obj
        9037    17902 step2_results\resampled\Truck\D00241_simplified.obj

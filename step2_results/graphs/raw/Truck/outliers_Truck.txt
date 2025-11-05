@@ -1,4 +1,4 @@
-== Truck â€” Smallest (raw) ==
+== Truck — Smallest (raw) ==
  n_vertices  n_faces                  path
         480      836 data\Truck\D00002.obj
        1162     2273 data\Truck\D00241.obj
@@ -6,7 +6,7 @@
        1461     2490  data\Truck\m1573.obj
        1419     2610 data\Truck\D00406.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                  path
       47209    92176  data\Truck\m1575.obj
       12110    23324  data\Truck\m1571.obj

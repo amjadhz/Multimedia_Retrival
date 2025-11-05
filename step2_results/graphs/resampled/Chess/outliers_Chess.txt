@@ -1,4 +1,4 @@
-== Chess â€” Smallest (resampled) ==
+== Chess — Smallest (resampled) ==
  n_vertices  n_faces                                             path
        5890    11776 step2_results\resampled\Chess\D01021_refined.obj
        5890    11776  step2_results\resampled\Chess\m1611_refined.obj
@@ -6,7 +6,7 @@
        6050    12096 step2_results\resampled\Chess\D01017_refined.obj
        6162    12320 step2_results\resampled\Chess\D01045_refined.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                path
        9730    19456    step2_results\resampled\Chess\D01186_refined.obj
        9730    19456     step2_results\resampled\Chess\m1609_refined.obj

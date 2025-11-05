@@ -1,4 +1,4 @@
-== Bed â€” Smallest (resampled) ==
+== Bed — Smallest (resampled) ==
  n_vertices  n_faces                                           path
        5651    10304   step2_results\resampled\Bed\m946_refined.obj
        5985    10944 step2_results\resampled\Bed\D00735_refined.obj
@@ -6,7 +6,7 @@
        6349    12248    step2_results\resampled\Bed\D00552_kept.obj
        6343    12488 step2_results\resampled\Bed\D00836_refined.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                              path
        9074    18056    step2_results\resampled\Bed\D00213_refined.obj
        9002    17980   step2_results\resampled\Bed\m949_simplified.obj

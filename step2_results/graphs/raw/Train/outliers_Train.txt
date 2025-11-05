@@ -1,4 +1,4 @@
-== Train â€” Smallest (raw) ==
+== Train — Smallest (raw) ==
  n_vertices  n_faces                  path
         174      316  data\Train\m1584.obj
         309      571  data\Train\m1583.obj
@@ -6,7 +6,7 @@
         454      901 data\Train\D01094.obj
        1257     2527 data\Train\D01031.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                  path
       13612    25591 data\Train\D01180.obj
       11298    21980  data\Train\m1581.obj

@@ -1,4 +1,4 @@
-== Mug â€” Smallest (resampled) ==
+== Mug — Smallest (resampled) ==
  n_vertices  n_faces                                              path
        5476    10944       step2_results\resampled\Mug\D00427_kept.obj
        5703    11040       step2_results\resampled\Mug\D00685_kept.obj
@@ -6,7 +6,7 @@
        6672    13344       step2_results\resampled\Mug\D00913_kept.obj
        6800    13600 step2_results\resampled\Mug\D00341_simplified.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                              path
        9271    18513       step2_results\resampled\Mug\D00728_kept.obj
        9000    18000 step2_results\resampled\Mug\D00202_simplified.obj

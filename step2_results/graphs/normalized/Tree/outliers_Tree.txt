@@ -1,4 +1,4 @@
-== Tree â€” Smallest (normalized) ==
+== Tree — Smallest (normalized) ==
  n_vertices  n_faces                                                     path
        5410     4629        step2_results\normalized\Tree\m1050_kept_norm.obj
       11277     4767 step2_results\normalized\Tree\D00612_simplified_norm.obj
@@ -6,7 +6,7 @@
        6247     6856        step2_results\normalized\Tree\m1086_kept_norm.obj
        6757     7200     step2_results\normalized\Tree\m1064_refined_norm.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                    path
        9005    17986 step2_results\normalized\Tree\m1082_simplified_norm.obj
        9010    17984 step2_results\normalized\Tree\m1092_simplified_norm.obj

@@ -1,4 +1,4 @@
-== PlantIndoors â€” Smallest (normalized) ==
+== PlantIndoors — Smallest (normalized) ==
  n_vertices  n_faces                                                           path
        7242     4603 step2_results\normalized\PlantIndoors\m995_simplified_norm.obj
        5331     6734      step2_results\normalized\PlantIndoors\m1009_kept_norm.obj
@@ -6,7 +6,7 @@
        6365     7424      step2_results\normalized\PlantIndoors\m1013_kept_norm.obj
        5671     7624     step2_results\normalized\PlantIndoors\D00657_kept_norm.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                            path
        9009    17982 step2_results\normalized\PlantIndoors\m1032_simplified_norm.obj
        9018    17925 step2_results\normalized\PlantIndoors\m1029_simplified_norm.obj

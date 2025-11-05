@@ -433,22 +433,31 @@ def process_single_class(class_folder, output_csv, n_samples=100000, n_bins=100)
 
 
 def main():
+    # root that contains all class folders
+    ROOT_NORMALIZED = Path("./step3_1_results/normalized")
 
-    CLASS_FOLDER = "../step3_1_results/Normalized/Bottle"
     N_SAMPLES = 150000
     N_BINS = 100
 
-    # Auto-generate output filename from class name
-    class_name = Path(CLASS_FOLDER).name
-    OUTPUT_CSV = f"features/{class_name}_descriptors.csv"
+    # make sure output dir exists
+    out_dir = Path("./MR System/features")
+    out_dir.mkdir(parents=True, exist_ok=True)
 
-    # Process the class
-    process_single_class(
-        class_folder=CLASS_FOLDER,
-        output_csv=OUTPUT_CSV,
-        n_samples=N_SAMPLES,
-        n_bins=N_BINS
-    )
+    # loop over every subfolder (each is a class)
+    for class_folder in ROOT_NORMALIZED.iterdir():
+        if class_folder.is_dir():
+            class_name = class_folder.name
+            output_csv = out_dir / f"{class_name}_descriptors.csv"
+
+            print(f"[INFO] Processing class: {class_name}")
+            process_single_class(
+                class_folder=str(class_folder),
+                output_csv=str(output_csv),
+                n_samples=N_SAMPLES,
+                n_bins=N_BINS
+            )
+
+    print("[DONE] All classes processed. ✅✅✅")
 
 
 if __name__ == "__main__":

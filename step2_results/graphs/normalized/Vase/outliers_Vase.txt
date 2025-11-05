@@ -1,4 +1,4 @@
-== Vase â€” Smallest (normalized) ==
+== Vase — Smallest (normalized) ==
  n_vertices  n_faces                                                path
        6725    12432 step2_results\normalized\Vase\m529_refined_norm.obj
        7850    12444 step2_results\normalized\Vase\m541_refined_norm.obj
@@ -6,7 +6,7 @@
        7712    15360 step2_results\normalized\Vase\m533_refined_norm.obj
        8137    16000 step2_results\normalized\Vase\m547_refined_norm.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                   path
        9666    19136    step2_results\normalized\Vase\m543_refined_norm.obj
        9000    18000 step2_results\normalized\Vase\m531_simplified_norm.obj

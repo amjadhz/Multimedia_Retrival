@@ -1,4 +1,4 @@
-== City â€” Smallest (normalized) ==
+== City — Smallest (normalized) ==
  n_vertices  n_faces                                               path
        5119     5213 step2_results\normalized\City\D01181_kept_norm.obj
        6606     7637 step2_results\normalized\City\D01001_kept_norm.obj
@@ -6,7 +6,7 @@
        5532     9169  step2_results\normalized\City\m1654_kept_norm.obj
        5535     9169 step2_results\normalized\City\D01068_kept_norm.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                     path
        9139    17211 step2_results\normalized\City\D01091_simplified_norm.obj
        9891    16671       step2_results\normalized\City\D01066_kept_norm.obj

@@ -1,4 +1,4 @@
-== Jet â€” Smallest (normalized) ==
+== Jet — Smallest (normalized) ==
  n_vertices  n_faces                                                path
        5078     9742    step2_results\normalized\Jet\m1289_kept_norm.obj
        5621    10432 step2_results\normalized\Jet\m1261_refined_norm.obj
@@ -6,7 +6,7 @@
        5706    10696 step2_results\normalized\Jet\m1288_refined_norm.obj
        5750    10816 step2_results\normalized\Jet\m1239_refined_norm.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                path
        9862    19712 step2_results\normalized\Jet\m1215_refined_norm.obj
        9812    19616 step2_results\normalized\Jet\m1150_refined_norm.obj

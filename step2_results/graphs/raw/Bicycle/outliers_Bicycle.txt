@@ -1,4 +1,4 @@
-== Bicycle â€” Smallest (raw) ==
+== Bicycle — Smallest (raw) ==
  n_vertices  n_faces                    path
         524      840  data\Bicycle\m1472.obj
         436      916 data\Bicycle\D00567.obj
@@ -6,7 +6,7 @@
        2192     4031 data\Bicycle\D00033.obj
        2192     4034  data\Bicycle\m1473.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                    path
       56754   111446 data\Bicycle\D00462.obj
       34292    64450 data\Bicycle\D00555.obj

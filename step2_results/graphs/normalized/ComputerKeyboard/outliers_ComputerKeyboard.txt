@@ -1,4 +1,4 @@
-== ComputerKeyboard â€” Smallest (normalized) ==
+== ComputerKeyboard — Smallest (normalized) ==
  n_vertices  n_faces                                                                 path
        8302     8668 step2_results\normalized\ComputerKeyboard\D00525_simplified_norm.obj
        6826    10629 step2_results\normalized\ComputerKeyboard\D00676_simplified_norm.obj
@@ -6,7 +6,7 @@
        6869    11928    step2_results\normalized\ComputerKeyboard\D00600_refined_norm.obj
        6193    11942       step2_results\normalized\ComputerKeyboard\D00360_kept_norm.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                                 path
        9000    17993 step2_results\normalized\ComputerKeyboard\D00905_simplified_norm.obj
        9014    17927 step2_results\normalized\ComputerKeyboard\D00569_simplified_norm.obj

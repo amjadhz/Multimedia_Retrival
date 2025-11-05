@@ -1,4 +1,4 @@
-== Spoon â€” Smallest (resampled) ==
+== Spoon — Smallest (resampled) ==
  n_vertices  n_faces                                             path
        5793    11264 step2_results\resampled\Spoon\D00422_refined.obj
        6209    11792 step2_results\resampled\Spoon\D00157_refined.obj
@@ -6,7 +6,7 @@
        7303    14336 step2_results\resampled\Spoon\D00517_refined.obj
        7786    15280 step2_results\resampled\Spoon\D00338_refined.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                path
        9167    18320    step2_results\resampled\Spoon\D00085_refined.obj
        9090    18176    step2_results\resampled\Spoon\D00497_refined.obj

@@ -1,4 +1,4 @@
-== HumanHead â€” Smallest (resampled) ==
+== HumanHead — Smallest (resampled) ==
  n_vertices  n_faces                                              path
        5167    10112 step2_results\resampled\HumanHead\D00591_kept.obj
        5243    10203 step2_results\resampled\HumanHead\D00013_kept.obj
@@ -6,7 +6,7 @@
        5284    10387 step2_results\resampled\HumanHead\D00072_kept.obj
        5276    10432 step2_results\resampled\HumanHead\D00106_kept.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                  path
        9843    19464       step2_results\resampled\HumanHead\m369_kept.obj
        9865    19152    step2_results\resampled\HumanHead\m352_refined.obj

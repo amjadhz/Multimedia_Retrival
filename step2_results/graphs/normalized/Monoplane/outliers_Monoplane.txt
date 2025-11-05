@@ -1,4 +1,4 @@
-== Monoplane â€” Smallest (normalized) ==
+== Monoplane — Smallest (normalized) ==
  n_vertices  n_faces                                                          path
        5849    10072       step2_results\normalized\Monoplane\D00688_kept_norm.obj
        5580    10688    step2_results\normalized\Monoplane\D00402_refined_norm.obj
@@ -6,7 +6,7 @@
        6098    11024    step2_results\normalized\Monoplane\D00482_refined_norm.obj
        6801    13562 step2_results\normalized\Monoplane\D00617_simplified_norm.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                          path
        9884    19488    step2_results\normalized\Monoplane\D00840_refined_norm.obj
        9022    17846 step2_results\normalized\Monoplane\D00319_simplified_norm.obj

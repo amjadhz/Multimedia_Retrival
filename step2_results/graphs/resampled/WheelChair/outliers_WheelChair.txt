@@ -1,4 +1,4 @@
-== WheelChair â€” Smallest (resampled) ==
+== WheelChair — Smallest (resampled) ==
  n_vertices  n_faces                                                     path
        6978    12476    step2_results\resampled\WheelChair\D00274_refined.obj
        6811    13502 step2_results\resampled\WheelChair\D00070_simplified.obj
@@ -6,7 +6,7 @@
        6809    13510 step2_results\resampled\WheelChair\D00821_simplified.obj
        6802    13528 step2_results\resampled\WheelChair\D00365_simplified.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                     path
        9026    17958 step2_results\resampled\WheelChair\D00449_simplified.obj
        9036    17936 step2_results\resampled\WheelChair\D00290_simplified.obj

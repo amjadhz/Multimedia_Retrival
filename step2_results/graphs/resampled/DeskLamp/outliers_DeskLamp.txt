@@ -1,4 +1,4 @@
-== DeskLamp â€” Smallest (resampled) ==
+== DeskLamp — Smallest (resampled) ==
  n_vertices  n_faces                                                   path
        5696    11216       step2_results\resampled\DeskLamp\D00090_kept.obj
        5891    11732       step2_results\resampled\DeskLamp\D00759_kept.obj
@@ -6,7 +6,7 @@
        7492    13062 step2_results\resampled\DeskLamp\D00698_simplified.obj
        6756    13376    step2_results\resampled\DeskLamp\D00147_refined.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                   path
        9943    19584    step2_results\resampled\DeskLamp\D00693_refined.obj
        9502    18519       step2_results\resampled\DeskLamp\D00330_kept.obj

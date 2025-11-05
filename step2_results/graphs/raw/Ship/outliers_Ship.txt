@@ -1,4 +1,4 @@
-== Ship â€” Smallest (raw) ==
+== Ship — Smallest (raw) ==
  n_vertices  n_faces                 path
          98      128  data\Ship\m1450.obj
         124      200 data\Ship\D00935.obj
@@ -6,7 +6,7 @@
         182      328  data\Ship\m1448.obj
         331      531  data\Ship\m1459.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                 path
       40714    80268 data\Ship\D00809.obj
       33376    64034 data\Ship\D00771.obj

@@ -1,4 +1,4 @@
-== DeskPhone â€” Smallest (resampled) ==
+== DeskPhone — Smallest (resampled) ==
  n_vertices  n_faces                                                    path
       14773    12538 step2_results\resampled\DeskPhone\D00706_simplified.obj
        9098    12599 step2_results\resampled\DeskPhone\D00958_simplified.obj
@@ -6,7 +6,7 @@
        7125    13568    step2_results\resampled\DeskPhone\D00135_refined.obj
        9063    15192 step2_results\resampled\DeskPhone\D00118_simplified.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                    path
        9034    17980 step2_results\resampled\DeskPhone\D00899_simplified.obj
        9009    17970 step2_results\resampled\DeskPhone\D00829_simplified.obj

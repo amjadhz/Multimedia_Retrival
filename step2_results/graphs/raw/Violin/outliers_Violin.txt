@@ -1,4 +1,4 @@
-== Violin â€” Smallest (raw) ==
+== Violin — Smallest (raw) ==
  n_vertices  n_faces                   path
         465      910 data\Violin\D00743.obj
         799     1264 data\Violin\D00704.obj
@@ -6,7 +6,7 @@
        1069     2065 data\Violin\D00376.obj
        1299     2410 data\Violin\D00349.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                   path
        7435    14676 data\Violin\D00358.obj
        7350    14270 data\Violin\D00993.obj

@@ -1,4 +1,4 @@
-== AircraftBuoyant â€” Smallest (normalized) ==
+== AircraftBuoyant — Smallest (normalized) ==
  n_vertices  n_faces                                                               path
        6235     9550    step2_results\normalized\AircraftBuoyant\m1339_refined_norm.obj
        6622    13184    step2_results\normalized\AircraftBuoyant\m1341_refined_norm.obj
@@ -6,7 +6,7 @@
        8761    16960       step2_results\normalized\AircraftBuoyant\m1338_kept_norm.obj
        9103    17338 step2_results\normalized\AircraftBuoyant\m1344_simplified_norm.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                               path
        9001    17990 step2_results\normalized\AircraftBuoyant\m1343_simplified_norm.obj
        8991    17839 step2_results\normalized\AircraftBuoyant\m1352_simplified_norm.obj

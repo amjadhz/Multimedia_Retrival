@@ -1,4 +1,4 @@
-== Gun â€” Smallest (normalized) ==
+== Gun — Smallest (normalized) ==
  n_vertices  n_faces                                                 path
        5580    10240   step2_results\normalized\Gun\m675_refined_norm.obj
        5308    10332    step2_results\normalized\Gun\D00137_kept_norm.obj
@@ -6,7 +6,7 @@
        5644    11264 step2_results\normalized\Gun\D00153_refined_norm.obj
        6703    13232   step2_results\normalized\Gun\m662_refined_norm.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                    path
        9249    18288      step2_results\normalized\Gun\m681_refined_norm.obj
        8994    18023   step2_results\normalized\Gun\m666_simplified_norm.obj

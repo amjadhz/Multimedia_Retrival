@@ -1,4 +1,4 @@
-== ComputerKeyboard â€” Smallest (resampled) ==
+== ComputerKeyboard — Smallest (resampled) ==
  n_vertices  n_faces                                                           path
        8303     8668 step2_results\resampled\ComputerKeyboard\D00525_simplified.obj
        6837    10629 step2_results\resampled\ComputerKeyboard\D00676_simplified.obj
@@ -6,7 +6,7 @@
        6869    11928    step2_results\resampled\ComputerKeyboard\D00600_refined.obj
        6193    11942       step2_results\resampled\ComputerKeyboard\D00360_kept.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                           path
        9000    17993 step2_results\resampled\ComputerKeyboard\D00905_simplified.obj
        9014    17927 step2_results\resampled\ComputerKeyboard\D00569_simplified.obj

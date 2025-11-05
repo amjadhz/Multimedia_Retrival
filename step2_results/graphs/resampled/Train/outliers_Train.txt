@@ -1,4 +1,4 @@
-== Train â€” Smallest (resampled) ==
+== Train — Smallest (resampled) ==
  n_vertices  n_faces                                                path
        7271     9510 step2_results\resampled\Train\D01016_simplified.obj
        5037     9653       step2_results\resampled\Train\D01064_kept.obj
@@ -6,7 +6,7 @@
        5450    10401       step2_results\resampled\Train\D01047_kept.obj
        5520    10567        step2_results\resampled\Train\m1586_kept.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                path
        9001    17970  step2_results\resampled\Train\m1584_simplified.obj
        9023    17954  step2_results\resampled\Train\m1578_simplified.obj

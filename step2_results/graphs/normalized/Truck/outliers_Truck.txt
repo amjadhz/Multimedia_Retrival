@@ -1,4 +1,4 @@
-== Truck â€” Smallest (normalized) ==
+== Truck — Smallest (normalized) ==
  n_vertices  n_faces                                                   path
        5183     9199    step2_results\normalized\Truck\D00029_kept_norm.obj
        5404     9669    step2_results\normalized\Truck\D00518_kept_norm.obj
@@ -6,7 +6,7 @@
        5467     9986    step2_results\normalized\Truck\D00926_kept_norm.obj
        5772    10438 step2_results\normalized\Truck\D00406_refined_norm.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                      path
        9613    18340        step2_results\normalized\Truck\m1572_kept_norm.obj
        9037    17902 step2_results\normalized\Truck\D00241_simplified_norm.obj

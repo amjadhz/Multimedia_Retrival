@@ -1,1 +1,3 @@
 .venv
+*.zip
+step2_results_copy/

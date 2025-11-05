@@ -1,4 +1,4 @@
-== WheelChair â€” Smallest (normalized) ==
+== WheelChair — Smallest (normalized) ==
  n_vertices  n_faces                                                           path
        6972    12476    step2_results\normalized\WheelChair\D00274_refined_norm.obj
        6811    13502 step2_results\normalized\WheelChair\D00070_simplified_norm.obj
@@ -6,7 +6,7 @@
        6809    13510 step2_results\normalized\WheelChair\D00821_simplified_norm.obj
        6802    13528 step2_results\normalized\WheelChair\D00365_simplified_norm.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                           path
        9026    17958 step2_results\normalized\WheelChair\D00449_simplified_norm.obj
        9036    17936 step2_results\normalized\WheelChair\D00290_simplified_norm.obj

@@ -1,4 +1,4 @@
-== Train â€” Smallest (normalized) ==
+== Train — Smallest (normalized) ==
  n_vertices  n_faces                                                      path
        7265     9509 step2_results\normalized\Train\D01016_simplified_norm.obj
        5036     9653       step2_results\normalized\Train\D01064_kept_norm.obj
@@ -6,7 +6,7 @@
        5444    10401       step2_results\normalized\Train\D01047_kept_norm.obj
        5520    10567        step2_results\normalized\Train\m1586_kept_norm.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                      path
        9001    17970  step2_results\normalized\Train\m1584_simplified_norm.obj
        9023    17954  step2_results\normalized\Train\m1578_simplified_norm.obj

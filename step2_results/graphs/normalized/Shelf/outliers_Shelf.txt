@@ -1,4 +1,4 @@
-== Shelf â€” Smallest (normalized) ==
+== Shelf — Smallest (normalized) ==
  n_vertices  n_faces                                                   path
        5444    10680    step2_results\normalized\Shelf\D00631_kept_norm.obj
        5552    10944 step2_results\normalized\Shelf\D00129_refined_norm.obj
@@ -6,7 +6,7 @@
        5924    11264   step2_results\normalized\Shelf\m853_refined_norm.obj
        6040    11520   step2_results\normalized\Shelf\m852_refined_norm.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                      path
        9642    19072    step2_results\normalized\Shelf\D00772_refined_norm.obj
        9630    18864      step2_results\normalized\Shelf\m859_refined_norm.obj

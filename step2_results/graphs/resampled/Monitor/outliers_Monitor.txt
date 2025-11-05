@@ -1,4 +1,4 @@
-== Monitor â€” Smallest (resampled) ==
+== Monitor — Smallest (resampled) ==
  n_vertices  n_faces                                               path
        6196    11984    step2_results\resampled\Monitor\D00852_kept.obj
        6490    12796 step2_results\resampled\Monitor\D00141_refined.obj
@@ -6,7 +6,7 @@
        7100    14064 step2_results\resampled\Monitor\D00548_refined.obj
        7268    14448 step2_results\resampled\Monitor\D00920_refined.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                  path
        9961    19638       step2_results\resampled\Monitor\D00444_kept.obj
        9508    18816    step2_results\resampled\Monitor\D00659_refined.obj

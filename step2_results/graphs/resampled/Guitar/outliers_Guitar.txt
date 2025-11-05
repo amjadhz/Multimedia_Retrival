@@ -1,4 +1,4 @@
-== Guitar â€” Smallest (resampled) ==
+== Guitar — Smallest (resampled) ==
  n_vertices  n_faces                                                 path
        5530    10792       step2_results\resampled\Guitar\D00655_kept.obj
        6015    11468    step2_results\resampled\Guitar\D00124_refined.obj
@@ -6,7 +6,7 @@
        6781    12226 step2_results\resampled\Guitar\D00844_simplified.obj
        7342    14400    step2_results\resampled\Guitar\D00534_refined.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                 path
        9017    17942 step2_results\resampled\Guitar\D00097_simplified.obj
        9128    17854 step2_results\resampled\Guitar\D00335_simplified.obj

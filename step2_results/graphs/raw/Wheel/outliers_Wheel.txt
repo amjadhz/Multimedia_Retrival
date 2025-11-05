@@ -1,4 +1,4 @@
-== Wheel â€” Smallest (raw) ==
+== Wheel — Smallest (raw) ==
  n_vertices  n_faces                path
          80      128 data\Wheel\m746.obj
         128      252 data\Wheel\m747.obj
@@ -6,7 +6,7 @@
         256      508 data\Wheel\m742.obj
         413      680 data\Wheel\m738.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                path
        3721     7442 data\Wheel\m744.obj
        4352     7372 data\Wheel\m740.obj

@@ -1,4 +1,4 @@
-== Gun â€” Smallest (resampled) ==
+== Gun — Smallest (resampled) ==
  n_vertices  n_faces                                           path
        5580    10240   step2_results\resampled\Gun\m675_refined.obj
        5308    10332    step2_results\resampled\Gun\D00137_kept.obj
@@ -6,7 +6,7 @@
        5644    11264 step2_results\resampled\Gun\D00153_refined.obj
        6703    13232   step2_results\resampled\Gun\m662_refined.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                              path
        9335    19392      step2_results\resampled\Gun\m660_refined.obj
        9249    18288      step2_results\resampled\Gun\m681_refined.obj

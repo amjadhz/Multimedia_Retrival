@@ -1,4 +1,4 @@
-== Bird â€” Smallest (resampled) ==
+== Bird — Smallest (resampled) ==
  n_vertices  n_faces                                            path
        6058    11644       step2_results\resampled\Bird\m28_kept.obj
        5826    11648    step2_results\resampled\Bird\m50_refined.obj
@@ -6,7 +6,7 @@
        6135    11936    step2_results\resampled\Bird\m30_refined.obj
        6386    12768    step2_results\resampled\Bird\m44_refined.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                               path
        9517    18496       step2_results\resampled\Bird\m39_refined.obj
        9042    18080       step2_results\resampled\Bird\m37_refined.obj

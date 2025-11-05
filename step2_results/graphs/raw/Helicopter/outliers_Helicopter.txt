@@ -1,4 +1,4 @@
-== Helicopter â€” Smallest (raw) ==
+== Helicopter — Smallest (raw) ==
  n_vertices  n_faces                       path
         222      368 data\Helicopter\D00796.obj
         222      368  data\Helicopter\m1312.obj
@@ -6,7 +6,7 @@
         294      568  data\Helicopter\m1330.obj
         396      654  data\Helicopter\m1316.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                       path
       58357   116645  data\Helicopter\m1308.obj
       35044    70097 data\Helicopter\D00644.obj

@@ -1,4 +1,4 @@
-== Bottle â€” Smallest (resampled) ==
+== Bottle — Smallest (resampled) ==
  n_vertices  n_faces                                                 path
        5504    10968    step2_results\resampled\Bottle\D00390_refined.obj
        5633    11264      step2_results\resampled\Bottle\m492_refined.obj
@@ -6,7 +6,7 @@
        6800    13596 step2_results\resampled\Bottle\D00176_simplified.obj
        7174    14208      step2_results\resampled\Bottle\m484_refined.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                              path
        9949    19872 step2_results\resampled\Bottle\D00940_refined.obj
        9884    19760 step2_results\resampled\Bottle\D00892_refined.obj

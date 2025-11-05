@@ -1,4 +1,4 @@
-== Bus â€” Smallest (resampled) ==
+== Bus — Smallest (resampled) ==
  n_vertices  n_faces                                              path
        6082     8486       step2_results\resampled\Bus\D00483_kept.obj
        5220     8783       step2_results\resampled\Bus\D00857_kept.obj
@@ -6,7 +6,7 @@
        6839    12122 step2_results\resampled\Bus\D00448_simplified.obj
        6804    12803 step2_results\resampled\Bus\D00815_simplified.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                              path
        8964    17809 step2_results\resampled\Bus\D00436_simplified.obj
        9026    17663 step2_results\resampled\Bus\D00832_simplified.obj

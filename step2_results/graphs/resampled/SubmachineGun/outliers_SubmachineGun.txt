@@ -1,4 +1,4 @@
-== SubmachineGun â€” Smallest (resampled) ==
+== SubmachineGun — Smallest (resampled) ==
  n_vertices  n_faces                                                     path
        5899    11636 step2_results\resampled\SubmachineGun\D00878_refined.obj
        5992    11856 step2_results\resampled\SubmachineGun\D00062_refined.obj
@@ -6,7 +6,7 @@
        6376    12720 step2_results\resampled\SubmachineGun\D00537_refined.obj
        6530    13248    step2_results\resampled\SubmachineGun\D00064_kept.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                        path
        9366    18176    step2_results\resampled\SubmachineGun\D00960_refined.obj
        9018    17960 step2_results\resampled\SubmachineGun\D00489_simplified.obj

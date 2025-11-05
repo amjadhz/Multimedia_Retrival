@@ -1,4 +1,4 @@
-== RectangleTable â€” Smallest (raw) ==
+== RectangleTable — Smallest (raw) ==
  n_vertices  n_faces                         path
          44       52 data\RectangleTable\m876.obj
          36       60 data\RectangleTable\m888.obj
@@ -6,7 +6,7 @@
          40       60 data\RectangleTable\m915.obj
          60       65 data\RectangleTable\m871.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                           path
       12460    25005 data\RectangleTable\D00523.obj
        7120    13672 data\RectangleTable\D00603.obj

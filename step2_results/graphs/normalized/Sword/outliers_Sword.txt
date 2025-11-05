@@ -1,4 +1,4 @@
-== Sword â€” Smallest (normalized) ==
+== Sword — Smallest (normalized) ==
  n_vertices  n_faces                                                   path
        5076    10136    step2_results\normalized\Sword\D00177_kept_norm.obj
        5412    10814      step2_results\normalized\Sword\m696_kept_norm.obj
@@ -6,7 +6,7 @@
        5573    10922    step2_results\normalized\Sword\D00540_kept_norm.obj
        5630    11100 step2_results\normalized\Sword\D00195_refined_norm.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                    path
        9906    19808  step2_results\normalized\Sword\D00635_refined_norm.obj
        9880    19712       step2_results\normalized\Sword\m695_kept_norm.obj

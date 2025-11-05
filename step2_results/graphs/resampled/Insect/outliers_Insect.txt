@@ -1,4 +1,4 @@
-== Insect â€” Smallest (resampled) ==
+== Insect — Smallest (resampled) ==
  n_vertices  n_faces                                           path
        6170     9646 step2_results\resampled\Insect\D00788_kept.obj
        5090     9716 step2_results\resampled\Insect\D00117_kept.obj
@@ -6,7 +6,7 @@
        5595    10752  step2_results\resampled\Insect\m8_refined.obj
        5923    11271 step2_results\resampled\Insect\D00333_kept.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                 path
        9109    18176       step2_results\resampled\Insect\m24_refined.obj
        9001    17998 step2_results\resampled\Insect\D00590_simplified.obj

@@ -1,4 +1,4 @@
-== Ship â€” Smallest (resampled) ==
+== Ship — Smallest (resampled) ==
  n_vertices  n_faces                                         path
        6119    10502  step2_results\resampled\Ship\m1446_kept.obj
        6122    10502 step2_results\resampled\Ship\D00247_kept.obj
@@ -6,7 +6,7 @@
        6923    10513  step2_results\resampled\Ship\m1465_kept.obj
        6892    10725 step2_results\resampled\Ship\D00258_kept.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                               path
        9911    19712     step2_results\resampled\Ship\m1463_refined.obj
        9703    18883        step2_results\resampled\Ship\m1466_kept.obj

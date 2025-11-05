@@ -1,4 +1,4 @@
-== Humanoid â€” Smallest (normalized) ==
+== Humanoid — Smallest (normalized) ==
  n_vertices  n_faces                                                    path
        5622    10130    step2_results\normalized\Humanoid\m143_kept_norm.obj
        5554    11104 step2_results\normalized\Humanoid\m208_refined_norm.obj
@@ -6,7 +6,7 @@
        5862    11648 step2_results\normalized\Humanoid\m259_refined_norm.obj
        6010    11648 step2_results\normalized\Humanoid\m154_refined_norm.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                       path
        9932    19776    step2_results\normalized\Humanoid\m205_refined_norm.obj
        9698    19260       step2_results\normalized\Humanoid\m252_kept_norm.obj

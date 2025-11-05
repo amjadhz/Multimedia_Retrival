@@ -1,4 +1,4 @@
-== Bicycle â€” Smallest (normalized) ==
+== Bicycle — Smallest (normalized) ==
  n_vertices  n_faces                                                    path
        5354    10548   step2_results\normalized\Bicycle\D00904_kept_norm.obj
        6044    11946   step2_results\normalized\Bicycle\D00974_kept_norm.obj
@@ -6,7 +6,7 @@
        6951    12939   step2_results\normalized\Bicycle\D00514_kept_norm.obj
        7084    13440 step2_results\normalized\Bicycle\m1472_refined_norm.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                        path
        9035    17700 step2_results\normalized\Bicycle\D00750_simplified_norm.obj
        8946    17598 step2_results\normalized\Bicycle\D00077_simplified_norm.obj

@@ -1,4 +1,4 @@
-== Sign â€” Smallest (resampled) ==
+== Sign — Smallest (resampled) ==
  n_vertices  n_faces                                           path
        5670    11328 step2_results\resampled\Sign\m1680_refined.obj
        6336    12576 step2_results\resampled\Sign\m1679_refined.obj
@@ -6,7 +6,7 @@
        6850    13312 step2_results\resampled\Sign\m1675_refined.obj
        7753    13888 step2_results\resampled\Sign\m1670_refined.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                              path
        9734    19456    step2_results\resampled\Sign\m1684_refined.obj
        9006    17984 step2_results\resampled\Sign\m1676_simplified.obj

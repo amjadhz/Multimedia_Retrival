@@ -1,4 +1,4 @@
-== Biplane â€” Smallest (resampled) ==
+== Biplane — Smallest (resampled) ==
  n_vertices  n_faces                                              path
        5022     9246   step2_results\resampled\Biplane\D00246_kept.obj
        5646    10464 step2_results\resampled\Biplane\m1125_refined.obj
@@ -6,7 +6,7 @@
        5941    11385   step2_results\resampled\Biplane\D00373_kept.obj
        6704    11497    step2_results\resampled\Biplane\m1122_kept.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                  path
        8652    17971 step2_results\resampled\Biplane\D00616_simplified.obj
        9038    17920 step2_results\resampled\Biplane\D00601_simplified.obj

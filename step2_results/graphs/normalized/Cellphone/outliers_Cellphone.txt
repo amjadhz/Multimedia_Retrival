@@ -1,4 +1,4 @@
-== Cellphone â€” Smallest (normalized) ==
+== Cellphone — Smallest (normalized) ==
  n_vertices  n_faces                                                          path
        5013     9728       step2_results\normalized\Cellphone\D00817_kept_norm.obj
        5685    11300       step2_results\normalized\Cellphone\D00248_kept_norm.obj
@@ -6,7 +6,7 @@
        6318    11912       step2_results\normalized\Cellphone\D00327_kept_norm.obj
        6827    12138 step2_results\normalized\Cellphone\D00554_simplified_norm.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                          path
        9738    18374       step2_results\normalized\Cellphone\D00848_kept_norm.obj
        9144    18252    step2_results\normalized\Cellphone\D00902_refined_norm.obj

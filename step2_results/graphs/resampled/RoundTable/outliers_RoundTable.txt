@@ -1,4 +1,4 @@
-== RoundTable â€” Smallest (resampled) ==
+== RoundTable — Smallest (resampled) ==
  n_vertices  n_faces                                                  path
        5622    10624   step2_results\resampled\RoundTable\m929_refined.obj
        6232    11824   step2_results\resampled\RoundTable\m928_refined.obj
@@ -6,7 +6,7 @@
        6647    13237    step2_results\resampled\RoundTable\D00702_kept.obj
        6720    13264 step2_results\resampled\RoundTable\D00503_refined.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                     path
        9903    18560    step2_results\resampled\RoundTable\D00407_refined.obj
        9000    17996 step2_results\resampled\RoundTable\D00756_simplified.obj

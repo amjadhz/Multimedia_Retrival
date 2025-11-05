@@ -1,4 +1,4 @@
-== Motorcycle â€” Smallest (raw) ==
+== Motorcycle — Smallest (raw) ==
  n_vertices  n_faces                       path
         118      180  data\Motorcycle\m1484.obj
         547     1009  data\Motorcycle\m1481.obj
@@ -6,7 +6,7 @@
        3061     5514 data\Motorcycle\D00269.obj
        3397     6096 data\Motorcycle\D00396.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                       path
       46403    90616 data\Motorcycle\D00703.obj
       46403    90616  data\Motorcycle\m1483.obj

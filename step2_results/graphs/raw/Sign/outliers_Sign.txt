@@ -1,4 +1,4 @@
-== Sign â€” Smallest (raw) ==
+== Sign — Smallest (raw) ==
  n_vertices  n_faces                path
          40       52 data\Sign\m1675.obj
          44       76 data\Sign\m1684.obj
@@ -6,7 +6,7 @@
          80       86 data\Sign\m1673.obj
         119      113 data\Sign\m1671.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                path
        6540    13032 data\Sign\m1681.obj
        4492     8804 data\Sign\m1682.obj

@@ -1,4 +1,4 @@
-== HumanHead â€” Smallest (raw) ==
+== HumanHead — Smallest (raw) ==
  n_vertices  n_faces                    path
         186      360 data\HumanHead\m362.obj
         193      378 data\HumanHead\m357.obj
@@ -6,7 +6,7 @@
         263      461 data\HumanHead\m364.obj
         270      536 data\HumanHead\m360.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                    path
       26749    51801 data\HumanHead\m349.obj
       17666    35328 data\HumanHead\m365.obj

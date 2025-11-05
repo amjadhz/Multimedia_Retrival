@@ -1,4 +1,4 @@
-== Cup â€” Smallest (resampled) ==
+== Cup — Smallest (resampled) ==
  n_vertices  n_faces                                           path
        5551    11000   step2_results\resampled\Cup\m495_refined.obj
        5618    11232 step2_results\resampled\Cup\D00067_refined.obj
@@ -6,7 +6,7 @@
        6120    12144 step2_results\resampled\Cup\D00642_refined.obj
        6206    12408 step2_results\resampled\Cup\D00882_refined.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                              path
        9897    19672    step2_results\resampled\Cup\D00270_refined.obj
        9000    18000 step2_results\resampled\Cup\D00463_simplified.obj

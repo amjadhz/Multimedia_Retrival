@@ -1,4 +1,4 @@
-== ClassicPiano â€” Smallest (normalized) ==
+== ClassicPiano — Smallest (normalized) ==
  n_vertices  n_faces                                                          path
        5204     9053    step2_results\normalized\ClassicPiano\D00233_kept_norm.obj
        5131     9436    step2_results\normalized\ClassicPiano\D00784_kept_norm.obj
@@ -6,7 +6,7 @@
        5889    10703    step2_results\normalized\ClassicPiano\D00092_kept_norm.obj
        5571    10711 step2_results\normalized\ClassicPiano\D00967_refined_norm.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                             path
        9766    19296    step2_results\normalized\ClassicPiano\D00005_refined_norm.obj
        9399    18367    step2_results\normalized\ClassicPiano\D00811_refined_norm.obj

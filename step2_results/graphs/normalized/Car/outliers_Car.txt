@@ -1,4 +1,4 @@
-== Car â€” Smallest (normalized) ==
+== Car — Smallest (normalized) ==
  n_vertices  n_faces                                                    path
        5152     8561       step2_results\normalized\Car\D00504_kept_norm.obj
        5320     9896       step2_results\normalized\Car\D00793_kept_norm.obj
@@ -6,7 +6,7 @@
        5246    10472        step2_results\normalized\Car\m1552_kept_norm.obj
        6806    10813 step2_results\normalized\Car\D00785_simplified_norm.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                    path
        8950    18061  step2_results\normalized\Car\m1560_simplified_norm.obj
        8999    17992 step2_results\normalized\Car\D00299_simplified_norm.obj

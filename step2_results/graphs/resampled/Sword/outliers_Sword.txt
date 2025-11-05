@@ -1,4 +1,4 @@
-== Sword â€” Smallest (resampled) ==
+== Sword — Smallest (resampled) ==
  n_vertices  n_faces                                             path
        5076    10136    step2_results\resampled\Sword\D00177_kept.obj
        5413    10814      step2_results\resampled\Sword\m696_kept.obj
@@ -6,7 +6,7 @@
        5573    10922    step2_results\resampled\Sword\D00540_kept.obj
        5631    11100 step2_results\resampled\Sword\D00195_refined.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                              path
        9906    19808  step2_results\resampled\Sword\D00635_refined.obj
        9880    19712       step2_results\resampled\Sword\m695_kept.obj

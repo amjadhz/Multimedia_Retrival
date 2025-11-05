@@ -1,4 +1,4 @@
-== Bookset â€” Smallest (resampled) ==
+== Bookset — Smallest (resampled) ==
  n_vertices  n_faces                                               path
        6896     9392 step2_results\resampled\Bookset\D01146_refined.obj
        7231    12272 step2_results\resampled\Bookset\D01042_refined.obj
@@ -6,7 +6,7 @@
        6360    12544 step2_results\resampled\Bookset\D01122_refined.obj
        6648    12840 step2_results\resampled\Bookset\D01135_refined.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                  path
        9646    19072    step2_results\resampled\Bookset\D01110_refined.obj
        9505    18448    step2_results\resampled\Bookset\D01190_refined.obj

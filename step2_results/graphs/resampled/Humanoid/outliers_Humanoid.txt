@@ -1,4 +1,4 @@
-== Humanoid â€” Smallest (resampled) ==
+== Humanoid — Smallest (resampled) ==
  n_vertices  n_faces                                              path
        5647    10130    step2_results\resampled\Humanoid\m143_kept.obj
        5554    11104 step2_results\resampled\Humanoid\m208_refined.obj
@@ -6,7 +6,7 @@
        5862    11648 step2_results\resampled\Humanoid\m259_refined.obj
        6010    11648 step2_results\resampled\Humanoid\m154_refined.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                 path
        9932    19776    step2_results\resampled\Humanoid\m205_refined.obj
        9698    19260       step2_results\resampled\Humanoid\m252_kept.obj

@@ -1,4 +1,4 @@
-== Biplane â€” Smallest (normalized) ==
+== Biplane — Smallest (normalized) ==
  n_vertices  n_faces                                                    path
        5020     9246   step2_results\normalized\Biplane\D00246_kept_norm.obj
        5646    10464 step2_results\normalized\Biplane\m1125_refined_norm.obj
@@ -6,7 +6,7 @@
        5940    11385   step2_results\normalized\Biplane\D00373_kept_norm.obj
        6704    11497    step2_results\normalized\Biplane\m1122_kept_norm.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                        path
        8634    17971 step2_results\normalized\Biplane\D00616_simplified_norm.obj
        9036    17920 step2_results\normalized\Biplane\D00601_simplified_norm.obj

@@ -1,4 +1,4 @@
-== Skyscraper â€” Smallest (resampled) ==
+== Skyscraper — Smallest (resampled) ==
  n_vertices  n_faces                                                     path
        6867    10068 step2_results\resampled\Skyscraper\D00664_simplified.obj
        6372    10967       step2_results\resampled\Skyscraper\D00300_kept.obj
@@ -6,7 +6,7 @@
       18843    12530 step2_results\resampled\Skyscraper\D00259_simplified.obj
       10546    12532 step2_results\resampled\Skyscraper\D00532_simplified.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                     path
        9383    18160    step2_results\resampled\Skyscraper\D00130_refined.obj
        9075    17892 step2_results\resampled\Skyscraper\D00872_simplified.obj

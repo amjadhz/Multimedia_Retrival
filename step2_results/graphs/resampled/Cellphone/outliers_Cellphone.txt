@@ -1,4 +1,4 @@
-== Cellphone â€” Smallest (resampled) ==
+== Cellphone — Smallest (resampled) ==
  n_vertices  n_faces                                                    path
        5016     9728       step2_results\resampled\Cellphone\D00817_kept.obj
        5687    11300       step2_results\resampled\Cellphone\D00248_kept.obj
@@ -6,7 +6,7 @@
        6318    11912       step2_results\resampled\Cellphone\D00327_kept.obj
        6827    12138 step2_results\resampled\Cellphone\D00554_simplified.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                    path
        9738    18374       step2_results\resampled\Cellphone\D00848_kept.obj
        9144    18252    step2_results\resampled\Cellphone\D00902_refined.obj

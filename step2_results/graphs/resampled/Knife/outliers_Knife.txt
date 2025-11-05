@@ -1,4 +1,4 @@
-== Knife â€” Smallest (resampled) ==
+== Knife — Smallest (resampled) ==
  n_vertices  n_faces                                             path
        5076    10136      step2_results\resampled\Knife\m723_kept.obj
        5591    10304 step2_results\resampled\Knife\D01187_refined.obj
@@ -6,7 +6,7 @@
        6567    13072   step2_results\resampled\Knife\m726_refined.obj
        6980    13952 step2_results\resampled\Knife\D01119_refined.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                path
        9802    18208    step2_results\resampled\Knife\D01051_refined.obj
        9002    17996 step2_results\resampled\Knife\D01175_simplified.obj

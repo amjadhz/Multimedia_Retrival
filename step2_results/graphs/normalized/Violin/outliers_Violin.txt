@@ -1,4 +1,4 @@
-== Violin â€” Smallest (normalized) ==
+== Violin — Smallest (normalized) ==
  n_vertices  n_faces                                                       path
        5751    10700    step2_results\normalized\Violin\D00108_refined_norm.obj
        6847    11837 step2_results\normalized\Violin\D00898_simplified_norm.obj
@@ -6,7 +6,7 @@
        6808    13201 step2_results\normalized\Violin\D00993_simplified_norm.obj
        6796    13422 step2_results\normalized\Violin\D00358_simplified_norm.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                       path
        9698    18394    step2_results\normalized\Violin\D00324_refined_norm.obj
        9047    17807 step2_results\normalized\Violin\D00376_simplified_norm.obj

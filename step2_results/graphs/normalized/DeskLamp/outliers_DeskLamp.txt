@@ -1,4 +1,4 @@
-== DeskLamp â€” Smallest (normalized) ==
+== DeskLamp — Smallest (normalized) ==
  n_vertices  n_faces                                                         path
        5696    11216       step2_results\normalized\DeskLamp\D00090_kept_norm.obj
        5891    11732       step2_results\normalized\DeskLamp\D00759_kept_norm.obj
@@ -6,7 +6,7 @@
        7491    13062 step2_results\normalized\DeskLamp\D00698_simplified_norm.obj
        6756    13376    step2_results\normalized\DeskLamp\D00147_refined_norm.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                         path
        9943    19584    step2_results\normalized\DeskLamp\D00693_refined_norm.obj
        9502    18519       step2_results\normalized\DeskLamp\D00330_kept_norm.obj

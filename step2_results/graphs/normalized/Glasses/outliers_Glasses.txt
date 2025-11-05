@@ -1,4 +1,4 @@
-== Glasses â€” Smallest (normalized) ==
+== Glasses — Smallest (normalized) ==
  n_vertices  n_faces                                                     path
        5790    11072 step2_results\normalized\Glasses\D00432_refined_norm.obj
        5652    11300    step2_results\normalized\Glasses\D00050_kept_norm.obj
@@ -6,7 +6,7 @@
        6044    12000 step2_results\normalized\Glasses\D00225_refined_norm.obj
        6210    12368 step2_results\normalized\Glasses\D00475_refined_norm.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                        path
        9290    18499       step2_results\normalized\Glasses\D00660_kept_norm.obj
        9001    17990 step2_results\normalized\Glasses\D00730_simplified_norm.obj

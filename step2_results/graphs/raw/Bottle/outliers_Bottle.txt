@@ -1,4 +1,4 @@
-== Bottle â€” Smallest (raw) ==
+== Bottle — Smallest (raw) ==
  n_vertices  n_faces                   path
         133      236   data\Bottle\m487.obj
         144      284   data\Bottle\m488.obj
@@ -6,7 +6,7 @@
         371      620   data\Bottle\m483.obj
         353      704   data\Bottle\m492.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                   path
       23142    45936 data\Bottle\D00166.obj
       13038    25850 data\Bottle\D00696.obj

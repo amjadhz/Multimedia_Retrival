@@ -1,4 +1,4 @@
-== Monitor â€” Smallest (normalized) ==
+== Monitor — Smallest (normalized) ==
  n_vertices  n_faces                                                     path
        6194    11984    step2_results\normalized\Monitor\D00852_kept_norm.obj
        6489    12796 step2_results\normalized\Monitor\D00141_refined_norm.obj
@@ -6,7 +6,7 @@
        7100    14064 step2_results\normalized\Monitor\D00548_refined_norm.obj
        7268    14448 step2_results\normalized\Monitor\D00920_refined_norm.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                        path
        9961    19638       step2_results\normalized\Monitor\D00444_kept_norm.obj
        9508    18816    step2_results\normalized\Monitor\D00659_refined_norm.obj

@@ -1,4 +1,4 @@
-== MilitaryVehicle â€” Smallest (normalized) ==
+== MilitaryVehicle — Smallest (normalized) ==
  n_vertices  n_faces                                                                path
        5858     9906       step2_results\normalized\MilitaryVehicle\D00334_kept_norm.obj
        6774    11138 step2_results\normalized\MilitaryVehicle\D00971_simplified_norm.obj
@@ -6,7 +6,7 @@
        9170    12535 step2_results\normalized\MilitaryVehicle\D00933_simplified_norm.obj
        7936    12591 step2_results\normalized\MilitaryVehicle\D00723_simplified_norm.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                                path
        9744    19260       step2_results\normalized\MilitaryVehicle\D00952_kept_norm.obj
        8847    18099 step2_results\normalized\MilitaryVehicle\D00801_simplified_norm.obj

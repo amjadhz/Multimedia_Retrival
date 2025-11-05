@@ -1,4 +1,4 @@
-== Violin â€” Smallest (resampled) ==
+== Violin — Smallest (resampled) ==
  n_vertices  n_faces                                                 path
        5751    10700    step2_results\resampled\Violin\D00108_refined.obj
        6848    11837 step2_results\resampled\Violin\D00898_simplified.obj
@@ -6,7 +6,7 @@
        6808    13201 step2_results\resampled\Violin\D00993_simplified.obj
        6799    13422 step2_results\resampled\Violin\D00358_simplified.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                 path
        9702    18396    step2_results\resampled\Violin\D00324_refined.obj
        9047    17807 step2_results\resampled\Violin\D00376_simplified.obj

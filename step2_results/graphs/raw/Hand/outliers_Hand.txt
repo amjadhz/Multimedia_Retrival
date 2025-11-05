@@ -1,4 +1,4 @@
-== Hand â€” Smallest (raw) ==
+== Hand — Smallest (raw) ==
  n_vertices  n_faces                 path
         114      204 data\Hand\D01024.obj
         114      204   data\Hand\m334.obj
@@ -6,7 +6,7 @@
         386      768   data\Hand\m327.obj
         421      837 data\Hand\D01074.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                 path
       43386    86361 data\Hand\D01172.obj
       43386    86361   data\Hand\m323.obj

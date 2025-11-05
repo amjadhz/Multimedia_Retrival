@@ -1,4 +1,4 @@
-== Hand â€” Smallest (normalized) ==
+== Hand — Smallest (normalized) ==
  n_vertices  n_faces                                                  path
        5853    11312 step2_results\normalized\Hand\D01060_refined_norm.obj
        5853    11312   step2_results\normalized\Hand\m326_refined_norm.obj
@@ -6,7 +6,7 @@
        5953    11512   step2_results\normalized\Hand\m325_refined_norm.obj
        6038    12072    step2_results\normalized\Hand\D01117_kept_norm.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                     path
        9001    17998 step2_results\normalized\Hand\D01153_simplified_norm.obj
        9001    17998 step2_results\normalized\Hand\D01162_simplified_norm.obj

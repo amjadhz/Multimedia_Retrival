@@ -1,4 +1,4 @@
-== Cup â€” Smallest (raw) ==
+== Cup — Smallest (raw) ==
  n_vertices  n_faces                path
          71      138   data\Cup\m500.obj
         120      226   data\Cup\m526.obj
@@ -6,7 +6,7 @@
         339      612   data\Cup\m499.obj
         353      702 data\Cup\D00067.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                path
       12529    24928 data\Cup\D00550.obj
       12252    24500 data\Cup\D00174.obj

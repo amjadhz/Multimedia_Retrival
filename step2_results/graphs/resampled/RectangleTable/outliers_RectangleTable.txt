@@ -1,4 +1,4 @@
-== RectangleTable â€” Smallest (resampled) ==
+== RectangleTable — Smallest (resampled) ==
  n_vertices  n_faces                                                      path
        5838     8472 step2_results\resampled\RectangleTable\D00418_refined.obj
        5520    10240   step2_results\resampled\RectangleTable\m896_refined.obj
@@ -6,7 +6,7 @@
        5514    11008   step2_results\resampled\RectangleTable\m917_refined.obj
        6288    11776   step2_results\resampled\RectangleTable\m920_refined.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                         path
        9833    19168      step2_results\resampled\RectangleTable\m873_refined.obj
        9578    18688      step2_results\resampled\RectangleTable\m893_refined.obj

@@ -1,4 +1,4 @@
-== Fish â€” Smallest (resampled) ==
+== Fish — Smallest (resampled) ==
  n_vertices  n_faces                                               path
        5046     8094       step2_results\resampled\Fish\D00748_kept.obj
        8766    16280 step2_results\resampled\Fish\D00012_simplified.obj
@@ -6,7 +6,7 @@
        8951    16318 step2_results\resampled\Fish\D00763_simplified.obj
        8748    16347 step2_results\resampled\Fish\D00643_simplified.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                               path
        9013    16743 step2_results\resampled\Fish\D00142_simplified.obj
        9099    16684 step2_results\resampled\Fish\D00351_simplified.obj

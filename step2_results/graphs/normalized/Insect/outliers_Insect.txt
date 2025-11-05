@@ -1,4 +1,4 @@
-== Insect â€” Smallest (normalized) ==
+== Insect — Smallest (normalized) ==
  n_vertices  n_faces                                                 path
        6164     9646 step2_results\normalized\Insect\D00788_kept_norm.obj
        5087     9716 step2_results\normalized\Insect\D00117_kept_norm.obj
@@ -6,7 +6,7 @@
        5591    10716  step2_results\normalized\Insect\m8_refined_norm.obj
        5916    11271 step2_results\normalized\Insect\D00333_kept_norm.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                       path
        9109    18176       step2_results\normalized\Insect\m24_refined_norm.obj
        9001    17998 step2_results\normalized\Insect\D00590_simplified_norm.obj

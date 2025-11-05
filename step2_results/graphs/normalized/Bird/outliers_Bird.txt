@@ -1,4 +1,4 @@
-== Bird â€” Smallest (normalized) ==
+== Bird — Smallest (normalized) ==
  n_vertices  n_faces                                                  path
        6057    11644       step2_results\normalized\Bird\m28_kept_norm.obj
        5826    11648    step2_results\normalized\Bird\m50_refined_norm.obj
@@ -6,7 +6,7 @@
        6135    11936    step2_results\normalized\Bird\m30_refined_norm.obj
        6386    12768    step2_results\normalized\Bird\m44_refined_norm.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                     path
        9517    18496       step2_results\normalized\Bird\m39_refined_norm.obj
        9042    18080       step2_results\normalized\Bird\m37_refined_norm.obj

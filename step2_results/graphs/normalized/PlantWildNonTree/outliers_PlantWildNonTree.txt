@@ -1,4 +1,4 @@
-== PlantWildNonTree â€” Smallest (normalized) ==
+== PlantWildNonTree — Smallest (normalized) ==
  n_vertices  n_faces                                                               path
        7914     5274 step2_results\normalized\PlantWildNonTree\m966_simplified_norm.obj
        6513     9427       step2_results\normalized\PlantWildNonTree\m961_kept_norm.obj
@@ -6,7 +6,7 @@
        5843    11562    step2_results\normalized\PlantWildNonTree\m977_refined_norm.obj
        9018    11712       step2_results\normalized\PlantWildNonTree\m968_kept_norm.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                               path
        9895    18944    step2_results\normalized\PlantWildNonTree\m983_refined_norm.obj
        9006    17980 step2_results\normalized\PlantWildNonTree\m975_simplified_norm.obj

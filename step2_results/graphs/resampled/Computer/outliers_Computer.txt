@@ -1,4 +1,4 @@
-== Computer â€” Smallest (resampled) ==
+== Computer — Smallest (resampled) ==
  n_vertices  n_faces                                                path
        5026     9528    step2_results\resampled\Computer\D01067_kept.obj
        5026     9528     step2_results\resampled\Computer\m1778_kept.obj
@@ -6,7 +6,7 @@
        5594    11008  step2_results\resampled\Computer\m1766_refined.obj
        6515    11201    step2_results\resampled\Computer\D01115_kept.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                   path
        9736    19456    step2_results\resampled\Computer\D01085_refined.obj
        9736    19456     step2_results\resampled\Computer\m1769_refined.obj

@@ -1,4 +1,4 @@
-== Door â€” Smallest (resampled) ==
+== Door — Smallest (resampled) ==
  n_vertices  n_faces                                            path
        5774    11072 step2_results\resampled\Door\D01167_refined.obj
        5774    11072  step2_results\resampled\Door\m1724_refined.obj
@@ -6,7 +6,7 @@
        6040    11440     step2_results\resampled\Door\m1713_kept.obj
        5855    11456 step2_results\resampled\Door\D01062_refined.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                               path
        9228    18432    step2_results\resampled\Door\D01143_refined.obj
        8998    18010 step2_results\resampled\Door\D01158_simplified.obj

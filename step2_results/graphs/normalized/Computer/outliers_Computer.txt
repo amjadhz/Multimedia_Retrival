@@ -1,4 +1,4 @@
-== Computer â€” Smallest (normalized) ==
+== Computer — Smallest (normalized) ==
  n_vertices  n_faces                                                      path
        5026     9528    step2_results\normalized\Computer\D01067_kept_norm.obj
        5026     9528     step2_results\normalized\Computer\m1778_kept_norm.obj
@@ -6,7 +6,7 @@
        5594    11008  step2_results\normalized\Computer\m1766_refined_norm.obj
        6512    11201    step2_results\normalized\Computer\D01115_kept_norm.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                         path
        9736    19456    step2_results\normalized\Computer\D01085_refined_norm.obj
        9736    19456     step2_results\normalized\Computer\m1769_refined_norm.obj

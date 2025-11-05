@@ -1,4 +1,4 @@
-== RectangleTable â€” Smallest (normalized) ==
+== RectangleTable — Smallest (normalized) ==
  n_vertices  n_faces                                                            path
        5748     7862 step2_results\normalized\RectangleTable\D00418_refined_norm.obj
        5520    10240   step2_results\normalized\RectangleTable\m896_refined_norm.obj
@@ -6,7 +6,7 @@
        5514    11008   step2_results\normalized\RectangleTable\m917_refined_norm.obj
        6288    11776   step2_results\normalized\RectangleTable\m920_refined_norm.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                               path
        9833    19168      step2_results\normalized\RectangleTable\m873_refined_norm.obj
        9578    18688      step2_results\normalized\RectangleTable\m893_refined_norm.obj

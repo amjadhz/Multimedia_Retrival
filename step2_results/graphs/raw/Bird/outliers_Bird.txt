@@ -1,4 +1,4 @@
-== Bird â€” Smallest (raw) ==
+== Bird — Smallest (raw) ==
  n_vertices  n_faces                 path
          41       54    data\Bird\m43.obj
         101      165    data\Bird\m47.obj
@@ -6,7 +6,7 @@
         116      210    data\Bird\m42.obj
         260      364 data\Bird\D00323.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                 path
       16542    33072    data\Bird\m45.obj
       15871    31702 data\Bird\D00113.obj

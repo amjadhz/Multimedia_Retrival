@@ -1,4 +1,4 @@
-== Gun â€” Smallest (raw) ==
+== Gun — Smallest (raw) ==
  n_vertices  n_faces                path
          91      130   data\Gun\m651.obj
         140      252   data\Gun\m672.obj
@@ -6,7 +6,7 @@
         293      558 data\Gun\D00244.obj
         293      558   data\Gun\m658.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                path
       28389    56596 data\Gun\D00972.obj
       27863    55622   data\Gun\m684.obj

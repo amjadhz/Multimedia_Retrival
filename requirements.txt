@@ -2,3 +2,11 @@ open3d
 pymeshlab
 numpy
 matplotlib
+hnswlib
+pandas
+scikit-learn
+plotly
+Pillow
+annoy 
+mplcursors
+tqdm

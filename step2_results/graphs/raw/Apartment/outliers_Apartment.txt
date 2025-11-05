@@ -1,4 +1,4 @@
-== Apartment â€” Smallest (raw) ==
+== Apartment — Smallest (raw) ==
  n_vertices  n_faces                      path
         795     1158 data\Apartment\D00792.obj
        1327     2147 data\Apartment\D00859.obj
@@ -6,7 +6,7 @@
        1294     2539 data\Apartment\D00366.obj
        2006     3008 data\Apartment\D00348.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                      path
       30598    60450 data\Apartment\D00626.obj
       20462    40064 data\Apartment\D00086.obj

@@ -1,4 +1,4 @@
-== Jet â€” Smallest (resampled) ==
+== Jet — Smallest (resampled) ==
  n_vertices  n_faces                                          path
        5078     9742    step2_results\resampled\Jet\m1289_kept.obj
        5621    10432 step2_results\resampled\Jet\m1261_refined.obj
@@ -6,7 +6,7 @@
        5706    10696 step2_results\resampled\Jet\m1288_refined.obj
        5750    10816 step2_results\resampled\Jet\m1239_refined.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                          path
        9862    19712 step2_results\resampled\Jet\m1215_refined.obj
        9813    19616 step2_results\resampled\Jet\m1150_refined.obj

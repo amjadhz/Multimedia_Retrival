@@ -1,4 +1,4 @@
-== Wheel â€” Smallest (resampled) ==
+== Wheel — Smallest (resampled) ==
  n_vertices  n_faces                                              path
        5753    10880    step2_results\resampled\Wheel\m738_refined.obj
        9078    15310 step2_results\resampled\Wheel\m734_simplified.obj
@@ -6,7 +6,7 @@
        8993    15906 step2_results\resampled\Wheel\m740_simplified.obj
        8066    16128    step2_results\resampled\Wheel\m747_refined.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                              path
        8994    18024 step2_results\resampled\Wheel\m739_simplified.obj
        9000    18000 step2_results\resampled\Wheel\m744_simplified.obj

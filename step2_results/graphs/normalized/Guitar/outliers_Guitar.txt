@@ -1,4 +1,4 @@
-== Guitar â€” Smallest (normalized) ==
+== Guitar — Smallest (normalized) ==
  n_vertices  n_faces                                                       path
        5530    10792       step2_results\normalized\Guitar\D00655_kept_norm.obj
        6015    11468    step2_results\normalized\Guitar\D00124_refined_norm.obj
@@ -6,7 +6,7 @@
        6779    12226 step2_results\normalized\Guitar\D00844_simplified_norm.obj
        7342    14400    step2_results\normalized\Guitar\D00534_refined_norm.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                       path
        9017    17942 step2_results\normalized\Guitar\D00097_simplified_norm.obj
        9128    17854 step2_results\normalized\Guitar\D00335_simplified_norm.obj

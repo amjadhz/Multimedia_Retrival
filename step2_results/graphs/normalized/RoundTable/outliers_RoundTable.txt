@@ -1,4 +1,4 @@
-== RoundTable â€” Smallest (normalized) ==
+== RoundTable — Smallest (normalized) ==
  n_vertices  n_faces                                                        path
        5619    10380   step2_results\normalized\RoundTable\m929_refined_norm.obj
        6232    11776   step2_results\normalized\RoundTable\m928_refined_norm.obj
@@ -6,7 +6,7 @@
        6647    13237    step2_results\normalized\RoundTable\D00702_kept_norm.obj
        6720    13264 step2_results\normalized\RoundTable\D00503_refined_norm.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                           path
        9903    18560    step2_results\normalized\RoundTable\D00407_refined_norm.obj
        9000    17996 step2_results\normalized\RoundTable\D00756_simplified_norm.obj

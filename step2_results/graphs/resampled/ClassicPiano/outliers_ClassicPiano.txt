@@ -1,4 +1,4 @@
-== ClassicPiano â€” Smallest (resampled) ==
+== ClassicPiano — Smallest (resampled) ==
  n_vertices  n_faces                                                    path
        5204     9053    step2_results\resampled\ClassicPiano\D00233_kept.obj
        5131     9439    step2_results\resampled\ClassicPiano\D00784_kept.obj
@@ -6,7 +6,7 @@
        5901    10703    step2_results\resampled\ClassicPiano\D00092_kept.obj
        5571    10712 step2_results\resampled\ClassicPiano\D00967_refined.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                       path
        9768    19296    step2_results\resampled\ClassicPiano\D00005_refined.obj
        9399    18368    step2_results\resampled\ClassicPiano\D00811_refined.obj

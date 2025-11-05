@@ -1,4 +1,4 @@
-== Helicopter â€” Smallest (normalized) ==
+== Helicopter — Smallest (normalized) ==
  n_vertices  n_faces                                                        path
        5207     7969    step2_results\normalized\Helicopter\D00397_kept_norm.obj
        5429     8458    step2_results\normalized\Helicopter\D00977_kept_norm.obj
@@ -6,7 +6,7 @@
        5729    10321 step2_results\normalized\Helicopter\D00498_refined_norm.obj
        5580    10464  step2_results\normalized\Helicopter\m1316_refined_norm.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                           path
        8998    18008  step2_results\normalized\Helicopter\m1328_simplified_norm.obj
        8993    18001 step2_results\normalized\Helicopter\D00644_simplified_norm.obj

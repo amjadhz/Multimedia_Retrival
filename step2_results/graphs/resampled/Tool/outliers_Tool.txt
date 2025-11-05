@@ -1,4 +1,4 @@
-== Tool â€” Smallest (resampled) ==
+== Tool — Smallest (resampled) ==
  n_vertices  n_faces                                           path
        5110    10216   step2_results\resampled\Tool\D01142_kept.obj
        5201    10398   step2_results\resampled\Tool\D01044_kept.obj
@@ -6,7 +6,7 @@
        5508    11012   step2_results\resampled\Tool\D01156_kept.obj
        5672    11328 step2_results\resampled\Tool\m1104_refined.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                               path
        9001    17998 step2_results\resampled\Tool\D01040_simplified.obj
        9001    17998  step2_results\resampled\Tool\m1099_simplified.obj

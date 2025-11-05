@@ -1,4 +1,4 @@
-== Musical_Instrument â€” Smallest (normalized) ==
+== Musical_Instrument — Smallest (normalized) ==
  n_vertices  n_faces                                                                 path
        6752    11888 step2_results\normalized\Musical_Instrument\m627_simplified_norm.obj
        6831    13302 step2_results\normalized\Musical_Instrument\m629_simplified_norm.obj
@@ -6,7 +6,7 @@
        9022    14955 step2_results\normalized\Musical_Instrument\m645_simplified_norm.obj
        8905    15622 step2_results\normalized\Musical_Instrument\m633_simplified_norm.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                                 path
        9013    17941 step2_results\normalized\Musical_Instrument\m640_simplified_norm.obj
        9041    17878 step2_results\normalized\Musical_Instrument\m638_simplified_norm.obj

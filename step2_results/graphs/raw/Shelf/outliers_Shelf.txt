@@ -1,4 +1,4 @@
-== Shelf â€” Smallest (raw) ==
+== Shelf — Smallest (raw) ==
  n_vertices  n_faces                path
          48       28 data\Shelf\m858.obj
          46       37 data\Shelf\m855.obj
@@ -6,7 +6,7 @@
          56       84 data\Shelf\m860.obj
          64       96 data\Shelf\m856.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                  path
        5444    10680 data\Shelf\D00631.obj
        4107     8126 data\Shelf\D00725.obj

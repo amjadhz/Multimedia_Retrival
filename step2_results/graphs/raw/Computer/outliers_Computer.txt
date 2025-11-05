@@ -1,4 +1,4 @@
-== Computer â€” Smallest (raw) ==
+== Computer — Smallest (raw) ==
  n_vertices  n_faces                     path
          28       30 data\Computer\D01102.obj
          28       30  data\Computer\m1765.obj
@@ -6,7 +6,7 @@
          29       43  data\Computer\m1766.obj
          46       76 data\Computer\D01085.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                     path
       17298    34076 data\Computer\D01128.obj
       17298    34076  data\Computer\m1772.obj

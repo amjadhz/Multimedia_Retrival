@@ -1,4 +1,4 @@
-== PianoBoard â€” Smallest (resampled) ==
+== PianoBoard — Smallest (resampled) ==
  n_vertices  n_faces                                                     path
        5694    10102       step2_results\resampled\PianoBoard\D00623_kept.obj
        6304    11804    step2_results\resampled\PianoBoard\D00235_refined.obj
@@ -6,7 +6,7 @@
        6832    13190 step2_results\resampled\PianoBoard\D00755_simplified.obj
        7351    13648    step2_results\resampled\PianoBoard\D00122_refined.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                     path
        9876    18800    step2_results\resampled\PianoBoard\D00381_refined.obj
        8998    17900 step2_results\resampled\PianoBoard\D00253_simplified.obj

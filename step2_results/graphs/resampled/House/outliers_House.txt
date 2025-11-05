@@ -1,4 +1,4 @@
-== House â€” Smallest (resampled) ==
+== House — Smallest (resampled) ==
  n_vertices  n_faces                                             path
        6626     8864   step2_results\resampled\House\m441_refined.obj
        5500    10204    step2_results\resampled\House\D00454_kept.obj
@@ -6,7 +6,7 @@
        5890    10976 step2_results\resampled\House\D00965_refined.obj
        5936    11020   step2_results\resampled\House\m430_refined.obj
 
-== {cls} â€” Largest ({stage}) ==
+== {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                path
        8954    18237   step2_results\resampled\House\m453_simplified.obj
        9004    17988 step2_results\resampled\House\D00889_simplified.obj
