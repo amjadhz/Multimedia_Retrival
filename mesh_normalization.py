@@ -26,13 +26,11 @@ def mesh_translate(mesh):
 
 # 2. Size Normalization: Scale to unit size
 def mesh_resize(mesh, target_size=1.0):
-    vertices = np.asarray(mesh.vertices)
-    max_distance = np.max(np.linalg.norm(vertices, axis=1))
-    if max_distance > 0:
-        scaling_factor = target_size / max_distance
-        mesh.scale(scaling_factor, center=(0, 0, 0))
+    bounding_box = mesh.get_axis_aligned_bounding_box()
+    max_extent = max(bounding_box.get_extent())
+    scaling_factor = target_size / max_extent
+    mesh.scale(scaling_factor, center=(0, 0, 0))
     return mesh
-
 
 # 3. Pose Alignment: Align to principal axes
 def mesh_pose_alignment(mesh):
@@ -86,8 +84,10 @@ def mesh_flipping(mesh):
 # Complete normalization pipeline
 def mesh_normalize(mesh_path, save_path):
     mesh = o3d.io.read_triangle_mesh(mesh_path)
+    mesh = mesh_translate(mesh)
     mesh = mesh_pose_alignment(mesh)
     mesh = mesh_flipping(mesh)
+    mesh = mesh_resize(mesh)
     mesh.compute_vertex_normals()
     o3d.io.write_triangle_mesh(save_path, mesh, write_vertex_normals=True)
 
@@ -95,9 +95,9 @@ def mesh_normalize(mesh_path, save_path):
 # For query processing
 def mesh_normalize_for_new(mesh):
     mesh = mesh_translate(mesh)
-    mesh = mesh_resize(mesh)
     mesh = mesh_pose_alignment(mesh)
     mesh = mesh_flipping(mesh)
+    mesh = mesh_resize(mesh)
     return mesh
 
 
