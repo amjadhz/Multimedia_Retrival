@@ -4,12 +4,12 @@
        5404     9669    step2_results\normalized\Truck\D00518_kept_norm.obj
        5266     9855    step2_results\normalized\Truck\D00287_kept_norm.obj
        5467     9986    step2_results\normalized\Truck\D00926_kept_norm.obj
-       5772    10438 step2_results\normalized\Truck\D00406_refined_norm.obj
+       5774    10440 step2_results\normalized\Truck\D00406_refined_norm.obj
 
 == {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                      path
        9613    18340        step2_results\normalized\Truck\m1572_kept_norm.obj
-       9037    17902 step2_results\normalized\Truck\D00241_simplified_norm.obj
-       9028    17830  step2_results\normalized\Truck\m1574_simplified_norm.obj
-       9063    17645 step2_results\normalized\Truck\D00047_simplified_norm.obj
-       9022    17448 step2_results\normalized\Truck\D00947_simplified_norm.obj
+       9025    17901 step2_results\normalized\Truck\D00241_simplified_norm.obj
+       9031    17831  step2_results\normalized\Truck\m1574_simplified_norm.obj
+       8976    17645 step2_results\normalized\Truck\D00047_simplified_norm.obj
+       8953    17433 step2_results\normalized\Truck\D00947_simplified_norm.obj

@@ -2,14 +2,14 @@
  n_vertices  n_faces                                                         path
        6260    11160    step2_results\resampled\AircraftBuoyant\m1339_refined.obj
        6622    13184    step2_results\resampled\AircraftBuoyant\m1341_refined.obj
+       9028    16698 step2_results\resampled\AircraftBuoyant\m1349_simplified.obj
        9148    16956 step2_results\resampled\AircraftBuoyant\m1351_simplified.obj
        8761    16960       step2_results\resampled\AircraftBuoyant\m1338_kept.obj
-       9103    17338 step2_results\resampled\AircraftBuoyant\m1344_simplified.obj
 
 == {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                         path
        9001    17990 step2_results\resampled\AircraftBuoyant\m1343_simplified.obj
-       8992    17839 step2_results\resampled\AircraftBuoyant\m1352_simplified.obj
-       8970    17782 step2_results\resampled\AircraftBuoyant\m1347_simplified.obj
-       8975    17702 step2_results\resampled\AircraftBuoyant\m1340_simplified.obj
-       8969    17689 step2_results\resampled\AircraftBuoyant\m1346_simplified.obj
+       9021    17840 step2_results\resampled\AircraftBuoyant\m1352_simplified.obj
+       9021    17781 step2_results\resampled\AircraftBuoyant\m1347_simplified.obj
+       9014    17703 step2_results\resampled\AircraftBuoyant\m1340_simplified.obj
+       9034    17688 step2_results\resampled\AircraftBuoyant\m1346_simplified.obj

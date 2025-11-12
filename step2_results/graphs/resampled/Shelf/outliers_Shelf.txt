@@ -2,7 +2,7 @@
  n_vertices  n_faces                                             path
        5444    10680    step2_results\resampled\Shelf\D00631_kept.obj
        5552    10944 step2_results\resampled\Shelf\D00129_refined.obj
-       5586    11008   step2_results\resampled\Shelf\m868_refined.obj
+       5568    11008   step2_results\resampled\Shelf\m868_refined.obj
        5924    11264   step2_results\resampled\Shelf\m853_refined.obj
        6040    11520   step2_results\resampled\Shelf\m852_refined.obj
 

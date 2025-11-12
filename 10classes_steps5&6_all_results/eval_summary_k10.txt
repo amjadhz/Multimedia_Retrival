@@ -1,0 +1,3 @@
+global_precision_at_10: 0.584574
+global_recall_at_10:    0.314760
+silhouette_score:           0.070323

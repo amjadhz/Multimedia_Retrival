@@ -11,5 +11,5 @@
        9736    19456    step2_results\resampled\Computer\D01085_refined.obj
        9736    19456     step2_results\resampled\Computer\m1769_refined.obj
        9010    17976  step2_results\resampled\Computer\m1774_simplified.obj
-       9024    17960 step2_results\resampled\Computer\D01072_simplified.obj
-       9024    17960  step2_results\resampled\Computer\m1777_simplified.obj
+       9003    17960  step2_results\resampled\Computer\m1777_simplified.obj
+       9001    17959 step2_results\resampled\Computer\D01072_simplified.obj

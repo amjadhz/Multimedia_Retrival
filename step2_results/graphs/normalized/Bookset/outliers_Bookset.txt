@@ -2,14 +2,14 @@
  n_vertices  n_faces                                                     path
        6896     9392 step2_results\normalized\Bookset\D01146_refined_norm.obj
        7229    12272 step2_results\normalized\Bookset\D01042_refined_norm.obj
-       6420    12460 step2_results\normalized\Bookset\D01108_refined_norm.obj
-       6360    12516 step2_results\normalized\Bookset\D01122_refined_norm.obj
+       6324    12388 step2_results\normalized\Bookset\D01122_refined_norm.obj
+       6420    12458 step2_results\normalized\Bookset\D01108_refined_norm.obj
        6648    12840 step2_results\normalized\Bookset\D01135_refined_norm.obj
 
 == {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                        path
-       9646    19044    step2_results\normalized\Bookset\D01110_refined_norm.obj
-       9505    18444    step2_results\normalized\Bookset\D01190_refined_norm.obj
-       8956    17824 step2_results\normalized\Bookset\D01030_simplified_norm.obj
-       9079    17704 step2_results\normalized\Bookset\D01184_simplified_norm.obj
-       9019    17639 step2_results\normalized\Bookset\D01182_simplified_norm.obj
+       9609    18925    step2_results\normalized\Bookset\D01110_refined_norm.obj
+       9505    18438    step2_results\normalized\Bookset\D01190_refined_norm.obj
+       9029    17824 step2_results\normalized\Bookset\D01030_simplified_norm.obj
+       8965    17705 step2_results\normalized\Bookset\D01184_simplified_norm.obj
+       8992    17638 step2_results\normalized\Bookset\D01182_simplified_norm.obj

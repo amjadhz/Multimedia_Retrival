@@ -10,10 +10,10 @@ PlantWildNonTree        7914     5274 step2_results\normalized\PlantWildNonTree\
           cls  n_vertices  n_faces                                                         path
 NonWheelChair        9986    19936 step2_results\normalized\NonWheelChair\m786_refined_norm.obj
        Bottle        9949    19872      step2_results\normalized\Bottle\D00940_refined_norm.obj
-        Sword        9906    19808       step2_results\normalized\Sword\D00635_refined_norm.obj
      Humanoid        9932    19776      step2_results\normalized\Humanoid\m205_refined_norm.obj
+        Sword        9890    19766       step2_results\normalized\Sword\D00635_refined_norm.obj
        Bottle        9884    19760      step2_results\normalized\Bottle\D00892_refined_norm.obj
 
 == Average (normalized) ==
-cls  n_vertices  n_faces                                                   path
-Jet        8992    17883 step2_results\normalized\Jet\m1250_simplified_norm.obj
+       cls  n_vertices  n_faces                                                           path
+PianoBoard        8995    17900 step2_results\normalized\PianoBoard\D00253_simplified_norm.obj

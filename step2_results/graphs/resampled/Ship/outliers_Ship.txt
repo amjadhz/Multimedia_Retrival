@@ -10,6 +10,6 @@
  n_vertices  n_faces                                               path
        9911    19712     step2_results\resampled\Ship\m1463_refined.obj
        9703    18883        step2_results\resampled\Ship\m1466_kept.obj
-       9576    18756     step2_results\resampled\Ship\m1458_refined.obj
+       9575    18756     step2_results\resampled\Ship\m1458_refined.obj
        9227    18210       step2_results\resampled\Ship\D00907_kept.obj
        9000    18000 step2_results\resampled\Ship\D00099_simplified.obj

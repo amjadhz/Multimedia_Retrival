@@ -11,5 +11,5 @@
        8652    17971 step2_results\resampled\Biplane\D00616_simplified.obj
        9038    17920 step2_results\resampled\Biplane\D00601_simplified.obj
        9137    17812 step2_results\resampled\Biplane\D00490_simplified.obj
-       9055    17710  step2_results\resampled\Biplane\m1119_simplified.obj
+       9033    17711  step2_results\resampled\Biplane\m1119_simplified.obj
        9146    17704 step2_results\resampled\Biplane\D00854_simplified.obj

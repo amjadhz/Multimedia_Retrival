@@ -10,6 +10,6 @@
  n_vertices  n_faces                                                    path
        9870    19712    step2_results\resampled\MultiSeat\D00145_refined.obj
        9003    17994   step2_results\resampled\MultiSeat\m784_simplified.obj
-       9003    17977 step2_results\resampled\MultiSeat\D00046_simplified.obj
+       9002    17978 step2_results\resampled\MultiSeat\D00046_simplified.obj
        9018    17972 step2_results\resampled\MultiSeat\D00146_simplified.obj
        9010    17972 step2_results\resampled\MultiSeat\D00586_simplified.obj

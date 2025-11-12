@@ -8,8 +8,8 @@
 
 == {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                      path
-       9801    18099    step2_results\normalized\Knife\D01051_refined_norm.obj
+       9796    18040    step2_results\normalized\Knife\D01051_refined_norm.obj
        9002    17996 step2_results\normalized\Knife\D01175_simplified_norm.obj
        9001    17994   step2_results\normalized\Knife\m724_simplified_norm.obj
        9001    17994   step2_results\normalized\Knife\m725_simplified_norm.obj
-       9000    17986 step2_results\normalized\Knife\D01075_simplified_norm.obj
+       8997    17986 step2_results\normalized\Knife\D01075_simplified_norm.obj

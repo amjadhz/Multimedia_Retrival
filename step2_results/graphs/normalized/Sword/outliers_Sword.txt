@@ -4,12 +4,12 @@
        5412    10814      step2_results\normalized\Sword\m696_kept_norm.obj
        5412    10814      step2_results\normalized\Sword\m715_kept_norm.obj
        5573    10922    step2_results\normalized\Sword\D00540_kept_norm.obj
-       5630    11100 step2_results\normalized\Sword\D00195_refined_norm.obj
+       5629    11100 step2_results\normalized\Sword\D00195_refined_norm.obj
 
 == {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                    path
-       9906    19808  step2_results\normalized\Sword\D00635_refined_norm.obj
+       9890    19766  step2_results\normalized\Sword\D00635_refined_norm.obj
        9880    19712       step2_results\normalized\Sword\m695_kept_norm.obj
        9834    19648    step2_results\normalized\Sword\m719_refined_norm.obj
-       9822    18880  step2_results\normalized\Sword\D00807_refined_norm.obj
-       9003    17994 step2_results\normalized\Sword\m718_simplified_norm.obj
+       9813    18876  step2_results\normalized\Sword\D00807_refined_norm.obj
+       9004    17988 step2_results\normalized\Sword\m721_simplified_norm.obj

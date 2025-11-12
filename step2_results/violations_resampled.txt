@@ -9,7 +9,7 @@
            House       10106    12562           step2_results\resampled\House\D00001_simplified.obj
            House       11845    12534           step2_results\resampled\House\D00389_simplified.obj
            House       14286    12530           step2_results\resampled\House\D00574_simplified.obj
-        Humanoid       10081    12553          step2_results\resampled\Humanoid\m198_simplified.obj
+        Humanoid       10788     9374          step2_results\resampled\Humanoid\m198_simplified.obj
  MilitaryVehicle       10171    12532 step2_results\resampled\MilitaryVehicle\D00173_simplified.obj
  MilitaryVehicle       10962    12535 step2_results\resampled\MilitaryVehicle\D00933_simplified.obj
     PlantIndoors       43171    12529    step2_results\resampled\PlantIndoors\D00080_simplified.obj

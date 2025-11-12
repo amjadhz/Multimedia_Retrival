@@ -1,9 +1,9 @@
 == Door — Smallest (normalized) ==
  n_vertices  n_faces                                                  path
-       5772    11038 step2_results\normalized\Door\D01167_refined_norm.obj
-       5772    11038  step2_results\normalized\Door\m1724_refined_norm.obj
-       5848    11420 step2_results\normalized\Door\D01062_refined_norm.obj
-       5848    11420  step2_results\normalized\Door\m1723_refined_norm.obj
+       5631    10648  step2_results\normalized\Door\m1724_refined_norm.obj
+       5642    10674 step2_results\normalized\Door\D01167_refined_norm.obj
+       5722    11039  step2_results\normalized\Door\m1723_refined_norm.obj
+       5738    11088 step2_results\normalized\Door\D01062_refined_norm.obj
        6040    11440    step2_results\normalized\Door\D01005_kept_norm.obj
 
 == {cls} — Largest ({stage}) ==

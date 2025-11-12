@@ -9,9 +9,11 @@
   "bench_kmax": 30,
   "tsne": true,
   "perplexity": 40.0,
-  "iters": 750,
+  "iters": 2000,
+  "tsne_perplexities": "30,40,50",
   "eval": true,
-  "eval_k": 60,
-  "k_sweep": "1,3,5,10,20,30,40,0,60,70",
-  "out": "step6_results_all"
+  "eval_k": 10,
+  "eval_k_list": "5,10,20",
+  "k_sweep": "1,3,5,10,15,20,25,30",
+  "out": "10classes_steps5&6_all_results"
 }

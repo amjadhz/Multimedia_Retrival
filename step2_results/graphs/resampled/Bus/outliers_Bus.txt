@@ -8,8 +8,8 @@
 
 == {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                              path
-       8964    17809 step2_results\resampled\Bus\D00436_simplified.obj
-       9026    17663 step2_results\resampled\Bus\D00832_simplified.obj
+       8920    17799 step2_results\resampled\Bus\D00436_simplified.obj
+       9016    17664 step2_results\resampled\Bus\D00832_simplified.obj
        9506    17613       step2_results\resampled\Bus\D00775_kept.obj
-       9051    17569 step2_results\resampled\Bus\D00516_simplified.obj
+       8970    17572 step2_results\resampled\Bus\D00516_simplified.obj
        9018    17538 step2_results\resampled\Bus\D00264_simplified.obj

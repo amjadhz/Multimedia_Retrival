@@ -3,13 +3,13 @@
        6896     9392 step2_results\resampled\Bookset\D01146_refined.obj
        7231    12272 step2_results\resampled\Bookset\D01042_refined.obj
        6420    12464 step2_results\resampled\Bookset\D01108_refined.obj
-       6360    12544 step2_results\resampled\Bookset\D01122_refined.obj
+       6324    12544 step2_results\resampled\Bookset\D01122_refined.obj
        6648    12840 step2_results\resampled\Bookset\D01135_refined.obj
 
 == {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                  path
-       9646    19072    step2_results\resampled\Bookset\D01110_refined.obj
+       9610    19072    step2_results\resampled\Bookset\D01110_refined.obj
        9505    18448    step2_results\resampled\Bookset\D01190_refined.obj
-       8956    17824 step2_results\resampled\Bookset\D01030_simplified.obj
-       9079    17704 step2_results\resampled\Bookset\D01184_simplified.obj
-       9019    17639 step2_results\resampled\Bookset\D01182_simplified.obj
+       9029    17824 step2_results\resampled\Bookset\D01030_simplified.obj
+       8965    17705 step2_results\resampled\Bookset\D01184_simplified.obj
+       8992    17638 step2_results\resampled\Bookset\D01182_simplified.obj

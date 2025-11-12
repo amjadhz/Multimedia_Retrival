@@ -12,4 +12,4 @@
        8847    18099 step2_results\normalized\MilitaryVehicle\D00801_simplified_norm.obj
        9007    17918 step2_results\normalized\MilitaryVehicle\D00799_simplified_norm.obj
        9592    17900    step2_results\normalized\MilitaryVehicle\D00611_refined_norm.obj
-       9040    17599 step2_results\normalized\MilitaryVehicle\D00051_simplified_norm.obj
+       9017    17597 step2_results\normalized\MilitaryVehicle\D00051_simplified_norm.obj

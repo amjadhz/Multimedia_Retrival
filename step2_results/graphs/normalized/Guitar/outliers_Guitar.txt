@@ -4,12 +4,12 @@
        6015    11468    step2_results\normalized\Guitar\D00124_refined_norm.obj
        6140    11543       step2_results\normalized\Guitar\D00232_kept_norm.obj
        6779    12226 step2_results\normalized\Guitar\D00844_simplified_norm.obj
-       7342    14400    step2_results\normalized\Guitar\D00534_refined_norm.obj
+       7341    14400    step2_results\normalized\Guitar\D00534_refined_norm.obj
 
 == {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                       path
        9017    17942 step2_results\normalized\Guitar\D00097_simplified_norm.obj
        9128    17854 step2_results\normalized\Guitar\D00335_simplified_norm.obj
-       8979    17833 step2_results\normalized\Guitar\D00645_simplified_norm.obj
-       9013    17808 step2_results\normalized\Guitar\D00222_simplified_norm.obj
-       9053    17807 step2_results\normalized\Guitar\D00023_simplified_norm.obj
+       9059    17832 step2_results\normalized\Guitar\D00645_simplified_norm.obj
+       9034    17808 step2_results\normalized\Guitar\D00222_simplified_norm.obj
+       9051    17806 step2_results\normalized\Guitar\D00023_simplified_norm.obj

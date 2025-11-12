@@ -16,4 +16,4 @@ NonWheelChair        9986    19936 step2_results\resampled\NonWheelChair\m786_re
 
 == Average (resampled) ==
   cls  n_vertices  n_faces                                              path
-Wheel        9000    17996 step2_results\resampled\Wheel\m742_simplified.obj
+Wheel        9000    18000 step2_results\resampled\Wheel\m745_simplified.obj

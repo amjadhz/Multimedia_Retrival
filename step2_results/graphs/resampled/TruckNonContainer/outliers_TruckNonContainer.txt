@@ -8,8 +8,8 @@
 
 == {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                            path
-       9549    18532    step2_results\resampled\TruckNonContainer\D00148_refined.obj
-       9090    17735 step2_results\resampled\TruckNonContainer\D00879_simplified.obj
+       9548    18532    step2_results\resampled\TruckNonContainer\D00148_refined.obj
+       9057    17737 step2_results\resampled\TruckNonContainer\D00879_simplified.obj
        9047    17660    step2_results\resampled\TruckNonContainer\D00252_refined.obj
-       9394    17392    step2_results\resampled\TruckNonContainer\D00737_refined.obj
-       8910    17304 step2_results\resampled\TruckNonContainer\D00731_simplified.obj
+       9393    17392    step2_results\resampled\TruckNonContainer\D00737_refined.obj
+       8898    17254 step2_results\resampled\TruckNonContainer\D00731_simplified.obj

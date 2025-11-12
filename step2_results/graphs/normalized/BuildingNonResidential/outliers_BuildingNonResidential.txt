@@ -3,13 +3,13 @@
        6852    10999    step2_results\normalized\BuildingNonResidential\m421_kept_norm.obj
        5860    11008 step2_results\normalized\BuildingNonResidential\m390_refined_norm.obj
        6672    11136 step2_results\normalized\BuildingNonResidential\m395_refined_norm.obj
-       6443    11248 step2_results\normalized\BuildingNonResidential\m412_refined_norm.obj
+       6441    11244 step2_results\normalized\BuildingNonResidential\m412_refined_norm.obj
        5638    11264 step2_results\normalized\BuildingNonResidential\m472_refined_norm.obj
 
 == {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                                     path
        9810    19152    step2_results\normalized\BuildingNonResidential\m394_refined_norm.obj
-       9579    18514    step2_results\normalized\BuildingNonResidential\m389_refined_norm.obj
+       9579    18508    step2_results\normalized\BuildingNonResidential\m389_refined_norm.obj
        9012    17980 step2_results\normalized\BuildingNonResidential\m397_simplified_norm.obj
-       9015    17978 step2_results\normalized\BuildingNonResidential\m474_simplified_norm.obj
+       9015    17977 step2_results\normalized\BuildingNonResidential\m474_simplified_norm.obj
        9035    17902 step2_results\normalized\BuildingNonResidential\m414_simplified_norm.obj

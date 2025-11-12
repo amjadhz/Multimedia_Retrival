@@ -1,10 +1,10 @@
 == Door — Smallest (resampled) ==
  n_vertices  n_faces                                            path
-       5774    11072 step2_results\resampled\Door\D01167_refined.obj
-       5774    11072  step2_results\resampled\Door\m1724_refined.obj
+       5736    11072  step2_results\resampled\Door\m1724_refined.obj
+       5738    11072 step2_results\resampled\Door\D01167_refined.obj
        6040    11440    step2_results\resampled\Door\D01005_kept.obj
        6040    11440     step2_results\resampled\Door\m1713_kept.obj
-       5855    11456 step2_results\resampled\Door\D01062_refined.obj
+       5819    11456 step2_results\resampled\Door\D01062_refined.obj
 
 == {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                               path

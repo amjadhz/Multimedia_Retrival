@@ -11,5 +11,5 @@
        9335    19392      step2_results\resampled\Gun\m660_refined.obj
        9249    18288      step2_results\resampled\Gun\m681_refined.obj
        8994    18023   step2_results\resampled\Gun\m666_simplified.obj
-       8999    17985 step2_results\resampled\Gun\D00606_simplified.obj
+       9001    17986 step2_results\resampled\Gun\D00606_simplified.obj
        9008    17984 step2_results\resampled\Gun\D00161_simplified.obj

@@ -9,7 +9,7 @@
 == {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                    path
        9884    19488    step2_results\resampled\Monoplane\D00840_refined.obj
-       9022    17846 step2_results\resampled\Monoplane\D00319_simplified.obj
+       8994    17846 step2_results\resampled\Monoplane\D00319_simplified.obj
        9010    17822 step2_results\resampled\Monoplane\D00019_simplified.obj
-       9021    17768 step2_results\resampled\Monoplane\D00925_simplified.obj
-       8937    17533 step2_results\resampled\Monoplane\D00043_simplified.obj
+       8967    17768 step2_results\resampled\Monoplane\D00925_simplified.obj
+       9122    17533 step2_results\resampled\Monoplane\D00043_simplified.obj

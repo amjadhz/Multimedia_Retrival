@@ -2,7 +2,7 @@
  n_vertices  n_faces                                             path
        5793    11264 step2_results\resampled\Spoon\D00422_refined.obj
        6209    11792 step2_results\resampled\Spoon\D00157_refined.obj
-       7235    13724 step2_results\resampled\Spoon\D00661_refined.obj
+       7225    13724 step2_results\resampled\Spoon\D00661_refined.obj
        7303    14336 step2_results\resampled\Spoon\D00517_refined.obj
        7786    15280 step2_results\resampled\Spoon\D00338_refined.obj
 
@@ -12,4 +12,4 @@
        9090    18176    step2_results\resampled\Spoon\D00497_refined.obj
        9090    18176    step2_results\resampled\Spoon\D00593_refined.obj
        9000    17996 step2_results\resampled\Spoon\D00927_simplified.obj
-       9001    17986 step2_results\resampled\Spoon\D00014_simplified.obj
+       8997    17987 step2_results\resampled\Spoon\D00014_simplified.obj

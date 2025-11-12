@@ -1,6 +1,6 @@
 == WheelChair — Smallest (normalized) ==
  n_vertices  n_faces                                                           path
-       6972    12476    step2_results\normalized\WheelChair\D00274_refined_norm.obj
+       6965    12475    step2_results\normalized\WheelChair\D00274_refined_norm.obj
        6811    13502 step2_results\normalized\WheelChair\D00070_simplified_norm.obj
        6809    13510 step2_results\normalized\WheelChair\D00687_simplified_norm.obj
        6809    13510 step2_results\normalized\WheelChair\D00821_simplified_norm.obj

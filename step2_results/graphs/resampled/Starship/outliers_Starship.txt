@@ -9,7 +9,7 @@
 == {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                  path
        9877    18784    step2_results\resampled\Starship\m1365_refined.obj
-       9020    17928 step2_results\resampled\Starship\m1359_simplified.obj
-       8987    17894 step2_results\resampled\Starship\m1361_simplified.obj
-       8982    17756 step2_results\resampled\Starship\m1384_simplified.obj
+       9009    17928 step2_results\resampled\Starship\m1359_simplified.obj
+       9037    17894 step2_results\resampled\Starship\m1361_simplified.obj
+       9066    17765 step2_results\resampled\Starship\m1384_simplified.obj
        9025    17688 step2_results\resampled\Starship\m1381_simplified.obj

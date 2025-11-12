@@ -9,7 +9,7 @@
 == {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                     path
        9383    18160    step2_results\resampled\Skyscraper\D00130_refined.obj
-       9075    17892 step2_results\resampled\Skyscraper\D00872_simplified.obj
+       8980    17892 step2_results\resampled\Skyscraper\D00872_simplified.obj
        8906    17452    step2_results\resampled\Skyscraper\D00641_refined.obj
-       9024    16448 step2_results\resampled\Skyscraper\D00059_simplified.obj
-       9021    15797 step2_results\resampled\Skyscraper\D00998_simplified.obj
+       9021    16422 step2_results\resampled\Skyscraper\D00059_simplified.obj
+       9013    15890 step2_results\resampled\Skyscraper\D00998_simplified.obj

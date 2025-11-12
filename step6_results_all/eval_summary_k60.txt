@@ -1,3 +1,0 @@
-global_precision_at_60: 0.141878
-global_recall_at_60:    0.180270
-silhouette_score:           -0.173977

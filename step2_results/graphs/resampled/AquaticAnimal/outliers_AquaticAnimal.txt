@@ -10,6 +10,6 @@
  n_vertices  n_faces                                                     path
        9000    17996 step2_results\resampled\AquaticAnimal\m62_simplified.obj
        9000    17996 step2_results\resampled\AquaticAnimal\m67_simplified.obj
-       8995    17974 step2_results\resampled\AquaticAnimal\m73_simplified.obj
-       9005    17932 step2_results\resampled\AquaticAnimal\m59_simplified.obj
+       9005    17974 step2_results\resampled\AquaticAnimal\m73_simplified.obj
+       8991    17932 step2_results\resampled\AquaticAnimal\m59_simplified.obj
        9015    17894 step2_results\resampled\AquaticAnimal\m77_simplified.obj

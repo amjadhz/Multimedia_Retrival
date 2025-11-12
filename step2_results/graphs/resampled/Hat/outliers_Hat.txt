@@ -12,4 +12,4 @@
        9000    17996 step2_results\resampled\Hat\m1640_simplified.obj
        9003    17994 step2_results\resampled\Hat\m1641_simplified.obj
        9004    17988 step2_results\resampled\Hat\m1627_simplified.obj
-       9010    17939 step2_results\resampled\Hat\m1632_simplified.obj
+       8998    17939 step2_results\resampled\Hat\m1632_simplified.obj

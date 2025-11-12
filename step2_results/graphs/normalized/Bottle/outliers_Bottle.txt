@@ -2,7 +2,7 @@
  n_vertices  n_faces                                                       path
        5504    10968    step2_results\normalized\Bottle\D00390_refined_norm.obj
        5633    11264      step2_results\normalized\Bottle\m492_refined_norm.obj
-       6776    13360    step2_results\normalized\Bottle\D00716_refined_norm.obj
+       6765    13322    step2_results\normalized\Bottle\D00716_refined_norm.obj
        6800    13596 step2_results\normalized\Bottle\D00176_simplified_norm.obj
        7174    14208      step2_results\normalized\Bottle\m484_refined_norm.obj
 
@@ -10,6 +10,6 @@
  n_vertices  n_faces                                                    path
        9949    19872 step2_results\normalized\Bottle\D00940_refined_norm.obj
        9884    19760 step2_results\normalized\Bottle\D00892_refined_norm.obj
-       9729    19352 step2_results\normalized\Bottle\D00139_refined_norm.obj
+       9729    19340 step2_results\normalized\Bottle\D00139_refined_norm.obj
        9294    18390    step2_results\normalized\Bottle\D00726_kept_norm.obj
        9202    18236    step2_results\normalized\Bottle\D00451_kept_norm.obj

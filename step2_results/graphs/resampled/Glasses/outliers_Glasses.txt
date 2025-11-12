@@ -11,5 +11,5 @@
        9290    18499       step2_results\resampled\Glasses\D00660_kept.obj
        9001    17990 step2_results\resampled\Glasses\D00730_simplified.obj
        9017    17950 step2_results\resampled\Glasses\D00816_simplified.obj
-       8999    17927 step2_results\resampled\Glasses\D00813_simplified.obj
+       9001    17926 step2_results\resampled\Glasses\D00813_simplified.obj
        9036    17912 step2_results\resampled\Glasses\D00575_simplified.obj

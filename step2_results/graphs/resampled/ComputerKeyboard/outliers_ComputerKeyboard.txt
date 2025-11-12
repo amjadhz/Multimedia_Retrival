@@ -3,13 +3,13 @@
        8303     8668 step2_results\resampled\ComputerKeyboard\D00525_simplified.obj
        6837    10629 step2_results\resampled\ComputerKeyboard\D00676_simplified.obj
        6772    11072 step2_results\resampled\ComputerKeyboard\D00382_simplified.obj
-       6869    11928    step2_results\resampled\ComputerKeyboard\D00600_refined.obj
+       6868    11928    step2_results\resampled\ComputerKeyboard\D00600_refined.obj
        6193    11942       step2_results\resampled\ComputerKeyboard\D00360_kept.obj
 
 == {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                           path
-       9000    17993 step2_results\resampled\ComputerKeyboard\D00905_simplified.obj
-       9014    17927 step2_results\resampled\ComputerKeyboard\D00569_simplified.obj
-       9455    17824    step2_results\resampled\ComputerKeyboard\D00127_refined.obj
-       8940    17589 step2_results\resampled\ComputerKeyboard\D00493_simplified.obj
-       8950    17551 step2_results\resampled\ComputerKeyboard\D00654_simplified.obj
+       8998    17992 step2_results\resampled\ComputerKeyboard\D00905_simplified.obj
+       9016    17926 step2_results\resampled\ComputerKeyboard\D00569_simplified.obj
+       9453    17824    step2_results\resampled\ComputerKeyboard\D00127_refined.obj
+       9062    17592 step2_results\resampled\ComputerKeyboard\D00493_simplified.obj
+       9090    17554 step2_results\resampled\ComputerKeyboard\D00654_simplified.obj

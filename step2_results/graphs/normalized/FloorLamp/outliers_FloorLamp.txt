@@ -3,12 +3,12 @@
        5097     9970    step2_results\normalized\FloorLamp\D00211_kept_norm.obj
        5584    11058      step2_results\normalized\FloorLamp\m620_kept_norm.obj
        5617    11136   step2_results\normalized\FloorLamp\m619_refined_norm.obj
-       6575    12864 step2_results\normalized\FloorLamp\D00981_refined_norm.obj
+       6574    12864 step2_results\normalized\FloorLamp\D00981_refined_norm.obj
        6470    12928   step2_results\normalized\FloorLamp\m618_refined_norm.obj
 
 == {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                          path
-       9736    19456      step2_results\normalized\FloorLamp\m624_refined_norm.obj
+       9729    19456      step2_results\normalized\FloorLamp\m624_refined_norm.obj
        9578    18962       step2_results\normalized\FloorLamp\D00400_kept_norm.obj
        9003    17994 step2_results\normalized\FloorLamp\D00228_simplified_norm.obj
        9001    17994 step2_results\normalized\FloorLamp\D00876_simplified_norm.obj

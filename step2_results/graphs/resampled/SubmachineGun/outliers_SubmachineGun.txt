@@ -9,7 +9,7 @@
 == {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                        path
        9366    18176    step2_results\resampled\SubmachineGun\D00960_refined.obj
-       9018    17960 step2_results\resampled\SubmachineGun\D00489_simplified.obj
+       9012    17959 step2_results\resampled\SubmachineGun\D00489_simplified.obj
        9038    17944 step2_results\resampled\SubmachineGun\D00431_simplified.obj
-       8984    17859 step2_results\resampled\SubmachineGun\D00613_simplified.obj
+       9010    17852 step2_results\resampled\SubmachineGun\D00613_simplified.obj
        9079    17793 step2_results\resampled\SubmachineGun\D00459_simplified.obj

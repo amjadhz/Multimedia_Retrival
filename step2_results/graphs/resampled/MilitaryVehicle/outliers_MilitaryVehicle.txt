@@ -12,4 +12,4 @@
        8853    18099 step2_results\resampled\MilitaryVehicle\D00801_simplified.obj
        9007    17918 step2_results\resampled\MilitaryVehicle\D00799_simplified.obj
        9592    17900    step2_results\resampled\MilitaryVehicle\D00611_refined.obj
-       9055    17599 step2_results\resampled\MilitaryVehicle\D00051_simplified.obj
+       9021    17597 step2_results\resampled\MilitaryVehicle\D00051_simplified.obj

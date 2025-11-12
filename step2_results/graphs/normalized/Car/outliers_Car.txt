@@ -12,4 +12,4 @@
        8999    17992 step2_results\normalized\Car\D00299_simplified_norm.obj
        9012    17988  step2_results\normalized\Car\m1510_simplified_norm.obj
        8941    17948  step2_results\normalized\Car\m1509_simplified_norm.obj
-       9018    17938  step2_results\normalized\Car\m1497_simplified_norm.obj
+       9007    17938  step2_results\normalized\Car\m1497_simplified_norm.obj

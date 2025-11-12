@@ -11,5 +11,5 @@
        9906    19808  step2_results\resampled\Sword\D00635_refined.obj
        9880    19712       step2_results\resampled\Sword\m695_kept.obj
        9834    19648    step2_results\resampled\Sword\m719_refined.obj
-       9822    18880  step2_results\resampled\Sword\D00807_refined.obj
+       9821    18880  step2_results\resampled\Sword\D00807_refined.obj
        9003    17994 step2_results\resampled\Sword\m718_simplified.obj

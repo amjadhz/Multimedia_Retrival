@@ -12,4 +12,4 @@
        9042    18080       step2_results\normalized\Bird\m37_refined_norm.obj
        9000    17996 step2_results\normalized\Bird\D00089_simplified_norm.obj
        9000    17996 step2_results\normalized\Bird\D00762_simplified_norm.obj
-       9000    17996    step2_results\normalized\Bird\m34_simplified_norm.obj
+       9000    17996    step2_results\normalized\Bird\m35_simplified_norm.obj

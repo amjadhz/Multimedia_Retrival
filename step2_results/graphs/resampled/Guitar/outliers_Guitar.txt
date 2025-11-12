@@ -10,6 +10,6 @@
  n_vertices  n_faces                                                 path
        9017    17942 step2_results\resampled\Guitar\D00097_simplified.obj
        9128    17854 step2_results\resampled\Guitar\D00335_simplified.obj
-       8982    17833 step2_results\resampled\Guitar\D00645_simplified.obj
-       9013    17808 step2_results\resampled\Guitar\D00222_simplified.obj
-       9053    17807 step2_results\resampled\Guitar\D00023_simplified.obj
+       9059    17832 step2_results\resampled\Guitar\D00645_simplified.obj
+       9034    17808 step2_results\resampled\Guitar\D00222_simplified.obj
+       9051    17806 step2_results\resampled\Guitar\D00023_simplified.obj

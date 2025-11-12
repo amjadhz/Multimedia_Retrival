@@ -10,6 +10,6 @@
  n_vertices  n_faces                                                         path
        9736    19456    step2_results\normalized\Computer\D01085_refined_norm.obj
        9736    19456     step2_results\normalized\Computer\m1769_refined_norm.obj
-       9010    17976  step2_results\normalized\Computer\m1774_simplified_norm.obj
-       9024    17960 step2_results\normalized\Computer\D01072_simplified_norm.obj
-       9024    17960  step2_results\normalized\Computer\m1777_simplified_norm.obj
+       9009    17976  step2_results\normalized\Computer\m1774_simplified_norm.obj
+       9003    17960  step2_results\normalized\Computer\m1777_simplified_norm.obj
+       9001    17959 step2_results\normalized\Computer\D01072_simplified_norm.obj

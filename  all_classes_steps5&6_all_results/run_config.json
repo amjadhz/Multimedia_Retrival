@@ -1,0 +1,19 @@
+{
+  "features_csv": ".\\MR System\\0 database\\all_features.csv",
+  "mr_root": "MR System",
+  "step3_root": "step3_results",
+  "k": 10,
+  "radius": null,
+  "query_idx": 0,
+  "bench": true,
+  "bench_kmax": 30,
+  "tsne": true,
+  "perplexity": 40.0,
+  "iters": 2000,
+  "tsne_perplexities": "30,40,50",
+  "eval": true,
+  "eval_k": 10,
+  "eval_k_list": "5,10,20",
+  "k_sweep": "1,3,5,10,15,20,25,30",
+  "out": " all_classes_steps5&6_all_results"
+}

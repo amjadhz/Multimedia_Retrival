@@ -3,7 +3,7 @@
        6164     9646 step2_results\normalized\Insect\D00788_kept_norm.obj
        5087     9716 step2_results\normalized\Insect\D00117_kept_norm.obj
        5266    10274    step2_results\normalized\Insect\m26_kept_norm.obj
-       5591    10716  step2_results\normalized\Insect\m8_refined_norm.obj
+       5588    10693  step2_results\normalized\Insect\m8_refined_norm.obj
        5916    11271 step2_results\normalized\Insect\D00333_kept_norm.obj
 
 == {cls} — Largest ({stage}) ==

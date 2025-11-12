@@ -1,7 +1,7 @@
 == Vase — Smallest (normalized) ==
  n_vertices  n_faces                                                path
-       6725    12432 step2_results\normalized\Vase\m529_refined_norm.obj
-       7850    12444 step2_results\normalized\Vase\m541_refined_norm.obj
+       7850     7519 step2_results\normalized\Vase\m541_refined_norm.obj
+       6687    12372 step2_results\normalized\Vase\m529_refined_norm.obj
        6402    12800 step2_results\normalized\Vase\m545_refined_norm.obj
        7712    15360 step2_results\normalized\Vase\m533_refined_norm.obj
        8137    16000 step2_results\normalized\Vase\m547_refined_norm.obj

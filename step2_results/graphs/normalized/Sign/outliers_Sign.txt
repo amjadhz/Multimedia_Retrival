@@ -3,7 +3,7 @@
        5670    11328 step2_results\normalized\Sign\m1680_refined_norm.obj
        6336    12576 step2_results\normalized\Sign\m1679_refined_norm.obj
        6540    13032    step2_results\normalized\Sign\m1681_kept_norm.obj
-       6850    13312 step2_results\normalized\Sign\m1675_refined_norm.obj
+       6846    13312 step2_results\normalized\Sign\m1675_refined_norm.obj
        7753    13888 step2_results\normalized\Sign\m1670_refined_norm.obj
 
 == {cls} — Largest ({stage}) ==

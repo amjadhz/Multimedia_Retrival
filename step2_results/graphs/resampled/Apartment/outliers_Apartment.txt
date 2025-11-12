@@ -3,13 +3,13 @@
        6689     7972       step2_results\resampled\Apartment\D00921_kept.obj
        5934     9026       step2_results\resampled\Apartment\D00310_kept.obj
        6869    10068   step2_results\resampled\Apartment\m464_simplified.obj
-       5614    10140    step2_results\resampled\Apartment\D00496_refined.obj
+       5613    10140    step2_results\resampled\Apartment\D00496_refined.obj
        6859    10574 step2_results\resampled\Apartment\D00780_simplified.obj
 
 == {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                    path
-       8954    17870 step2_results\resampled\Apartment\D00366_simplified.obj
+       9035    17870 step2_results\resampled\Apartment\D00366_simplified.obj
        8989    17780 step2_results\resampled\Apartment\D00626_simplified.obj
        9021    17749 step2_results\resampled\Apartment\D00138_simplified.obj
        9120    17620 step2_results\resampled\Apartment\D00086_simplified.obj
-       9022    17512 step2_results\resampled\Apartment\D00639_simplified.obj
+       9094    17511 step2_results\resampled\Apartment\D00639_simplified.obj

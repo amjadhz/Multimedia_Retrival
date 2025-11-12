@@ -10,6 +10,6 @@
  n_vertices  n_faces                                                          path
        9034    17980 step2_results\normalized\DeskPhone\D00899_simplified_norm.obj
        9009    17970 step2_results\normalized\DeskPhone\D00829_simplified_norm.obj
-       9014    17960 step2_results\normalized\DeskPhone\D00220_simplified_norm.obj
+       9011    17954 step2_results\normalized\DeskPhone\D00220_simplified_norm.obj
        9015    17936 step2_results\normalized\DeskPhone\D00894_simplified_norm.obj
        9067    17934 step2_results\normalized\DeskPhone\D00403_simplified_norm.obj

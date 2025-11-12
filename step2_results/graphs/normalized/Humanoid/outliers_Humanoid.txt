@@ -1,10 +1,10 @@
 == Humanoid — Smallest (normalized) ==
- n_vertices  n_faces                                                    path
-       5622    10130    step2_results\normalized\Humanoid\m143_kept_norm.obj
-       5554    11104 step2_results\normalized\Humanoid\m208_refined_norm.obj
-       5793    11536 step2_results\normalized\Humanoid\m257_refined_norm.obj
-       5862    11648 step2_results\normalized\Humanoid\m259_refined_norm.obj
-       6010    11648 step2_results\normalized\Humanoid\m154_refined_norm.obj
+ n_vertices  n_faces                                                       path
+      10592     9374 step2_results\normalized\Humanoid\m198_simplified_norm.obj
+       5622    10130       step2_results\normalized\Humanoid\m143_kept_norm.obj
+       5554    11104    step2_results\normalized\Humanoid\m208_refined_norm.obj
+       5793    11536    step2_results\normalized\Humanoid\m257_refined_norm.obj
+       5862    11648    step2_results\normalized\Humanoid\m259_refined_norm.obj
 
 == {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                       path

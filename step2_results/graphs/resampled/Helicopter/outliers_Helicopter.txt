@@ -4,7 +4,7 @@
        5429     8458    step2_results\resampled\Helicopter\D00977_kept.obj
        5729    10160     step2_results\resampled\Helicopter\m1323_kept.obj
        5580    10464  step2_results\resampled\Helicopter\m1316_refined.obj
-       5792    10472 step2_results\resampled\Helicopter\D00498_refined.obj
+       5789    10472 step2_results\resampled\Helicopter\D00498_refined.obj
 
 == {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                     path

@@ -4,11 +4,11 @@
        6045    11946   step2_results\resampled\Bicycle\D00974_kept.obj
        6045    11948    step2_results\resampled\Bicycle\m1475_kept.obj
        6951    12939   step2_results\resampled\Bicycle\D00514_kept.obj
-       7084    13440 step2_results\resampled\Bicycle\m1472_refined.obj
+       7082    13440 step2_results\resampled\Bicycle\m1472_refined.obj
 
 == {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                  path
-       9035    17700 step2_results\resampled\Bicycle\D00750_simplified.obj
+       9009    17700 step2_results\resampled\Bicycle\D00750_simplified.obj
        9036    17598 step2_results\resampled\Bicycle\D00077_simplified.obj
        9009    17246 step2_results\resampled\Bicycle\D00847_simplified.obj
        9009    17244 step2_results\resampled\Bicycle\D00078_simplified.obj

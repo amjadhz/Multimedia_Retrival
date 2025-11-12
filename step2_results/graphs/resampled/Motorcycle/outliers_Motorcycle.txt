@@ -11,5 +11,5 @@
        9168    18382       step2_results\resampled\Motorcycle\D00768_kept.obj
        9543    18052       step2_results\resampled\Motorcycle\D00021_kept.obj
        9543    18048        step2_results\resampled\Motorcycle\m1480_kept.obj
-       8971    18026 step2_results\resampled\Motorcycle\D00054_simplified.obj
+       8972    18026 step2_results\resampled\Motorcycle\D00054_simplified.obj
        9060    17796 step2_results\resampled\Motorcycle\D00858_simplified.obj

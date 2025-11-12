@@ -1,9 +1,9 @@
 == Wheel — Smallest (normalized) ==
  n_vertices  n_faces                                                    path
        5753    10880    step2_results\normalized\Wheel\m738_refined_norm.obj
-       9078    15310 step2_results\normalized\Wheel\m734_simplified_norm.obj
-       7794    15552    step2_results\normalized\Wheel\m736_refined_norm.obj
-       8993    15906 step2_results\normalized\Wheel\m740_simplified_norm.obj
+       7709    15416    step2_results\normalized\Wheel\m736_refined_norm.obj
+       8998    15770 step2_results\normalized\Wheel\m734_simplified_norm.obj
+       8999    16078 step2_results\normalized\Wheel\m740_simplified_norm.obj
        8066    16128    step2_results\normalized\Wheel\m747_refined_norm.obj
 
 == {cls} — Largest ({stage}) ==
@@ -12,4 +12,4 @@
        9000    18000 step2_results\normalized\Wheel\m744_simplified_norm.obj
        9000    18000 step2_results\normalized\Wheel\m745_simplified_norm.obj
        9000    17996 step2_results\normalized\Wheel\m742_simplified_norm.obj
-       8991    17980 step2_results\normalized\Wheel\m748_simplified_norm.obj
+       9002    17981 step2_results\normalized\Wheel\m748_simplified_norm.obj

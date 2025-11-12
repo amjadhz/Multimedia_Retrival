@@ -1,15 +1,15 @@
 == Fish — Smallest (resampled) ==
  n_vertices  n_faces                                               path
        5046     8094       step2_results\resampled\Fish\D00748_kept.obj
-       8766    16280 step2_results\resampled\Fish\D00012_simplified.obj
-       8930    16316 step2_results\resampled\Fish\D00251_simplified.obj
-       8951    16318 step2_results\resampled\Fish\D00763_simplified.obj
-       8748    16347 step2_results\resampled\Fish\D00643_simplified.obj
+       9024    15831 step2_results\resampled\Fish\D00012_simplified.obj
+       9017    15860 step2_results\resampled\Fish\D00763_simplified.obj
+       9020    15883 step2_results\resampled\Fish\D00251_simplified.obj
+       9021    15946 step2_results\resampled\Fish\D00165_simplified.obj
 
 == {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                               path
-       9013    16743 step2_results\resampled\Fish\D00142_simplified.obj
-       9099    16684 step2_results\resampled\Fish\D00351_simplified.obj
-       8929    16592 step2_results\resampled\Fish\D00633_simplified.obj
-       8786    16578 step2_results\resampled\Fish\D00682_simplified.obj
-       9032    16518 step2_results\resampled\Fish\D00636_simplified.obj
+       9045    16743 step2_results\resampled\Fish\D00142_simplified.obj
+       9076    16683 step2_results\resampled\Fish\D00351_simplified.obj
+       9010    16252 step2_results\resampled\Fish\D00633_simplified.obj
+       9010    16232 step2_results\resampled\Fish\D00682_simplified.obj
+       9005    16193 step2_results\resampled\Fish\D00535_simplified.obj

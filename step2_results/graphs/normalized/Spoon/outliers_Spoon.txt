@@ -2,7 +2,7 @@
  n_vertices  n_faces                                                   path
        5793    11264 step2_results\normalized\Spoon\D00422_refined_norm.obj
        6208    11792 step2_results\normalized\Spoon\D00157_refined_norm.obj
-       7214    13724 step2_results\normalized\Spoon\D00661_refined_norm.obj
+       7203    13721 step2_results\normalized\Spoon\D00661_refined_norm.obj
        7302    14336 step2_results\normalized\Spoon\D00517_refined_norm.obj
        7786    15280 step2_results\normalized\Spoon\D00338_refined_norm.obj
 
@@ -11,5 +11,5 @@
        9167    18320    step2_results\normalized\Spoon\D00085_refined_norm.obj
        9090    18176    step2_results\normalized\Spoon\D00497_refined_norm.obj
        9090    18176    step2_results\normalized\Spoon\D00593_refined_norm.obj
-       9000    17996 step2_results\normalized\Spoon\D00927_simplified_norm.obj
-       9000    17986 step2_results\normalized\Spoon\D00014_simplified_norm.obj
+       8996    17987 step2_results\normalized\Spoon\D00014_simplified_norm.obj
+       8990    17971 step2_results\normalized\Spoon\D00927_simplified_norm.obj

@@ -10,6 +10,6 @@
  n_vertices  n_faces                                                path
        9862    19712 step2_results\normalized\Jet\m1215_refined_norm.obj
        9812    19616 step2_results\normalized\Jet\m1150_refined_norm.obj
-       9974    19424 step2_results\normalized\Jet\m1173_refined_norm.obj
+       9972    19420 step2_results\normalized\Jet\m1173_refined_norm.obj
        9978    19008 step2_results\normalized\Jet\m1287_refined_norm.obj
        9232    18368 step2_results\normalized\Jet\m1175_refined_norm.obj

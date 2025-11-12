@@ -112,7 +112,7 @@ def refine_until(mesh, target_vertices, max_passes=8, brake_mult=5.0):
     for _ in range(max_passes):
         if len(m.vertices) >= target_vertices:
             break
-        m = m.subdivide_loop(number_of_iterations=1)
+        m = m.subdivide_midpoint(number_of_iterations=1)
         m.remove_degenerate_triangles()
         m.remove_duplicated_vertices()
         m.compute_vertex_normals()

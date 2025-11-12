@@ -3,7 +3,7 @@
        6853    10999    step2_results\resampled\BuildingNonResidential\m421_kept.obj
        5860    11008 step2_results\resampled\BuildingNonResidential\m390_refined.obj
        6672    11136 step2_results\resampled\BuildingNonResidential\m395_refined.obj
-       6480    11248 step2_results\resampled\BuildingNonResidential\m412_refined.obj
+       6476    11248 step2_results\resampled\BuildingNonResidential\m412_refined.obj
        5638    11264 step2_results\resampled\BuildingNonResidential\m472_refined.obj
 
 == {cls} — Largest ({stage}) ==

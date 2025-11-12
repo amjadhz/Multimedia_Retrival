@@ -2,8 +2,8 @@
  n_vertices  n_faces                                                               path
        7914     5274 step2_results\normalized\PlantWildNonTree\m966_simplified_norm.obj
        6513     9427       step2_results\normalized\PlantWildNonTree\m961_kept_norm.obj
+       5540    10959    step2_results\normalized\PlantWildNonTree\m977_refined_norm.obj
       12220    11289 step2_results\normalized\PlantWildNonTree\m972_simplified_norm.obj
-       5843    11562    step2_results\normalized\PlantWildNonTree\m977_refined_norm.obj
        9018    11712       step2_results\normalized\PlantWildNonTree\m968_kept_norm.obj
 
 == {cls} — Largest ({stage}) ==
@@ -11,5 +11,5 @@
        9895    18944    step2_results\normalized\PlantWildNonTree\m983_refined_norm.obj
        9006    17980 step2_results\normalized\PlantWildNonTree\m975_simplified_norm.obj
        9017    17970 step2_results\normalized\PlantWildNonTree\m982_simplified_norm.obj
-       9026    17816 step2_results\normalized\PlantWildNonTree\m988_simplified_norm.obj
-       9098    16637 step2_results\normalized\PlantWildNonTree\m976_simplified_norm.obj
+       9013    17816 step2_results\normalized\PlantWildNonTree\m988_simplified_norm.obj
+       8987    16238 step2_results\normalized\PlantWildNonTree\m976_simplified_norm.obj

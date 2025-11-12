@@ -10,6 +10,6 @@
  n_vertices  n_faces                                                      path
        9001    17970  step2_results\normalized\Train\m1584_simplified_norm.obj
        9023    17954  step2_results\normalized\Train\m1578_simplified_norm.obj
-       9013    17951  step2_results\normalized\Train\m1583_simplified_norm.obj
-       9065    17749 step2_results\normalized\Train\D01089_simplified_norm.obj
-       9023    17652  step2_results\normalized\Train\m1587_simplified_norm.obj
+       8975    17853  step2_results\normalized\Train\m1583_simplified_norm.obj
+       9026    17749 step2_results\normalized\Train\D01089_simplified_norm.obj
+       9010    17656  step2_results\normalized\Train\m1587_simplified_norm.obj

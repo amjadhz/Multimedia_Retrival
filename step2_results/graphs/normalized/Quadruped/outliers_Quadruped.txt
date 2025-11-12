@@ -2,7 +2,7 @@
  n_vertices  n_faces                                                       path
        5163    10034       step2_results\normalized\Quadruped\m96_kept_norm.obj
        5506    11008   step2_results\normalized\Quadruped\m106_refined_norm.obj
-       5779    11542    step2_results\normalized\Quadruped\m99_refined_norm.obj
+       5779    11540    step2_results\normalized\Quadruped\m99_refined_norm.obj
        6394    12668 step2_results\normalized\Quadruped\D00831_refined_norm.obj
        6394    12668    step2_results\normalized\Quadruped\m91_refined_norm.obj
 

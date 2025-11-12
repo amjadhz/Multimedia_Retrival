@@ -225,7 +225,7 @@ def plot_benchmark(k_vals, exact_us, ann_us, out_png: Path):
 
 
 def plot_tsne(Y, classes, out_png: Path):
-    plt.figure(figsize=(9, 7))
+    plt.figure(figsize=(16, 8))
     unique_classes = pd.unique(classes)
 
     for cls in unique_classes:
@@ -245,8 +245,8 @@ def plot_tsne(Y, classes, out_png: Path):
     plt.legend(
         loc="center left",
         bbox_to_anchor=(1.02, 0.5),
-        borderaxespad=0.0,
-        fontsize=10,
+        borderaxespad=1.0,
+        fontsize=9,
         frameon=False,
         title="Class",
         title_fontsize=11,
@@ -565,12 +565,16 @@ def main():
     ap.add_argument("--tsne", action="store_true")
     ap.add_argument("--perplexity", type=float, default=30.0)
     ap.add_argument("--iters", type=int, default=750)
+    ap.add_argument("--tsne_perplexities", type=str, default=None,
+                    help="Comma-separated list of perplexities for t-SNE, e.g. '30,40,50'. If set, overrides --perplexity.")
 
     # evaluation params (Step 6)
     ap.add_argument("--eval", action="store_true",
                     help="Run evaluation/plots on retrieval quality")
     ap.add_argument("--eval_k", type=int, default=10,
                     help="K for per-class precision/recall table (legacy)")
+    ap.add_argument("--eval_k_list", type=str, default=None,
+                    help="Comma-separated list of K values for per-class precision/recall tables, e.g. '5,10,20'")
     ap.add_argument("--k_sweep", type=str, default="1,3,5,10,20,30",
                     help="Comma-separated list of K values for curves/ROC, e.g. '1,3,5,10,20,30'")
 
@@ -629,9 +633,6 @@ def main():
     # --------------------------------------------------
     # prepare feature matrix
     # --------------------------------------------------
-# --------------------------------------------------
-# prepare feature matrix
-# --------------------------------------------------
     # 1) fill missing values in the feature columns
     df[feat_cols] = df[feat_cols].fillna(df[feat_cols].mean())
 
@@ -710,34 +711,44 @@ def main():
     # t-SNE visualization (Step 5 visual clustering)
     # --------------------------------------------------
     if args.tsne:
-        print("[INFO] Running t-SNE…")
-        tsne_kwargs = dict(
-            n_components=2,
-            perplexity=args.perplexity,
-            init="pca",
-            random_state=42,
-        )
+        # decide which perplexities to run
+        if args.tsne_perplexities:
+            perp_vals = [float(p.strip()) for p in args.tsne_perplexities.split(",") if p.strip() != ""]
+        else:
+            perp_vals = [float(args.perplexity)]
 
-        # sklearn version compatibility for n_iter / learning_rate
-        Y = None
-        try:
-            tsne = TSNE(**tsne_kwargs, learning_rate="auto", n_iter=args.iters)
-            Y = tsne.fit_transform(Xs)
-        except TypeError:
+        first_tsne_done = False
+
+        for perp in perp_vals:
+            print(f"[INFO] Running t-SNE… (perplexity={perp})")
+            tsne_kwargs = dict(
+                n_components=2,
+                perplexity=perp,
+                init="pca",
+                random_state=42,
+            )
+
+            # sklearn version compatibility for n_iter / learning_rate
             try:
-                tsne = TSNE(**tsne_kwargs, learning_rate=200.0, n_iter=args.iters)
+                tsne = TSNE(**tsne_kwargs, learning_rate="auto", n_iter=args.iters)
                 Y = tsne.fit_transform(Xs)
             except TypeError:
-                tsne = TSNE(**tsne_kwargs, learning_rate=200.0)
-                Y = tsne.fit_transform(Xs)
+                try:
+                    tsne = TSNE(**tsne_kwargs, learning_rate=200.0, n_iter=args.iters)
+                    Y = tsne.fit_transform(Xs)
+                except TypeError:
+                    tsne = TSNE(**tsne_kwargs, learning_rate=200.0)
+                    Y = tsne.fit_transform(Xs)
 
-        tsne_png = graphs_dir / "tsne_scatter.png"
-        plot_tsne(Y, df["class"].values, tsne_png)
-        print(f"[OK] Saved t-SNE → {tsne_png}")
+            tsne_png = graphs_dir / f"tsne_perp{int(perp)}.png"
+            plot_tsne(Y, df["class"].values, tsne_png)
+            print(f"[OK] Saved t-SNE → {tsne_png}")
 
-        if HAS_MPL:
-            print("[INFO] Showing interactive viewer… Close the window to finish.")
-            interactive_tsne(Y, df[["file", "class"]])
+            # show interactive only once (optional)
+            if HAS_MPL and not first_tsne_done:
+                print("[INFO] Showing interactive viewer… Close the window to finish.")
+                interactive_tsne(Y, df[["file", "class"]])
+                first_tsne_done = True
 
     # --------------------------------------------------
     # Evaluation (Step 6)
@@ -745,18 +756,24 @@ def main():
     if args.eval:
         print("[INFO] Running retrieval quality evaluation...")
 
-        # 6A. Per-class precision/recall at a single K (table, CSVs, silhouette)
-        global_precision, global_recall, per_class = evaluate_precision_recall_at_k(
-            df=df,
-            Xs=Xs,
-            engine=exact_engine,
-            k_eval=args.eval_k,
-            out_dir=out_dir,
-        )
-        print(f"[INFO] Global precision@{args.eval_k}: {global_precision:.3f}")
-        print(f"[INFO] Global recall@{args.eval_k}:    {global_recall:.3f}")
+        # 6A. run per-class tables for one or more eval K's
+        if args.eval_k_list:
+            eval_ks = [int(x.strip()) for x in args.eval_k_list.split(",") if x.strip() != ""]
+        else:
+            eval_ks = [int(args.eval_k)]
 
-        # 6B. Sweep K values to build curves and ROC-style plot
+        for ek in eval_ks:
+            gp, gr, pc = evaluate_precision_recall_at_k(
+                df=df,
+                Xs=Xs,
+                engine=exact_engine,
+                k_eval=ek,
+                out_dir=out_dir,
+            )
+            print(f"[INFO] Global precision@{ek}: {gp:.3f}")
+            print(f"[INFO] Global recall@{ek}:    {gr:.3f}")
+
+        # 6B. Sweep K values to build curves and ROC-style plot (do once)
         K_list = [int(x) for x in args.k_sweep.split(",") if x.strip() != ""]
         exact_results = compute_metrics_for_engine_at_Ks(
             df=df,
@@ -791,7 +808,7 @@ def main():
         plot_roc_curves(exact_results, ann_results, roc_png)
         print(f"[OK] Saved ROC-style curve → {roc_png}")
 
-        # plot TP/FP/FN/TN bars for the largest K in sweep (more neighbors => most coverage)
+        # plot TP/FP/FN/TN bars for the largest K in sweep
         best_result = sorted(exact_results, key=lambda r: r["K"])[-1]
         conf_png = graphs_dir / "confusion_bars.png"
         plot_confusion_bars(best_result, conf_png)

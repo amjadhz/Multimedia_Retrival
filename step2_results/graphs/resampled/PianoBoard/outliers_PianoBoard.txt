@@ -4,12 +4,12 @@
        6304    11804    step2_results\resampled\PianoBoard\D00235_refined.obj
        6603    12497       step2_results\resampled\PianoBoard\D00885_kept.obj
        6832    13190 step2_results\resampled\PianoBoard\D00755_simplified.obj
-       7351    13648    step2_results\resampled\PianoBoard\D00122_refined.obj
+       7348    13648    step2_results\resampled\PianoBoard\D00122_refined.obj
 
 == {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                     path
        9876    18800    step2_results\resampled\PianoBoard\D00381_refined.obj
-       8998    17900 step2_results\resampled\PianoBoard\D00253_simplified.obj
-       9015    17843 step2_results\resampled\PianoBoard\D00721_simplified.obj
-       9092    17740 step2_results\resampled\PianoBoard\D00065_simplified.obj
-       9046    17719 step2_results\resampled\PianoBoard\D00075_simplified.obj
+       8995    17900 step2_results\resampled\PianoBoard\D00253_simplified.obj
+       8989    17844 step2_results\resampled\PianoBoard\D00721_simplified.obj
+       9097    17740 step2_results\resampled\PianoBoard\D00065_simplified.obj
+       8981    17724 step2_results\resampled\PianoBoard\D00075_simplified.obj

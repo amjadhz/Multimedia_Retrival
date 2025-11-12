@@ -4,7 +4,7 @@
        5520    10240   step2_results\resampled\RectangleTable\m896_refined.obj
        5514    11008   step2_results\resampled\RectangleTable\m883_refined.obj
        5514    11008   step2_results\resampled\RectangleTable\m917_refined.obj
-       6288    11776   step2_results\resampled\RectangleTable\m920_refined.obj
+       6282    11776   step2_results\resampled\RectangleTable\m920_refined.obj
 
 == {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                         path

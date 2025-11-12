@@ -10,6 +10,6 @@
  n_vertices  n_faces                                                    path
        9005    17986 step2_results\normalized\Tree\m1082_simplified_norm.obj
        9010    17984 step2_results\normalized\Tree\m1092_simplified_norm.obj
-       9030    17922 step2_results\normalized\Tree\m1062_simplified_norm.obj
-       9028    17818 step2_results\normalized\Tree\m1077_simplified_norm.obj
-       8914    17792    step2_results\normalized\Tree\m1075_refined_norm.obj
+       8971    17923 step2_results\normalized\Tree\m1062_simplified_norm.obj
+       9022    17818 step2_results\normalized\Tree\m1077_simplified_norm.obj
+       8912    17792    step2_results\normalized\Tree\m1075_refined_norm.obj

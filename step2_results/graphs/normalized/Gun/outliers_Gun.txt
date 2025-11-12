@@ -2,14 +2,14 @@
  n_vertices  n_faces                                                 path
        5580    10240   step2_results\normalized\Gun\m675_refined_norm.obj
        5308    10332    step2_results\normalized\Gun\D00137_kept_norm.obj
-       5640    11248   step2_results\normalized\Gun\m655_refined_norm.obj
+       5639    11248   step2_results\normalized\Gun\m655_refined_norm.obj
        5644    11264 step2_results\normalized\Gun\D00153_refined_norm.obj
-       6703    13232   step2_results\normalized\Gun\m662_refined_norm.obj
+       9287    11974   step2_results\normalized\Gun\m660_refined_norm.obj
 
 == {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                    path
        9249    18288      step2_results\normalized\Gun\m681_refined_norm.obj
        8994    18023   step2_results\normalized\Gun\m666_simplified_norm.obj
-       8998    17985 step2_results\normalized\Gun\D00606_simplified_norm.obj
+       9000    17986 step2_results\normalized\Gun\D00606_simplified_norm.obj
        9008    17984 step2_results\normalized\Gun\D00161_simplified_norm.obj
        9008    17984 step2_results\normalized\Gun\D00368_simplified_norm.obj

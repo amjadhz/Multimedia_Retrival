@@ -1,15 +1,15 @@
 == PianoBoard — Smallest (normalized) ==
  n_vertices  n_faces                                                           path
        5666    10102       step2_results\normalized\PianoBoard\D00623_kept_norm.obj
-       6264    11804    step2_results\normalized\PianoBoard\D00235_refined_norm.obj
+       6259    11800    step2_results\normalized\PianoBoard\D00235_refined_norm.obj
        6603    12497       step2_results\normalized\PianoBoard\D00885_kept_norm.obj
        6832    13190 step2_results\normalized\PianoBoard\D00755_simplified_norm.obj
-       7333    13646    step2_results\normalized\PianoBoard\D00122_refined_norm.obj
+       7330    13643    step2_results\normalized\PianoBoard\D00122_refined_norm.obj
 
 == {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                           path
-       9876    18800    step2_results\normalized\PianoBoard\D00381_refined_norm.obj
-       8998    17900 step2_results\normalized\PianoBoard\D00253_simplified_norm.obj
-       9015    17843 step2_results\normalized\PianoBoard\D00721_simplified_norm.obj
-       9091    17740 step2_results\normalized\PianoBoard\D00065_simplified_norm.obj
-       9046    17719 step2_results\normalized\PianoBoard\D00075_simplified_norm.obj
+       9874    18765    step2_results\normalized\PianoBoard\D00381_refined_norm.obj
+       8995    17900 step2_results\normalized\PianoBoard\D00253_simplified_norm.obj
+       8979    17818 step2_results\normalized\PianoBoard\D00721_simplified_norm.obj
+       9096    17740 step2_results\normalized\PianoBoard\D00065_simplified_norm.obj
+       8992    17680 step2_results\normalized\PianoBoard\D00962_simplified_norm.obj

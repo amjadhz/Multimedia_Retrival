@@ -4,12 +4,12 @@
        5131     9436    step2_results\normalized\ClassicPiano\D00784_kept_norm.obj
        6800    10292    step2_results\normalized\ClassicPiano\D00314_kept_norm.obj
        5889    10703    step2_results\normalized\ClassicPiano\D00092_kept_norm.obj
-       5571    10711 step2_results\normalized\ClassicPiano\D00967_refined_norm.obj
+       5570    10712 step2_results\normalized\ClassicPiano\D00967_refined_norm.obj
 
 == {cls} — Largest ({stage}) ==
  n_vertices  n_faces                                                             path
-       9766    19296    step2_results\normalized\ClassicPiano\D00005_refined_norm.obj
-       9399    18367    step2_results\normalized\ClassicPiano\D00811_refined_norm.obj
-       8986    17761 step2_results\normalized\ClassicPiano\D00120_simplified_norm.obj
-       9440    17504    step2_results\normalized\ClassicPiano\D00845_refined_norm.obj
-       9035    17258 step2_results\normalized\ClassicPiano\D00983_simplified_norm.obj
+       9755    19275    step2_results\normalized\ClassicPiano\D00005_refined_norm.obj
+       9396    18368    step2_results\normalized\ClassicPiano\D00811_refined_norm.obj
+       9004    17761 step2_results\normalized\ClassicPiano\D00120_simplified_norm.obj
+       9435    17504    step2_results\normalized\ClassicPiano\D00845_refined_norm.obj
+       8998    17271 step2_results\normalized\ClassicPiano\D00983_simplified_norm.obj
