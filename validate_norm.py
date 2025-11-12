@@ -502,7 +502,7 @@ def generate_summary_report(results, output_dir, version):
 
 def main():
     parser = argparse.ArgumentParser(description='Analyze normalized mesh quality')
-    parser.add_argument('--input', default='data',
+    parser.add_argument('--input', default='step2_results/normalized',
                         help='Path to normalized mesh database (default: step2_results/normalized)')
     parser.add_argument('--output', default='analysis_results',
                         help='Output directory for analysis results (default: analysis_results)')
