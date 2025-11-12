@@ -86,8 +86,6 @@ def mesh_flipping(mesh):
 # Complete normalization pipeline
 def mesh_normalize(mesh_path, save_path):
     mesh = o3d.io.read_triangle_mesh(mesh_path)
-    mesh = mesh_translate(mesh)
-    mesh = mesh_resize(mesh)
     mesh = mesh_pose_alignment(mesh)
     mesh = mesh_flipping(mesh)
     mesh.compute_vertex_normals()
@@ -106,12 +104,6 @@ def mesh_normalize_for_new(mesh):
 def normalize_database(input_folder, output_folder, copy_other_files=False, skip_existing=True):
     """
     Normalize all .obj files in the input folder
-
-    Args:
-        input_folder: Path to input database
-        output_folder: Path to output database
-        copy_other_files: If True, copy non-.obj files (textures, etc.)
-        skip_existing: If True, skip files that already exist in output
     """
     input_dir = Path(input_folder)
     output_dir = Path(output_folder)
