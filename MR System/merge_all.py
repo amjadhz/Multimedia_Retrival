@@ -36,7 +36,7 @@ def merge_all_descriptors(features_folder='features', output_csv='database/all_f
     print(f"{len(all_files)} categories")
     print(f"Total columns: {len(merged_df.columns)}")
 
-    # Create output directory (if it doesn't exist)
+    # Create output directory
     output_path = Path(output_csv)
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -223,14 +223,11 @@ def print_normalization_summary(df_normalized, normalization_params):
 
     print("\n" + "=" * 60)
 
-
-# ==================== Complete Pipeline ====================
-
 if __name__ == "__main__":
-    # Step 1: Merge feature files from all categories
+    # Step 1: Merge feature files from all classes
     print("\nStep 1: Merge feature files from all categories\n")
     merged_df = merge_all_descriptors(
-        features_folder='features',
+        features_folder='MR System/features',
         output_csv='database/all_features_raw.csv'
     )
 
