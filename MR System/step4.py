@@ -12,6 +12,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import tempfile
 import os
 from data_analysis import normalize_mesh
+from scipy.stats import wasserstein_distance
 
 # Weight configuration
 WEIGHTS = {
@@ -44,7 +45,7 @@ def mesh_querying(model_file_name, csv_path, normalization_params_path, K,
 
     Distance metrics:
     - Single-value features: Euclidean distance
-    - Histogram features: Cosine distance
+    - Histogram features: EMD
 
     Parameters:
         model_file_name: Query model path
@@ -52,22 +53,21 @@ def mesh_querying(model_file_name, csv_path, normalization_params_path, K,
         normalization_params_path: Normalization parameters CSV path
         K: Number of most similar models to return
         stopwatch: Performance monitoring object
-        weights: Custom weight dict (optional, uses WEIGHTS if None)
     """
-    # Use default weights if not provided
+    # Use default weights
     if weights is None:
         weights = WEIGHTS
 
     # Load normalization parameters
     norm_params_df = pd.read_csv(normalization_params_path, index_col=0)
 
-    # Load database (should be normalized)
+    # Load database
     data = pd.read_csv(csv_path)
 
     # Process query model
     descriptors = process_new_model(model_file_name, norm_params_df)
 
-    # Single-value feature names (7 features)
+    # Single-value feature names
     single_value_names = [
         'surface_area', 'volume', 'compactness',
         'rectangularity', 'diameter', 'convexity', 'eccentricity'
@@ -76,7 +76,7 @@ def mesh_querying(model_file_name, csv_path, normalization_params_path, K,
     if stopwatch is not None:
         stopwatch.start()
 
-    # Extract database features (already normalized)
+    # Extract database features
     single_value_features = data.iloc[:, 2:9].values
     histogram_features = [
         data.iloc[:, 9:109].values,  # A3 (100 bins)
@@ -86,7 +86,7 @@ def mesh_querying(model_file_name, csv_path, normalization_params_path, K,
         data.iloc[:, 409:509].values  # D4 (100 bins)
     ]
 
-    # Separate query features (already normalized)
+    # Separate query features
     query_single_values = np.array(descriptors[:7])
     query_histograms = [
         np.array(descriptors[7:107]),  # A3 (100 bins)
@@ -116,23 +116,26 @@ def mesh_querying(model_file_name, csv_path, normalization_params_path, K,
         print(f"  {feature_name:20} : weight={weight:.4f}, "
               f"dist range=[{feature_distances.min():.4f}, {feature_distances.max():.4f}]")
 
-    # 2. Calculate histogram distances using COSINE distance
-    print("\nComputing histogram distances (Cosine)...")
+    # 2. Calculate histogram distances using EMD
+    print("\nComputing histogram distances (EMD)...")
     histogram_names = ['A3', 'D1', 'D2', 'D3', 'D4']
 
     for i, hist_name in enumerate(histogram_names):
-        # Cosine distance: 1 - cosine_similarity
-        similarities = cosine_similarity([query_histograms[i]], histogram_features[i])[0]
-        cosine_distances = 1 - similarities
+        query_hist = query_histograms[i]
+        db_hist = histogram_features[i]
 
-        # Apply weight
+        # EMD
+        emd_distances = np.array([
+            wasserstein_distance(query_hist, db_hist[j])
+            for j in range(len(db_hist))
+        ])
+
+        # apply weighted
         weight = weights['histogram'][hist_name]
-        weighted_distances = weight * cosine_distances
-
-        total_distances += weighted_distances
+        total_distances += weight * emd_distances
 
         print(f"  {hist_name:20} : weight={weight:.4f}, "
-              f"dist range=[{cosine_distances.min():.4f}, {cosine_distances.max():.4f}]")
+              f"dist range=[{emd_distances.min():.4f}, {emd_distances.max():.4f}]")
 
     # 3. Find K most similar models
     closest_indices = np.argsort(total_distances)[:K]
@@ -168,8 +171,7 @@ def process_new_model(input_mesh_path, norm_params_df=None):
         # Step 4: Pose normalization
         normalized_mesh = mesh_normalize_for_new(copy.deepcopy(simple_normalized))
 
-        # Step 5 & 6: Extract features (直接用 Open3D mesh，不保存)
-        # ✅ 直接用 Open3D mesh，无需转换为 Trimesh
+        # Step 5 & 6: Extract features
         single_features = compute_single_descriptors(normalized_mesh)
         dist_features = compute_distribution_descriptors(
             normalized_mesh,
@@ -199,7 +201,7 @@ def process_new_model(input_mesh_path, norm_params_df=None):
 
             descriptors.append(value)
 
-        # Add histogram features (5 × 100 = 500 features)
+        # Add histogram features
         for hist_name in ['A3', 'D1', 'D2', 'D3', 'D4']:
             hist_values = []
             for i in range(100):
@@ -234,9 +236,8 @@ def fast_query(input_mesh_path, descriptors_path, normalization_params_path,
         ann_index: ANN index
         K: Number of results
         stopwatch: Performance monitoring object
-        weights: Custom weight dict (optional)
     """
-    # Use default weights if not provided
+    # Use default weights
     if weights is None:
         weights = WEIGHTS
 
@@ -290,13 +291,20 @@ def fast_query(input_mesh_path, descriptors_path, normalization_params_path,
         weight = weights['single_value'][feature_name]
         total_distances += weight * feature_distances
 
-    # 2. Histogram distances (Cosine)
+    # 2. Histogram distances (EMD)
     histogram_names = ['A3', 'D1', 'D2', 'D3', 'D4']
     for i, hist_name in enumerate(histogram_names):
-        similarities = cosine_similarity([query_histograms[i]], histogram_features[i])[0]
-        cosine_distances = 1 - similarities
+        query_hist = query_histograms[i]
+        db_hists = histogram_features[i]
+
+        # Compute EMD for all candidates
+        emd_distances = np.array([
+            wasserstein_distance(query_hist, db_hists[j])
+            for j in range(len(db_hists))
+        ])
+
         weight = weights['histogram'][hist_name]
-        total_distances += weight * cosine_distances
+        total_distances += weight * emd_distances
 
     # 3. Find top K
     top_k_indices = np.argsort(total_distances)[:K]
