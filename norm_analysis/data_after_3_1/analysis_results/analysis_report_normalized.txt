@@ -1,0 +1,44 @@
+======================================================================
+MESH NORMALIZATION QUALITY ANALYSIS REPORT
+Version: normalized
+======================================================================
+
+TRANSLATION (Center to Origin)
+----------------------------------------------------------------------
+  Mean distance:     0.000059
+  Std deviation:     0.001588
+  Outliers:          0
+  Status: ✓ PASS
+
+ROTATION (PCA Alignment)
+----------------------------------------------------------------------
+  e1·x mean:         0.999879
+  e2·y mean:         0.999332
+  e3·z mean:         0.999453
+  Misaligned:        3
+  Invalid:           0
+  Status: ✓ PASS
+
+SCALE (AABB Max Extent)
+----------------------------------------------------------------------
+  AABB mean:         1.000000
+  AABB std:          0.000000
+  Max dist mean:     0.630529
+  Outliers:          0
+  Status: ✓ PASS
+
+FLIPPING (Mass Distribution)
+----------------------------------------------------------------------
+  X positive:        99.8%
+  Y positive:        99.8%
+  Z positive:        99.8%
+  Status: ✓ PASS
+
+MESH COMPLEXITY
+----------------------------------------------------------------------
+  Vertices mean:     8347
+  Vertices std:      1646
+  Faces mean:        15632
+  Faces std:         2710
+
+======================================================================
