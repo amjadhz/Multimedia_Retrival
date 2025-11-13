@@ -6,7 +6,6 @@ from mesh_normalization import mesh_normalize_for_new
 from f_e import compute_single_descriptors, compute_distribution_descriptors
 from ANN import ann
 import trimesh
-from stopwatch import Stopwatch
 from data_analysis import resample
 from sklearn.metrics.pairwise import cosine_similarity
 import tempfile
@@ -37,9 +36,7 @@ WEIGHTS = {
 }
 
 
-def mesh_querying(model_file_name, csv_path, normalization_params_path, K,
-                  stopwatch: Stopwatch | None = None,
-                  weights=None):
+def mesh_querying(model_file_name, csv_path, normalization_params_path, K, weights=None):
     """
     Query K most similar models using normalized features
 
@@ -52,7 +49,6 @@ def mesh_querying(model_file_name, csv_path, normalization_params_path, K,
         csv_path: Feature database path (normalized all_features.csv)
         normalization_params_path: Normalization parameters CSV path
         K: Number of most similar models to return
-        stopwatch: Performance monitoring object
     """
     # Use default weights
     if weights is None:
@@ -72,9 +68,6 @@ def mesh_querying(model_file_name, csv_path, normalization_params_path, K,
         'surface_area', 'volume', 'compactness',
         'rectangularity', 'diameter', 'convexity', 'eccentricity'
     ]
-
-    if stopwatch is not None:
-        stopwatch.start()
 
     # Extract database features
     single_value_features = data.iloc[:, 2:9].values
@@ -141,10 +134,6 @@ def mesh_querying(model_file_name, csv_path, normalization_params_path, K,
     closest_indices = np.argsort(total_distances)[:K]
     closest_models = data.iloc[closest_indices][['class_name', 'file_name']].values
     closest_distances = total_distances[closest_indices]
-
-    if stopwatch is not None:
-        stopwatch.stop()
-        stopwatch.record_time()
 
     # Print summary
     print(f"\nQuery complete:")
@@ -223,9 +212,7 @@ def process_new_model(input_mesh_path, norm_params_df=None):
         raise
 
 
-def fast_query(input_mesh_path, descriptors_path, normalization_params_path,
-               ann_index, K, stopwatch: Stopwatch | None = None,
-               weights=None):
+def fast_query(input_mesh_path, descriptors_path, normalization_params_path, ann_index, K, weights=None):
     """
     Fast query using ANN
 
@@ -235,7 +222,6 @@ def fast_query(input_mesh_path, descriptors_path, normalization_params_path,
         normalization_params_path: Normalization parameters CSV path
         ann_index: ANN index
         K: Number of results
-        stopwatch: Performance monitoring object
     """
     # Use default weights
     if weights is None:
@@ -247,9 +233,6 @@ def fast_query(input_mesh_path, descriptors_path, normalization_params_path,
     # Process query
     descriptors = process_new_model(input_mesh_path, norm_params_df)
     db_descriptors = pd.read_csv(descriptors_path)
-
-    if stopwatch is not None:
-        stopwatch.start()
 
     # Get candidates from ANN
     K_candidates = min(K * 3, len(db_descriptors))
@@ -312,9 +295,5 @@ def fast_query(input_mesh_path, descriptors_path, normalization_params_path,
     final_distances = total_distances[top_k_indices]
 
     closest_models = db_descriptors.iloc[final_indices][['class_name', 'file_name']].values
-
-    if stopwatch is not None:
-        stopwatch.stop()
-        stopwatch.record_time()
 
     return [model[0] for model in closest_models], list(zip(closest_models, final_distances))
