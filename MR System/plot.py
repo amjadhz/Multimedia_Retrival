@@ -113,7 +113,7 @@ def main():
     print("Shape Descriptor Histogram Visualization Tool")
     print("=" * 60)
 
-    csv_file = "MR System/features/AircraftBuoyant_descriptors.csv"
+    csv_file = "MR System/features/Insect_descriptors.csv"
     #csv_file = "single1_mesh_features.csv"
     output_folder = "plots"
 

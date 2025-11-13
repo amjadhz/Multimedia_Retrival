@@ -1,7 +1,7 @@
 from step4 import mesh_querying
 
 classes, results = mesh_querying(
-    model_file_name="../data/Apartment/D00156.obj",
+    model_file_name="../data/Fish/D00024.obj",
     csv_path="database/all_features.csv",
     normalization_params_path="database/normalization_params.csv",
     K=10,
