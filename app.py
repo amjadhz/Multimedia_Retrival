@@ -200,7 +200,7 @@ uploaded = st.file_uploader("Upload OBJ / STL / PLY", type=["obj", "stl", "ply"]
 
 default_csv = MR_DIR / "database" / "all_features.csv"
 default_norm = MR_DIR / "database" / "normalization_params.csv"
-default_mesh_base = MR_DIR / "data"
+default_mesh_base = "data"
 
 with st.sidebar:
     st.header("Settings")
