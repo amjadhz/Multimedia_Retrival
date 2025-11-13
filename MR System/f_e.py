@@ -44,7 +44,7 @@ def uniform_sample_mesh(mesh, n_points):
 
 
 def compute_single_descriptors(mesh: o3d.geometry.TriangleMesh):
-    """Compute single-value global descriptors with robust error handling"""
+    """Compute single-value global descriptors"""
     v = np.asarray(mesh.vertices)
     f = np.asarray(mesh.triangles)
 
@@ -280,7 +280,7 @@ def calculate_D4(vertices, n):
     return np.array(cbrt_volumes)
 
 
-def compute_distribution_descriptors(mesh: o3d.geometry.TriangleMesh, n_samples=100000, n_bins=64):
+def compute_distribution_descriptors(mesh: o3d.geometry.TriangleMesh, n_samples=150000, n_bins=100):
     """
     Compute distribution descriptors using UNIFORM surface sampling.
     """
@@ -322,7 +322,7 @@ def compute_distribution_descriptors(mesh: o3d.geometry.TriangleMesh, n_samples=
     return features
 
 
-def process_single_class(class_folder, output_csv, n_samples=100000, n_bins=100):
+def process_single_class(class_folder, output_csv, n_samples=150000, n_bins=100):
     """
     Process all meshes in a single class folder
     """
@@ -457,7 +457,7 @@ def main():
                 n_bins=N_BINS
             )
 
-    print("[DONE] All classes processed. ✅✅✅")
+    print("[DONE] All classes processed.")
 
 
 if __name__ == "__main__":
