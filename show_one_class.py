@@ -102,7 +102,7 @@ class MeshViewer:
 
 
 def main():
-    category_path = "step3_1_results/Normalized/Insect"
+    category_path = "step3_1_results/Normalized/Bicycle"
     # category_path = "step3_1_5_results"
 
     # Visualization options: "smoothshade", "flatshade", "wireframe", "unshaded"
