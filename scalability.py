@@ -237,10 +237,10 @@ def plot_tsne(Y, classes, out_png: Path):
             alpha=0.8,
             label=str(cls),
         )
-
-    plt.title("t-SNE Embedding of Shape Feature Space", fontsize=18, weight="bold")
-    plt.xlabel("t-SNE dimension 1", fontsize=14)
-    plt.ylabel("t-SNE dimension 2", fontsize=14)
+    handles, labels = plt.gca().get_legend_handles_labels()
+    # Limit legend to max 3 columns
+    n_items = len(labels)
+    ncol = min(n_items, 3)
 
     plt.legend(
         loc="center left",
@@ -250,7 +250,7 @@ def plot_tsne(Y, classes, out_png: Path):
         frameon=False,
         title="Class",
         title_fontsize=11,
-        ncol=1,
+        ncol=ncol,
     )
 
     plt.tight_layout(rect=[0, 0, 0.8, 1.0])
