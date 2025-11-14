@@ -23,7 +23,7 @@ Multimedia_Retrival/
 ├── validate_norm.py           # Check normalization results
 │
 ├── step2_results/             # Preprocessing, stats, resampled meshes
-├── step3_1_results/           # Fully PCA-normalized meshes
+├── step3_1_results/           # Fully normalized meshes
 ├── norm_analysis/             # Normalization analysis for step 2 & 3.1
 │
 └── MR System/
@@ -130,10 +130,9 @@ python "MR System/query.py"
 - **Step 1:** Mesh loading & visualization  
 - **Step 2:** Preprocessing, resampling, initial normalization  
 - **Step 3:**  
-  - Full PCA pose normalization  
-  - Surface/volume descriptors  
-  - A3 / D1–D4 histograms  
-- **Step 4:** Querying using normalized feature vectors  
+  - Full normalization  
+  - Feature extraction (calculate elementary and shape property descriptors)
+- **Step 4:** Feature normalization-based query
 - **Step 5:** Fast retrieval with ANN + t-SNE for visualization  
 - **Step 6:** Evaluation using precision/recall  
 - **UI:** Modern Streamlit viewer for 3D CBSR  
